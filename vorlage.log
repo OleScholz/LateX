@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  15 MAR 2021 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  15 MAR 2021 15:29
 entering extended mode
 **./vorlage.tex
 (vorlage.tex
@@ -2164,9 +2164,19 @@ Underfull \hbox (badness 2005) in paragraph at lines 383--383
 
 ] [38
 
-]) [39
+] [39
 
 ] [40
+
+] [41
+
+] [42
+
+] [43
+
+]) [44
+
+] [45
 
 
 ]
@@ -2190,16 +2200,16 @@ LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
 (LaTeX3)     179.
 
- (vorlage.aux (aufgabenstellung.aux)
-(eid.aux) (abstract.aux) (symbolverzeichnis.aux) (abkverzeichnis.aux)
-(einleitung.aux) (grundlagen.aux) (hauptteil.aux) (ergebnisse.aux)
-(zusammenfassung.aux) (ausblick.aux) (projekt.aux))
+ (vorlage.aux
+(aufgabenstellung.aux) (eid.aux) (abstract.aux) (symbolverzeichnis.aux)
+(abkverzeichnis.aux) (einleitung.aux) (grundlagen.aux) (hauptteil.aux)
+(ergebnisse.aux) (zusammenfassung.aux) (ausblick.aux) (projekt.aux))
 Package rerunfilecheck Info: File `vorlage.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47500 strings out of 479799
- 1140573 string characters out of 2870198
+ 47505 strings out of 479799
+ 1140608 string characters out of 2870198
  1759306 words of memory out of 3000000
  63415 multiletter control sequences out of 15000+200000
  680019 words of font info for 139 fonts, out of 3000000 for 9000
@@ -2239,9 +2249,9 @@ ri.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/
 t1xtt.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino
 /uplr8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palati
 no/uplri8a.pfb>
-Output written on vorlage.pdf (40 pages, 3577544 bytes).
+Output written on vorlage.pdf (45 pages, 3587576 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
+ 481 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
  337 words of extra memory for PDF output out of 10000 (max. 10000000)
 
