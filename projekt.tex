@@ -71,7 +71,7 @@
 \label{sec:zeitplan}
 
 \begin{landscape}
-	%\noindent\resizebox{\textwidth}{!}{	% Einfügen, falls zu groß
+	\noindent\resizebox{\textwidth}{!}{	% Einfügen, falls zu groß
 	\begin{ganttchart}[hgrid,
 		time slot format = isodate, 
 		x unit=0.28cm,	% Zum komprimieren des Charts in x-Richtung
@@ -86,23 +86,41 @@
 		milestone label node/.append style={align=left, text width=8cm},
 		bar progress label node/.style={right=2mm},
 		progress label text = {\pgfmathprintnumber[precision=0, verbatim]{#1}\%},
-		]{2013-01-01}{2013-02-23}
+		]{2021-05-01}{2021-08-03}
 		\gantttitlecalendar{year, month=shortname, week}\\
 		%\gantttitle{2013}{59}\\
-		\ganttgroup{AP 1000: Literaturrecherche}{2013-01-01}{2013-02-01}\\
-		\ganttbar[progress=50]  {AP 1100: Weltraummüllproblematik}{2013-01-01}{2013-01-08}\\
-		\ganttlinkedbar {AP 1200: Beobachtung von Weltraummüll}{2013-01-09}{2013-01-17}\\
-		\ganttlinkedbar {AP 1300: Bahnbestimmung mit optischen Sensoren}{2013-01-17}{2013-02-01}\\
+		\ganttgroup{AP 1000: Literaturrecherche}{2021-05-01}{2021-05-14}\\
+		\ganttbar {AP 1100: Vergleich zum planaren Flügel}{2021-05-01}{2021-05-14}\\
+		\ganttbar {AP 1200: Einfluss der Gitterform}{2021-05-01}{2021-05-14}\\
+		\ganttbar {AP 1300: Aktuatorik}{2021-05-01}{2021-05-14}\\
+		\ganttbar {AP 1400: Wiedereintrittsbedingungen}{2021-05-01}{2021-05-14}\\
 		%\ganttbar[progress=100]{AP 1300: TEXT}{2013-01-01}{2013-01-30}\\	% Beispiel für Fortschrittsbalken!
 		
-		\ganttgroup{AP 2000: Algorithmuserstellung}{2013-02-02}{2013-02-23}\\
-		\ganttbar  {AP 2100: ...}{2013-02-02}{2013-02-09}\\
-		\ganttbar  {AP 2200: ...}{2013-02-10}{2013-02-19}\\
+		\ganttgroup{AP 2000: Anforderungsdefinition}{2021-05-14}{2021-05-25}\\
+		\ganttbar  {AP 2100: Anforderungen an die Aerodynamik}{2021-05-14}{2021-05-18}\\
+		\ganttlinkedbar  {AP 2200: Anforderungen an die Aktuatorik}{2021-05-18}{2021-05-22}\\
+		\ganttlinkedbar  {AP 2300: Anforderungen an Struktur und Werkstoff}{2021-05-22}{2021-05-25}\\
 		
-		\ganttmilestone{Meilenstein}{2013-02-20}\\
+		\ganttgroup{AP 3000: Lösungsvarianten: Suche und Vergleich}{2021-05-26}{2021-06-10}\\
+		\ganttbar  {AP 3100: Gittervarianten}{2021-05-26}{2021-05-30}\\
+		\ganttlinkedbar  {AP 3200: Aktuatoren und Stellglieder}{2021-05-31}{2021-06-04}\\
+		\ganttlinkedbar  {AP 3300: Werkstoff und Nachbearbeitung}{2021-06-05}{2021-06-9}\\
+		\ganttlinkedbar  {AP 3400: Morphologischen Kasten erstellen}{2021-06-10}{2021-06-10}\\
+		
+		\ganttgroup{AP 4000: Modellentwurf und -test}{2021-06-11}{2021-07-19}\\
+		\ganttbar  {AP 4100: Lösungsvarianten wählen und zu Modell zusammenstellen}{2021-06-11}{2021-06-13}\\
+		\ganttlinkedbar  {AP 4200: CAD-Modell anfertigen}{2021-06-14}{2021-06-21}\\
+		\ganttlinkedbar  {AP 4300: FEM-Analyse durchführen}{2021-06-22}{2021-07-04}\\
+		\ganttlinkedbar  {AP 4400: Betriebssimulation durchführen}{2021-07-05}{2021-07-19}\\
+		
+		\ganttgroup{AP 5000: Dokumentation}{2021-05-25}{2021-07-31}\\
+		\ganttbar  {AP 5100: Ausarbeitung}{2021-05-25}{2021-07-25}\\
+		\ganttmilestone  {AP 5200: Präsentation}{2021-08-01}\\
+		
+%		\ganttmilestone{Meilenstein}{2013-02-20}\\
 		
 	\end{ganttchart}
-	%}
+	}
 \end{landscape}
 
 \section{Work Package Description}
