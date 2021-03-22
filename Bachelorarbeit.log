@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  22 MAR 2021 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  22 MAR 2021 16:53
 entering extended mode
 **./Bachelorarbeit.tex
 (Bachelorarbeit.tex
@@ -2124,8 +2124,8 @@ chapter A.
 
 
 ]
-Overfull \hbox (2.50832pt too wide) in paragraph at lines 30--30
-[]\LY1/NexusProSerif/m/n/10.95 Wiedereintritts- 
+Overfull \hbox (18.89066pt too wide) in paragraph at lines 68--69
+[][] 
  []
 
 [24
@@ -2210,7 +2210,7 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 Here is how much of TeX's memory you used:
  47734 strings out of 479799
  1145313 string characters out of 2870198
- 1771320 words of memory out of 3000000
+ 1771260 words of memory out of 3000000
  63644 multiletter control sequences out of 15000+200000
  680019 words of font info for 139 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2249,7 +2249,7 @@ ri.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/
 t1xtt.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino
 /uplr8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palati
 no/uplri8a.pfb>
-Output written on Bachelorarbeit.pdf (45 pages, 3595677 bytes).
+Output written on Bachelorarbeit.pdf (45 pages, 3595678 bytes).
 PDF statistics:
  481 PDF objects out of 1000 (max. 8388607)
  84 named destinations out of 1000 (max. 500000)
