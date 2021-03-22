@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  22 MAR 2021 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  22 MAR 2021 17:55
 entering extended mode
 **./Bachelorarbeit.tex
 (Bachelorarbeit.tex
@@ -2132,7 +2132,12 @@ Overfull \hbox (18.89066pt too wide) in paragraph at lines 68--69
 
 ] [25
 
-] [26
+]
+Overfull \hbox (79.37158pt too wide) in paragraph at lines 123--125
+[][] 
+ []
+
+[26
 
 ] [27
 
@@ -2208,11 +2213,11 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47734 strings out of 479799
- 1145313 string characters out of 2870198
- 1771260 words of memory out of 3000000
- 63644 multiletter control sequences out of 15000+200000
- 680019 words of font info for 139 fonts, out of 3000000 for 9000
+ 47723 strings out of 479799
+ 1145040 string characters out of 2870198
+ 1776320 words of memory out of 3000000
+ 63635 multiletter control sequences out of 15000+200000
+ 675188 words of font info for 137 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,22n,126p,10639b,2325s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:symb:c} has been referenced but does not exis
@@ -2230,28 +2235,27 @@ placed by a fixed one
 pdfTeX warning (dest): name{glo:symb:J2} has been referenced but does not exist
 , replaced by a fixed one
 
-{D:/Program Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_molob5.enc}{D:/Program
- Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_cbf6z5.enc}{D:/Program Files (x86
-)/LateX/fonts/enc/dvips/Fontshop/a_6g6b3j.enc}{D:/Program Files (x86)/LateX/fon
-ts/enc/dvips/Fontshop/a_4o7za6.enc}{C:/Users/Neu1/AppData/Local/Programs/MiKTeX
-/fonts/enc/dvips/base/8r.enc}{D:/Program Files (x86)/LateX/fonts/enc/dvips/Font
+{D:/Program Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_cbf6z5.enc}{D:/Program
+ Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_6g6b3j.enc}{D:/Program Files (x86
+)/LateX/fonts/enc/dvips/Fontshop/a_4o7za6.enc}{C:/Users/Neu1/AppData/Local/Prog
+rams/MiKTeX/fonts/enc/dvips/base/8r.enc}{D:/Program Files (x86)/LateX/fonts/enc
+/dvips/Fontshop/a_molob5.enc}{D:/Program Files (x86)/LateX/fonts/enc/dvips/Font
 shop/a_3cgipr.enc}<D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPro-
 Bold.pfb><D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPro-Regular.p
 fb><D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Bold.pfb><D:/P
-rogram Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Italic.pfb><D:/Program
- Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Regular.pfb><D:/Program File
-s (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Regular.pfb><C:/Users/Neu1/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Neu
-1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
-ers/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplm
-ri.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/
-t1xtt.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino
-/uplr8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palati
-no/uplri8a.pfb>
-Output written on Bachelorarbeit.pdf (45 pages, 3595678 bytes).
+rogram Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Regular.pfb><D:/Progra
+m Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Regular.pfb><C:/Users/Neu1/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Use
+rs/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpaz
+o/fplmri.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/tx
+fonts/t1xtt.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pa
+latino/uplr8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
+palatino/uplri8a.pfb>
+Output written on Bachelorarbeit.pdf (45 pages, 3581964 bytes).
 PDF statistics:
- 481 PDF objects out of 1000 (max. 8388607)
+ 477 PDF objects out of 1000 (max. 8388607)
  84 named destinations out of 1000 (max. 500000)
  337 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -72,13 +72,13 @@
 \label{sec:zeitplan}
 
 \begin{landscape}
-	\noindent\resizebox{\textwidth}{!}{	% Einfügen, falls zu groß
+%	\noindent\resizebox{\textwidth}{!}{	% Einfügen, falls zu groß
 	\begin{ganttchart}[hgrid,
 		time slot format = isodate, 
-		x unit=0.28cm,	% Zum komprimieren des Charts in x-Richtung
-		%y unit chart=0.7cm,
+		x unit=0.18cm,	% Zum komprimieren des Charts in x-Richtung
+		y unit chart=0.56cm,
 		%compress calendar,	% Komprimiert den Chart in der Breite
-		calendar week text = {Woche~\currentweek},
+		calendar week text = {W ~\currentweek},
 		chart element start border = right,
 		bar/.append style={fill=blue!40, rounded corners=2pt},
 		bar incomplete/.append style={fill=blue!10},
@@ -102,26 +102,26 @@
 		\ganttlinkedbar  {AP 2200: Anforderungen an die Aktuatorik}{2021-05-18}{2021-05-22}\\
 		\ganttlinkedbar  {AP 2300: Anforderungen an Struktur und Werkstoff}{2021-05-22}{2021-05-25}\\
 		
-		\ganttgroup{AP 3000: Lösungsvarianten: Suche und Vergleich}{2021-05-26}{2021-06-10}\\
+		\ganttgroup{AP 3000: Lösungsvarianten: Suche und Vergleich}{2021-05-26}{2021-06-04}\\
 		\ganttbar  {AP 3100: Gittervarianten}{2021-05-26}{2021-05-30}\\
 		\ganttlinkedbar  {AP 3200: Aktuatoren und Stellglieder}{2021-05-31}{2021-06-04}\\
-		\ganttlinkedbar  {AP 3300: Werkstoff und Nachbearbeitung}{2021-06-05}{2021-06-9}\\
-		\ganttlinkedbar  {AP 3400: Morphologischen Kasten erstellen}{2021-06-10}{2021-06-10}\\
+		\ganttbar  {AP 3400: Morphologischen Kasten erstellen}{2021-05-28}{2021-06-04}\\
 		
-		\ganttgroup{AP 4000: Modellentwurf und -test}{2021-06-11}{2021-07-19}\\
-		\ganttbar  {AP 4100: Lösungsvarianten wählen und zu Modell zusammenstellen}{2021-06-11}{2021-06-13}\\
-		\ganttlinkedbar  {AP 4200: CAD-Modell anfertigen}{2021-06-14}{2021-06-21}\\
-		\ganttlinkedbar  {AP 4300: FEM-Analyse durchführen}{2021-06-22}{2021-07-04}\\
-		\ganttlinkedbar  {AP 4400: Betriebssimulation durchführen}{2021-07-05}{2021-07-19}\\
+		\ganttgroup{AP 4000: Modellentwurf und -test}{2021-06-05}{2021-07-19}\\
+		\ganttbar  {AP 4100: Lösungsvarianten wählen und zu Modell zusammenstellen}{2021-06-05}{2021-06-07}\\
+		\ganttlinkedbar  {AP 4200: CAD-Modell anfertigen}{2021-06-08}{2021-06-15}\\
+		\ganttlinkedbar  {AP 4300: FEM-Analyse durchführen}{2021-06-16}{2021-06-28}\\
+		\ganttlinkedbar  {AP 4400: Betriebssimulation durchführen}{2021-06-29}{2021-07-13}\\
+		\ganttlinkedbar  {AP 4500: Kritische Bewertung}{2021-07-13}{2021-07-19}\\
 		
 		\ganttgroup{AP 5000: Dokumentation}{2021-05-25}{2021-07-31}\\
-		\ganttbar  {AP 5100: Ausarbeitung}{2021-05-25}{2021-07-25}\\
-		\ganttmilestone  {AP 5200: Präsentation}{2021-08-01}\\
+		\ganttbar  {AP 5100: Ausarbeitung}{2021-05-25}{2021-07-31}\\
+		\ganttbar  {AP 5200: Präsentation}{2021-07-18}{2021-07-31}\\
 		
 %		\ganttmilestone{Meilenstein}{2013-02-20}\\
 		
 	\end{ganttchart}
-	}
+%	}
 \end{landscape}
 
 \section{Work Package Description}
@@ -144,7 +144,7 @@
 			\hline\hline
 			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+2 Wochen} & \textbf{Dauer}: 2 Wochen\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -190,7 +190,7 @@
 			\hline\hline
 			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+2 Wochen} & \textbf{Dauer}: 2 Wochen\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -233,7 +233,7 @@
 			\hline\hline
 			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+2 Wochen} & \textbf{Dauer}: 2 Wochen\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -277,7 +277,7 @@
 			\hline\hline
 			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+2 Wochen} & \textbf{Dauer}: 2 Wochen\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -318,9 +318,9 @@
 			\hline
 			\multicolumn{3}{|l||}{} & \textbf{Datum:} DD.MM.YYYY\\
 			\hline\hline
-			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
+			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$+2 Wochen} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+2,5 Wochen} & \textbf{Dauer}: 0,5 Wochen\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -362,9 +362,9 @@
 			\hline
 			\multicolumn{3}{|l||}{} & \textbf{Datum:} DD.MM.YYYY\\
 			\hline\hline
-			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
+			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$+2,5 Wochen} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+3 Wochen} & \textbf{Dauer}: 0,5 Wochen\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -406,9 +406,9 @@
 			\hline
 			\multicolumn{3}{|l||}{} & \textbf{Datum:} DD.MM.YYYY\\
 			\hline\hline
-			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
+			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$+3 Wochen} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+3,5 Wochen} & \textbf{Dauer}: 0,5 Wochen\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -451,9 +451,9 @@
 			\hline
 			\multicolumn{3}{|l||}{} & \textbf{Datum:} DD.MM.YYYY\\
 			\hline\hline
-			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
+			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$+3,5 Wochen} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+4 Wochen} & \textbf{Dauer}: 0,5 Wochen\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -494,9 +494,9 @@
 			\hline
 			\multicolumn{3}{|l||}{} & \textbf{Datum:} DD.MM.YYYY\\
 			\hline\hline
-			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
+			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$+4 Wochen} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+4,5 Wochen} & \textbf{Dauer}: 0,5 Wochen\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -537,9 +537,9 @@
 			\hline
 			\multicolumn{3}{|l||}{} & \textbf{Datum:} DD.MM.YYYY\\
 			\hline\hline
-			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
+			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$+4 Wochen} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+5 Wochen} & \textbf{Dauer}: 1 Woche\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -579,9 +579,9 @@
 			\hline
 			\multicolumn{3}{|l||}{} & \textbf{Datum:} DD.MM.YYYY\\
 			\hline\hline
-			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
+			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$+5 Wochen} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+5,5 Wochen} & \textbf{Dauer}: 0,5 Wochen\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -627,9 +627,9 @@
 			\hline
 			\multicolumn{3}{|l||}{} & \textbf{Datum:} DD.MM.YYYY\\
 			\hline\hline
-			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
+			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$+5,5 Wochen} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+6,5 Wochen} & \textbf{Dauer}: 1 Woche\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -672,9 +672,9 @@
 			\hline
 			\multicolumn{3}{|l||}{} & \textbf{Datum:} DD.MM.YYYY\\
 			\hline\hline
-			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
+			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$+6,5 Wochen} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+8,5 Wochen} & \textbf{Dauer}: 2 Wochen\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -717,9 +717,9 @@
 			\hline
 			\multicolumn{3}{|l||}{} & \textbf{Datum:} DD.MM.YYYY\\
 			\hline\hline
-			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
+			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$+8,5 Wochen} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+10,5 Wochen} & \textbf{Dauer}: 2 Wochen\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -763,9 +763,9 @@
 			\hline
 			\multicolumn{3}{|l||}{} & \textbf{Datum:} DD.MM.YYYY\\
 			\hline\hline
-			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
+			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$+10,5 Wochen} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+11,5 Wochen} & \textbf{Dauer}: 1 Woche\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -808,9 +808,9 @@
 			\hline
 			\multicolumn{3}{|l||}{} & \textbf{Datum:} DD.MM.YYYY\\
 			\hline\hline
-			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
+			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$+3,5 Wochen} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+13 Wochen} & \textbf{Dauer}: 9,5 Wochen\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
@@ -850,9 +850,9 @@
 			\hline
 			\multicolumn{3}{|l||}{} & \textbf{Datum:} DD.MM.YYYY\\
 			\hline\hline
-			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$} & \\
+			\textbf{Beginn} & \multicolumn{2}{l||}{T$_0$+11 Wochen} & \\
 			\hline
-			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+1 Woche} & \textbf{Dauer}: 1 Woche\\
+			\textbf{Ende} & \multicolumn{2}{l||}{T$_0$+13 Wochen} & \textbf{Dauer}: 2 Wochen\\
 			\hline\hline
 			\textbf{Bearbeiter} & \multicolumn{3}{l|}{Ole Scholz}\\
 			\hline\hline
