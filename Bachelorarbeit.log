@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  23 MAR 2021 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  23 MAR 2021 17:59
 entering extended mode
 **./Bachelorarbeit.tex
 (Bachelorarbeit.tex
@@ -2095,8 +2095,8 @@ Overfull \hbox (18.89066pt too wide) in paragraph at lines 67--68
 ] [19
 
 ]
-Overfull \hbox (79.37158pt too wide) in paragraph at lines 122--124
-[][] 
+Overfull \hbox (32.74577pt too wide) in paragraph at lines 74--124
+[] 
  []
 
 [20
@@ -2175,10 +2175,10 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47218 strings out of 479799
- 1131571 string characters out of 2870198
- 1766805 words of memory out of 3000000
- 63172 multiletter control sequences out of 15000+200000
+ 47224 strings out of 479799
+ 1131696 string characters out of 2870198
+ 1762671 words of memory out of 3000000
+ 63178 multiletter control sequences out of 15000+200000
  648579 words of font info for 102 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,22n,126p,10639b,1229s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2194,7 +2194,7 @@ o-Bold.pfb><D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPro-Regular
 s/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 <C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pf
 b>
-Output written on Bachelorarbeit.pdf (39 pages, 3058340 bytes).
+Output written on Bachelorarbeit.pdf (39 pages, 3058298 bytes).
 PDF statistics:
  414 PDF objects out of 1000 (max. 8388607)
  73 named destinations out of 1000 (max. 500000)

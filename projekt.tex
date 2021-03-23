@@ -16,31 +16,31 @@
 % root of the the initial tree, level 1
 \node[root] {\tb{Titel}}
 % The first level, as children of the initial tree
-  child {node[level 2] (c1) {\tb{AP~1000} \\ Literatur-recherche}}
-  child {node[level 2] (c2) {\tb{AP~2000} \\ Anforderungs-definition}}
-  child {node[level 2] (c3) {\tb{AP~3000} \\ Lösungs-varianten: Suche und Vergleich}}
-  child {node[level 2] (c4) {\tb{AP~4000} \\ Modellentwurf und -test}}
+  child {node[level 2] (c1) {\tb{AP~1000} \\ Literaturrecherche\\ $~~$}}
+  child {node[level 2] (c2) {\tb{AP~2000} \\ Anforderungsdefinition\\ $~~$}}
+  child {node[level 2] (c3) {\tb{AP~3000} \\ Lösungsvarianten:\\Suche und Vergleich}}
+  child {node[level 2] (c4) {\tb{AP~4000} \\ Modellentwurf\\und -test}}
   child {node[level 2] (c5) {\tb{AP~5000} \\ Dokumentation \\ $~~$}};
 
 % The second level, relatively positioned nodes
 \begin{scope}[every node/.style={level 3}, node distance=6pt]
-\node [below=of c1, xshift=10pt] (c11) {\tb{AP~1100} \\ Vergleich zum planaren Leitwerk};
+\node [below=of c1, xshift=10pt] (c11) {\tb{AP~1100} \\ Vergleich zum\\planaren Leitwerk};
 \node [below=of c11] (c12) {\tb{AP~1200} \\ Einfluss der Gitterform};
 \node [below=of c12] (c13) {\tb{AP~1300} \\ Aktuatorik};
 \node [below=of c13] (c14) {\tb{AP~1400} \\ Wiedereintritts-bedingungen};
 
 \node [below=of c2, xshift=10pt] (c21) {\tb{AP~2100} \\ Anforderungen an Aerodynamik};
 \node [below=of c21] (c22) {\tb{AP~2200} \\ Anforderungen an die Aktuatorik};
-\node [below=of c22] (c23) {\tb{AP~2300} \\ Anforderungen an Struktur und Werkstoff};
+\node [below=of c22] (c23) {\tb{AP~2300} \\ Anforderungen an Struktur und\\Werkstoff};
 
-\node [below=of c3, xshift=10pt] (c31) {\tb{AP~3100} \\ Gitter-varianten};
-\node [below=of c31] (c32) {\tb{AP~3200} \\ Aktuatoren und Stell-glieder};
-\node [below=of c32] (c33) {\tb{AP~3300} \\ Morpho-logischen Kasten erstellen};
+\node [below=of c3, xshift=10pt] (c31) {\tb{AP~3100} \\ Gittervarianten};
+\node [below=of c31] (c32) {\tb{AP~3200} \\ Aktuatoren und Stellglieder};
+\node [below=of c32] (c33) {\tb{AP~3300} \\ Morphologischen Kasten erstellen};
 
-\node [below=of c4, xshift=10pt] (c41) {\tb{AP~4100} \\ Lösungs-varianten auswählen und zu Modell zusammenstellen};
-\node [below=of c41] (c42) {\tb{AP~4200} \\ CAD-Modell anfertigen};
+\node [below=of c4, xshift=10pt] (c41) {\tb{AP~4100} \\ Lösungsvarianten auswählen und zu Modell zusammenstellen};
+\node [below=of c41] (c42) {\tb{AP~4200} \\ CAD-Modell\\anfertigen};
 \node [below=of c42] (c43) {\tb{AP~4300} \\ FEM-Analyse durchführen};
-\node [below=of c43] (c44) {\tb{AP~4400} \\ Betriebs-simulation durchführen};
+\node [below=of c43] (c44) {\tb{AP~4400} \\ Betriebssimulation durchführen};
 \node [below=of c44] (c45) {\tb{AP~4500} \\ Kritische Bewertung};
 
 \node [below=of c5, xshift=10pt] (c51) {\tb{AP~5100} \\ Ausarbeitung};
@@ -71,11 +71,11 @@
 \label{sec:zeitplan}
 
 \begin{landscape}
-%	\noindent\resizebox{\textwidth}{!}{	% Einfügen, falls zu groß
+	\noindent\resizebox{1.5\textwidth}{!}{	% Einfügen, falls zu groß
 	\begin{ganttchart}[hgrid,
 		time slot format = isodate, 
-		x unit=0.18cm,	% Zum komprimieren des Charts in x-Richtung
-		y unit chart=0.56cm,
+		x unit=0.35cm,	% Zum komprimieren des Charts in x-Richtung
+		y unit chart=1cm,
 		%compress calendar,	% Komprimiert den Chart in der Breite
 		calendar week text = {W ~\currentweek},
 		chart element start border = right,
@@ -86,7 +86,7 @@
 		milestone label node/.append style={align=left, text width=8cm},
 		bar progress label node/.style={right=2mm},
 		progress label text = {\pgfmathprintnumber[precision=0, verbatim]{#1}\%},
-		]{2021-05-01}{2021-08-03}
+		]{2021-05-01}{2021-08-01}
 		\gantttitlecalendar{year, month=shortname, week}\\
 		%\gantttitle{2013}{59}\\
 		\ganttgroup{AP 1000: Literaturrecherche}{2021-05-01}{2021-05-14}\\
@@ -120,7 +120,7 @@
 %		\ganttmilestone{Meilenstein}{2013-02-20}\\
 		
 	\end{ganttchart}
-%	}
+	}
 \end{landscape}
 
 \section{Work Package Description}
