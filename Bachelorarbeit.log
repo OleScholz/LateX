@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  25 MAR 2021 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  12 APR 2021 12:38
 entering extended mode
 **./Bachelorarbeit.tex
 (Bachelorarbeit.tex
@@ -1952,27 +1952,7 @@ rd compatibility on input line 121.
 
  (einleitung.tex
 chapter 1.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 13--126
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--126
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--126
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--126
-
- []
-
-[6
+) [6
 
 
 
@@ -2153,10 +2133,10 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47201 strings out of 479799
- 1131258 string characters out of 2870198
- 1761273 words of memory out of 3000000
- 63171 multiletter control sequences out of 15000+200000
+ 47203 strings out of 479799
+ 1131293 string characters out of 2870198
+ 1761363 words of memory out of 3000000
+ 63173 multiletter control sequences out of 15000+200000
  648579 words of font info for 102 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,22n,126p,10639b,1229s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2172,9 +2152,9 @@ o-Bold.pfb><D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPro-Regular
 s/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 <C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pf
 b>
-Output written on Bachelorarbeit.pdf (37 pages, 2954692 bytes).
+Output written on Bachelorarbeit.pdf (37 pages, 2955448 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
+ 406 PDF objects out of 1000 (max. 8388607)
  71 named destinations out of 1000 (max. 500000)
  372 words of extra memory for PDF output out of 10000 (max. 10000000)
 
