@@ -1,18 +1,26 @@
 \chapter{Einleitung}
 
-Die Einleitung soll einen Überblick über den Stand der Technik geben, das zu unter-
-suchende System beschreiben und die Aufgabenstellung mit eigenen Worten näher
-erläutern.
+In den letzten Jahrzehnten kam es immer wieder zu Schlagzeilen in den Medien, die von privaten Weltraumunternehmen berichten. Hierbei wird diese New Space Szene hauptsächlich von großen US-Firmen wie SpaceX, Virgin Galactic, Blue Origin dominiert, um nur ein paar zu nennen. Bei so viel Konkurrenz sind Kosten ein wichtiger Faktor. Firmen wie SpaceX versuchen möglichst wirtschaftlich zu werden, indem sie immer größere Raketen bauen, die höhere Lasten auf einmal ins Weltall bringen können. So soll das Starship mehr als 100t in den Low Earth Orbit (LEO) bringen können. Das bringt aber auch einige Nachteile mit sich. Ein Start so großer Raketen ist nur mir sehr viel Beladung wirtschaftlich. So müssen sich mehrere Kunden einen Start teilen und haben somit sowohl in Bezug auf die Umlaufbahn noch den Starttermin Kompromisse einzugehen. Gerade für einzelne, kleinere Satelliten ist das nicht ideal. Dies führt zur Ergründung eines weiten Bereiches der New Space Branche, den Microlaunchern. Mit ihren relativ kleinen Nutzlasten bieten sie die Möglichkeit individuelle Ansprüche kleiner Satelliten zu berücksichtigen.
+
+Ein weiteres Potenzial die Kosten zu senken bietet die Bergung und Wiederverwendung von Raketenstufen und Nutzlastverkleidung. Schon den 70er-Jahren wurde in den USA das Space Shuttle entwickelt, welches mittels aerodynamischen Auftriebs wie ein Flugzeug landen konnte. Auf Grund von zu hohen Instandhaltungskosten wurde das Projekt jedoch nach 30 Jahren eingestellt. Modernere Beispiele bietet zum Beispiel die erste Stufe der Falcon 9 von SpaceX. Diese lässt sich wieder landen, indem durch ein erneutes Zünden der Triebwerke die Geschwindigkeit so weit abgebremst wird, dass sie sanft aufsetzt. Rocket Lab verfolgt einen anderen Einsatz. Bei ihrer Electron Rakete soll die erste Stufe mit einem Fallschirm abgebremst und dann von einem Hubschrauber mittels Skyhook eingefangen werden. Dieses Prinzip konnte das neuseeländische Raumfahrtunternehmen auch schon erfolgreich testen. Auch wenn diese Methode auf Grund des Bedarfs einer dichten Atmosphäre nur auf der Erde Anwendung findet und nur vergleichsweise kleine Raketenstufen von einem Hubschrauber getragen werden können, ist sie dank einer leichten Implementierung für simple Systeme vorzuziehen.
+
+Nun stellt sich die Frage, warum Europa und somit auch Deutschland, als eigentlich technologisch fortgeschrittener Standort, in dieser Branche nur spärlich vertreten ist. Ein großes Problem stellt ihr die Wetterlage dar. Gerade im Norden Europas gehören Gewitter das ganze Jahr über zum Alltag und besonders im Herbst und Winter kann starker Wind und schwerer Schneefall potenziellen Starts im Wege stehen. Das begrenzt stark die Kapazität von Spaceports. Ein weiterer Nachteil des Standorts Europa ist die hohe Bevölkerungsdichte. Gerade im Westen ist somit kaum ein Start möglich, der genug Abstand zu besiedeltem Gebiet hält. Wegen der Erdrotation wird nach Osten gestartet, sodass auch Starts an der Küste zum Atlantik keine gute Option bieten.
+
+Als Antwort auf diese Probleme entwickelt die German Association for Intercontinental Astronautics e.V. (GAIA Aerospace) das Valkyrie System. Hierbei handelt es sich um eine zweistufige AirLaunch-Trägerrakete, die als Microlauncher kleine Cubesat Satelliten aus Deutschland heraus in den LEO bringen soll.
+...
+
 
 \section{Motivation}
+Um eine erfolgreiche Bergung zu gewährleisten, muss sich das Raketensegment zum Großteil seiner Flugzeit kontrollieren lassen.  ...
 
 \section{Ziele der Arbeit}
+...
 
 \section{Vorgehensweise}
-Im nächsten Kapitel werden zunächst die für diese Arbeit notwendigen Grundlagen dargelegt. Zu Beginn wird auf die Eigenschaften von Grid Fins eingegangen, sowohl in Bezug auf ihr aerodynamisches Verhalten, als auch unter Betrachtung ihrer Vor- und Nachteile gegenüber konventionellen planaren Steuerflächen. Als nächstes werden dann die Wiedereintrittsbedingungen bei einer suborbitalen Flugbahn am Beispiel des Airlaunchsystems Valkyrie erläutert. Es folgt ein kurzer Einschub zur Aktuatorik mit der die Grid Fins gesteuert werden könnten.
+Im nächsten Kapitel werden zunächst die für diese Arbeit notwendigen Grundlagen dargelegt. Zu Beginn wird auf die Eigenschaften von Grid Fins eingegangen, sowohl in Bezug auf ihr aerodynamisches Verhalten, als auch unter Betrachtung ihrer Vor- und Nachteile gegenüber konventionellen planaren Steuerflächen. Als nächstes werden dann die Wiedereintrittsbedingungen bei einer suborbitalen Flugbahn am Beispiel des AirLaunch-Systems Valkyrie erläutert.
 
 Nachdem die Grundlagen geklärt sind, werden in Kapitel \ref{sec:modellentwurf} die Anforderungen an das System definiert. Unter Berücksichtigung dieser folgt eine Vorstellung verschiedener Teillösungen für die einzelnen Elemente von Steuerflächen und Aktuatorik. Auf Basis eines Morphologischen Kastens, in dem diese Teillösungen zusammengetragen werden, wird begründet ein erster Demonstrator entworfen und in einem CAD-Programm erstellt.
 
 Daraufhin wird dieses Modell in Kapitel \ref{sec:simulation} mittels einer Finiten Elementen Berechnung auf Stabilität und Festigkeit untersucht und mit einer Betriebssimulation in Matlab auf eine genügende
 Leitungsfähigkeit im Betrieb geprüft. Auf Grund dieser Simulationen wird das Modell verbessert und anschließend kritisch bewertet.
-Zuletzt werden noch einmal alle Ergebnisse zusammengefasst und ein Ausblick auf mögliche weitere Arbeitsschritte gegeben.
+Zuletzt werden noch einmal alle Ergebnisse zusammengefasst und ein Ausblick auf eine mögliche weitere Vorgehensweise gegeben.
