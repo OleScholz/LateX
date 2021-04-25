@@ -1,10 +1,42 @@
 \begin{thebibliography}{1}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 
-\bibitem[{Autor und Zweitautor(2012)}]{autor2012}
-Autor, X., Zweitautor, Y., 2012. Titel. Name des Journals.
+\bibitem{falconUserGuide}
+{SpaceX}.
+\newblock {Falcon User's Guide}.
+\newblock \url{https://www.spacex.com/media/Falcon_Users_Guide_082020.pdf},
+  2020.
+\newblock Zugriff: 25.04.2021.
+
+\bibitem{electronRocketLab}
+Rocket lab launches electron flight 8. company previews first stage recovery.
+\newblock
+  \url{https://www.nasaspaceflight.com/2019/08/rocket-lab-electron-flight-8-towards-first-stage-recovery},
+  2019.
+\newblock Zugriff: 25.04.2021.
+
+\bibitem{GAIA}
+{GAIA Aerospace}.
+\newblock {Valkyire, Die erste wiederverwendbare AirLaunch-Rakete}.
+\newblock \url{https://www.gaia-aerospace.com/research/}.
+\newblock Zugriff: 25.04.2021.
+
+\bibitem{flugbahnBarz}
+Ina Barz.
+\newblock {Untersuchung effizienter Algorithmen zur Trajektorienoptimierung von
+  AirLaunch-Raketen}.
+\newblock Studienarbeit, TU Braunschweig, April 2021.
+
+\bibitem{vergleichPlanar}
+{Salman Munawa}.
+\newblock {Analysis of Grid Fins as Efficient Control Surface in Comparison to
+  Conventional Planar Fins}.
+\newblock In {\em 27th international congress of the aeronautical sciences},
+  2009.
+
+\bibitem{sehnenlaenge}
+M.~Tripathi, M.M. Sucheendran, and A.~Misra.
+\newblock Effect of aspect ratio variation on subsonic aerodynamics of cascade
+  type grid fin at different gap-to-chord ratios.
+\newblock {\em The Aeronautical Journal}, 124(1274):472–498, 2020.
 
 \end{thebibliography}

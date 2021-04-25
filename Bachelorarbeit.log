@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  22 APR 2021 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  25 APR 2021 18:36
 entering extended mode
 **./Bachelorarbeit.tex
 (Bachelorarbeit.tex
@@ -1847,27 +1847,27 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 \temp@=\dimen321
 \temp@b=\dimen322
-<./graphics//doctor_pop2009.jpg, id=30, 1927.2pt x 1084.05pt>
-File: ./graphics//doctor_pop2009.jpg Graphic file (type jpg)
-<use ./graphics//doctor_pop2009.jpg>
-Package pdftex.def Info: ./graphics//doctor_pop2009.jpg  used on input line 114
-.
-(pdftex.def)             Requested size: 509.30437pt x 286.4779pt.
-File: ./graphics//doctor_pop2009.jpg Graphic file (type jpg)
-<use ./graphics//doctor_pop2009.jpg>
-Package pdftex.def Info: ./graphics//doctor_pop2009.jpg  used on input line 114
-.
-(pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
-File: ./graphics//doctor_pop2009.jpg Graphic file (type jpg)
-<use ./graphics//doctor_pop2009.jpg>
-Package pdftex.def Info: ./graphics//doctor_pop2009.jpg  used on input line 114
-.
-(pdftex.def)             Requested size: 734.51971pt x 413.17506pt.
-File: ./graphics//doctor_pop2009.jpg Graphic file (type jpg)
-<use ./graphics//doctor_pop2009.jpg>
-Package pdftex.def Info: ./graphics//doctor_pop2009.jpg  used on input line 114
-.
-(pdftex.def)             Requested size: 509.30495pt x 413.17506pt.
+<./graphics//Valykrie_Gepard_Flight_2.jpg, id=30, 1589.33775pt x 1305.678pt>
+File: ./graphics//Valykrie_Gepard_Flight_2.jpg Graphic file (type jpg)
+<use ./graphics//Valykrie_Gepard_Flight_2.jpg>
+Package pdftex.def Info: ./graphics//Valykrie_Gepard_Flight_2.jpg  used on inpu
+t line 114.
+(pdftex.def)             Requested size: 509.30437pt x 418.40326pt.
+File: ./graphics//Valykrie_Gepard_Flight_2.jpg Graphic file (type jpg)
+<use ./graphics//Valykrie_Gepard_Flight_2.jpg>
+Package pdftex.def Info: ./graphics//Valykrie_Gepard_Flight_2.jpg  used on inpu
+t line 114.
+(pdftex.def)             Requested size: 1589.3339pt x 1305.6748pt.
+File: ./graphics//Valykrie_Gepard_Flight_2.jpg Graphic file (type jpg)
+<use ./graphics//Valykrie_Gepard_Flight_2.jpg>
+Package pdftex.def Info: ./graphics//Valykrie_Gepard_Flight_2.jpg  used on inpu
+t line 114.
+(pdftex.def)             Requested size: 509.30437pt x 418.40326pt.
+File: ./graphics//Valykrie_Gepard_Flight_2.jpg Graphic file (type jpg)
+<use ./graphics//Valykrie_Gepard_Flight_2.jpg>
+Package pdftex.def Info: ./graphics//Valykrie_Gepard_Flight_2.jpg  used on inpu
+t line 114.
+(pdftex.def)             Requested size: 509.30437pt x 413.1751pt.
 <TUBraunschweig_4C.pdf, id=35, 199.1691pt x 73.97737pt>
 File: TUBraunschweig_4C.pdf Graphic file (type pdf)
 <use TUBraunschweig_4C.pdf>
@@ -1888,12 +1888,13 @@ Package pdftex.def Info: ./graphics//iraslogo_deutsch.png  used on input line 1
 
 
 
-{C:/Users/Neu1/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./graphics//doct
-or_pop2009.jpg> <D:/Program Files (x86)/LateX/tex/latex/tubs/logos/TUBraunschwe
-ig_4C.pdf> <./graphics//iraslogo_deutsch.png>]
+{C:/Users/Neu1/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./graphics//Valy
+krie_Gepard_Flight_2.jpg> <D:/Program Files (x86)/LateX/tex/latex/tubs/logos/TU
+Braunschweig_4C.pdf> <./graphics//iraslogo_deutsch.png>]
 \openout2 = `aufgabenstellung.aux'.
 
- (aufgabenstellung.tex)
+
+(aufgabenstellung.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 15--116
 
  []
@@ -1952,6 +1953,15 @@ rd compatibility on input line 121.
 
  (einleitung.tex
 chapter 1.
+<./graphics//ablauf_valkyrie.png, id=130, 634.7715pt x 440.847pt>
+File: ./graphics//ablauf_valkyrie.png Graphic file (type png)
+<use ./graphics//ablauf_valkyrie.png>
+Package pdftex.def Info: ./graphics//ablauf_valkyrie.png  used on input line 12
+.
+(pdftex.def)             Requested size: 463.77998pt x 322.09816pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [6
 
 
@@ -1961,12 +1971,19 @@ chapter 1.
 
 
 
-] [7]) [8]
+] [7 <./graphics//ablauf_valkyrie.png>]
+<./graphics//fins_extended.jpg, id=151, 1204.5pt x 803.0pt>
+File: ./graphics//fins_extended.jpg Graphic file (type jpg)
+<use ./graphics//fins_extended.jpg>
+Package pdftex.def Info: ./graphics//fins_extended.jpg  used on input line 23.
+(pdftex.def)             Requested size: 371.02539pt x 247.34682pt.
+ [8 <./graphics//fins_extended.jpg>])
+[9]
 \openout2 = `grundlagen.aux'.
 
  (grundlagen.tex
 chapter 2.
-) [9
+) [10
 
 
 
@@ -1976,7 +1993,7 @@ chapter 2.
 
  (modellentwurf.tex
 chapter 3.
-) [10
+) [11
 
 
 
@@ -1986,7 +2003,7 @@ chapter 3.
 
  (simulation.tex
 chapter 4.
-) [11
+) [12
 
 
 
@@ -1996,12 +2013,39 @@ chapter 4.
 
  (zusammenfassung.tex
 chapter 5.
-) [12
+) [13
 
 
 
 
-] (Bachelorarbeit.bbl) [13
+] (Bachelorarbeit.bbl
+LaTeX Font Info:    Trying to load font information for LY1+txtt on input line 
+6.
+
+(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ly1txtt.fd
+File: tytxtt.fd 2000/12/15 v3.1
+)
+Underfull \hbox (badness 1533) in paragraph at lines 4--9
+[]\LY1/NexusProSerif/m/n/10.95 SpaceX.  Fal-con User's Gui-de.  []$\LY1/txtt/m/
+n/10.95 https : / / www . spacex . com / media / Falcon _ Users _ Guide _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+[]\LY1/NexusProSerif/m/n/10.95 Rocket lab laun-ches elec-tron flight 8. com-pa-
+ny pre-views first
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
+\LY1/NexusProSerif/m/n/10.95 sta-ge re-co-ve-ry.  []$\LY1/txtt/m/n/10.95 https 
+: / / www . nasaspaceflight . com / 2019 / 08 /
+ []
+
+(C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+))
+[14
 
 
 
@@ -2009,13 +2053,13 @@ chapter 5.
 \tf@lof=\write12
 \openout12 = `Bachelorarbeit.lof'.
 
- [14
+ [15
 
 ] (Bachelorarbeit.lot)
 \tf@lot=\write13
 \openout13 = `Bachelorarbeit.lot'.
 
-[15
+ [16
 
 ]
 No file Bachelorarbeit.syi1.
@@ -2034,14 +2078,14 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              and replace `\begin{appendix}' by command
 (scrreprt)              `\appendix' on input line 174.
 
-[16
+[17
 
 ]
 \openout2 = `projekt.aux'.
 
  (projekt.tex
 chapter A.
-[17
+[18
 
 
 ]
@@ -2049,18 +2093,16 @@ Overfull \hbox (18.89066pt too wide) in paragraph at lines 67--68
 [][] 
  []
 
-[18
+[19
 
-] [19
+] [20
 
 ]
 Overfull \hbox (32.74577pt too wide) in paragraph at lines 74--124
 [] 
  []
 
-[20
-
-] [21
+[21
 
 ] [22
 
@@ -2072,14 +2114,14 @@ Overfull \hbox (32.74577pt too wide) in paragraph at lines 74--124
 
 ] [26
 
+] [27
+
 ]
 Underfull \hbox (badness 2005) in paragraph at lines 401--401
 []\LY1/NexusProSerif-lnum/b/n/10.95 Anforderungen an Struk-tur und Werk-
  []
 
-[27
-
-] [28
+[28
 
 ] [29
 
@@ -2099,9 +2141,11 @@ Underfull \hbox (badness 2005) in paragraph at lines 401--401
 
 ] [37
 
-]) [38
+] [38
 
-] [39
+]) [39
+
+] [40
 
 
 ]
@@ -2133,28 +2177,29 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47205 strings out of 479799
- 1131307 string characters out of 2870198
- 1761367 words of memory out of 3000000
- 63173 multiletter control sequences out of 15000+200000
- 648579 words of font info for 102 fonts, out of 3000000 for 9000
+ 47528 strings out of 479799
+ 1135767 string characters out of 2870198
+ 1764965 words of memory out of 3000000
+ 63472 multiletter control sequences out of 15000+200000
+ 659713 words of font info for 110 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,23n,126p,10639b,1229s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 94i,22n,126p,10639b,1231s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{D:/
 Program Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_cbf6z5.enc}{D:/Program Fil
-es (x86)/LateX/fonts/enc/dvips/Fontshop/a_6g6b3j.enc}{D:/Program Files (x86)/La
-teX/fonts/enc/dvips/Fontshop/a_4o7za6.enc}{D:/Program Files (x86)/LateX/fonts/e
-nc/dvips/Fontshop/a_3cgipr.enc}{D:/Program Files (x86)/LateX/fonts/enc/dvips/Fo
-ntshop/a_molob5.enc}<D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPr
+es (x86)/LateX/fonts/enc/dvips/Fontshop/a_molob5.enc}{D:/Program Files (x86)/La
+teX/fonts/enc/dvips/Fontshop/a_6g6b3j.enc}{D:/Program Files (x86)/LateX/fonts/e
+nc/dvips/Fontshop/a_4o7za6.enc}{D:/Program Files (x86)/LateX/fonts/enc/dvips/Fo
+ntshop/a_3cgipr.enc}<D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPr
 o-Bold.pfb><D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPro-Regular
 .pfb><D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Bold.pfb><D:
-/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Regular.pfb><C:/User
-s/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-<C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pf
-b>
-Output written on Bachelorarbeit.pdf (39 pages, 2963346 bytes).
+/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Italic.pfb><D:/Progr
+am Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Regular.pfb><C:/Users/Neu1
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Us
+ers/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:
+/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on Bachelorarbeit.pdf (40 pages, 1297826 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
- 372 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 455 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 382 words of extra memory for PDF output out of 10000 (max. 10000000)
 
