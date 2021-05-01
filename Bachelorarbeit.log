@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  25 APR 2021 18:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  1 MAY 2021 15:15
 entering extended mode
 **./Bachelorarbeit.tex
 (Bachelorarbeit.tex
@@ -1953,7 +1953,7 @@ rd compatibility on input line 121.
 
  (einleitung.tex
 chapter 1.
-<./graphics//ablauf_valkyrie.png, id=154, 634.7715pt x 440.847pt>
+<./graphics//ablauf_valkyrie.png, id=164, 634.7715pt x 440.847pt>
 File: ./graphics//ablauf_valkyrie.png Graphic file (type png)
 <use ./graphics//ablauf_valkyrie.png>
 Package pdftex.def Info: ./graphics//ablauf_valkyrie.png  used on input line 12
@@ -1972,7 +1972,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [8 <./graphics//ablauf_valkyrie.png>]
-<./graphics//fins_extended.jpg, id=173, 1204.5pt x 803.0pt>
+<./graphics//fins_extended.jpg, id=183, 1204.5pt x 803.0pt>
 File: ./graphics//fins_extended.jpg Graphic file (type jpg)
 <use ./graphics//fins_extended.jpg>
 Package pdftex.def Info: ./graphics//fins_extended.jpg  used on input line 23.
@@ -1983,17 +1983,50 @@ Package pdftex.def Info: ./graphics//fins_extended.jpg  used on input line 23.
 
  (grundlagen.tex
 chapter 2.
-) [11
+<./graphics//Parameter.png, id=200, 638.385pt x 480.5955pt>
+File: ./graphics//Parameter.png Graphic file (type png)
+<use ./graphics//Parameter.png>
+Package pdftex.def Info: ./graphics//Parameter.png  used on input line 9.
+(pdftex.def)             Requested size: 278.27081pt x 209.49002pt.
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 13.
+
+Missing character: There is no ° in font pplr7t!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 13.
+
+Missing character: There is no ° in font pplr7t!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 13.
+
+Missing character: There is no ° in font pplr7t!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 13.
+
+Missing character: There is no ° in font pplr7t!
+<./graphics//Winkel.png, id=201, 563.10374pt x 443.256pt>
+File: ./graphics//Winkel.png Graphic file (type png)
+<use ./graphics//Winkel.png>
+Package pdftex.def Info: ./graphics//Winkel.png  used on input line 16.
+(pdftex.def)             Requested size: 371.02539pt x 292.06288pt.
+Class scrreprt Info: Workaround for not recommended usage of \\ or
+(scrreprt)           \newlinein caption text  on input line 17.
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 20.
+
+Missing character: There is no ° in font pplr7t!
+[11
 
 
 
 
-]
+ <./graphics//Parameter.png>]) [12 <./graphics//Winkel.png>] [13]
 \openout2 = `modellentwurf.aux'.
 
- (modellentwurf.tex
+
+(modellentwurf.tex
 chapter 3.
-) [12
+) [14
 
 
 
@@ -2003,7 +2036,7 @@ chapter 3.
 
  (simulation.tex
 chapter 4.
-) [13
+) [15
 
 
 
@@ -2013,7 +2046,7 @@ chapter 4.
 
  (zusammenfassung.tex
 chapter 5.
-) [14
+) [16
 
 
 
@@ -2045,7 +2078,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--16
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ))
-[15
+[17
 
 
 
@@ -2053,15 +2086,19 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 \tf@lof=\write12
 \openout12 = `Bachelorarbeit.lof'.
 
- [16
+ [18
 
 ] (Bachelorarbeit.lot)
 \tf@lot=\write13
 \openout13 = `Bachelorarbeit.lot'.
 
- [17
+ [19
 
 ]
+No file Bachelorarbeit.syi1.
+No file Bachelorarbeit.acr.
+No file Bachelorarbeit.gls.
+No file Bachelorarbeit.acr.
 No file Bachelorarbeit.syi1.
 No file Bachelorarbeit.acr.
 
@@ -2076,16 +2113,16 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              inconsistent.
 (scrreprt)              Because of this, you should remove `\end{appendix}'
 (scrreprt)              and replace `\begin{appendix}' by command
-(scrreprt)              `\appendix' on input line 174.
+(scrreprt)              `\appendix' on input line 175.
 
-[18
+[20
 
 ]
 \openout2 = `projekt.aux'.
 
  (projekt.tex
 chapter A.
-[19
+[21
 
 
 ]
@@ -2093,20 +2130,16 @@ Overfull \hbox (18.89066pt too wide) in paragraph at lines 67--68
 [][] 
  []
 
-[20
+[22
 
-] [21
+] [23
 
 ]
 Overfull \hbox (32.74577pt too wide) in paragraph at lines 74--124
 [] 
  []
 
-[22
-
-] [23
-
-] [24
+[24
 
 ] [25
 
@@ -2116,16 +2149,16 @@ Overfull \hbox (32.74577pt too wide) in paragraph at lines 74--124
 
 ] [28
 
+] [29
+
+] [30
+
 ]
 Underfull \hbox (badness 2005) in paragraph at lines 401--401
 []\LY1/NexusProSerif-lnum/b/n/10.95 Anforderungen an Struk-tur und Werk-
  []
 
-[29
-
-] [30
-
-] [31
+[31
 
 ] [32
 
@@ -2143,31 +2176,35 @@ Underfull \hbox (badness 2005) in paragraph at lines 401--401
 
 ] [39
 
-]) [40
+] [40
 
 ] [41
+
+]) [42
+
+] [43
 
 
 ]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     179.
+(LaTeX3)     180.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     179.
+(LaTeX3)     180.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     179.
+(LaTeX3)     180.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     179.
+(LaTeX3)     180.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     179.
+(LaTeX3)     180.
 
 
 (Bachelorarbeit.aux (aufgabenstellung.aux) (eid.aux) (abstract.aux)
@@ -2177,16 +2214,16 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47563 strings out of 479799
- 1136538 string characters out of 2870198
- 1765088 words of memory out of 3000000
- 63495 multiletter control sequences out of 15000+200000
- 665046 words of font info for 113 fonts, out of 3000000 for 9000
+ 47300 strings out of 479799
+ 1131590 string characters out of 2870198
+ 1763102 words of memory out of 3000000
+ 63213 multiletter control sequences out of 15000+200000
+ 667916 words of font info for 120 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,22n,126p,10639b,1231s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{D:/
-Program Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_cbf6z5.enc}{D:/Program Fil
-es (x86)/LateX/fonts/enc/dvips/Fontshop/a_molob5.enc}{D:/Program Files (x86)/La
+{D:/Program Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_cbf6z5.enc}{D:/Progr
+am Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_molob5.enc}{C:/Users/Neu1/AppDa
+ta/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{D:/Program Files (x86)/La
 teX/fonts/enc/dvips/Fontshop/a_4o7za6.enc}{D:/Program Files (x86)/LateX/fonts/e
 nc/dvips/Fontshop/a_6g6b3j.enc}{D:/Program Files (x86)/LateX/fonts/enc/dvips/Fo
 ntshop/a_3cgipr.enc}<D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPr
@@ -2194,12 +2231,17 @@ o-Bold.pfb><D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPro-Regular
 .pfb><D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Bold.pfb><D:
 /Program Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Italic.pfb><D:/Progr
 am Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Regular.pfb><C:/Users/Neu1
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Us
-ers/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:
-/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on Bachelorarbeit.pdf (41 pages, 1304401 bytes).
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Use
+rs/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr
+.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/f
+plmri.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfon
+ts/t1xtt.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palat
+ino/uplr8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pal
+atino/uplri8a.pfb>
+Output written on Bachelorarbeit.pdf (43 pages, 1448906 bytes).
 PDF statistics:
- 506 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
- 454 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 564 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
+ 504 words of extra memory for PDF output out of 10000 (max. 10000000)
 
