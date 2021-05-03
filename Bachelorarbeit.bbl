@@ -1,4 +1,10 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{starShipUserGuide}
+{SpaceX}.
+\newblock {Star Ship User's Guide}.
+\newblock \url{https://www.spacex.com/media/starship_users_guide_v1.pdf}, 2020.
+\newblock Zugriff: 25.04.2021.
 
 \bibitem{falconUserGuide}
 {SpaceX}.
@@ -14,17 +20,17 @@ Rocket lab launches electron flight 8. company previews first stage recovery.
   2019.
 \newblock Zugriff: 25.04.2021.
 
-\bibitem{GAIA}
-{GAIA Aerospace}.
-\newblock {Valkyire, Die erste wiederverwendbare AirLaunch-Rakete}.
-\newblock \url{https://www.gaia-aerospace.com/research/}.
-\newblock Zugriff: 25.04.2021.
-
 \bibitem{flugbahnBarz}
 Ina Barz.
 \newblock {Untersuchung effizienter Algorithmen zur Trajektorienoptimierung von
   AirLaunch-Raketen}.
 \newblock Studienarbeit, TU Braunschweig, April 2021.
+
+\bibitem{GAIA}
+{GAIA Aerospace}.
+\newblock {Valkyire, Die erste wiederverwendbare AirLaunch-Rakete}.
+\newblock \url{https://www.gaia-aerospace.com/research/}.
+\newblock Zugriff: 25.04.2021.
 
 \bibitem{vergleichPlanar}
 {Salman Munawa}.
@@ -38,5 +44,26 @@ M.~Tripathi, M.M. Sucheendran, and A.~Misra.
 \newblock Effect of aspect ratio variation on subsonic aerodynamics of cascade
   type grid fin at different gap-to-chord ratios.
 \newblock {\em The Aeronautical Journal}, 124(1274):472–498, 2020.
+
+\bibitem{zellform}
+Fumiya Hiroshima and Kaoru Tatsumi.
+\newblock Grid pattern effects on aerodynamic characteristics of grid fins.
+\newblock In {\em 24th International Congess of Aeronautical Sciences}, 2004.
+
+\bibitem{sb-sharp}
+Marco Debiasi, Zeng Yan, and Tat Chng.
+\newblock Swept-back grid fins for transonic drag reduction.
+\newblock 06 2010.
+
+\bibitem{synopsis}
+Mark~S. Miller and Wm.~David Washington, 1998.
+
+\bibitem{machgrenzen}
+Mark~S. Miller and Wm.~David Washington, 1998.
+
+\bibitem{stroemung}
+Montgomery Hughson, Eric Blades, Edward Luke, and Gregg Abate.
+\newblock Analysis of lattice grid tailfin missiles in high-speed flow.
+\newblock 06 2007.
 
 \end{thebibliography}

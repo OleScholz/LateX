@@ -27,44 +27,47 @@ Reallocating 'name_of_file' (item size: 1) to 10 items.
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 A level-1 auxiliary file: projekt.aux
 Database file #1: literatur.bib
-You've used 6 entries,
+Warning--empty booktitle in sb-sharp
+Warning--empty booktitle in stroemung
+You've used 12 entries,
             1791 wiz_defined-function locations,
-            493 strings with 4791 characters,
-and the built_in function-call counts, 953 in all, are:
-= -- 80
-> -- 28
+            518 strings with 5518 characters,
+and the built_in function-call counts, 1905 in all, are:
+= -- 139
+> -- 81
 < -- 0
-+ -- 13
-- -- 7
-* -- 32
-:= -- 149
-add.period$ -- 20
-call.type$ -- 6
-change.case$ -- 6
++ -- 33
+- -- 21
+* -- 67
+:= -- 295
+add.period$ -- 35
+call.type$ -- 12
+change.case$ -- 10
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 41
-empty$ -- 124
-format.name$ -- 7
-if$ -- 222
+cite$ -- 14
+duplicate$ -- 90
+empty$ -- 249
+format.name$ -- 21
+if$ -- 442
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 2
-newline$ -- 35
-num.names$ -- 5
-pop$ -- 34
+int.to.str$ -- 12
+missing$ -- 5
+newline$ -- 62
+num.names$ -- 11
+pop$ -- 77
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 16
+skip$ -- 41
 stack$ -- 0
 substring$ -- 27
-swap$ -- 7
+swap$ -- 14
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 6
-width$ -- 7
-write$ -- 66
+warning$ -- 2
+while$ -- 12
+width$ -- 14
+write$ -- 118
+(There were 2 warnings)

@@ -28,6 +28,426 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{symb:g}{}%
+{%
+\gls@defglossaryentry{symb:g}%
+{%
+name={f},%
+sort={f},%
+type={main},%
+first={f},%
+firstplural={fs},%
+text={f},%
+plural={fs},%
+description={Zellgröße, Abstand der Zellwände},%
+descriptionplural={Zellgröße, Abstand der Zellwände},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{symb:b}{}%
+{%
+\gls@defglossaryentry{symb:b}%
+{%
+name={b},%
+sort={b},%
+type={main},%
+first={b},%
+firstplural={bs},%
+text={b},%
+plural={bs},%
+description={Spannweite der Grid Fins},%
+descriptionplural={Spannweite der Grid Fins},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{symb:h}{}%
+{%
+\gls@defglossaryentry{symb:h}%
+{%
+name={h},%
+sort={h},%
+type={main},%
+first={h},%
+firstplural={hs},%
+text={h},%
+plural={hs},%
+description={Höhe der Grid Fins},%
+descriptionplural={Höhe der Grid Fins},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{symb:A}{}%
+{%
+\gls@defglossaryentry{symb:A}%
+{%
+name={A},%
+sort={A},%
+type={main},%
+first={A},%
+firstplural={As},%
+text={A},%
+plural={As},%
+description={Querschnittsfläche der Grid Fins},%
+descriptionplural={Querschnittsfläche der Grid Fins},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{symb:s}{}%
+{%
+\gls@defglossaryentry{symb:s}%
+{%
+name={s},%
+sort={s},%
+type={main},%
+first={s},%
+firstplural={ss},%
+text={s},%
+plural={ss},%
+description={Sehnenlänge},%
+descriptionplural={Sehnenlänge},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{symb:U}{}%
+{%
+\gls@defglossaryentry{symb:U}%
+{%
+name={U},%
+sort={U},%
+type={main},%
+first={U},%
+firstplural={Us},%
+text={U},%
+plural={Us},%
+description={Geschwinkigkeit des Fluids},%
+descriptionplural={Geschwinkigkeit des Fluids},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{symb:Lambda}{}%
+{%
+\gls@defglossaryentry{symb:Lambda}%
+{%
+name={\ensuremath {\Lambda }},%
+sort={\ensuremath {\Lambda }},%
+type={main},%
+first={\protect \ensuremath {\Lambda }},%
+firstplural={\protect \ensuremath {\Lambda }s},%
+text={\protect \ensuremath {\Lambda }},%
+plural={\protect \ensuremath {\Lambda }s},%
+description={Klappwinkel},%
+descriptionplural={Klappwinkel},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{symb:eta}{}%
+{%
+\gls@defglossaryentry{symb:eta}%
+{%
+name={\ensuremath {\eta }},%
+sort={\ensuremath {\eta }},%
+type={main},%
+first={\protect \ensuremath {\eta }},%
+firstplural={\protect \ensuremath {\eta }s},%
+text={\protect \ensuremath {\eta }},%
+plural={\protect \ensuremath {\eta }s},%
+description={Steuerwinkel},%
+descriptionplural={Steuerwinkel},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{symb:lambda}{}%
+{%
+\gls@defglossaryentry{symb:lambda}%
+{%
+name={\ensuremath {\lambda }},%
+sort={\ensuremath {\lambda }},%
+type={main},%
+first={\protect \ensuremath {\lambda }},%
+firstplural={\protect \ensuremath {\lambda }s},%
+text={\protect \ensuremath {\lambda }},%
+plural={\protect \ensuremath {\lambda }s},%
+description={Rollwinkel},%
+descriptionplural={Rollwinkel},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{symb:sigma}{}%
+{%
+\gls@defglossaryentry{symb:sigma}%
+{%
+name={\ensuremath {\sigma }},%
+sort={\ensuremath {\sigma }},%
+type={main},%
+first={\protect \ensuremath {\sigma }},%
+firstplural={\protect \ensuremath {\sigma }s},%
+text={\protect \ensuremath {\sigma }},%
+plural={\protect \ensuremath {\sigma }s},%
+description={Neigungswinkel des Flugkörper zur Strömung},%
+descriptionplural={Neigungswinkel des Flugkörper zur Strömung},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{symb:alpha}{}%
+{%
+\gls@defglossaryentry{symb:alpha}%
+{%
+name={\ensuremath {\alpha }},%
+sort={\ensuremath {\alpha }},%
+type={main},%
+first={\protect \ensuremath {\alpha }},%
+firstplural={\protect \ensuremath {\alpha }s},%
+text={\protect \ensuremath {\alpha }},%
+plural={\protect \ensuremath {\alpha }s},%
+description={Anstellwinkel des Grid Fins zur Anströmung},%
+descriptionplural={Anstellwinkel des Grid Fins zur Anströmung},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Index:R}{}%
+{%
+\gls@defglossaryentry{Index:R}%
+{%
+name={R},%
+sort={R},%
+type={main},%
+first={R},%
+firstplural={Rs},%
+text={R},%
+plural={Rs},%
+description={Rahmen},%
+descriptionplural={Rahmen},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Index:G}{}%
+{%
+\gls@defglossaryentry{Index:G}%
+{%
+name={G},%
+sort={G},%
+type={main},%
+first={G},%
+firstplural={Gs},%
+text={G},%
+plural={Gs},%
+description={Gitter},%
+descriptionplural={Gitter},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Index:inf}{}%
+{%
+\gls@defglossaryentry{Index:inf}%
+{%
+name={\ensuremath {\infty }},%
+sort={\ensuremath {\infty }},%
+type={main},%
+first={\protect \ensuremath {\infty }},%
+firstplural={\protect \ensuremath {\infty }s},%
+text={\protect \ensuremath {\infty }},%
+plural={\protect \ensuremath {\infty }s},%
+description={Zustand der Anströmung},%
+descriptionplural={Zustand der Anströmung},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{LEO}{}%
 {%
 \gls@defglossaryentry{LEO}%
@@ -83,6 +503,66 @@ long={German Association for Intercontinental Astronautics e.V.},%
 longplural={German Association for Intercontinental Astronautics e.V.s},%
 short={GAIA Aerospace},%
 shortplural={GAIA Aerospaces},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{COTS}{}%
+{%
+\gls@defglossaryentry{COTS}%
+{%
+name={COTS},%
+sort={COTS},%
+type={acronym},%
+first={Commercial off-the-shelf\glsspace (COTS)},%
+firstplural={Commercial off-the-shelfs\glsspace (COTSs)},%
+text={COTS},%
+plural={COTSs},%
+description={Commercial off-the-shelf},%
+descriptionplural={Commercial off-the-shelf\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Commercial off-the-shelf},%
+longplural={Commercial off-the-shelfs},%
+short={COTS},%
+shortplural={COTSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MOAB}{}%
+{%
+\gls@defglossaryentry{MOAB}%
+{%
+name={MOAB},%
+sort={MOAB},%
+type={acronym},%
+first={Massive Ordiance Air Blast\glsspace (MOAB)},%
+firstplural={Massive Ordiance Air Blasts\glsspace (MOABs)},%
+text={MOAB},%
+plural={MOABs},%
+description={Massive Ordiance Air Blast},%
+descriptionplural={Massive Ordiance Air Blast\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Massive Ordiance Air Blast},%
+longplural={Massive Ordiance Air Blasts},%
+short={MOAB},%
+shortplural={MOABs},%
 counter={page},%
 parent={},%
 %

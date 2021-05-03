@@ -1,3 +1,4 @@
+%\RequirePackage[ngerman=ngerman-x-20080601]{hyphsubst}
 \documentclass[%
   a4paper,%
   oneside,
@@ -10,8 +11,11 @@
   %extramargin,
   %marginleft, <marginright>
   ]{tubsreprt}
-
+  
+  
 \usepackage[utf8x]{inputenc}
+%\usepackage{hyphsubst}
+%\HyphSubstLet{ngerman}{ngerman-x-20080601}
 \usepackage[ngerman]{babel}
 \usepackage[authoryear]{natbib}
 \usepackage{graphicx}
@@ -122,6 +126,7 @@
     \setlength{\glsdescwidth}{0.7\textwidth}
   \include{symbolverzeichnis}
   \include{abkverzeichnis} 
+  \glsaddall
   
   \include{einleitung}
   \include{grundlagen}

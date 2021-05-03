@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  1 MAY 2021 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  3 MAY 2021 11:35
 entering extended mode
 **./Bachelorarbeit.tex
 (Bachelorarbeit.tex
@@ -1614,28 +1614,28 @@ Package: glossary-tree 2020/03/19 v4.46 (NLCT)
 \openout5 = `Bachelorarbeit.glo'.
 
 Package glossaries Info: Writing glossary file Bachelorarbeit.glo on input line
- 58.
+ 62.
 \glo@acronym@file=\write6
 \openout6 = `Bachelorarbeit.acn'.
 
 Package glossaries Info: Writing glossary file Bachelorarbeit.acn on input line
- 58.
+ 62.
 \glo@symbolslist@file=\write7
 \openout7 = `Bachelorarbeit.syg1'.
 
 Package glossaries Info: Writing glossary file Bachelorarbeit.syg1 on input lin
-e 58.
+e 62.
 \glo@acronymlist@file=\write8
 \openout8 = `Bachelorarbeit.acn'.
 
 Package glossaries Info: Writing glossary file Bachelorarbeit.acn on input line
- 58.
+ 62.
 
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 LaTeX Font Info:    Trying to load font information for LY1+NexusProSerif on in
-put line 112.
+put line 116.
 
 ("D:\Program Files (x86)\LateX\tex/latex\tubs\ly1nexusproserif.fd"
 File: LY1NexusProSerif.fd Fontshop NexusProSerif font definitions
@@ -1650,34 +1650,34 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 (modellentwurf.aux) (simulation.aux) (zusammenfassung.aux) (projekt.aux))
 \openout1 = `Bachelorarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 116.
 LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 1
-12.
+16.
 
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/ly1\ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 112.
+(hyperref)                removing `\newline' on input line 116.
 
 
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
@@ -1738,7 +1738,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 112.
+(hyperref)                removing `\newline' on input line 116.
 
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/ucs\ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -1747,9 +1747,9 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
 your preamble.
- on input line 112.
+ on input line 116.
 
-Package hyperref Info: Link coloring OFF on input line 112.
+Package hyperref Info: Link coloring OFF on input line 116.
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1762,9 +1762,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count389
 )
-LaTeX Info: Redefining \ref on input line 112.
-LaTeX Info: Redefining \pageref on input line 112.
-LaTeX Info: Redefining \nameref on input line 112.
+LaTeX Info: Redefining \ref on input line 116.
+LaTeX Info: Redefining \pageref on input line 116.
+LaTeX Info: Redefining \nameref on input line 116.
  (Bachelorarbeit.out) (Bachelorarbeit.out)
 \@outlinefile=\write9
 \openout9 = `Bachelorarbeit.out'.
@@ -1776,7 +1776,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 112.
+(scrreprt)           before \begin{document} on input line 116.
 
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -1787,7 +1787,7 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 )) (Bachelorarbeit.glsdefs)
 Selected title style 'image'
 LaTeX Font Info:    Trying to load font information for LY1+NexusProSans on inp
-ut line 114.
+ut line 118.
 ("D:\Program Files (x86)\LateX\tex/latex\tubs\ly1nexusprosans.fd"
 File: LY1NexusProSans.fd Fontshop NexusProSans font definitions
 )
@@ -1797,7 +1797,7 @@ TextBlockOrigin set to \tubsborderwidth +\tubspage@bcor  x \tubssenderheight
 \temp@=\dimen313
 \temp@b=\dimen314
 
-Underfull \hbox (badness 10000) detected at line 114
+Underfull \hbox (badness 10000) detected at line 118
 | []| 
  []
 
@@ -1810,37 +1810,37 @@ TextBlockOrigin set to \tubsborderwidth +\tubspage@bcor  x \tubssenderheight
 \tubs@restore@parskip=\dimen319
 \tubs@restore@parindent=\dimen320
 LaTeX Font Info:    Trying to load font information for LY1+NexusProSans-lnum o
-n input line 114.
+n input line 118.
 ("D:\Program Files (x86)\LateX\tex/latex\tubs\ly1nexusprosans-lnum.fd"
 File: LY1NexusProSans-lnum.fd Fontshop NexusProSans-lnum font definitions
 )
-LaTeX Font Info:    Calculating math sizes for size <27> on input line 114.
+LaTeX Font Info:    Calculating math sizes for size <27> on input line 118.
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 1
-14.
+18.
 
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-114.
+118.
 
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-114.
+118.
 
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-114.
+118.
 
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-114.
+118.
 
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1851,34 +1851,34 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 File: ./graphics//Valykrie_Gepard_Flight_2.jpg Graphic file (type jpg)
 <use ./graphics//Valykrie_Gepard_Flight_2.jpg>
 Package pdftex.def Info: ./graphics//Valykrie_Gepard_Flight_2.jpg  used on inpu
-t line 114.
+t line 118.
 (pdftex.def)             Requested size: 509.30437pt x 418.40326pt.
 File: ./graphics//Valykrie_Gepard_Flight_2.jpg Graphic file (type jpg)
 <use ./graphics//Valykrie_Gepard_Flight_2.jpg>
 Package pdftex.def Info: ./graphics//Valykrie_Gepard_Flight_2.jpg  used on inpu
-t line 114.
+t line 118.
 (pdftex.def)             Requested size: 1589.3339pt x 1305.6748pt.
 File: ./graphics//Valykrie_Gepard_Flight_2.jpg Graphic file (type jpg)
 <use ./graphics//Valykrie_Gepard_Flight_2.jpg>
 Package pdftex.def Info: ./graphics//Valykrie_Gepard_Flight_2.jpg  used on inpu
-t line 114.
+t line 118.
 (pdftex.def)             Requested size: 509.30437pt x 418.40326pt.
 File: ./graphics//Valykrie_Gepard_Flight_2.jpg Graphic file (type jpg)
 <use ./graphics//Valykrie_Gepard_Flight_2.jpg>
 Package pdftex.def Info: ./graphics//Valykrie_Gepard_Flight_2.jpg  used on inpu
-t line 114.
+t line 118.
 (pdftex.def)             Requested size: 509.30437pt x 413.1751pt.
 <TUBraunschweig_4C.pdf, id=35, 199.1691pt x 73.97737pt>
 File: TUBraunschweig_4C.pdf Graphic file (type pdf)
 <use TUBraunschweig_4C.pdf>
-Package pdftex.def Info: TUBraunschweig_4C.pdf  used on input line 114.
+Package pdftex.def Info: TUBraunschweig_4C.pdf  used on input line 118.
 (pdftex.def)             Requested size: 199.16928pt x 73.98167pt.
 \tmp@logoheight=\dimen323
 <./graphics//iraslogo_deutsch.png, id=36, 1325.753pt x 354.926pt>
 File: ./graphics//iraslogo_deutsch.png Graphic file (type png)
 <use ./graphics//iraslogo_deutsch.png>
 Package pdftex.def Info: ./graphics//iraslogo_deutsch.png  used on input line 1
-14.
+18.
 (pdftex.def)             Requested size: 231.88887pt x 62.08047pt.
 
 [1
@@ -1895,7 +1895,7 @@ Braunschweig_4C.pdf> <./graphics//iraslogo_deutsch.png>]
 
 
 (aufgabenstellung.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 15--116
+Underfull \hbox (badness 10000) in paragraph at lines 15--120
 
  []
 
@@ -1937,7 +1937,7 @@ File: LY1NexusProSerif-lnum.fd Fontshop NexusProSerif-lnum font definitions
 
 Package glossaries Warning: Deprecated command \glossarystyle.
  I recommend you switch to \setglossarystyle unless you want to maintain backwa
-rd compatibility on input line 121.
+rd compatibility on input line 125.
 
 \openout2 = `symbolverzeichnis.aux'.
 
@@ -1948,85 +1948,62 @@ rd compatibility on input line 121.
 )
 \openout2 = `abkverzeichnis.aux'.
 
- (abkverzeichnis.tex)
+ (abkverzeichnis.tex) [7
+
+
+
+
+
+
+]
 \openout2 = `einleitung.aux'.
 
  (einleitung.tex
 chapter 1.
-<./graphics//ablauf_valkyrie.png, id=164, 634.7715pt x 440.847pt>
+<./graphics//ablauf_valkyrie.png, id=168, 634.7715pt x 440.847pt>
 File: ./graphics//ablauf_valkyrie.png Graphic file (type png)
 <use ./graphics//ablauf_valkyrie.png>
-Package pdftex.def Info: ./graphics//ablauf_valkyrie.png  used on input line 12
+Package pdftex.def Info: ./graphics//ablauf_valkyrie.png  used on input line 13
 .
 (pdftex.def)             Requested size: 463.77998pt x 322.09816pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7
+[8
 
 
-
-
-
-
-
-
-] [8 <./graphics//ablauf_valkyrie.png>]
-<./graphics//fins_extended.jpg, id=183, 1204.5pt x 803.0pt>
+] [9 <./graphics//ablauf_valkyrie.png>]
+<./graphics//fins_extended.jpg, id=187, 1204.5pt x 803.0pt>
 File: ./graphics//fins_extended.jpg Graphic file (type jpg)
 <use ./graphics//fins_extended.jpg>
 Package pdftex.def Info: ./graphics//fins_extended.jpg  used on input line 23.
 (pdftex.def)             Requested size: 371.02539pt x 247.34682pt.
- [9 <./graphics//fins_extended.jpg>])
-[10]
+ [10 <./graphics//fins_extended.jpg>]) [11] [12]
 \openout2 = `grundlagen.aux'.
 
  (grundlagen.tex
 chapter 2.
-<./graphics//Parameter.png, id=200, 638.385pt x 480.5955pt>
+<./graphics//Parameter.png, id=211, 638.385pt x 480.5955pt>
 File: ./graphics//Parameter.png Graphic file (type png)
 <use ./graphics//Parameter.png>
 Package pdftex.def Info: ./graphics//Parameter.png  used on input line 9.
 (pdftex.def)             Requested size: 278.27081pt x 209.49002pt.
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 13.
-
-Missing character: There is no ° in font pplr7t!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 13.
-
-Missing character: There is no ° in font pplr7t!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 13.
-
-Missing character: There is no ° in font pplr7t!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 13.
-
-Missing character: There is no ° in font pplr7t!
-<./graphics//Winkel.png, id=201, 563.10374pt x 443.256pt>
+<./graphics//Winkel.png, id=212, 563.10374pt x 443.256pt>
 File: ./graphics//Winkel.png Graphic file (type png)
 <use ./graphics//Winkel.png>
 Package pdftex.def Info: ./graphics//Winkel.png  used on input line 16.
 (pdftex.def)             Requested size: 371.02539pt x 292.06288pt.
 Class scrreprt Info: Workaround for not recommended usage of \\ or
 (scrreprt)           \newlinein caption text  on input line 17.
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 20.
-
-Missing character: There is no ° in font pplr7t!
-[11
+[13
 
 
 
 
- <./graphics//Parameter.png>]) [12 <./graphics//Winkel.png>] [13]
+ <./graphics//Parameter.png>] [14 <./graphics//Winkel.png>]) [15] [16]
 \openout2 = `modellentwurf.aux'.
 
 
 (modellentwurf.tex
 chapter 3.
-) [14
+) [17
 
 
 
@@ -2036,7 +2013,7 @@ chapter 3.
 
  (simulation.tex
 chapter 4.
-) [15
+) [18
 
 
 
@@ -2046,7 +2023,7 @@ chapter 4.
 
  (zusammenfassung.tex
 chapter 5.
-) [16
+) [19
 
 
 
@@ -2058,27 +2035,27 @@ LaTeX Font Info:    Trying to load font information for LY1+txtt on input line
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ly1txtt.fd
 File: tytxtt.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 1533) in paragraph at lines 4--9
-[]\LY1/NexusProSerif/m/n/10.95 SpaceX.  Fal-con User's Gui-de.  []$\LY1/txtt/m/
-n/10.95 https : / / www . spacex . com / media / Falcon _ Users _ Guide _
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--16
+Underfull \hbox (badness 10000) in paragraph at lines 17--22
 []\LY1/NexusProSerif/m/n/10.95 Rocket lab laun-ches elec-tron flight 8. com-pa-
 ny pre-views first
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--16
+Underfull \hbox (badness 10000) in paragraph at lines 17--22
 \LY1/NexusProSerif/m/n/10.95 sta-ge re-co-ve-ry.  []$\LY1/txtt/m/n/10.95 https 
 : / / www . nasaspaceflight . com / 2019 / 08 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--22
+\LY1/txtt/m/n/10.95 rocket-[]lab-[]electron-[]flight-[]8-[]towards-[]first-[]st
+age-[]recovery$[]\LY1/NexusProSerif/m/n/10.95 , 2019.  Zu-griff:
  []
 
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ))
-[17
+[20
 
 
 
@@ -2086,13 +2063,13 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 \tf@lof=\write12
 \openout12 = `Bachelorarbeit.lof'.
 
- [18
+ [21
 
 ] (Bachelorarbeit.lot)
 \tf@lot=\write13
 \openout13 = `Bachelorarbeit.lot'.
 
- [19
+ [22
 
 ]
 No file Bachelorarbeit.syi1.
@@ -2113,16 +2090,16 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              inconsistent.
 (scrreprt)              Because of this, you should remove `\end{appendix}'
 (scrreprt)              and replace `\begin{appendix}' by command
-(scrreprt)              `\appendix' on input line 175.
+(scrreprt)              `\appendix' on input line 180.
 
-[20
+[23
 
 ]
 \openout2 = `projekt.aux'.
 
  (projekt.tex
 chapter A.
-[21
+[24
 
 
 ]
@@ -2130,22 +2107,16 @@ Overfull \hbox (18.89066pt too wide) in paragraph at lines 67--68
 [][] 
  []
 
-[22
+[25
 
-] [23
+] [26
 
 ]
 Overfull \hbox (32.74577pt too wide) in paragraph at lines 74--124
 [] 
  []
 
-[24
-
-] [25
-
-] [26
-
-] [27
+[27
 
 ] [28
 
@@ -2153,18 +2124,18 @@ Overfull \hbox (32.74577pt too wide) in paragraph at lines 74--124
 
 ] [30
 
-]
-Underfull \hbox (badness 2005) in paragraph at lines 401--401
-[]\LY1/NexusProSerif-lnum/b/n/10.95 Anforderungen an Struk-tur und Werk-
- []
-
-[31
+] [31
 
 ] [32
 
 ] [33
 
-] [34
+]
+Underfull \hbox (badness 2005) in paragraph at lines 401--401
+[]\LY1/NexusProSerif-lnum/b/n/10.95 Anforderungen an Struk-tur und Werk-
+ []
+
+[34
 
 ] [35
 
@@ -2180,31 +2151,37 @@ Underfull \hbox (badness 2005) in paragraph at lines 401--401
 
 ] [41
 
-]) [42
+] [42
 
 ] [43
+
+] [44
+
+]) [45
+
+] [46
 
 
 ]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     180.
+(LaTeX3)     185.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     180.
+(LaTeX3)     185.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     180.
+(LaTeX3)     185.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     180.
+(LaTeX3)     185.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     180.
+(LaTeX3)     185.
 
 
 (Bachelorarbeit.aux (aufgabenstellung.aux) (eid.aux) (abstract.aux)
@@ -2214,11 +2191,11 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47300 strings out of 479799
- 1131590 string characters out of 2870198
- 1763102 words of memory out of 3000000
- 63213 multiletter control sequences out of 15000+200000
- 667916 words of font info for 120 fonts, out of 3000000 for 9000
+ 47814 strings out of 479799
+ 1141029 string characters out of 2870198
+ 1766276 words of memory out of 3000000
+ 63717 multiletter control sequences out of 15000+200000
+ 668414 words of font info for 122 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,22n,126p,10639b,1231s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Program Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_cbf6z5.enc}{D:/Progr
@@ -2239,9 +2216,9 @@ plmri.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfon
 ts/t1xtt.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palat
 ino/uplr8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pal
 atino/uplri8a.pfb>
-Output written on Bachelorarbeit.pdf (43 pages, 1448906 bytes).
+Output written on Bachelorarbeit.pdf (46 pages, 1462658 bytes).
 PDF statistics:
- 564 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
- 504 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 594 PDF objects out of 1000 (max. 8388607)
+ 108 named destinations out of 1000 (max. 500000)
+ 496 words of extra memory for PDF output out of 10000 (max. 10000000)
 
