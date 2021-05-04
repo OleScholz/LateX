@@ -208,6 +208,96 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{symb:M}{}%
+{%
+\gls@defglossaryentry{symb:M}%
+{%
+name={M},%
+sort={M},%
+type={main},%
+first={M},%
+firstplural={Ms},%
+text={M},%
+plural={Ms},%
+description={Moment},%
+descriptionplural={Moment},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{symb:C}{}%
+{%
+\gls@defglossaryentry{symb:C}%
+{%
+name={C},%
+sort={C},%
+type={main},%
+first={C},%
+firstplural={Cs},%
+text={C},%
+plural={Cs},%
+description={Kräfte- /Momentenbeiwert},%
+descriptionplural={Kräfte- /Momentenbeiwert},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{symb:F}{}%
+{%
+\gls@defglossaryentry{symb:F}%
+{%
+name={F},%
+sort={F},%
+type={main},%
+first={F},%
+firstplural={Fs},%
+text={F},%
+plural={Fs},%
+description={Kraft},%
+descriptionplural={Kraft},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{symb:Lambda}{}%
 {%
 \gls@defglossaryentry{symb:Lambda}%
@@ -431,6 +521,126 @@ text={\protect \ensuremath {\infty }},%
 plural={\protect \ensuremath {\infty }s},%
 description={Zustand der Anströmung},%
 descriptionplural={Zustand der Anströmung},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Index:m}{}%
+{%
+\gls@defglossaryentry{Index:m}%
+{%
+name={m},%
+sort={m},%
+type={main},%
+first={m},%
+firstplural={ms},%
+text={m},%
+plural={ms},%
+description={Auf das Steuergelenk bezogen},%
+descriptionplural={Auf das Steuergelenk bezogen},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Index:N}{}%
+{%
+\gls@defglossaryentry{Index:N}%
+{%
+name={N},%
+sort={N},%
+type={main},%
+first={N},%
+firstplural={Ns},%
+text={N},%
+plural={Ns},%
+description={Normal zur X-Achse},%
+descriptionplural={Normal zur X-Achse},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Index:alpha}{}%
+{%
+\gls@defglossaryentry{Index:alpha}%
+{%
+name={\ensuremath {\alpha }},%
+sort={\ensuremath {\alpha }},%
+type={main},%
+first={\protect \ensuremath {\alpha }},%
+firstplural={\protect \ensuremath {\alpha }s},%
+text={\protect \ensuremath {\alpha }},%
+plural={\protect \ensuremath {\alpha }s},%
+description={Differnzialquotient über \ensuremath {$\alpha $}},%
+descriptionplural={Differnzialquotient über \ensuremath {$\alpha $}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Index:X}{}%
+{%
+\gls@defglossaryentry{Index:X}%
+{%
+name={X},%
+sort={X},%
+type={main},%
+first={X},%
+firstplural={Xs},%
+text={X},%
+plural={Xs},%
+description={In (negative) X-Richtung},%
+descriptionplural={In (negative) X-Richtung},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

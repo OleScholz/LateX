@@ -66,4 +66,12 @@ Montgomery Hughson, Eric Blades, Edward Luke, and Gregg Abate.
 \newblock Analysis of lattice grid tailfin missiles in high-speed flow.
 \newblock 06 2007.
 
+\bibitem{vergleichPlanarNATO}
+G.~M. Simpson, 1998.
+
+\bibitem{solver}
+James Kless and Michael Aftosmis.
+\newblock {\em Analysis of Grid Fins for Launch Abort Vehicle Using a Cartesian
+  Euler Solver}.
+
 \end{thebibliography}

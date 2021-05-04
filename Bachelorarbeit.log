@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  3 MAY 2021 11:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  4 MAY 2021 18:16
 entering extended mode
 **./Bachelorarbeit.tex
 (Bachelorarbeit.tex
@@ -1960,22 +1960,43 @@ rd compatibility on input line 125.
 
  (einleitung.tex
 chapter 1.
-<./graphics//ablauf_valkyrie.png, id=168, 634.7715pt x 440.847pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
+
+ []
+
+[8
+
+
+]
+<./graphics//ablauf_valkyrie.png, id=175, 634.7715pt x 440.847pt>
 File: ./graphics//ablauf_valkyrie.png Graphic file (type png)
 <use ./graphics//ablauf_valkyrie.png>
 Package pdftex.def Info: ./graphics//ablauf_valkyrie.png  used on input line 13
 .
 (pdftex.def)             Requested size: 463.77998pt x 322.09816pt.
-[8
 
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
-] [9 <./graphics//ablauf_valkyrie.png>]
+ []
+
+[9 <./graphics//ablauf_valkyrie.png>]
 <./graphics//fins_extended.jpg, id=187, 1204.5pt x 803.0pt>
 File: ./graphics//fins_extended.jpg Graphic file (type jpg)
 <use ./graphics//fins_extended.jpg>
 Package pdftex.def Info: ./graphics//fins_extended.jpg  used on input line 23.
 (pdftex.def)             Requested size: 371.02539pt x 247.34682pt.
- [10 <./graphics//fins_extended.jpg>]) [11] [12]
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--30
+
+ []
+
+[10 <./graphics//fins_extended.jpg>] [11]) [12]
 \openout2 = `grundlagen.aux'.
 
  (grundlagen.tex
@@ -1983,27 +2004,72 @@ chapter 2.
 <./graphics//Parameter.png, id=211, 638.385pt x 480.5955pt>
 File: ./graphics//Parameter.png Graphic file (type png)
 <use ./graphics//Parameter.png>
-Package pdftex.def Info: ./graphics//Parameter.png  used on input line 9.
+Package pdftex.def Info: ./graphics//Parameter.png  used on input line 10.
 (pdftex.def)             Requested size: 278.27081pt x 209.49002pt.
 <./graphics//Winkel.png, id=212, 563.10374pt x 443.256pt>
 File: ./graphics//Winkel.png Graphic file (type png)
 <use ./graphics//Winkel.png>
-Package pdftex.def Info: ./graphics//Winkel.png  used on input line 16.
+Package pdftex.def Info: ./graphics//Winkel.png  used on input line 17.
 (pdftex.def)             Requested size: 371.02539pt x 292.06288pt.
 Class scrreprt Info: Workaround for not recommended usage of \\ or
-(scrreprt)           \newlinein caption text  on input line 17.
+(scrreprt)           \newlinein caption text  on input line 18.
 [13
 
 
 
 
- <./graphics//Parameter.png>] [14 <./graphics//Winkel.png>]) [15] [16]
+ <./graphics//Parameter.png>] [14 <./graphics//Winkel.png>]
+<./graphics//swallow.png, id=233, 650.43pt x 443.256pt>
+File: ./graphics//swallow.png Graphic file (type png)
+<use ./graphics//swallow.png>
+Package pdftex.def Info: ./graphics//swallow.png  used on input line 27.
+(pdftex.def)             Requested size: 324.64456pt x 221.24193pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+
+ []
+
+[15 <./graphics//swallow.png>]
+<./graphics//kraefte.png, id=253, 694.39426pt x 456.5055pt>
+File: ./graphics//kraefte.png Graphic file (type png)
+<use ./graphics//kraefte.png>
+Package pdftex.def Info: ./graphics//kraefte.png  used on input line 40.
+(pdftex.def)             Requested size: 278.27081pt x 182.94028pt.
+ [16 <./graphics//kraefte.png>]
+<./graphics//gelenkmoment.png, id=261, 946.13475pt x 389.65575pt>
+File: ./graphics//gelenkmoment.png Graphic file (type png)
+<use ./graphics//gelenkmoment.png>
+Package pdftex.def Info: ./graphics//gelenkmoment.png  used on input line 48.
+(pdftex.def)             Requested size: 371.02539pt x 152.80345pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--51
+
+ []
+
+<./graphics//bucket.png, id=267, 425.1885pt x 442.0515pt>
+File: ./graphics//bucket.png Graphic file (type png)
+<use ./graphics//bucket.png>
+Package pdftex.def Info: ./graphics//bucket.png  used on input line 55.
+(pdftex.def)             Requested size: 278.27081pt x 289.32663pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17 <./graphics//gelenkmoment.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+[18 <./graphics//bucket.png>]) [19]
 \openout2 = `modellentwurf.aux'.
 
-
-(modellentwurf.tex
+ (modellentwurf.tex
 chapter 3.
-) [17
+) [20
 
 
 
@@ -2013,7 +2079,7 @@ chapter 3.
 
  (simulation.tex
 chapter 4.
-) [18
+) [21
 
 
 
@@ -2023,7 +2089,7 @@ chapter 4.
 
  (zusammenfassung.tex
 chapter 5.
-) [19
+) [22
 
 
 
@@ -2055,7 +2121,7 @@ age-[]recovery$[]\LY1/NexusProSerif/m/n/10.95 , 2019.  Zu-griff:
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ))
-[20
+[23
 
 
 
@@ -2063,13 +2129,13 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 \tf@lof=\write12
 \openout12 = `Bachelorarbeit.lof'.
 
- [21
+ [24
 
 ] (Bachelorarbeit.lot)
 \tf@lot=\write13
 \openout13 = `Bachelorarbeit.lot'.
 
- [22
+ [25
 
 ]
 No file Bachelorarbeit.syi1.
@@ -2092,14 +2158,14 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              and replace `\begin{appendix}' by command
 (scrreprt)              `\appendix' on input line 180.
 
-[23
+[26
 
 ]
 \openout2 = `projekt.aux'.
 
  (projekt.tex
 chapter A.
-[24
+[27
 
 
 ]
@@ -2107,22 +2173,16 @@ Overfull \hbox (18.89066pt too wide) in paragraph at lines 67--68
 [][] 
  []
 
-[25
+[28
 
-] [26
+] [29
 
 ]
 Overfull \hbox (32.74577pt too wide) in paragraph at lines 74--124
 [] 
  []
 
-[27
-
-] [28
-
-] [29
-
-] [30
+[30
 
 ] [31
 
@@ -2130,18 +2190,18 @@ Overfull \hbox (32.74577pt too wide) in paragraph at lines 74--124
 
 ] [33
 
-]
-Underfull \hbox (badness 2005) in paragraph at lines 401--401
-[]\LY1/NexusProSerif-lnum/b/n/10.95 Anforderungen an Struk-tur und Werk-
- []
-
-[34
+] [34
 
 ] [35
 
 ] [36
 
-] [37
+]
+Underfull \hbox (badness 2005) in paragraph at lines 401--401
+[]\LY1/NexusProSerif-lnum/b/n/10.95 Anforderungen an Struk-tur und Werk-
+ []
+
+[37
 
 ] [38
 
@@ -2157,9 +2217,15 @@ Underfull \hbox (badness 2005) in paragraph at lines 401--401
 
 ] [44
 
-]) [45
+] [45
 
 ] [46
+
+] [47
+
+]) [48
+
+] [49
 
 
 ]
@@ -2191,34 +2257,43 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47814 strings out of 479799
- 1141029 string characters out of 2870198
- 1766276 words of memory out of 3000000
- 63717 multiletter control sequences out of 15000+200000
- 668414 words of font info for 122 fonts, out of 3000000 for 9000
+ 48112 strings out of 479799
+ 1146645 string characters out of 2870198
+ 1767931 words of memory out of 3000000
+ 63977 multiletter control sequences out of 15000+200000
+ 674695 words of font info for 138 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,22n,126p,10639b,1231s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Program Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_cbf6z5.enc}{D:/Progr
-am Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_molob5.enc}{C:/Users/Neu1/AppDa
-ta/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{D:/Program Files (x86)/La
-teX/fonts/enc/dvips/Fontshop/a_4o7za6.enc}{D:/Program Files (x86)/LateX/fonts/e
-nc/dvips/Fontshop/a_6g6b3j.enc}{D:/Program Files (x86)/LateX/fonts/enc/dvips/Fo
-ntshop/a_3cgipr.enc}<D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPr
-o-Bold.pfb><D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPro-Regular
-.pfb><D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Bold.pfb><D:
-/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Italic.pfb><D:/Progr
-am Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Regular.pfb><C:/Users/Neu1
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Use
-rs/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr
-.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/f
-plmri.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfon
-ts/t1xtt.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palat
-ino/uplr8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pal
-atino/uplri8a.pfb>
-Output written on Bachelorarbeit.pdf (46 pages, 1462658 bytes).
+ 94i,23n,126p,10639b,1231s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{chapter*.18} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.16} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.15} has been referenced but does not exist
+, replaced by a fixed one
+
+{D:/Program Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_cbf6z5.enc}{D:/Program
+ Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_molob5.enc}{C:/Users/Neu1/AppData
+/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{D:/Program Files (x86)/Late
+X/fonts/enc/dvips/Fontshop/a_4o7za6.enc}{D:/Program Files (x86)/LateX/fonts/enc
+/dvips/Fontshop/a_6g6b3j.enc}{D:/Program Files (x86)/LateX/fonts/enc/dvips/Font
+shop/a_3cgipr.enc}<D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPro-
+Bold.pfb><D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPro-Regular.p
+fb><D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Bold.pfb><D:/P
+rogram Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Italic.pfb><D:/Program
+ Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Regular.pfb><C:/Users/Neu1/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
+/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.p
+fb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fpl
+mri.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts
+/t1xtt.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatin
+o/uplr8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palat
+ino/uplri8a.pfb>
+Output written on Bachelorarbeit.pdf (49 pages, 2387331 bytes).
 PDF statistics:
- 594 PDF objects out of 1000 (max. 8388607)
- 108 named destinations out of 1000 (max. 500000)
- 496 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 664 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 516 words of extra memory for PDF output out of 10000 (max. 10000000)
 
