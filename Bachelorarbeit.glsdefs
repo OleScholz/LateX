@@ -658,6 +658,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{Index:Konf}{}%
+{%
+\gls@defglossaryentry{Index:Konf}%
+{%
+name={Konf},%
+sort={Konf},%
+type={main},%
+first={Konf},%
+firstplural={Konfs},%
+text={Konf},%
+plural={Konfs},%
+description={Konfiguration},%
+descriptionplural={Konfiguration},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{LEO}{}%
 {%
 \gls@defglossaryentry{LEO}%
@@ -773,6 +803,36 @@ long={Massive Ordiance Air Blast},%
 longplural={Massive Ordiance Air Blasts},%
 short={MOAB},%
 shortplural={MOABs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SP}{}%
+{%
+\gls@defglossaryentry{SP}%
+{%
+name={SP},%
+sort={SP},%
+type={acronym},%
+first={Schwerpunkt\glsspace (SP)},%
+firstplural={Schwerpunkts\glsspace (SPs)},%
+text={SP},%
+plural={SPs},%
+description={Schwerpunkt},%
+descriptionplural={Schwerpunkt\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Schwerpunkt},%
+longplural={Schwerpunkts},%
+short={SP},%
+shortplural={SPs},%
 counter={page},%
 parent={},%
 %

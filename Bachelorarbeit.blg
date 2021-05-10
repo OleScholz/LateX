@@ -32,45 +32,48 @@ Warning--empty booktitle in stroemung
 Warning--empty chapter and pages in solver
 Warning--empty publisher in solver
 Warning--empty year in solver
-You've used 14 entries,
+Warning--empty chapter and pages in LambdaKonf
+Warning--empty publisher in LambdaKonf
+Warning--empty year in LambdaKonf
+You've used 15 entries,
             1791 wiz_defined-function locations,
-            525 strings with 5726 characters,
-and the built_in function-call counts, 2186 in all, are:
-= -- 154
-> -- 93
+            530 strings with 5914 characters,
+and the built_in function-call counts, 2374 in all, are:
+= -- 164
+> -- 104
 < -- 0
-+ -- 38
-- -- 24
-* -- 81
-:= -- 333
-add.period$ -- 38
-call.type$ -- 14
++ -- 42
+- -- 27
+* -- 97
+:= -- 360
+add.period$ -- 40
+call.type$ -- 15
 change.case$ -- 10
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 106
-empty$ -- 289
-format.name$ -- 24
-if$ -- 506
+cite$ -- 23
+duplicate$ -- 117
+empty$ -- 311
+format.name$ -- 27
+if$ -- 547
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 7
-newline$ -- 69
-num.names$ -- 13
-pop$ -- 94
+int.to.str$ -- 15
+missing$ -- 9
+newline$ -- 73
+num.names$ -- 14
+pop$ -- 104
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 50
+skip$ -- 52
 stack$ -- 0
 substring$ -- 27
-swap$ -- 16
+swap$ -- 17
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 14
-width$ -- 16
-write$ -- 131
-(There were 5 warnings)
+warning$ -- 8
+while$ -- 15
+width$ -- 17
+write$ -- 138
+(There were 8 warnings)
