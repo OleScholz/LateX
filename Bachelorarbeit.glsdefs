@@ -688,6 +688,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{Index:Z}{}%
+{%
+\gls@defglossaryentry{Index:Z}%
+{%
+name={Z},%
+sort={Z},%
+type={main},%
+first={Z},%
+firstplural={Zs},%
+text={Z},%
+plural={Zs},%
+description={Zelle},%
+descriptionplural={Zelle},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{LEO}{}%
 {%
 \gls@defglossaryentry{LEO}%

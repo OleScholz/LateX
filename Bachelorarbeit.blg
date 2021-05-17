@@ -12,8 +12,6 @@ A level-1 auxiliary file: symbolverzeichnis.aux
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: abkverzeichnis.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
-A level-1 auxiliary file: einleitung.aux
-Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: grundlagen.aux
 Reallocating 'name_of_file' (item size: 1) to 18 items.
 A level-1 auxiliary file: modellentwurf.aux
@@ -24,8 +22,6 @@ A level-1 auxiliary file: zusammenfassung.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
-Reallocating 'name_of_file' (item size: 1) to 12 items.
-A level-1 auxiliary file: projekt.aux
 Database file #1: literatur.bib
 Warning--empty booktitle in sb-sharp
 Warning--empty booktitle in stroemung
@@ -35,45 +31,48 @@ Warning--empty year in solver
 Warning--empty chapter and pages in LambdaKonf
 Warning--empty publisher in LambdaKonf
 Warning--empty year in LambdaKonf
-You've used 15 entries,
+Warning--empty booktitle in PfeilG3
+Warning--empty booktitle in PeakValley
+Warning--empty booktitle in Pattern
+You've used 14 entries,
             1791 wiz_defined-function locations,
-            530 strings with 5914 characters,
-and the built_in function-call counts, 2374 in all, are:
-= -- 164
-> -- 104
-< -- 0
-+ -- 42
-- -- 27
-* -- 97
-:= -- 360
-add.period$ -- 40
-call.type$ -- 15
-change.case$ -- 10
+            522 strings with 5581 characters,
+and the built_in function-call counts, 2490 in all, are:
+= -- 159
+> -- 125
+< -- 1
++ -- 47
+- -- 33
+* -- 128
+:= -- 382
+add.period$ -- 34
+call.type$ -- 14
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 117
-empty$ -- 311
-format.name$ -- 27
-if$ -- 547
+cite$ -- 25
+duplicate$ -- 138
+empty$ -- 308
+format.name$ -- 33
+if$ -- 567
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 9
-newline$ -- 73
+int.to.str$ -- 14
+missing$ -- 13
+newline$ -- 65
 num.names$ -- 14
-pop$ -- 104
+pop$ -- 96
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 52
+skip$ -- 63
 stack$ -- 0
-substring$ -- 27
-swap$ -- 17
-text.length$ -- 0
+substring$ -- 33
+swap$ -- 21
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 8
-while$ -- 15
-width$ -- 17
-write$ -- 138
-(There were 8 warnings)
+warning$ -- 11
+while$ -- 17
+width$ -- 16
+write$ -- 122
+(There were 11 warnings)

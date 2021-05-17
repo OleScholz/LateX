@@ -1,51 +1,45 @@
 \babel@toc {ngerman}{}
-\contentsline {chapter}{\numberline {1}Einleitung}{8}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Motivation}{9}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Ziele der Arbeit}{11}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Struktur der Arbeit}{11}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Grundlagen}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Grid Fins als Steuerelement von Flugk\IeC {\"o}rpern im Hyperschall}{13}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Aufbau}{13}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Str\IeC {\"o}mung durch Grid Fins}{15}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Aerodynamische Beiwerte und Vergleich zu planaren Finnen}{16}{subsection.2.1.3}%
-\contentsline {subsubsection}{\nonumberline Normalkraft}{16}{subsubsection*.6}%
-\contentsline {subsubsection}{\nonumberline Axialkraft}{17}{subsubsection*.8}%
-\contentsline {subsubsection}{\nonumberline Gelenkmoment}{17}{subsubsection*.10}%
-\contentsline {subsubsection}{\nonumberline Stabilit\IeC {\"a}t}{18}{subsubsection*.12}%
-\contentsline {subsubsection}{\nonumberline Anstellwinkelcharakteristika}{19}{subsubsection*.14}%
-\contentsline {subsection}{\numberline {2.1.4}Bisherige Implementierung/ Grid Fin Varianten}{20}{subsection.2.1.4}%
-\contentsline {subsubsection}{\nonumberline Pfeilung}{20}{subsubsection*.16}%
-\contentsline {subsubsection}{\nonumberline Kr\IeC {\"u}mmung}{21}{subsubsection*.18}%
-\contentsline {subsubsection}{\nonumberline Kanten}{22}{subsubsection*.20}%
-\contentsline {section}{\numberline {2.2}Wiedereintrittsbedingungen}{22}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Das Air-Launchsystem Valkyrie}{22}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Modellentwurf}{23}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Systemanforderungen}{23}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Leistungsanforderungen}{23}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Anforderungen an die Kosten}{23}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Thermische Anforderungen}{23}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}...}{23}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Morphologischer Kasten}{23}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Komponentenrecherche und -auswahl}{23}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Gitterdesign}{23}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Aktuator}{23}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Getriebe}{23}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Peripherie}{23}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Festlegung des Modelldesigns}{23}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Modellierung des Modells}{23}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Systemanalyse}{24}{chapter.4}%
-\contentsline {section}{\numberline {4.1}FEM-Analyse}{24}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Betriebssimulation}{24}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Systemoptimierung}{24}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Systembewertung}{24}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Fazit}{24}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{25}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{26}{chapter.5}%
-\contentsline {chapter}{Abbildungsverzeichnis}{26}{chapter*.21}%
-\contentsline {chapter}{Tabellenverzeichnis}{28}{chapter*.22}%
-\contentsline {chapter}{Symbolverzeichnis}{29}{chapter*.24}%
-\contentsline {chapter}{\numberline {A}Projektmanagement}{30}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Work Breakdown Structure}{30}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Zeitplan}{32}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Work Package Description}{34}{section.A.3}%
+\contentsline {chapter}{\numberline {1}Grundlagen}{8}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Grid Fins als Steuerelement von Flugk\IeC {\"o}rpern im Hyperschall}{8}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Aufbau}{8}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Str\IeC {\"o}mung durch Grid Fins}{10}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Aerodynamische Beiwerte und Vergleich zu planaren Finnen}{11}{subsection.1.1.3}%
+\contentsline {subsubsection}{\nonumberline Normalkraft}{11}{subsubsection*.6}%
+\contentsline {subsubsection}{\nonumberline Axialkraft}{12}{subsubsection*.8}%
+\contentsline {subsubsection}{\nonumberline Gelenkmoment}{12}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline Stabilit\IeC {\"a}t}{13}{subsubsection*.12}%
+\contentsline {subsubsection}{\nonumberline Anstellwinkelcharakteristika}{14}{subsubsection*.14}%
+\contentsline {subsection}{\numberline {1.1.4}Grid Fin Varianten}{15}{subsection.1.1.4}%
+\contentsline {subsubsection}{\nonumberline Pfeilung}{15}{subsubsection*.16}%
+\contentsline {subsubsection}{\nonumberline Kr\IeC {\"u}mmung}{18}{subsubsection*.18}%
+\contentsline {subsubsection}{\nonumberline Kanten}{19}{subsubsection*.20}%
+\contentsline {subsubsection}{\nonumberline Zellform}{19}{subsubsection*.22}%
+\contentsline {section}{\numberline {1.2}Bisherige Implementierung}{20}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Wiedereintrittsbedingungen}{20}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Das Air-Launchsystem Valkyrie}{20}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Modellentwurf}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Systemanforderungen}{21}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Leistungsanforderungen}{21}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Anforderungen an die Kosten}{21}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Thermische Anforderungen}{21}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}...}{21}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Morphologischer Kasten}{21}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Komponentenrecherche und -auswahl}{21}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Gitterdesign}{21}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Aktuator}{21}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Getriebe}{21}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Peripherie}{21}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Festlegung des Modelldesigns}{21}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Modellierung des Modells}{21}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Systemanalyse}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}FEM-Analyse}{22}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Betriebssimulation}{22}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Systemoptimierung}{22}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Systembewertung}{22}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Fazit}{22}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Zusammenfassung und Ausblick}{23}{chapter.4}%
+\contentsline {chapter}{Literaturverzeichnis}{24}{chapter.4}%
+\contentsline {chapter}{Abbildungsverzeichnis}{24}{chapter*.23}%
+\contentsline {chapter}{Tabellenverzeichnis}{26}{chapter*.24}%
+\contentsline {chapter}{Symbolverzeichnis}{27}{chapter*.26}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

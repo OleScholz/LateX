@@ -1,50 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{starShipUserGuide}
-{SpaceX}.
-\newblock {Star Ship User's Guide}.
-\newblock \url{https://www.spacex.com/media/starship_users_guide_v1.pdf}, 2020.
-\newblock Zugriff: 25.04.2021.
-
-\bibitem{falconUserGuide}
-{SpaceX}.
-\newblock {Falcon User's Guide}.
-\newblock \url{https://www.spacex.com/media/Falcon_Users_Guide_082020.pdf},
-  2020.
-\newblock Zugriff: 25.04.2021.
-
-\bibitem{electronRocketLab}
-Rocket lab launches electron flight 8. company previews first stage recovery.
-\newblock
-  \url{https://www.nasaspaceflight.com/2019/08/rocket-lab-electron-flight-8-towards-first-stage-recovery},
-  2019.
-\newblock Zugriff: 25.04.2021.
-
-\bibitem{flugbahnBarz}
-Ina Barz.
-\newblock {Untersuchung effizienter Algorithmen zur Trajektorienoptimierung von
-  AirLaunch-Raketen}.
-\newblock Studienarbeit, TU Braunschweig, April 2021.
-
-\bibitem{GAIA}
-{GAIA Aerospace}.
-\newblock {Valkyire, Die erste wiederverwendbare AirLaunch-Rakete}.
-\newblock \url{https://www.gaia-aerospace.com/research/}.
-\newblock Zugriff: 25.04.2021.
-
-\bibitem{vergleichPlanar}
-{Salman Munawa}.
-\newblock {Analysis of Grid Fins as Efficient Control Surface in Comparison to
-  Conventional Planar Fins}.
-\newblock In {\em 27th international congress of the aeronautical sciences},
-  2009.
-
-\bibitem{sehnenlaenge}
-M.~Tripathi, M.M. Sucheendran, and A.~Misra.
-\newblock Effect of aspect ratio variation on subsonic aerodynamics of cascade
-  type grid fin at different gap-to-chord ratios.
-\newblock {\em The Aeronautical Journal}, 124(1274):472–498, 2020.
-
 \bibitem{zellform}
 Fumiya Hiroshima and Kaoru Tatsumi.
 \newblock Grid pattern effects on aerodynamic characteristics of grid fins.
@@ -74,9 +29,43 @@ James Kless and Michael Aftosmis.
 \newblock {\em Analysis of Grid Fins for Launch Abort Vehicle Using a Cartesian
   Euler Solver}.
 
+\bibitem{vergleichPlanar}
+{Salman Munawa}.
+\newblock {Analysis of Grid Fins as Efficient Control Surface in Comparison to
+  Conventional Planar Fins}.
+\newblock In {\em 27th international congress of the aeronautical sciences},
+  2009.
+
 \bibitem{LambdaKonf}
 WM. WASHINGTON, PAMELA BOOTH, and MARK MILLER.
 \newblock {\em Curvature and leading edge sweep back effects on grid fin
   aerodynamic characteristics}.
+
+\bibitem{PfeilG3}
+Marco Debiasi, Zeng Yan, and Tat Chng.
+\newblock Swept-back grid fins for transonic drag reduction.
+\newblock 06 2010.
+
+\bibitem{PfeilG1}
+Parisa dehghani and Miralam Mahdi.
+\newblock Numerical analysis of the effect of sweep-back angle on the stability
+  derivatives of the grid fin.
+\newblock {\em Journal of the Brazilian Society of Mechanical Sciences and
+  Engineering}, 41, 07 2019.
+
+\bibitem{PfeilG2}
+G~Faza, H~Fadillah, Faber Silitonga, and Mochammad Moelyadi.
+\newblock Study of swept angle effects on grid fins aerodynamics performance.
+\newblock {\em Journal of Physics: Conference Series}, 1005:012013, 04 2018.
+
+\bibitem{PeakValley}
+Daniel Guyot and Erich Schülein.
+\newblock Novel locally swept lattice wings for missile control at high speeds.
+\newblock pages 1--15, 01 2007.
+
+\bibitem{Pattern}
+Fumiya Hiroshima and Kaoru Tatsumi.
+\newblock Grid pattern effects on aerodynamic characteristics of grid fins.
+\newblock 2004.
 
 \end{thebibliography}
