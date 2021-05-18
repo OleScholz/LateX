@@ -1,22 +1,21 @@
 \babel@toc {ngerman}{}
-\contentsline {chapter}{\numberline {1}Grundlagen}{8}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Grid Fins als Steuerelement von Flugk\IeC {\"o}rpern im Hyperschall}{8}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Aufbau}{8}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Str\IeC {\"o}mung durch Grid Fins}{10}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Aerodynamische Beiwerte und Vergleich zu planaren Finnen}{11}{subsection.1.1.3}%
-\contentsline {subsubsection}{\nonumberline Normalkraft}{11}{subsubsection*.6}%
-\contentsline {subsubsection}{\nonumberline Axialkraft}{12}{subsubsection*.8}%
-\contentsline {subsubsection}{\nonumberline Gelenkmoment}{12}{subsubsection*.10}%
-\contentsline {subsubsection}{\nonumberline Stabilit\IeC {\"a}t}{13}{subsubsection*.12}%
-\contentsline {subsubsection}{\nonumberline Anstellwinkelcharakteristika}{14}{subsubsection*.14}%
-\contentsline {subsection}{\numberline {1.1.4}Grid Fin Varianten}{15}{subsection.1.1.4}%
-\contentsline {subsubsection}{\nonumberline Pfeilung}{15}{subsubsection*.16}%
+\contentsline {chapter}{\numberline {1}Grundlagen}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Grid Fins als Steuerelement von Flugk\IeC {\"o}rpern im Hyperschall}{7}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Aufbau}{7}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Str\IeC {\"o}mung durch Grid Fins}{9}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Aerodynamische Beiwerte und Vergleich zu planaren Finnen}{10}{subsection.1.1.3}%
+\contentsline {subsubsection}{\nonumberline Normalkraft}{10}{subsubsection*.6}%
+\contentsline {subsubsection}{\nonumberline Axialkraft}{11}{subsubsection*.8}%
+\contentsline {subsubsection}{\nonumberline Gelenkmoment}{11}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline Stabilit\IeC {\"a}t}{12}{subsubsection*.12}%
+\contentsline {subsubsection}{\nonumberline Anstellwinkelcharakteristika}{13}{subsubsection*.14}%
+\contentsline {subsection}{\numberline {1.1.4}Grid Fin Varianten}{14}{subsection.1.1.4}%
+\contentsline {subsubsection}{\nonumberline Pfeilung}{14}{subsubsection*.16}%
 \contentsline {subsubsection}{\nonumberline Kr\IeC {\"u}mmung}{18}{subsubsection*.18}%
-\contentsline {subsubsection}{\nonumberline Kanten}{19}{subsubsection*.20}%
+\contentsline {subsubsection}{\nonumberline Wandquerschnitt}{18}{subsubsection*.20}%
 \contentsline {subsubsection}{\nonumberline Zellform}{19}{subsubsection*.22}%
 \contentsline {section}{\numberline {1.2}Bisherige Implementierung}{20}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Wiedereintrittsbedingungen}{20}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Das Air-Launchsystem Valkyrie}{20}{section.1.4}%
+\contentsline {section}{\numberline {1.3}Das Air-Launchsystem Valkyrie}{20}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Modellentwurf}{21}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Systemanforderungen}{21}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Leistungsanforderungen}{21}{subsection.2.1.1}%
