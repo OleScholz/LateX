@@ -1,5 +1,50 @@
 \begin{thebibliography}{10}
 
+\bibitem{starShipUserGuide}
+{SpaceX}.
+\newblock {Star Ship User's Guide}.
+\newblock \url{https://www.spacex.com/media/starship_users_guide_v1.pdf}, 2020.
+\newblock Zugriff: 25.04.2021.
+
+\bibitem{falconUserGuide}
+{SpaceX}.
+\newblock {Falcon User's Guide}.
+\newblock \url{https://www.spacex.com/media/Falcon_Users_Guide_082020.pdf},
+  2020.
+\newblock Zugriff: 25.04.2021.
+
+\bibitem{electronRocketLab}
+Rocket lab launches electron flight 8. company previews first stage recovery.
+\newblock
+  \url{https://www.nasaspaceflight.com/2019/08/rocket-lab-electron-flight-8-towards-first-stage-recovery},
+  2019.
+\newblock Zugriff: 25.04.2021.
+
+\bibitem{flugbahnBarz}
+Ina Barz.
+\newblock {Untersuchung effizienter Algorithmen zur Trajektorienoptimierung von
+  AirLaunch-Raketen}.
+\newblock Studienarbeit, TU Braunschweig, April 2021.
+
+\bibitem{GAIA}
+{GAIA Aerospace}.
+\newblock {Valkyire, Die erste wiederverwendbare AirLaunch-Rakete}.
+\newblock \url{https://www.gaia-aerospace.com/research/}.
+\newblock Zugriff: 25.04.2021.
+
+\bibitem{vergleichPlanar}
+{Salman Munawa}.
+\newblock {Analysis of Grid Fins as Efficient Control Surface in Comparison to
+  Conventional Planar Fins}.
+\newblock In {\em 27th international congress of the aeronautical sciences},
+  2009.
+
+\bibitem{sehnenlaenge}
+M.~Tripathi, M.M. Sucheendran, and A.~Misra.
+\newblock Effect of aspect ratio variation on subsonic aerodynamics of cascade
+  type grid fin at different gap-to-chord ratios.
+\newblock {\em The Aeronautical Journal}, 124(1274):472–498, 2020.
+
 \bibitem{zellform}
 Fumiya Hiroshima and Kaoru Tatsumi.
 \newblock Grid pattern effects on aerodynamic characteristics of grid fins.
@@ -11,10 +56,14 @@ Marco Debiasi, Zeng Yan, and Tat Chng.
 \newblock 06 2010.
 
 \bibitem{synopsis}
-Mark~S. Miller and Wm.~David Washington, 1998.
+Mark~S. Miller and Wm.~David Washington.
+\newblock North Atlantic Treaty Organization, Research and Technology
+  Organisation, 1998.
 
 \bibitem{machgrenzen}
-Mark~S. Miller and Wm.~David Washington, 1998.
+Mark~S. Miller and Wm.~David Washington.
+\newblock North Atlantic Treaty Organization, Research and Technology
+  Organisation, 1998.
 
 \bibitem{stroemung}
 Montgomery Hughson, Eric Blades, Edward Luke, and Gregg Abate.
@@ -22,19 +71,14 @@ Montgomery Hughson, Eric Blades, Edward Luke, and Gregg Abate.
 \newblock 06 2007.
 
 \bibitem{vergleichPlanarNATO}
-G.~M. Simpson, 1998.
+G.~M. Simpson.
+\newblock North Atlantic Treaty Organization, Research and Technology
+  Organisation, 1998.
 
 \bibitem{solver}
 James Kless and Michael Aftosmis.
 \newblock {\em Analysis of Grid Fins for Launch Abort Vehicle Using a Cartesian
   Euler Solver}.
-
-\bibitem{vergleichPlanar}
-{Salman Munawa}.
-\newblock {Analysis of Grid Fins as Efficient Control Surface in Comparison to
-  Conventional Planar Fins}.
-\newblock In {\em 27th international congress of the aeronautical sciences},
-  2009.
 
 \bibitem{LambdaKonf}
 WM. WASHINGTON, PAMELA BOOTH, and MARK MILLER.
@@ -72,5 +116,26 @@ Mark Miller and Wm. Washington.
 Fumiya Hiroshima and Kaoru Tatsumi.
 \newblock Grid pattern effects on aerodynamic characteristics of grid fins.
 \newblock 2004.
+
+\bibitem{ChordVar}
+Manish Tripathi, Mahesh Sucheendran, and Ajay Misra.
+\newblock {\em Effect of Chord Variation on Subsonic Aerodynamics of Grid
+  Fins}, pages 105--128.
+\newblock 01 2021.
+
+\bibitem{titanium}
+{Eric Ralph}.
+\newblock {SpaceX to replace Falcon 9’s titanium grid fins with steel on
+  Starship’s Super Heavy booster}.
+\newblock
+  \url{https://www.teslarati.com/spacex-starship-super-heavy-grid-fins-titanium-to-steel/}.
+\newblock Zugriff: 21.05.2021.
+
+\bibitem{soyuz}
+{Jeff Scott}.
+\newblock {SpaceX to replace Falcon 9’s titanium grid fins with steel on
+  Starship’s Super Heavy booster}.
+\newblock \url{http://www.aerospaceweb.org/question/weapons/q0261.shtml}.
+\newblock Zugriff: 22.05.2021.
 
 \end{thebibliography}
