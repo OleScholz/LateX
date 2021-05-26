@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  25 MAY 2021 16:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  26 MAY 2021 11:20
 entering extended mode
 **./Bachelorarbeit.tex
 (Bachelorarbeit.tex
@@ -1959,7 +1959,7 @@ chapter 1.
 File: ./graphics//Starship_orbit.jpg Graphic file (type jpg)
 <use ./graphics//Starship_orbit.jpg>
 Package pdftex.def Info: ./graphics//Starship_orbit.jpg  used on input line 6.
-(pdftex.def)             Requested size: 324.64456pt x 182.61539pt.
+(pdftex.def)             Requested size: 301.45415pt x 169.56848pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--15
 
@@ -1978,12 +1978,15 @@ File: ./graphics//fins_extended.jpg Graphic file (type jpg)
 <use ./graphics//fins_extended.jpg>
 Package pdftex.def Info: ./graphics//fins_extended.jpg  used on input line 24.
 (pdftex.def)             Requested size: 371.02539pt x 247.34682pt.
-[9]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 30--33
 
  []
 
-[10 <./graphics//fins_extended.jpg>]) [11]
+[9] [10 <./graphics//fins_extended.jpg>]) [11]
 \openout2 = `grundlagen.aux'.
 
  (grundlagen.tex
@@ -2186,7 +2189,7 @@ File: ./graphics//starship.png Graphic file (type png)
 Package pdftex.def Info: ./graphics//starship.png  used on input line 243.
 (pdftex.def)             Requested size: 463.77998pt x 96.12228pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--248
+Underfull \hbox (badness 10000) in paragraph at lines 240--250
 
  []
 
@@ -2194,16 +2197,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--248
 <./graphics//sojus.png, id=507, 126.4725pt x 211.992pt>
 File: ./graphics//sojus.png Graphic file (type png)
 <use ./graphics//sojus.png>
-Package pdftex.def Info: ./graphics//sojus.png  used on input line 252.
+Package pdftex.def Info: ./graphics//sojus.png  used on input line 254.
 (pdftex.def)             Requested size: 139.1354pt x 233.22102pt.
  [29 <./graphics//fins-F9.png> <./graphics//starship.png>]
 <./graphics//chang'e.png, id=515, 492.03825pt x 211.992pt>
 File: ./graphics//chang'e.png Graphic file (type png)
 <use ./graphics//chang'e.png>
-Package pdftex.def Info: ./graphics//chang'e.png  used on input line 263.
+Package pdftex.def Info: ./graphics//chang'e.png  used on input line 265.
 (pdftex.def)             Requested size: 463.77998pt x 199.81917pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--268
+Underfull \hbox (badness 10000) in paragraph at lines 262--272
 
  []
 
@@ -2211,26 +2214,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--268
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [30 <./graphics//sojus.png>]
-<./graphics//ablauf_valkyrie_zeitlos.png, id=526, 634.7715pt x 440.847pt>
+<./graphics//ablauf_valkyrie_zeitlos.png, id=527, 634.7715pt x 440.847pt>
 File: ./graphics//ablauf_valkyrie_zeitlos.png Graphic file (type png)
 <use ./graphics//ablauf_valkyrie_zeitlos.png>
 Package pdftex.def Info: ./graphics//ablauf_valkyrie_zeitlos.png  used on input
- line 275.
+ line 280.
 (pdftex.def)             Requested size: 371.02539pt x 257.68256pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--280
-
- []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [31 <./graphics//chang'e.png>] [32 <./graphics//ablauf_valkyrie_zeitlos.png>]
+[31 <./graphics//chang'e.png>]
+<./graphics//stage1aufbau.png, id=538, 739.563pt x 493.24275pt>
+File: ./graphics//stage1aufbau.png Graphic file (type png)
+<use ./graphics//stage1aufbau.png>
+Package pdftex.def Info: ./graphics//stage1aufbau.png  used on input line 291.
+(pdftex.def)             Requested size: 417.39914pt x 278.38914pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[32 <./graphics//ablauf_valkyrie_zeitlos.png>] [33 <./graphics//stage1aufbau.pn
+g>]
 \openout2 = `modellentwurf.aux'.
 
-(modellentwurf.tex
+ (modellentwurf.tex
 chapter 3.
-) [33
+) [34
 
 
 
@@ -2240,7 +2250,7 @@ chapter 3.
 
  (simulation.tex
 chapter 4.
-) [34
+) [35
 
 
 
@@ -2250,7 +2260,7 @@ chapter 4.
 
  (zusammenfassung.tex
 chapter 5.
-) [35
+) [36
 
 
 
@@ -2281,7 +2291,7 @@ age-[]recovery$[]\LY1/NexusProSerif/m/n/10.95 , 2019.  Zu-griff:
 
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [36
+) [37
 
 
 
@@ -2297,7 +2307,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--133
 LY1/txtt/m/n/10.95 https : / / www . teslarati . com /
  []
 
-) [37] (Bachelorarbeit.lof
+) [38] (Bachelorarbeit.lof
 Overfull \hbox (3.52203pt too wide) in paragraph at lines 15--15
  \LY1/NexusProSerif/m/n/10.95 zum un-ge-pfeil-ten Grid Fin in Ab-hän-gig-keit v
 om kon-fi-gu-rel-len Pfei-lungs-win-kel $\OT1/zplm/m/n/10.95 []$ 
@@ -2313,24 +2323,21 @@ ieb/Widerstand-Verhältnis (rechts) in Ab-
 \tf@lof=\write12
 \openout12 = `Bachelorarbeit.lof'.
 
- [38
+ [39
 
 ] (Bachelorarbeit.lot)
 \tf@lot=\write13
 \openout13 = `Bachelorarbeit.lot'.
 
- [39
+ [40
 
 ]
 \openout2 = `symbole.aux'.
 
- (symbole.tex
-Overfull \vbox (2.41pt too high) has occurred while \output is active []
-
- [40
+ (symbole.tex [41
 
 
-])
+]) [42]
 
 Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              You should note, that `\appendix' is a mostly globally
@@ -2350,7 +2357,7 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[41
+[43
 
 
 ]
@@ -2381,11 +2388,11 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47528 strings out of 479799
- 1133704 string characters out of 2870198
- 1726855 words of memory out of 3000000
- 63332 multiletter control sequences out of 15000+200000
- 674726 words of font info for 147 fonts, out of 3000000 for 9000
+ 47540 strings out of 479799
+ 1133972 string characters out of 2870198
+ 1727910 words of memory out of 3000000
+ 63339 multiletter control sequences out of 15000+200000
+ 679531 words of font info for 149 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,23n,126p,10639b,824s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:Index:Z} has been referenced but does not exi
@@ -2485,9 +2492,9 @@ pazo/fplmri.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /txfonts/t1xtt.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw
 /palatino/uplr8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/palatino/uplri8a.pfb>
-Output written on Bachelorarbeit.pdf (41 pages, 5182136 bytes).
+Output written on Bachelorarbeit.pdf (43 pages, 5363393 bytes).
 PDF statistics:
- 862 PDF objects out of 1000 (max. 8388607)
- 175 named destinations out of 1000 (max. 500000)
- 676 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 877 PDF objects out of 1000 (max. 8388607)
+ 178 named destinations out of 1000 (max. 500000)
+ 681 words of extra memory for PDF output out of 10000 (max. 10000000)
 

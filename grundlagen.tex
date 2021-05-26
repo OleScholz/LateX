@@ -241,7 +241,9 @@ Die größte Änderung ist wohl die Materialwahl. Hierbei ist die Entscheidung w
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{starship.png}
-	\flushbottom{Quelle: SpaceX}
+	\begin{flushright}
+		\flushbottom{Quelle: SpaceX}
+	\end{flushright}
 	\caption{SpaceX's Starship inklusive Super Heavy Booster}
 	\label{abb_starship}
 \end{figure}\\
@@ -261,13 +263,16 @@ Auch in Chinas Raumfahrtbrache habe Grid Fins ihren Einzug erfahren. Das Bild in
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{chang'e.png}
-	\flushbottom{Quelle: China Aerospace Science and Technology Corporation}
+	\begin{flushright}
+		\flushbottom{Quelle: China Aerospace Science and Technology Corporation}
+	\end{flushright}
 	\caption{Die Grid Fins der chinesischen Chang'e}
 	\label{abb_change}
 \end{figure}\\
 \newpage
 \section{Das Air-Launchsystem Valkyrie}
-Um die Anforderungen an eine Grid Fin Aktuatorik definieren zu können, ist eine vorherige Betrachtung der Mission von Nöten, diese, wie in Abbildung \ref{abb_valkMission} dargestellt, wird in diesem Abschnitt erläutert. Wie schon in der Einleitung erwähnt, handelt es sich bei der Valkyrie um ein wiederverwendbares, zweistufiges AirLaunch-System.  Relevant ist für diese Arbeit nur die Erste Stufe, an der die Grid Fins montiert sind.
+Um die Anforderungen an eine Grid Fin Aktuatorik definieren zu können, ist eine vorherige Betrachtung der Mission von Nöten. Wie schon in der Einleitung erwähnt, handelt es sich bei der Valkyrie um ein wiederverwendbares, zweistufiges AirLaunch-System.  Relevant ist für diese Arbeit nur die Erste Stufe, an der die Grid Fins montiert sind. Abbildung \ref{abb_valkMission} zeigt die einzelnen Flugphasen der Rakete und wird im Folgenden beschrieben.
+Danach wird noch auf dem Aufbau der Ersten Stufe, wie in Abbildung \ref{abb_1stage} zu sehen, eingegangen.
 
 Die Rakete wird an einem Flugzeug befestigt auf eine typische Reisehöhe von $11$km gebracht \cite{flugbahnBarz}. Dort wird sie von den Pylonen gelöst und nach $3$s zünden die Triebwerke der ersten Stufe. Nach eine Brenndauer von $170$s\textbf{???} werden diese wieder abgeschaltet und $5$s später kommt es zur Separation der beiden Stufen \cite{flugbahnBarz}. Während kurze Zeit später die zweite Stufe ihre Triebwerke zündet, um die Nutzlast in den Orbit zu befördern, bewegt sich die erste Stufe ohne weiteren Antrieb auf ihrer Suborbitalen Bahn fort. Dabei benutzt sie ihr Reaction Control System (RCS), um die Raketenstufe so zu drehen, dass beim Wiedereintritt die Triebwerke der Anströmung entgegen zeigen. Somit kann ein ungefähr $27$s\textbf{???} langer ReEntry-Burn durchgeführt werden, der die Fluggeschwindigkeit weit genug abbremst, um die Belastungen beim Wiedereintritt zu reduzieren. Des Weiteren sollen die Triebwerke in der Atmosphäre die Raketenstufe dank ihrer hohen thermischen Belastbarkeit durch aerodynamischen Widerstand weiter abbremsen. Noch vor dem ReEntry-Burn sollen die Grid Fins ausgefahren werden. Diese sorgen während des Fluges durch die Atmosphäre für Stabilität und Steuerbarkeit. Bei einer Höhe von unter $20$km und einer Geschwindigkeit $Ma<2$ wird der Ballonschirm eingesetzt \cite{flugbahnBarz}. Dieser bremst die Rakete weiter bis in den Unterschall ab, sodass ein Fallschirm geöffnet werden kann. Der wiederum eine Bergung mittels Helikopter und Skyhook ermöglicht.
 \begin{figure}[h]
@@ -277,4 +282,16 @@ Die Rakete wird an einem Flugzeug befestigt auf eine typische Reisehöhe von $11
 	\caption{Der Ablauf einer Valkyrie Mission}
 	\label{abb_valkMission}
 \end{figure}\\
+Abbildung \ref{abb_1stage} zeigt die erste Stufe mit $9$ ringförmig angeordneten Triebwerken, die aus den darüber befindlichen RP-1- (Rocket Propellant 1) und LOX- (Liquid Oxygen) Tanks gespeist werden. Über diesen Tanks befindet sich ein weiterer mit Helium gefüllter. Dieser sorgt für den Druckausgleich, wenn Treibstoff und Oxidator durch eine elektrische Pumpe zu den Treibwerken befördert werden, und wir auch für das RCS verwendet. Oberhalb davon befindet sich die Elektronik der ersten Stufe und die beiden Schirme zur Abbremsung beim Wiedereintritt. Es folgt die Interstage und zweite Stufe.
+In der Nähe der Triebwerke sind vier Finards aus Titan\textbf{???} gleichmäßig um den Radius der Rakete verteilt angebracht. Am anderen Ende der ersten Stufe oberhalb der Elektronik befindet sich das RCS mit seinen vier Pyramidenstümpfen \cite{flugbahnBarz}, die durch kurze Gasimpulse ein Moment erzeugen, um die Lage der Rakete zu ändern. Auf der gleichen Höhe sollen auch die vier Grid Fins montiert werden.
 
+Die erste Stufe besitzt eine Länge von 7,356m und einen Durchmesser von 1,1m. Die Außenhülle soll auch Edelstahl gefertigt werden, somit hätte diese Stufe eine Masse von 5293kg\textbf{???}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{stage1aufbau.png}
+	\begin{flushright}
+		\flushbottom{Quelle: GAIA Aerospace}
+	\end{flushright}
+	\caption{Aufbau der Valkyrie \textbf{???}}
+	\label{abb_1stage}
+\end{figure}
