@@ -121,14 +121,17 @@
   \include{aufgabenstellung}
   \include{eid}
   \include{abstract}
+  \pagestyle{empty}
   \tableofcontents
   \newpage
-   \glossarystyle{altlong4col}%
-    \setlength{\glsdescwidth}{0.7\textwidth}
-  \include{symbolverzeichnis}
-  \include{abkverzeichnis} 
-  \glsaddall
+  % \glossarystyle{altlong4col}%
+  %  \setlength{\glsdescwidth}{0.7\textwidth}
+  %\include{symbolverzeichnis}
+  %\include{abkverzeichnis} 
+  %\glsaddall
   
+  \pagestyle{headings}
+  \pagenumbering{arabic}
   \include{einleitung}
   \include{grundlagen}
   \include{modellentwurf}
@@ -178,7 +181,7 @@
   %
   %---------------------------------
   \begin{appendix}
-    %\include{projekt}
+    \include{projekt}
     %\include{WEITERER ANHANG}
   \end{appendix}
 

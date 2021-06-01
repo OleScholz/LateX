@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  26 MAY 2021 11:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  1 JUN 2021 23:00
 entering extended mode
 **./Bachelorarbeit.tex
 (Bachelorarbeit.tex
@@ -1646,8 +1646,8 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count382
 \l__pdf_internal_box=\box95
 ) (Bachelorarbeit.aux (aufgabenstellung.aux) (eid.aux) (abstract.aux)
-(symbolverzeichnis.aux) (abkverzeichnis.aux) (einleitung.aux) (grundlagen.aux)
-(modellentwurf.aux) (simulation.aux) (zusammenfassung.aux) (symbole.aux))
+(einleitung.aux) (grundlagen.aux) (modellentwurf.aux) (simulation.aux)
+(zusammenfassung.aux) (symbole.aux) (projekt.aux))
 \openout1 = `Bachelorarbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
@@ -1929,64 +1929,60 @@ File: LY1NexusProSerif-lnum.fd Fontshop NexusProSerif-lnum font definitions
 \openout10 = `Bachelorarbeit.toc'.
 
  [6]
-
-Package glossaries Warning: Deprecated command \glossarystyle.
- I recommend you switch to \setglossarystyle unless you want to maintain backwa
-rd compatibility on input line 126.
-
-\openout2 = `symbolverzeichnis.aux'.
-
-(symbolverzeichnis.tex
-\@gls@deffile=\write11
-\openout11 = `Bachelorarbeit.glsdefs'.
-
-)
-\openout2 = `abkverzeichnis.aux'.
-
- (abkverzeichnis.tex) [7
-
-
-
-
-
-
-]
 \openout2 = `einleitung.aux'.
 
  (einleitung.tex
 chapter 1.
-<./graphics//Starship_orbit.jpg, id=188, 1204.5pt x 677.53125pt>
+<./graphics//Starship_orbit.jpg, id=189, 1204.5pt x 677.53125pt>
 File: ./graphics//Starship_orbit.jpg Graphic file (type jpg)
 <use ./graphics//Starship_orbit.jpg>
 Package pdftex.def Info: ./graphics//Starship_orbit.jpg  used on input line 6.
-(pdftex.def)             Requested size: 301.45415pt x 169.56848pt.
+(pdftex.def)             Requested size: 347.83498pt x 195.65196pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--15
+Underfull \hbox (badness 10000) in paragraph at lines 3--17
 
  []
 
-[8
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17 
+      [1
 
 
  <./graphics//Starship_orbit.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 18--21
+Underfull \hbox (badness 10000) in paragraph at lines 20--23
 
  []
 
-<./graphics//fins_extended.jpg, id=204, 1204.5pt x 803.0pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 
+      [2]
+<./graphics//fins_extended.jpg, id=215, 1204.5pt x 803.0pt>
 File: ./graphics//fins_extended.jpg Graphic file (type jpg)
 <use ./graphics//fins_extended.jpg>
-Package pdftex.def Info: ./graphics//fins_extended.jpg  used on input line 24.
+Package pdftex.def Info: ./graphics//fins_extended.jpg  used on input line 26.
 (pdftex.def)             Requested size: 371.02539pt x 247.34682pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--33
+Underfull \hbox (badness 10000) in paragraph at lines 34--37
 
  []
 
-[9] [10 <./graphics//fins_extended.jpg>]) [11]
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.39 
+      [3 <./graphics//fins_extended.jpg>])pdfTeX warning (ext4): destination wi
+th the same identifier (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.135   \include{einleitung}
+                             [4]
 \openout2 = `grundlagen.aux'.
 
  (grundlagen.tex
@@ -2011,7 +2007,12 @@ Package pdftex.def Info: ./graphics//Winkel.png  used on input line 20.
 (pdftex.def)             Requested size: 371.02539pt x 292.06288pt.
 Class scrreprt Info: Workaround for not recommended usage of \\ or
 (scrreprt)           \newlinein caption text  on input line 21.
-[12
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 \newpage
+              [5
 
 
 
@@ -2020,237 +2021,271 @@ Class scrreprt Info: Workaround for not recommended usage of \\ or
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <./graphics//Parameter.png>]
-<./graphics//swallow.png, id=292, 650.43pt x 443.256pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 \newpage
+              [6 <./graphics//Parameter.png>]
+<./graphics//swallow.png, id=289, 650.43pt x 443.256pt>
 File: ./graphics//swallow.png Graphic file (type png)
 <use ./graphics//swallow.png>
 Package pdftex.def Info: ./graphics//swallow.png  used on input line 35.
-(pdftex.def)             Requested size: 324.64456pt x 221.24193pt.
+(pdftex.def)             Requested size: 292.18364pt x 199.11841pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--41
+Underfull \hbox (badness 10000) in paragraph at lines 28--43
 
  []
 
-[14 <./graphics//Winkel.png>] [15 <./graphics//swallow.png>]
-<./graphics//kraefte.png, id=316, 694.39426pt x 456.5055pt>
+[7 <./graphics//Winkel.png>] [8 <./graphics//swallow.png>]
+<./graphics//kraefte.png, id=314, 694.39426pt x 456.5055pt>
 File: ./graphics//kraefte.png Graphic file (type png)
 <use ./graphics//kraefte.png>
-Package pdftex.def Info: ./graphics//kraefte.png  used on input line 51.
+Package pdftex.def Info: ./graphics//kraefte.png  used on input line 53.
 (pdftex.def)             Requested size: 278.27081pt x 182.94028pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--55
+Underfull \hbox (badness 10000) in paragraph at lines 50--57
 
  []
 
-<./graphics//bucket.png, id=321, 425.1885pt x 442.0515pt>
+<./graphics//bucket.png, id=319, 425.1885pt x 442.0515pt>
 File: ./graphics//bucket.png Graphic file (type png)
 <use ./graphics//bucket.png>
-Package pdftex.def Info: ./graphics//bucket.png  used on input line 59.
-(pdftex.def)             Requested size: 278.27081pt x 289.32663pt.
+Package pdftex.def Info: ./graphics//bucket.png  used on input line 61.
+(pdftex.def)             Requested size: 245.80281pt x 255.5604pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16 <./graphics//kraefte.png>]
-<./graphics//Cd-Ma.png, id=345, 346.29375pt x 292.09125pt>
+[9 <./graphics//kraefte.png>]
+<./graphics//Cd-Ma.png, id=343, 346.29375pt x 292.09125pt>
 File: ./graphics//Cd-Ma.png Graphic file (type png)
 <use ./graphics//Cd-Ma.png>
-Package pdftex.def Info: ./graphics//Cd-Ma.png  used on input line 72.
+Package pdftex.def Info: ./graphics//Cd-Ma.png  used on input line 76.
 (pdftex.def)             Requested size: 177.3959pt x 149.63309pt.
 
-Underfull \hbox (badness 2359) in paragraph at lines 74--74
+Underfull \hbox (badness 1412) in paragraph at lines 80--80
 [][]\LY1/NexusProSerif/m/n/10 Axialkraft (hier CD) bei un-ter-
  []
 
 
-Underfull \hbox (badness 5756) in paragraph at lines 74--74
+Underfull \hbox (badness 2600) in paragraph at lines 80--80
 \LY1/NexusProSerif/m/n/10 schied-li-chen An-stell-win-keln in
  []
 
-<./graphics//gelenkmomentMa.png, id=347, 362.5545pt x 290.88675pt>
+<./graphics//gelenkmomentMa.png, id=345, 362.5545pt x 290.88675pt>
 File: ./graphics//gelenkmomentMa.png Graphic file (type png)
 <use ./graphics//gelenkmomentMa.png>
-Package pdftex.def Info: ./graphics//gelenkmomentMa.png  used on input line 80.
+Package pdftex.def Info: ./graphics//gelenkmomentMa.png  used on input line 86.
 
 (pdftex.def)             Requested size: 187.82834pt x 150.69827pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 [][]\LY1/NexusProSerif/m/n/10 Gelenkmomentenbeiwert bei
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 \LY1/NexusProSerif/m/n/10 un-ter-schied-li-chen An-stell-win-
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 82--82
+Underfull \hbox (badness 3989) in paragraph at lines 90--90
 \LY1/NexusProSerif/m/n/10 keln in Ab-hän-gig-keit von der
  []
 
-[17 <./graphics//bucket.png>]
-<./graphics//Cd-AoA.png, id=361, 641.9985pt x 476.982pt>
+[10 <./graphics//bucket.png>]
+<./graphics//Cd-AoA.png, id=359, 641.9985pt x 476.982pt>
 File: ./graphics//Cd-AoA.png Graphic file (type png)
 <use ./graphics//Cd-AoA.png>
-Package pdftex.def Info: ./graphics//Cd-AoA.png  used on input line 99.
+Package pdftex.def Info: ./graphics//Cd-AoA.png  used on input line 107.
 (pdftex.def)             Requested size: 231.88998pt x 172.28835pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--104
+Underfull \hbox (badness 10000) in paragraph at lines 99--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--104
+Underfull \hbox (badness 10000) in paragraph at lines 99--114
 
  []
 
-[18 <./graphics//Cd-Ma.png> <./graphics//gelenkmomentMa.png>]
-<./graphics//gelenkmoment.png, id=370, 946.13475pt x 389.65575pt>
+[11 <./graphics//Cd-Ma.png> <./graphics//gelenkmomentMa.png>]
+<./graphics//gelenkmoment.png, id=368, 946.13475pt x 389.65575pt>
 File: ./graphics//gelenkmoment.png Graphic file (type png)
 <use ./graphics//gelenkmoment.png>
-Package pdftex.def Info: ./graphics//gelenkmoment.png  used on input line 108.
+Package pdftex.def Info: ./graphics//gelenkmoment.png  used on input line 118.
 (pdftex.def)             Requested size: 371.02539pt x 152.80345pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19 <./graphics//Cd-AoA.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 117--121
+[12 <./graphics//Cd-AoA.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
 
  []
 
-[20 <./graphics//gelenkmoment.png>]
-<./graphics//PfeilKonf.png, id=391, 1024.42725pt x 350.5095pt>
+[13 <./graphics//gelenkmoment.png>]
+<./graphics//PfeilKonf.png, id=388, 1024.42725pt x 350.5095pt>
 File: ./graphics//PfeilKonf.png Graphic file (type png)
 <use ./graphics//PfeilKonf.png>
-Package pdftex.def Info: ./graphics//PfeilKonf.png  used on input line 127.
+Package pdftex.def Info: ./graphics//PfeilKonf.png  used on input line 139.
 (pdftex.def)             Requested size: 440.58955pt x 150.74823pt.
-<./graphics//PfeilGBild.png, id=394, 445.06274pt x 327.02174pt>
+<./graphics//PfeilGBild.png, id=391, 445.06274pt x 327.02174pt>
 File: ./graphics//PfeilGBild.png Graphic file (type png)
 <use ./graphics//PfeilGBild.png>
-Package pdftex.def Info: ./graphics//PfeilGBild.png  used on input line 135.
+Package pdftex.def Info: ./graphics//PfeilGBild.png  used on input line 149.
 (pdftex.def)             Requested size: 278.27081pt x 204.47789pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21 <./graphics//PfeilKonf.png>]
-<./graphics//PfeilG_Ma.png, id=410, 1125.60526pt x 431.211pt>
+[14 <./graphics//PfeilKonf.png>]
+<./graphics//PfeilG_Ma.png, id=406, 1125.60526pt x 431.211pt>
 File: ./graphics//PfeilG_Ma.png Graphic file (type png)
 <use ./graphics//PfeilG_Ma.png>
-Package pdftex.def Info: ./graphics//PfeilG_Ma.png  used on input line 145.
+Package pdftex.def Info: ./graphics//PfeilG_Ma.png  used on input line 161.
 (pdftex.def)             Requested size: 440.58955pt x 168.78352pt.
-<./graphics//PeakValley.png, id=414, 317.38576pt x 142.131pt>
+<./graphics//PeakValley.png, id=410, 317.38576pt x 142.131pt>
 File: ./graphics//PeakValley.png Graphic file (type png)
 <use ./graphics//PeakValley.png>
-Package pdftex.def Info: ./graphics//PeakValley.png  used on input line 153.
+Package pdftex.def Info: ./graphics//PeakValley.png  used on input line 171.
 (pdftex.def)             Requested size: 278.27081pt x 124.61804pt.
- [22 <./graphics//PfeilGBild.png> <./graphics//PfeilG_Ma.png>]
-<./graphics//PeakValley_Cd-Ma.png, id=429, 1009.371pt x 422.7795pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <./graphics//PfeilGBild.png>]
+<./graphics//PeakValley_Cd-Ma.png, id=427, 1009.371pt x 422.7795pt>
 File: ./graphics//PeakValley_Cd-Ma.png Graphic file (type png)
 <use ./graphics//PeakValley_Cd-Ma.png>
 Package pdftex.def Info: ./graphics//PeakValley_Cd-Ma.png  used on input line 1
-67.
+87.
 (pdftex.def)             Requested size: 417.39914pt x 174.8309pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[23 <./graphics//PeakValley.png>] [24 <./graphics//PeakValley_Cd-Ma.png>]
-<./graphics//Shape_Cd-Ma.png, id=453, 362.5545pt x 481.8pt>
+ [16 <./graphics//PfeilG_Ma.png> <./graphics//PeakValley.png>] [17 <./graphics/
+/PeakValley_Cd-Ma.png>]
+<./graphics//Shape_Cd-Ma.png, id=450, 362.5545pt x 481.8pt>
 File: ./graphics//Shape_Cd-Ma.png Graphic file (type png)
 <use ./graphics//Shape_Cd-Ma.png>
-Package pdftex.def Info: ./graphics//Shape_Cd-Ma.png  used on input line 191.
+Package pdftex.def Info: ./graphics//Shape_Cd-Ma.png  used on input line 213.
 (pdftex.def)             Requested size: 185.50916pt x 246.52342pt.
-<./graphics//Pattern_CNa.png, id=461, 475.17525pt x 380.622pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./graphics//Pattern_CNa.png, id=458, 475.17525pt x 380.622pt>
 File: ./graphics//Pattern_CNa.png Graphic file (type png)
 <use ./graphics//Pattern_CNa.png>
-Package pdftex.def Info: ./graphics//Pattern_CNa.png  used on input line 204.
+Package pdftex.def Info: ./graphics//Pattern_CNa.png  used on input line 228.
 (pdftex.def)             Requested size: 231.88998pt x 185.74557pt.
+[18]
 
-[25 <./graphics//Shape_Cd-Ma.png>] [26 <./graphics//Pattern_CNa.png>]
-<./graphics//Gap-to-Chord.png, id=480, 605.26125pt x 471.56175pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19 <./graphics//Shape_Cd-Ma.png>]
+<./graphics//Gap-to-Chord.png, id=478, 605.26125pt x 471.56175pt>
 File: ./graphics//Gap-to-Chord.png Graphic file (type png)
 <use ./graphics//Gap-to-Chord.png>
-Package pdftex.def Info: ./graphics//Gap-to-Chord.png  used on input line 218.
+Package pdftex.def Info: ./graphics//Gap-to-Chord.png  used on input line 244.
 (pdftex.def)             Requested size: 231.88998pt x 180.6632pt.
- [27 <./graphics//Gap-to-Chord.png>]
-<./graphics//fins-F9.png, id=492, 519.1395pt x 323.40825pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20 <./graphics//Pattern_CNa.png>]
+<./graphics//fins-F9.png, id=490, 519.1395pt x 323.40825pt>
 File: ./graphics//fins-F9.png Graphic file (type png)
 <use ./graphics//fins-F9.png>
-Package pdftex.def Info: ./graphics//fins-F9.png  used on input line 233.
+Package pdftex.def Info: ./graphics//fins-F9.png  used on input line 261.
 (pdftex.def)             Requested size: 347.83498pt x 216.69226pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./graphics//starship.png, id=497, 697.4055pt x 144.54pt>
+ [21 <./graphics//Gap-to-Chord.png>]
+<./graphics//starship.png, id=500, 697.4055pt x 144.54pt>
 File: ./graphics//starship.png Graphic file (type png)
 <use ./graphics//starship.png>
-Package pdftex.def Info: ./graphics//starship.png  used on input line 243.
+Package pdftex.def Info: ./graphics//starship.png  used on input line 273.
 (pdftex.def)             Requested size: 463.77998pt x 96.12228pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--250
+Underfull \hbox (badness 10000) in paragraph at lines 270--280
 
  []
 
-[28]
-<./graphics//sojus.png, id=507, 126.4725pt x 211.992pt>
+[22 <./graphics//fins-F9.png>]
+<./graphics//sojus.png, id=510, 126.4725pt x 211.992pt>
 File: ./graphics//sojus.png Graphic file (type png)
 <use ./graphics//sojus.png>
-Package pdftex.def Info: ./graphics//sojus.png  used on input line 254.
+Package pdftex.def Info: ./graphics//sojus.png  used on input line 284.
 (pdftex.def)             Requested size: 139.1354pt x 233.22102pt.
- [29 <./graphics//fins-F9.png> <./graphics//starship.png>]
-<./graphics//chang'e.png, id=515, 492.03825pt x 211.992pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./graphics//chang'e.png, id=512, 492.03825pt x 211.992pt>
 File: ./graphics//chang'e.png Graphic file (type png)
 <use ./graphics//chang'e.png>
-Package pdftex.def Info: ./graphics//chang'e.png  used on input line 265.
+Package pdftex.def Info: ./graphics//chang'e.png  used on input line 297.
 (pdftex.def)             Requested size: 463.77998pt x 199.81917pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--272
+Underfull \hbox (badness 10000) in paragraph at lines 294--304
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30 <./graphics//sojus.png>]
-<./graphics//ablauf_valkyrie_zeitlos.png, id=527, 634.7715pt x 440.847pt>
+[23 <./graphics//starship.png>]
+<./graphics//ablauf_valkyrie_zeitlos.png, id=525, 634.7715pt x 440.847pt>
 File: ./graphics//ablauf_valkyrie_zeitlos.png Graphic file (type png)
 <use ./graphics//ablauf_valkyrie_zeitlos.png>
 Package pdftex.def Info: ./graphics//ablauf_valkyrie_zeitlos.png  used on input
- line 280.
+ line 312.
 (pdftex.def)             Requested size: 371.02539pt x 257.68256pt.
-
+ [24 <./graphics//sojus.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31 <./graphics//chang'e.png>]
-<./graphics//stage1aufbau.png, id=538, 739.563pt x 493.24275pt>
+<./graphics//stage1aufbau.png, id=535, 739.563pt x 493.24275pt>
 File: ./graphics//stage1aufbau.png Graphic file (type png)
 <use ./graphics//stage1aufbau.png>
-Package pdftex.def Info: ./graphics//stage1aufbau.png  used on input line 291.
-(pdftex.def)             Requested size: 417.39914pt x 278.38914pt.
+Package pdftex.def Info: ./graphics//stage1aufbau.png  used on input line 325.
+(pdftex.def)             Requested size: 371.02539pt x 247.45618pt.
 )
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32 <./graphics//ablauf_valkyrie_zeitlos.png>] [33 <./graphics//stage1aufbau.pn
-g>]
+[25 <./graphics//chang'e.png>] [26 <./graphics//ablauf_valkyrie_zeitlos.png> <.
+/graphics//stage1aufbau.png>]
 \openout2 = `modellentwurf.aux'.
 
  (modellentwurf.tex
 chapter 3.
-) [34
+[27
 
 
 
 
 ]
+<./graphics//Morphologischer Kasten.png, id=553, 1195.1049pt x 845.0772pt>
+File: ./graphics//Morphologischer Kasten.png Graphic file (type png)
+<use ./graphics//Morphologischer Kasten.png>
+Package pdftex.def Info: ./graphics//Morphologischer Kasten.png  used on input 
+line 32.
+(pdftex.def)             Requested size: 1195.10199pt x 845.07513pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--36
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28]) [29] [30 <./graphics//Morphologischer Kasten.png>]
 \openout2 = `simulation.aux'.
 
  (simulation.tex
 chapter 4.
-) [35
+) [31
 
 
 
@@ -2260,7 +2295,7 @@ chapter 4.
 
  (zusammenfassung.tex
 chapter 5.
-) [36
+) [32
 
 
 
@@ -2291,7 +2326,7 @@ age-[]recovery$[]\LY1/NexusProSerif/m/n/10.95 , 2019.  Zu-griff:
 
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [37
+) [33
 
 
 
@@ -2307,7 +2342,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--133
 LY1/txtt/m/n/10.95 https : / / www . teslarati . com /
  []
 
-) [38] (Bachelorarbeit.lof
+) [34] (Bachelorarbeit.lof
 Overfull \hbox (3.52203pt too wide) in paragraph at lines 15--15
  \LY1/NexusProSerif/m/n/10.95 zum un-ge-pfeil-ten Grid Fin in Ab-hän-gig-keit v
 om kon-fi-gu-rel-len Pfei-lungs-win-kel $\OT1/zplm/m/n/10.95 []$ 
@@ -2320,24 +2355,24 @@ ieb/Widerstand-Verhältnis (rechts) in Ab-
  []
 
 )
-\tf@lof=\write12
-\openout12 = `Bachelorarbeit.lof'.
+\tf@lof=\write11
+\openout11 = `Bachelorarbeit.lof'.
 
- [39
+ [35
 
-] (Bachelorarbeit.lot)
-\tf@lot=\write13
-\openout13 = `Bachelorarbeit.lot'.
+] [36] (Bachelorarbeit.lot)
+\tf@lot=\write12
+\openout12 = `Bachelorarbeit.lot'.
 
- [40
+ [37
 
 ]
 \openout2 = `symbole.aux'.
 
- (symbole.tex [41
+ (symbole.tex [38
 
 
-]) [42]
+]) [39]
 
 Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              You should note, that `\appendix' is a mostly globally
@@ -2350,51 +2385,118 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              inconsistent.
 (scrreprt)              Because of this, you should remove `\end{appendix}'
 (scrreprt)              and replace `\begin{appendix}' by command
-(scrreprt)              `\appendix' on input line 180.
+(scrreprt)              `\appendix' on input line 183.
 
+\openout2 = `projekt.aux'.
+
+(projekt.tex
+chapter A.
+[40
+
+
+
+
+]
+Overfull \hbox (18.89066pt too wide) in paragraph at lines 67--68
+[][] 
+ []
+
+[41
+
+] [42
+
+]
+Overfull \hbox (32.74577pt too wide) in paragraph at lines 74--124
+[] 
+ []
+
+[43
+
+] [44
+
+] [45
+
+] [46
+
+] [47
+
+] [48
+
+] [49
+
+]
+Underfull \hbox (badness 2005) in paragraph at lines 401--401
+[]\LY1/NexusProSerif-lnum/b/n/10.95 Anforderungen an Struk-tur und Werk-
+ []
+
+[50
+
+] [51
+
+] [52
+
+] [53
+
+] [54
+
+] [55
+
+] [56
+
+] [57
+
+] [58
+
+] [59
+
+] [60
+
+]) [61
+
+]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[43
+[62
 
 
 ]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     185.
+(LaTeX3)     188.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     185.
+(LaTeX3)     188.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     185.
+(LaTeX3)     188.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     185.
+(LaTeX3)     188.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     185.
+(LaTeX3)     188.
 
  (Bachelorarbeit.aux (aufgabenstellung.aux) (eid.aux) (abstract.aux)
-(symbolverzeichnis.aux) (abkverzeichnis.aux) (einleitung.aux) (grundlagen.aux)
-(modellentwurf.aux) (simulation.aux) (zusammenfassung.aux) (symbole.aux))
+(einleitung.aux) (grundlagen.aux) (modellentwurf.aux) (simulation.aux)
+(zusammenfassung.aux) (symbole.aux) (projekt.aux))
 Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47540 strings out of 479799
- 1133972 string characters out of 2870198
- 1727910 words of memory out of 3000000
- 63339 multiletter control sequences out of 15000+200000
- 679531 words of font info for 149 fonts, out of 3000000 for 9000
+ 48434 strings out of 479799
+ 1151989 string characters out of 2870198
+ 1771648 words of memory out of 3000000
+ 64213 multiletter control sequences out of 15000+200000
+ 684218 words of font info for 151 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,23n,126p,10639b,824s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 94i,23n,126p,10639b,1225s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:Index:Z} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -2473,12 +2575,12 @@ eplaced by a fixed one
 pdfTeX warning (dest): name{glo:LEO} has been referenced but does not exist, re
 placed by a fixed one
 
-{D:/Program Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_molob5.enc}{C:/Users/N
-eu1/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{D:/Program Files
- (x86)/LateX/fonts/enc/dvips/Fontshop/a_4o7za6.enc}{D:/Program Files (x86)/Late
+{D:/Program Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_cbf6z5.enc}{D:/Program
+ Files (x86)/LateX/fonts/enc/dvips/Fontshop/a_molob5.enc}{C:/Users/Neu1/AppData
+/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{D:/Program Files (x86)/Late
 X/fonts/enc/dvips/Fontshop/a_6g6b3j.enc}{D:/Program Files (x86)/LateX/fonts/enc
-/dvips/Fontshop/a_3cgipr.enc}{D:/Program Files (x86)/LateX/fonts/enc/dvips/Font
-shop/a_cbf6z5.enc}<D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPro-
+/dvips/Fontshop/a_4o7za6.enc}{D:/Program Files (x86)/LateX/fonts/enc/dvips/Font
+shop/a_3cgipr.enc}<D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPro-
 Bold.pfb><D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSansPro-Regular.p
 fb><D:/Program Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Bold.pfb><D:/P
 rogram Files (x86)/LateX/fonts/type1/Nexus/NexusSerifPro-Italic.pfb><D:/Program
@@ -2492,9 +2594,9 @@ pazo/fplmri.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /txfonts/t1xtt.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/urw
 /palatino/uplr8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/palatino/uplri8a.pfb>
-Output written on Bachelorarbeit.pdf (43 pages, 5363393 bytes).
+Output written on Bachelorarbeit.pdf (68 pages, 6311510 bytes).
 PDF statistics:
- 877 PDF objects out of 1000 (max. 8388607)
- 178 named destinations out of 1000 (max. 500000)
- 681 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1009 PDF objects out of 1200 (max. 8388607)
+ 202 named destinations out of 1000 (max. 500000)
+ 718 words of extra memory for PDF output out of 10000 (max. 10000000)
 
