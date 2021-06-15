@@ -3,38 +3,84 @@ Nachdem nun alle notwendigen Grundlagen erläutert wurden, wird in diesem Kapite
 \section{Systemanforderungen}
 Zunächst werden also die Anforderungen an das System definiert. Hierbei wird sich hauptsächlich auf eine in MatLab mit Simulink durchgeführte Simulation und Angaben von GAIA Aerospace bezogen.
 \subsection{Leistungsanforderungen}
-Aerodynamsiche Leistung
-Motorleistung
+Das wichtigste ist natürlich, dass die Grid Fins ihre Funktion erfüllt, beim Wiedereintritt einen stabilen Flug zu gewährleisten. Simulationen haben ergeben, dass hierfür ein Beiwert von $C_N =$\textbf{???} bei einer Fläche $A=0,144\mathrm{m}^2$. Die zu entwerfenden Finnen sollten also vergleichbare Normalkräfte produzieren können.
+
+Auch wenn die Axialkraft zusätzlich zur Stabilität beiträgt, ist sie weniger wichtig. Generell ist sie jedoch positiv zu bewerten, da je größer der Aerodynamische Widerstand der Grid Fins ist, desto sicherer ist unversehrte der Flug und die Triebwerke, die den größten Anteil zur aerodynamischen Bremsung leisten, werden geschont. Dies sollt jedoch nicht auf Kosten der Lebensdauer der Grid Fins passieren, weil sonst der Aspekt der Wiederverwendbarkeit eingeschränkt wird.
+\\~\\
+Die Aktuatoren müssen nun gewährleisten, dass die Grid Fins zu jedem Zeitpunkt unter gegebener Last die notwendige Position einnehmen können. Für den Klappwinkel sind die Anforderungen an den Motor und das zugehörige Getriebe also sehr gering. Die Bewegung passiert hier ohne angreifende Kräfte, sodass nur die eigene Trägheit und die Lagerreibung überwunden werden muss. Dabei ist auch keine hohe Drehrate erforderlich, da für dieses Manöver theoretisch der gesamte Zeitraum zwischen Seperation und Wiedereintritt zur Verfügung steht. Die restliche Zeit muss nur dafür gesorgt werden, dass die Grid Fins diese Position halten. Der aerodynamische Widerstand wirkt hierbei sogar unterstützend mit, die aus den Trägheitskräften resultierenden Moment um dieses Gelenk müssen jedoch standgehalten werden.
+Der Klappwinkel muss also einmal von $\Lambda=90^\circ$ zu $\Lambda=0^\circ$ bewegbar sein und sich dort halten lassen
+
+Der Aktuator für das Steuergelenk muss dagegen deutlich höhere Leistungen aufbringen. Der Steuerwinkel wird während des Wiedereintritts ständig vom Regler verändert. Somit kommen zu den Trägheits- und Reibungskräften auch noch die aerodynamischen Kräfte hinzu. Wenn auch deutlich größer sind sie zu planaren Finnen jedoch vergleichsweise gering, wie in dem vorherigen Kapitel gezeigt wurde. Im Gegensatz zum Klappwinkel spielt hier auch die Drehrate eine wichtige Rolle, da nur, wenn die Grid Fins auch schnell genug reagieren, kann der Flug effizient geregelt werden. In der Simulink-Simulation sind bei unbeweglichen Grid Fins Schwingungen in der aerodynamischen Flugphase mit einer Periodendauern von $\Delta t=1,58$s. Um diese ausgleichen zu können, muss also auch der Steuerwinkel in der halben Zeit vom maximalen Ausschlag in die eine Richtung zum maximalen Ausschlag in die andere. Da der Steuerwinkel im Bereich $\eta = [-20^\circ,20^\circ]$ liegen soll, folgt nun also eine Drehrate von mindestens $25,32^\circ/\mathrm{s}$beziehungsweise$0,442\mathrm{rad/s}$.
 \subsection{Anforderungen an die Kosten}
-\subsection{Thermische Anforderungen}
-\subsection{...}
+Für die Kosten gilt das klare Ziel diese zu Minimieren und somit maximale Wirtschaftlichkeit zu erreichen. Somit sollen so weit es geht COTS verwendet werden, die keine teure Sonderanfertigung benötigen. Kleine Bauteile sparen sogar doppelt Geld, da sie zum einen weniger Materialkosten haben und zum anderen für den Flug der Rakete ihr Gewicht weniger erhöhen, sodass geringere Mengen an Treibstoff benötigt beziehungsweise mehr Nutzlast mitgenommen werden kann.
+\subsection{Thermische und Mechanische Anforderungen}
+Beim Wiedereintritt treten sehr hohe thermische Lasten auf, die sich jedoch schwer im Vorfeld quantifizieren lassen, da sie stark von der Geometrie abhängen und sich nur durch aufwendige CFD-Simulationen bestimmen lassen. Generell gilt für die thermische Belastung, dass umströmte Fläche, besonders an der Vorderkante, einen negativen Effekt hat und die Wärme des durch den Verdichtungsstoß stark erhitzen Fluids aufnimmt. Währenddessen ist ein großes Volumen mit idealer Weise hoher Wärmekapazität vorteilhaft, da dieses die Energie der Außenfläche aufnehmen kann. Dieser Effekt ist am besten bei hohe Wärmeleitfähigkeit nutzbar und sorgt für möglichst geringe Temperaturgradienten, die wiederum auch Eigenspannungen verursachen würden. Am wichtigsten ist jedoch die Schmelztemperatur, beziehungsweise die maximale Temperatur, bei der der Werkstoff noch akzeptable mechanische Eigenschaften hat, weil dies schlussendlich bestimmt wie viel Wärme ausgehalten werden kann.
+\\~\\
+Für die Stabilität gilt, dass sich die Grid Fins und natürlich auch ihre Aktuatorik nicht plastisches Verformen oder gar vollständig versagen darf. Dabei ist auch besonders auf das Kriechen zu achten, welches bei einer Kombination von thermischer und mechanischer Belastung wie sie hier vorliegt schnell auftreten kann.
+
+Abbildung \ref{abb_KraefteNormal} zeigt die an einem der vier Grid Fins angreifenden Kräfte bei einer Mission der Valkyrie im Körperfesten System, wenn sie durchgehend in der Ausgangstellung gehalten und nicht gesteuert oder geregelt werden. Dargestellt sind sowohl die Kräfte in negative X-Richtung (gelb), als auch in Y- (rot) und Z-Richtung (blau) im Zeitintervall von ca. $t=380$s bis $t=600$s nach der Entkoppelung von den Pylonen. Während die Axialkraft relativ monoton steigt und fällt sind die Normalkräfte starken Schwankungen auf Grund der Abwesenheit eines Reglers ausgesetzt.
+
+Es ist zu erkennen, dass bei knapp $t=400$s der Widereintritt beginnt und die Kräfte anfangen zu steigen. Diese schwellen schnell auf und der Lastenvektor $\vec{F}$ erreicht seinen Höhepunkt.
+\begin{equation}
+	\vec{F}(t=448,5\mathrm{s})=
+		\left(\begin{array}{c}F_{-x}\\F_y\\F_z\end{array}\right)
+			=\left(\begin{array}{c}487\mathrm{N}\\70\mathrm{N}\\220\mathrm{N}\end{array}\right)
+\end{equation}
+An dieser Stelle ist der Maximale Staudruck "Max Q" erreicht und wird für die Auslegung von entscheidender Bedeutung sein. Danach nehmen alle Kräfte wieder ab, da sich die Geschwindigkeit verlangsamt. Zum Schluss nehmen die Normalkräfte noch einmal deutlich an Stärke zu, dies ist jedoch weniger von Bedeutung, da die Grid Fins auf Grund ihrer deutlich größeren Breite und Länge als Sehnenlänge in diesen Richtungen wesentlich stabiler sind und diese Kräfte nur dadurch zustande kommen, dass die erste Stufe zu dem Zeitpunkt sicher am Fallschirm hängt und durch die Dichte Atmosphäre pendelt.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{KraefteNormal.png}
+	\caption{Kraefte an einem der Grid Fins bei konstant gehaltener Ausgangstellung}
+	\label{abb_KraefteNormal}
+\end{figure}\\
+Zu diesen aerodynamischen Kräften kommen jedoch noch Trägheitskräfte hinzu, die in Abbildung \ref{abb_n_x} für die erste Stufe über den gesamten Missionsablauf dargestellt sind. Dort sind die einzelnen Flugphasen deutlich zu erkennen. Dargestellt sind die Resultierenden g-Kräfte, diese unterscheiden sich jedoch so gut wie gar nicht von denen in X-Richtung, da in den anderen Richtungen kaum welche auftreten. Am Anfang befindet sich der Schub der ersten Stufe, gefolgt von der Freiflugphase nach der Seperation. Hier sind die Grid Fins noch eingeklappt und somit kaum von den Lasten betroffen. Kurz nachdem wieder die ersten Effekte der Atmosphäre zu wirken beginnen, also knapp nach $t=400$s, zündet das Raketensegment zu zweiten mal für den ReEntry-Burn, der wieder als Spitze in den Lastenvielfachen zu sehen ist. Nach Brennschluss steigen die Trägheitskräfte weiterhin durch den aerodynamischen Widerstand bis zum "Max Q" an. Kurz danach wird auch schon der Ballute eingesetzt, was zum globalen Maximum des Lastenvielfachen vom 11,6 fachen der Erdbeschleunigung bei $t=456,3$s. Nur wenige Sekunden später kommt auch schon der konventionelle Fallschirm zum ein Einsatz und die g-Kräfte fallen bis zum Ende der Simulation monoton ab.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{n_x.png}
+	\caption{Lastenvielfache der 1. Stufe der Valkyrie}
+	\label{abb_n_x}
+\end{figure}\\
+\\~\\
+Liegen die Grid Fins jedoch während des Wiedereintritts nicht in der Ausgangslagen, sondern werden gesteuert beziehungsweise sind durchgängig angestellt, kann es zu deutlich höheren Kräften kommen. Für die Auslegung muss natürlich vom Worst-Case-Scenario augegangen werden, also auch die Lasten unter den ungünstigesten Bedingungen ertragen werden.
+
+--> Weiter Fälle folgen
+\subsection{Geometrische Anforderungen}
+Die Hauptmaße der Grid Fins sind hauptsächlich durch die Fertigung begrenzt. Ein Grid Fin müsste also in einen entsprechenden 3D-Drucker passen.
 
 \section{Morphologischer Kasten}
-Um eine Übersicht über die verschiedenen Designmöglichkeiten zu haben wird an dieser Stelle ein morphologischer Kasten, wie in er in Abbildung \ref{abb_MorphKast} zu sehen ist, eingeführt. Für acht Designentscheidungen sind dort unterschiedliche Teillösungen aufgelistet. Ganz links sind drei mögliche Zellformen gegeben. Es besteht die Wahl zwischen quadratischen, drei- und sechseckigen Geometrien. Hierbei sei aber wieder zu berücksichtigen, dass es auch zu einen Mischung mehrerer Formen kommen kann und besonders am Rand durch den Rahmen die Zellen ungleichmäßig verkleinert werden könnten.
+Um eine Übersicht über die verschiedenen Designmöglichkeiten zu haben wird an dieser Stelle ein morphologischer Kasten, wie in er in Abbildung \ref{abb_MorphKastGF} zu sehen ist, eingeführt. Für fünf Designentscheidungen des Grid Fins sind dort unterschiedliche Teillösungen aufgelistet. Ganz links sind drei mögliche Zellformen gegeben. Es besteht die Wahl zwischen quadratischen, drei- und sechseckigen Geometrien. Hierbei sei aber wieder zu berücksichtigen, dass es auch zu einen Mischung mehrerer Formen kommen kann und besonders am Rand durch den Rahmen die Zellen ungleichmäßig verkleinert werden könnten.
 
-Für die Form des gesamten Gitters stehen nur zwei unterschiedliche Möglichkeiten zur Auswahl: Rechteck oder Diamant. Da jedoch die Maße noch nicht festgelegt sind kann die ersten der beiden Formen auch noch zum Quadrat werden. Des Weiteren kann es sein, dass die Geometrie an der einen Seite für die Anbringung noch angepasst wird.
+Für die Form des gesamten Gitters stehen nur drei unterschiedliche Möglichkeiten zur Auswahl: Rechteck, Diamant oder auch eine dem Insektenflügel nachempfundene Struktur. Da jedoch die Maße noch nicht festgelegt sind kann die ersten der beiden Formen auch noch zum Quadrat werden. Des Weiteren kann es sein, dass die Geometrie an der einen Seite für die Anbringung noch angepasst wird.
 
 Die größte Auswahl bietet sich bei den Wandquerschnittsformen. Rechteckig, abgerundet, beidseitig und einseitig spitzt, trapezförmig und dreieckig sind die sechs Optionen, die es hier gibt. Der Wandquerschnitt muss nicht überall die gleiche Form besitzen. So kann es kommen, dass das Gitter eine unterschiedliche erhält als der Rahmen. Die unteren beiden Formen sind zum Beispiel asymmetrisch, sodass sie nur für die Umrandung der Grid Fins in Frage kommen.
 
 Als viertes wird die Fragestellung einer Krümmung gezeigt. Neben einem flachen Design kann der Grid Fin entweder zur Strömung hin konvex oder konkav gekrümmt sein. Dies ist abhängig davon in welche Richtung die Finne eingeklappt werden kann.
 
 Im Grundlagenkapitel wurden drei verschiedene Arten der Pfeilung eines Grid Fins gezeigt. Da sie sich grundsätzlich unterschiedlich implementieren lassen, können sie theoretisch sogar in Kombination gewählt werden. Der Pfeilungswinkel ist ist für die Varianten noch frei wählbar und auch negative Winkel, also Vorwärtspfeilung, ist denkbar. Für die lokale Pfeilung der Zellen rückt der Unterschied zwischen Vorwärts- und Rückwärtspfeilung durch die Unterscheidung vom Berg- und Tal-Typus noch mehr in den Vordergrund. Wichtig ist noch anzumerken, dass die konfigurelle Pfeilung keinen direkten Einfluss auf das Design der Grid Fins an sich hat, sondern sich durch den Bewegungsspielraum der Aktuatorik umsetzten lässt.
-
-Eine wichtige Designentscheidung ist der Aktuator, da er bestimmt was als Energiequelle genutzt wird und hat somit einen großen Einfluss auf Gewicht und Kosten. Eine Möglichkeit ist die elektrische Energie zu nutzen und diese mit einem Elektromotor direkt die mechanische Arbeit verrichten zu lassen. Alternativ kann auch ein hydraulisches oder gar pneumatisches System verwendet werden. Da Grid Fins zwei Freiheitsgrade haben, können diese über unterschiedliche Aktuatoren, die auch unterschiedlicher Art sein können, bewegt werden. Also muss in diesem Punkt für beide Rotationen einzeln entschieden werden.
-
-Über ein Getriebe wird die Leistung des Aktuators auf die Grid Fins übertragen, um mehr Spielraum für Kraft, Moment, Drehzahl und Orientierung des Aktuators zu gewährleisten. Eine Möglichkeit bietet das klassische Zahnradgetriebe. Viele Paarungen, wie zum Beispiel Kegelräder, Schneckenräder und viele weitere, sind denkbar. Kräfte und die zugehörige Bewegungsgeschwindigkeit lassen sich durch hydrostatische Getriebe beeinflussen. Momente und Drehzahlen können durch hydrodynamische Getriebe verändert werden. Generell sind durch Kombinationen beliebig komplexe Systeme möglich
-
-Als letztes beschäftigt sich der Morphologische Kasten in Abbildung \ref{abb_MorphKast} mit der Lagerung. Hierbei wird generell zwischen den Wälz- und Gleitlagern unterschieden. Beide bieten jedoch noch mehr Entscheidungsfreiheiten. So gibt es einige unterschiedliche Wälzkörper, wie Kugeln, Zylinder, Kegel, etc.. Auch Gleitlagern können weiter zu statischen und dynamischen unterteilt werden, je nach Art der Schmierfilmdruckerzeugung.
-\\~\\
-Es gibt jedoch noch weitere Designentscheidungen, die sich nicht in einem morphologischen Kasten pragmatisch darstellen lassen. So müssen zum einen noch die Dimensionen des Moduls und Lage der Aktuatoren in der Rakete definiert werden. Zum anderen stellt sich die Frage welche Zellgröße $g$ und Wandstärke $d$ an welcher Stelle gewählt wird. Es besteht auch noch die Möglichkeit die Grid Fins mit zusätzlichen Features auszustatten. Eine Option wären hier zusätzliche Stützstreben oder sogar durch die additive Fertigung ermöglichte, in das Material integrierte Strukturen, wie zum Beispiel Kühlkanäle oder Drucksensoren.
 \begin{figure}[h]
 	\centering
-	\includegraphics[angle=90, width=0.9\textwidth]{Morphologischer Kasten.png}
-	\caption{Morphologischer Kasten für Grid Fin Aktuatorik}
-	\label{abb_MorphKast}
-\end{figure}
+	\includegraphics[width=0.9\textwidth]{Morphologischer Kasten GF V2.png}
+	\caption{Morphologischer Kasten für die Grid Fins}
+	\label{abb_MorphKastGF}
+\end{figure}\\~\\
+Für den Entwurf der Aktuatorik wurde ein zweiter morphologischer Kasten erstellt. Dieser ist in Abbildung \ref{abb_MorphKastAk} zu sehen und zeigt drei verschieden Designkategorien. Da die Grid Fins zwei unabhängige Freiheitsgrade haben, können für den Steuer- und Klappwinkel separat unterschiedliche Lösungen aus dem morphologischen Kasten gewählt werden.
+
+Eine wichtige Designentscheidung ist der Aktuator, da er bestimmt was als Energiequelle genutzt wird und hat somit einen großen Einfluss auf Gewicht und Kosten. Eine Möglichkeit ist die elektrische Energie zu nutzen und diese mit einem Elektromotor direkt die mechanische Arbeit verrichten zu lassen. Hierbei muss noch die Wahl getroffen werden, ob linear oder rotatorischer Motor vorgezogen werden soll. Alternativ kann auch ein hydraulisches oder gar pneumatisches System verwendet werden. Da Grid Fins zwei Freiheitsgrade haben, können diese über unterschiedliche Aktuatoren, die auch unterschiedlicher Art sein können, bewegt werden. Also muss in diesem Punkt für beide Rotationen einzeln entschieden werden.
+
+Über ein Getriebe wird die Leistung des Aktuators auf die Grid Fins übertragen, um mehr Spielraum für Kraft, Moment, Drehzahl und Orientierung des Aktuators zu gewährleisten. Eine Möglichkeit bietet das klassische Zahnradgetriebe. Viele Paarungen wie Stirn-, Kegel-, Schrauben- oder Schneckenräder sind denkbar. Kräfte und die zugehörige Bewegungsgeschwindigkeit lassen sich auch durch hydrostatische Getriebe beeinflussen. Momente und Drehzahlen können durch hydrodynamische Getriebe verändert werden. Generell sind durch Kombinationen beliebig komplexe Systeme möglich.
+
+Als letztes beschäftigt sich der Morphologische Kasten in Abbildung \ref{abb_MorphKastAk} mit der Lagerung. Hierbei wird generell zwischen den Wälz- und Gleitlagern unterschieden. Beide bieten jedoch noch mehr Entscheidungsfreiheiten. So gibt es einige unterschiedliche Wälzkörper, wie Kugeln, Zylinder, Kegel oder Pendelrollen. Auch Gleitlagern können weiter zu statischen und dynamischen unterteilt werden, je nach Art der Schmierfilmdruckerzeugung.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{Morphologischer Kasten Ak.png}
+	\caption{Morphologischer Kasten für die Grid Fin Aktuatorik}
+	\label{abb_MorphKastAk}
+\end{figure}\\
+Es gibt jedoch noch weitere Designentscheidungen, die sich nicht in einem morphologischen Kasten pragmatisch darstellen lassen. So müssen zum einen noch die Dimensionen des Moduls und Lage der Aktuatoren in der Rakete definiert werden. Zum anderen stellt sich die Frage welche Zellgröße $g$ und Wandstärke $d$ an welcher Stelle gewählt wird. Es besteht auch noch die Möglichkeit die Grid Fins mit zusätzlichen Features auszustatten. Eine Option wären hier zusätzliche Stützstreben oder sogar durch die additive Fertigung ermöglichte, in das Material integrierte Strukturen, wie zum Beispiel Kühlkanäle oder Drucksensoren.
 \newpage
 \section{Komponentenrecherche und -auswahl}
+Als nächstes werden nun die Ergebnisse der Komponentenrecherche beschrieben und auf Grund der Systemanforderungen mit Hilfe der morphologischen Kästen eine vorläufige Wahl getroffen.
+\subsection{Materialwahl}
 \subsection{Gitterdesign}
 \subsection{Aktuator}
 \subsection{Getriebe}

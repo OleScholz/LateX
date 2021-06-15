@@ -28,30 +28,31 @@
 \contentsline {chapter}{\numberline {3}Modellentwurf}{27}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Systemanforderungen}{27}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Leistungsanforderungen}{27}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Anforderungen an die Kosten}{27}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Thermische Anforderungen}{27}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}...}{27}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Morphologischer Kasten}{27}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Komponentenrecherche und -auswahl}{29}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Gitterdesign}{29}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Aktuator}{29}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Getriebe}{29}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Peripherie}{29}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Festlegung des Modelldesigns}{29}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Modellierung des Modells}{29}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Systemanalyse}{31}{chapter.4}%
-\contentsline {section}{\numberline {4.1}FEM-Analyse}{31}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Betriebssimulation}{31}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Systemoptimierung}{31}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Systembewertung}{31}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Fazit}{31}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{32}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{33}{chapter.5}%
-\contentsline {chapter}{Abbildungsverzeichnis}{34}{chapter*.5}%
-\contentsline {chapter}{Tabellenverzeichnis}{37}{chapter*.6}%
-\contentsline {chapter}{Symbolverzeichnis}{38}{chapter*.8}%
-\contentsline {chapter}{\numberline {A}Projektmanagement}{40}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Work Breakdown Structure}{40}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Zeitplan}{42}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Work Package Description}{44}{section.A.3}%
+\contentsline {subsection}{\numberline {3.1.2}Anforderungen an die Kosten}{28}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Thermische und Mechanische Anforderungen}{28}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Geometrische Anforderungen}{30}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Morphologischer Kasten}{30}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Komponentenrecherche und -auswahl}{33}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Materialwahl}{33}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Gitterdesign}{33}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Aktuator}{33}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Getriebe}{33}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Peripherie}{33}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Festlegung des Modelldesigns}{33}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Modellierung des Modells}{33}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Systemanalyse}{34}{chapter.4}%
+\contentsline {section}{\numberline {4.1}FEM-Analyse}{34}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Betriebssimulation}{34}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Systemoptimierung}{34}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Systembewertung}{34}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Fazit}{34}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{35}{chapter.5}%
+\contentsline {chapter}{Literaturverzeichnis}{36}{chapter.5}%
+\contentsline {chapter}{Abbildungsverzeichnis}{37}{chapter*.5}%
+\contentsline {chapter}{Tabellenverzeichnis}{40}{chapter*.6}%
+\contentsline {chapter}{Symbolverzeichnis}{41}{chapter*.8}%
+\contentsline {chapter}{\numberline {A}Projektmanagement}{43}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Work Breakdown Structure}{43}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Zeitplan}{45}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Work Package Description}{47}{section.A.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
