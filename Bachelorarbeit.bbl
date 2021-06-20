@@ -20,17 +20,17 @@ Rocket lab launches electron flight 8. company previews first stage recovery.
   2019.
 \newblock Zugriff: 25.04.2021.
 
-\bibitem{flugbahnBarz}
-Ina Barz.
-\newblock {Untersuchung effizienter Algorithmen zur Trajektorienoptimierung von
-  AirLaunch-Raketen}.
-\newblock Studienarbeit, TU Braunschweig, April 2021.
-
 \bibitem{GAIA}
 {GAIA Aerospace}.
 \newblock {Valkyire, Die erste wiederverwendbare AirLaunch-Rakete}.
 \newblock \url{https://www.gaia-aerospace.com/research/}.
 \newblock Zugriff: 25.04.2021.
+
+\bibitem{flugbahnBarz}
+Ina Barz.
+\newblock {Untersuchung effizienter Algorithmen zur Trajektorienoptimierung von
+  AirLaunch-Raketen}.
+\newblock Studienarbeit, TU Braunschweig, April 2021.
 
 \bibitem{vergleichPlanar}
 {Salman Munawa}.
@@ -137,5 +137,66 @@ Manish Tripathi, Mahesh Sucheendran, and Ajay Misra.
   Starship’s Super Heavy booster}.
 \newblock \url{http://www.aerospaceweb.org/question/weapons/q0261.shtml}.
 \newblock Zugriff: 22.05.2021.
+
+\bibitem{eos}
+{Electro Optical Systems GmbH}.
+\newblock {DMLS-Werkstoffe für die additive Vertigung von Metallbauteilen}.
+\newblock
+  \url{https://www.eos.info/de/additive-fertigung/3d-druck-metall/eos-metall-werkstoffe-dmls}.
+\newblock Zugriff: 14.06.2021.
+
+\bibitem{preise}
+{Rapidobject GmbH}.
+\newblock {Preisbeispiele für 3D Druck Bauteile – Metalle}.
+\newblock
+  \url{https://www.rapidobject.com/de/Wissenswertes/3D-Druck-Preise-Kosten_1249.html}.
+\newblock Zugriff: 20.06.2021.
+
+\bibitem{T1.1}
+{H.P. Kaysser GmbH + Co. KG}.
+\newblock {Materialdatenblatt – Additive Manufacturing}.
+\newblock \url{https://www.kaysser.de/}.
+\newblock Zugriff: 20.06.2021.
+
+\bibitem{T1.3}
+{Stahlhandel Gröditz GmbH}.
+\newblock {Alloy 625 ESU | 2.4856 (NiCr22Mo9Nb) Material data sheet}.
+\newblock
+  \url{https://www.stahlportal.com/en/stock/alloy-625-esu-24856-forged/}.
+\newblock Zugriff: 20.06.2021.
+
+\bibitem{T1.4}
+{Gustoc Titanium GmbH}.
+\newblock {Der Werkstoff Titan: Verarbeitung}.
+\newblock \url{http://www.gustoc.de/de/Vorteile/Titan_Verarbeitung.html}.
+\newblock Zugriff: 20.06.2021.
+
+\bibitem{T2.1}
+{D3D Additive Manufacturing GmbH}.
+\newblock {AlSi10Mg}.
+\newblock
+  \url{https://d3d-am.de/wp-content/uploads/2019/05/AlSi10Mg-Datenblatt_12-2018.pdf}.
+\newblock Zugriff: 20.06.2021.
+
+\bibitem{T2.2}
+{ Amari Ireland Ltd}.
+\newblock {1.4404 (316L) Sheet and Plate (Quarto Plate and CPP)}.
+\newblock
+  \url{https://www.amari-ireland.com/datasheets/Stainless-Steel-14404-Sheet-and-Plate_346.ashx}.
+\newblock Zugriff: 20.06.2021.
+
+\bibitem{T2.3}
+{Kalpataru Piping Solutions}.
+\newblock {Inconel 625 Buttweld Fittings}.
+\newblock
+  \url{https://kalpatarupiping.eu/inconel-products/inconel-625-buttweld-fittings-suppliers/}.
+\newblock Zugriff: 20.06.2021.
+
+\bibitem{T2.4}
+{ZAPP AG}.
+\newblock {TiAl6V4 (Grade 5) DatenblattHigh Per for mance Alloys}.
+\newblock
+  \url{https://www.zapp.com/fileadmin/_documents/Downloads/materials/high_performance_alloys/de/TiAl6V4-Grade5-Datenblatt.pdf}.
+\newblock Zugriff: 20.06.2021.
 
 \end{thebibliography}

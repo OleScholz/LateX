@@ -7,10 +7,6 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: eid.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: abstract.aux
-Reallocating 'name_of_file' (item size: 1) to 22 items.
-A level-1 auxiliary file: symbolverzeichnis.aux
-Reallocating 'name_of_file' (item size: 1) to 19 items.
-A level-1 auxiliary file: abkverzeichnis.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: einleitung.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
@@ -26,6 +22,8 @@ The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 A level-1 auxiliary file: symbole.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+A level-1 auxiliary file: projekt.aux
 Database file #1: literatur.bib
 Warning--empty booktitle in sb-sharp
 Warning--empty title in synopsis
@@ -48,45 +46,45 @@ Warning--empty publisher in Shape
 Warning--empty year in Shape
 Warning--empty booktitle in Pattern
 Warning--empty publisher in ChordVar
-You've used 24 entries,
+You've used 33 entries,
             1791 wiz_defined-function locations,
-            578 strings with 7224 characters,
-and the built_in function-call counts, 4345 in all, are:
-= -- 323
-> -- 180
+            622 strings with 8644 characters,
+and the built_in function-call counts, 5551 in all, are:
+= -- 431
+> -- 216
 < -- 2
-+ -- 71
-- -- 47
++ -- 89
+- -- 56
 * -- 208
-:= -- 654
-add.period$ -- 71
-call.type$ -- 24
-change.case$ -- 17
+:= -- 843
+add.period$ -- 107
+call.type$ -- 33
+change.case$ -- 26
 chr.to.int$ -- 0
-cite$ -- 45
-duplicate$ -- 231
-empty$ -- 529
-format.name$ -- 47
-if$ -- 1008
+cite$ -- 54
+duplicate$ -- 276
+empty$ -- 691
+format.name$ -- 56
+if$ -- 1296
 int.to.chr$ -- 0
-int.to.str$ -- 24
+int.to.str$ -- 33
 missing$ -- 24
-newline$ -- 122
-num.names$ -- 23
-pop$ -- 170
+newline$ -- 176
+num.names$ -- 32
+pop$ -- 233
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 88
+skip$ -- 106
 stack$ -- 0
 substring$ -- 88
-swap$ -- 37
+swap$ -- 46
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 21
-while$ -- 29
-width$ -- 26
-write$ -- 233
+while$ -- 38
+width$ -- 35
+write$ -- 332
 (There were 21 warnings)

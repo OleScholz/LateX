@@ -31,28 +31,28 @@
 \contentsline {subsection}{\numberline {3.1.2}Anforderungen an die Kosten}{28}{subsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.1.3}Thermische und Mechanische Anforderungen}{28}{subsection.3.1.3}%
 \contentsline {subsection}{\numberline {3.1.4}Geometrische Anforderungen}{30}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Morphologischer Kasten}{30}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Komponentenrecherche und -auswahl}{33}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Materialwahl}{33}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Gitterdesign}{33}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Aktuator}{33}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Getriebe}{33}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Peripherie}{33}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Festlegung des Modelldesigns}{33}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Modellierung des Modells}{33}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Systemanalyse}{34}{chapter.4}%
-\contentsline {section}{\numberline {4.1}FEM-Analyse}{34}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Betriebssimulation}{34}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Systemoptimierung}{34}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Systembewertung}{34}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Fazit}{34}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{35}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{36}{chapter.5}%
-\contentsline {chapter}{Abbildungsverzeichnis}{37}{chapter*.5}%
-\contentsline {chapter}{Tabellenverzeichnis}{40}{chapter*.6}%
-\contentsline {chapter}{Symbolverzeichnis}{41}{chapter*.8}%
-\contentsline {chapter}{\numberline {A}Projektmanagement}{43}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Work Breakdown Structure}{43}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Zeitplan}{45}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Work Package Description}{47}{section.A.3}%
+\contentsline {section}{\numberline {3.2}Morphologischer Kasten}{32}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Komponentenrecherche und -auswahl}{35}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Materialwahl}{35}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Gitterdesign}{35}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Peripherie}{35}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Aktuator}{35}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Getriebe und Lagerung}{35}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Festlegung des Modelldesigns}{35}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Modellierung des Modells}{35}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Systemanalyse}{36}{chapter.4}%
+\contentsline {section}{\numberline {4.1}FEM-Analyse}{36}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Betriebssimulation}{36}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Systemoptimierung}{36}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Systembewertung}{36}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Fazit}{36}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{37}{chapter.5}%
+\contentsline {chapter}{Literaturverzeichnis}{38}{chapter.5}%
+\contentsline {chapter}{Abbildungsverzeichnis}{40}{chapter*.5}%
+\contentsline {chapter}{Tabellenverzeichnis}{43}{chapter*.6}%
+\contentsline {chapter}{Symbolverzeichnis}{44}{chapter*.8}%
+\contentsline {chapter}{\numberline {A}Projektmanagement}{46}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Work Breakdown Structure}{46}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Zeitplan}{48}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Work Package Description}{50}{section.A.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
