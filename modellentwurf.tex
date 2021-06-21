@@ -3,7 +3,7 @@ Nachdem nun alle notwendigen Grundlagen erläutert wurden, wird in diesem Kapite
 \section{Systemanforderungen}
 Zunächst werden also die Anforderungen an das System definiert. Hierbei wird sich hauptsächlich auf eine in MatLab mit Simulink durchgeführte Simulation und Angaben von GAIA Aerospace bezogen.
 \subsection{Leistungsanforderungen}
-Das wichtigste ist natürlich, dass die Grid Fins ihre Funktion erfüllt, beim Wiedereintritt einen stabilen Flug zu gewährleisten. Simulationen haben ergeben, dass hierfür ein Beiwert von $C_N =$\textbf{???} bei einer Fläche $A=0,144\mathrm{m}^2$. Die zu entwerfenden Finnen sollten also vergleichbare Normalkräfte produzieren können.
+Das wichtigste ist natürlich, dass die Grid Fins ihre Funktion erfüllt, beim Wiedereintritt einen stabilen Flug zu gewährleisten. Simulationen haben ergeben, dass hierfür ein Beiwertanstieg von $C_{N\alpha} =0,029/^\circ=2,44/$rad und einer Fläche $A=0,144\mathrm{m}^2$. Die zu entwerfenden Finnen sollten also vergleichbare Normalkräfte produzieren können.
 
 Auch wenn die Axialkraft zusätzlich zur Stabilität beiträgt, ist sie weniger wichtig. Generell ist sie jedoch positiv zu bewerten, da je größer der Aerodynamische Widerstand der Grid Fins ist, desto sicherer ist unversehrte der Flug und die Triebwerke, die den größten Anteil zur aerodynamischen Bremsung leisten, werden geschont. Dies sollt jedoch nicht auf Kosten der Lebensdauer der Grid Fins passieren, weil sonst der Aspekt der Wiederverwendbarkeit eingeschränkt wird.
 \\~\\
@@ -96,26 +96,35 @@ Es gibt jedoch noch weitere Designentscheidungen, die sich nicht in einem morpho
 \section{Komponentenrecherche und -auswahl}
 Als nächstes werden nun die Ergebnisse der Komponentenrecherche beschrieben und auf Grund der Systemanforderungen mit Hilfe der morphologischen Kästen eine vorläufige Wahl getroffen.
 \subsection{Materialwahl}
-Für Raumfahrt gibt es eine Vielzahl von Materialien, die in Frage kommen.
-\begin{table}[h]
-	\centering
-	\begin{tabular}{c|c|c|c|c|c|c}
-		Werkstoff&Bezeichnung&$\rho$/$\frac{k\mathrm{g}}{\mathrm{cm}^3}$&Preis/€&$T_\mathrm{Einsatz, max}$/$^\circ$C&$T_\mathrm{Schmelz}$/$^\circ$C&$R_{p,0.2}$/MPa\\
-		\hline
-		Aluminium&AlSi10Mg&2,57&110,48&530&557&230-270\\
-		Edelstahl&X2CrNiMo17&7,97&169&850&1400&480-540\\
-		Nickel&NiCr22Mo9Nb&8,15&153&950&1350&630-720\\
-		Titan&TiAl6V4&4,41&249&>700&1630&1120-1140\\
-	\end{tabular}
-	\begin{flushright}
-	\flushbottom{Quellen: \cite{eos}, \cite{preise}, \cite{T1.1}, \cite{T1.3}, \cite{T1.4}, \cite{T2.1}, \cite{T2.2}, \cite{T2.3}, \cite{T2.4}}
-	\end{flushright}
-	\caption{Vergleichsdaten der unterschiedlichen Werkstoffe}
-\end{table}\label{tab_Werkstoffe} 
+Es stehen vier verschiedene Werkstoffe zur Auswahl, die sowohl für die Raumfahrt, als auch additive Fertigung in Frage kommen: Edelstahl, Inconel (eine Nickellegierung), Aluminium- und Titanlegierungen. Tabelle \ref{tab_Werkstoffe} im Anhang zeigt Vertreter dieser Werkstoffgruppen, wie sie vom 3D-Druck-Anbieter EOS benutzt werden, und vergleicht ihre Eigenschaften. Die vielversprechendsten Vertreter der jeweiligen Werkstoffgruppen, oder jede zu denen genügend Daten vorliegen, sind zusätzlich der Übersicht halber ein weiteres Mal in Tabelle \ref{tab_WerkstoffeKlein} dargestellt.
+\\~\\
+Eine wichtige Eigenschaft ist natürlich die Dichte $\rho$. Hier liegen die Aluminiumlegierungen ganz klar vorne mit nur $2,57$g/cm$^3$, aber auch Titan bietet vergleichsweise gute Werte. Die Edelstähle und Nickellegierungen hingegen sind deutlich schwerer, was wiederum zu einer geringeren Wirtschaftlichkeit der Rakete führen würde, da die Masse stattdessen als Nutzlast genutzt werden könnte. Die Dichte alleine ist jedoch nicht sehr aussagekräftig, da bei geringerer Festigkeit auch dickere Strukturen benötigt werden. So zeigt Tabelle \ref{tab_Werkstoffe} zusätzlich die Streckgrenze $R_{p,0.2}$. Pro Werkstoff sind hier zwei Werte angegeben, da durch die additive Fertigung die Homogenität verloren geht, sodass die Festigkeit in den Schichten höher ist als senkrecht zu ihnen. Nur der hier ausgewählte Edelstahl hat vernachlässigbare Inhomogenitäten. Die Werte sind in Tabelle \ref{tab_WerkstoffeKlein} für alle Werkstück direkt nach der Fertigung außer beim Inconel. Mit einer thermischen Nachbearbeitung können die Streckgrenzen noch etwas erhöht und die Inhomogenitäten abgeschwächt werden. Es zeigt sich, dass die Festigkeiten der Materialien weit auseinander gehen. So kann zum Beispiel Aluminium fast nur 20\% der maximal Belastung von Titan aushalten. Um nun die beiden Aspekte der Dichte und Streckgrenze miteinander zu verbinden wird die spezifische Festigkeit $R_\mathrm{spez.}=\frac{R_{p,0.2}}{\rho}$ , also die Streckgrenze einer bestimmten Masse im Gegensatz zu einem bestimmten Volumen, eingeführt. Es wurde der untere Wert der Streckgrenze verwendet und wenn verfügbar ohne Wärmebehandlung. Hier hebt sich Titan mit $R_\mathrm{spez.}=254$Nm/g klar von den anderen ab, während Aluminium trotz der geringen Dichte von den anderen Werkstoffgruppen großteils übertroffen wird. Hier sei auch anzumerken, dass der Vorsprung von Inconel über den Edelstählen auf die Verwendung der Materialwerte bei Wärmebehandlung zurück zu führen sind. Rechne man die spezifische Festigkeit des in diesem Kapitel dargestellten Stahls 1.4542, so erhält man einen noch besseren Wert von $R_\mathrm{spez.} = 162,0$Nm/g. Die Materialwerte von Titan scheinen sich zwar nicht groß durch eine Wärmebehandlung zu ändern, jedoch ist der Werkstoff in dieser Bewertungskategorie dank der geringen Dichte noch immer deutlich überlegen.
+\\~\\
+Auch wenn die Maximierung der spezifischen Festigkeit und somit eine Minimierung der Masse eine Senkung der Kosten zur Folge hat, ist der Materialpreis nicht zu vernachlässigen. Es lässt sich zwar kein genauer kg-Preis festlegen, da die entstehenden Kosten am Ende von der genauen Geometrie des Bauteils abhängen, dennoch kann eine qualitative Einordnung der verschiedenen Materialien vorgenommen werden. Hierzu bietet die Rapidobject GmbH für eine Bauteil mit einem Volumen von $4,4\mathrm{cm}^3$ eine Liste mit den Preisen für die additive Fertigung mit den jeweiligen Werkstoffen. Aluminium ist am günstigsten mit nur $110,48$€, während Titan fast das 2,5-fache kostet. Der Edelstahl und Inconel liegen beide eng aneinander in der Mitte.
+\\~\\
+Nicht zur die mechanische Belastbarkeit der Materialien ist entscheidend, sondern natürlich auch die thermische, um die extremen Temperaturen des Wiedereintritts zu überstehen. Hierfür muss ein Blick auf die maximale Einsatztemperatur $T_\mathrm{max}$ geworfen werden. Dies ist die Temperatur, bei der die mechanischen Eigenschaften des Werkstoffs stark abnehmen, sodass nicht mehr sein volles Potenzial genutzt werden kann. Aus Mangel an Daten wurde jedoch für Titan hier die Temperatur, bei der Warmumformung stattfindet, verwendet. Bei dieser Temperatur sind die Metalle weich genug, um sie verarbeiten zu können. Die wahre maximale Einsatztemperatur sollte also etwas niedriger liegen. Diese darf jedoch nur nicht langfristig überschritten werden, sodass bei der kurzen Wiedereintrittsphase auch höher Temperaturen auftreten können, ohne zum Versagen zu führen. Ein Blick auf andere Raketen, wie zum Beispiel die Flacon 9, zeigt, dass Grid Fins aus Titan und Edelstahl in diesem Fall den Bedingungen standhalten während es bei Aluminium Grid Fins zum Verlust der Form kam. Um also eine bessere Vergleichbarkeit zu erreichen, wurde zusätzlich auch noch die Schmelztemperatur aufgelistet.
+\\~\\
+Aluminiumlegierungen zeigen bei der thermischen Belastbarkeit sehr große Schwäche, was sie für diese Anwendung zu ungünstigen Kandidaten macht. Die Titanlegierungen hingegen haben zwar mit einer extrem hohen spezifischen Festigkeit $R_\mathrm{spez.}$ ein exzellentes Leichtbaupotenzial und auch ihre ertragbaren Temperatur sind unschlagbar, sodass sie eigentlich ideale Kandidaten als Werkstoff für Grid Fins sind. Titan hat jedoch einen enormen Nachteil, was den Preis betrifft. Für einen kleinen Microlaucher, der sich gegenüber vielen Konkurrenten durchsetzten muss, ist Preis ein sehr großer Faktor der Titan als Material disqualifiziert....
+\begin{table}[h] 
+	\centering 
+	\begin{tabular}{c|c|c|c|c|c|c|c} 
+		Werkstoff&Bezeichnung&$\rho$/$\frac{k\mathrm{g}}{\mathrm{cm}^3}$&$R_{p,0.2}$/MPa&$R_\mathrm{spez.}$Nm/g&Preis/€&$T_\mathrm{Einsatz, max}$/$^\circ$C&$T_\mathrm{Schmelz}$/$^\circ$C\\ 
+		\hline 
+		Aluminium&AlSi10Mg&2,57&230-270&89,5&110,48&530&557\\ 
+		Edelstahl&1.4542&7,79&861-861&110,5&?&550&1400\\ 
+		Inconel&IN 718&8,15&1140-1245&140,5&153&700&1260\\ 
+		Titan&TiAl6V4&4,41&1120-1140&254,0&249&>700&1630\\ 
+	\end{tabular} 
+	\begin{flushright} 
+		\flushbottom{Quellen: \cite{eos, preise, T1.1, T1.4, T2.1, T2.4, T2.3, T3.5, T3.8}} 
+	\end{flushright} 
+	\caption{Vergleichsdaten der unterschiedlichen Werkstoffe (Auswahl)}
+	\label{tab_WerkstoffeKlein}
+\end{table}  
+
+
 \subsection{Gitterdesign}
-\subsection{Peripherie}
-z.B. Energieversorgung
-\subsection{Aktuator}
+\subsection{Peripherie und Aktuator}
 \subsection{Getriebe und Lagerung}
 
 \section{Festlegung des Modelldesigns}\label{sec:modelldesign}

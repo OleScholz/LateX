@@ -34,25 +34,25 @@
 \contentsline {section}{\numberline {3.2}Morphologischer Kasten}{32}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Komponentenrecherche und -auswahl}{35}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Materialwahl}{35}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Gitterdesign}{35}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Peripherie}{35}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Aktuator}{35}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Getriebe und Lagerung}{35}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Festlegung des Modelldesigns}{35}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Modellierung des Modells}{35}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Systemanalyse}{36}{chapter.4}%
-\contentsline {section}{\numberline {4.1}FEM-Analyse}{36}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Betriebssimulation}{36}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Systemoptimierung}{36}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Systembewertung}{36}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Fazit}{36}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{37}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{38}{chapter.5}%
-\contentsline {chapter}{Abbildungsverzeichnis}{40}{chapter*.5}%
-\contentsline {chapter}{Tabellenverzeichnis}{43}{chapter*.6}%
-\contentsline {chapter}{Symbolverzeichnis}{44}{chapter*.8}%
-\contentsline {chapter}{\numberline {A}Projektmanagement}{46}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Work Breakdown Structure}{46}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Zeitplan}{48}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Work Package Description}{50}{section.A.3}%
+\contentsline {subsection}{\numberline {3.3.2}Gitterdesign}{37}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Peripherie und Aktuator}{37}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Getriebe und Lagerung}{37}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Festlegung des Modelldesigns}{37}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Modellierung des Modells}{37}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Systemanalyse}{38}{chapter.4}%
+\contentsline {section}{\numberline {4.1}FEM-Analyse}{38}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Betriebssimulation}{38}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Systemoptimierung}{38}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Systembewertung}{38}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Fazit}{38}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{39}{chapter.5}%
+\contentsline {chapter}{Literaturverzeichnis}{40}{chapter.5}%
+\contentsline {chapter}{Abbildungsverzeichnis}{42}{chapter*.5}%
+\contentsline {chapter}{Tabellenverzeichnis}{45}{chapter*.6}%
+\contentsline {chapter}{Symbolverzeichnis}{46}{chapter*.8}%
+\contentsline {chapter}{\numberline {A}Materialeigenschaften}{48}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Projektmanagement}{50}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Work Breakdown Structure}{50}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Zeitplan}{52}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Work Package Description}{54}{section.B.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

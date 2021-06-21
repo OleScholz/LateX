@@ -22,6 +22,8 @@ The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 A level-1 auxiliary file: symbole.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: materialtabelle.aux
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 A level-1 auxiliary file: projekt.aux
 Database file #1: literatur.bib
@@ -46,45 +48,45 @@ Warning--empty publisher in Shape
 Warning--empty year in Shape
 Warning--empty booktitle in Pattern
 Warning--empty publisher in ChordVar
-You've used 33 entries,
+You've used 41 entries,
             1791 wiz_defined-function locations,
-            622 strings with 8644 characters,
-and the built_in function-call counts, 5551 in all, are:
-= -- 431
-> -- 216
+            663 strings with 9995 characters,
+and the built_in function-call counts, 6623 in all, are:
+= -- 527
+> -- 248
 < -- 2
-+ -- 89
-- -- 56
++ -- 105
+- -- 64
 * -- 208
-:= -- 843
-add.period$ -- 107
-call.type$ -- 33
-change.case$ -- 26
+:= -- 1011
+add.period$ -- 139
+call.type$ -- 41
+change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 54
-duplicate$ -- 276
-empty$ -- 691
-format.name$ -- 56
-if$ -- 1296
+cite$ -- 62
+duplicate$ -- 316
+empty$ -- 835
+format.name$ -- 64
+if$ -- 1552
 int.to.chr$ -- 0
-int.to.str$ -- 33
+int.to.str$ -- 41
 missing$ -- 24
-newline$ -- 176
-num.names$ -- 32
-pop$ -- 233
+newline$ -- 224
+num.names$ -- 40
+pop$ -- 289
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 106
+skip$ -- 122
 stack$ -- 0
 substring$ -- 88
-swap$ -- 46
+swap$ -- 54
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 21
-while$ -- 38
-width$ -- 35
-write$ -- 332
+while$ -- 46
+width$ -- 43
+write$ -- 420
 (There were 21 warnings)
