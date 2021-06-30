@@ -5,54 +5,54 @@
 \contentsline {section}{\numberline {1.3}Struktur der Arbeit}{4}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Grundlagen}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Aufbau von Grid Fins}{5}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Parameter}{5}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Orientierung}{5}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Str\IeC {\"o}mung durch Grid Fins}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Aerodynamische Beiwerte und Vergleich zu planaren Finnen}{9}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Normalkraft}{9}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Axialkraft}{10}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Gelenkmoment}{10}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Stabilit\IeC {\"a}t}{11}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Anstellwinkelcharakteristik}{12}{subsection.2.3.5}%
-\contentsline {section}{\numberline {2.4}Grid Fin Varianten}{13}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Pfeilung}{13}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Kr\IeC {\"u}mmung}{17}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Wandquerschnitt}{18}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Zellform}{18}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Zellgr\IeC {\"o}\IeC {\ss }e}{19}{subsection.2.4.5}%
-\contentsline {section}{\numberline {2.5}Bisherige Implementierung}{21}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}SpaceX Falcon 9 und Starship}{21}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Sovietische Sojus und N-1}{23}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Chinas Chang'e}{23}{subsection.2.5.3}%
-\contentsline {section}{\numberline {2.6}Das Air-Launchsystem Valkyrie}{24}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Modellentwurf}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Systemanforderungen}{27}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Leistungsanforderungen}{27}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Anforderungen an die Kosten}{28}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Thermische und Mechanische Anforderungen}{28}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Geometrische Anforderungen}{30}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Morphologischer Kasten}{32}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Komponentenrecherche und -auswahl}{35}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Materialwahl}{35}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Gitterdesign}{37}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Peripherie und Aktuator}{37}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Getriebe und Lagerung}{37}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Festlegung des Modelldesigns}{37}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Modellierung des Modells}{37}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Systemanalyse}{38}{chapter.4}%
-\contentsline {section}{\numberline {4.1}FEM-Analyse}{38}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Betriebssimulation}{38}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Systemoptimierung}{38}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Systembewertung}{38}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Fazit}{38}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{39}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{40}{chapter.5}%
-\contentsline {chapter}{Abbildungsverzeichnis}{42}{chapter*.5}%
-\contentsline {chapter}{Tabellenverzeichnis}{45}{chapter*.6}%
-\contentsline {chapter}{Symbolverzeichnis}{46}{chapter*.8}%
-\contentsline {chapter}{\numberline {A}Materialeigenschaften}{48}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Projektmanagement}{50}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Work Breakdown Structure}{50}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Zeitplan}{52}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Work Package Description}{54}{section.B.3}%
+\contentsline {section}{\numberline {2.3}Aerodynamische Beiwerte und Vergleich zu planaren Finnen}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Normalkraft}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Axialkraft}{11}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Gelenkmoment}{11}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Stabilit\IeC {\"a}t}{12}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Anstellwinkelcharakteristik}{13}{subsection.2.3.5}%
+\contentsline {section}{\numberline {2.4}Grid Fin Varianten}{14}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Pfeilung}{14}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Kr\IeC {\"u}mmung}{18}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Wandquerschnitt}{19}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Zellform}{20}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Zellgr\IeC {\"o}\IeC {\ss }e}{21}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2.5}Bisherige Implementierung}{23}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}SpaceX Falcon 9 und Starship}{23}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Sovietische Sojus und N-1}{25}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Chinas Chang'e}{25}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Das AirLaunch-System Valkyrie}{26}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Modellentwurf}{29}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Systemanforderungen}{29}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Leistungsanforderungen}{29}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Anforderungen an die Kosten}{30}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Thermische und Mechanische Anforderungen}{30}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Geometrische Anforderungen}{32}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Morphologischer Kasten}{34}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Komponentenrecherche und -auswahl}{37}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Materialwahl}{37}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Gitterdesign}{39}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Peripherie und Aktuator}{40}{subsection.3.3.3}%
+\contentsline {subsubsection}{\nonumberline Klappwinkel}{40}{subsubsection*.6}%
+\contentsline {subsubsection}{\nonumberline Steuerwinkel}{40}{subsubsection*.8}%
+\contentsline {subsection}{\numberline {3.3.4}Getriebe und Lagerung}{40}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Festlegung des Modelldesigns}{40}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Modellierung des Modells}{41}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Systemanalyse}{42}{chapter.4}%
+\contentsline {section}{\numberline {4.1}FEM-Analyse}{42}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Betriebssimulation}{42}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Systemoptimierung}{42}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Systembewertung}{42}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Fazit}{42}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{43}{chapter.5}%
+\contentsline {chapter}{Literaturverzeichnis}{44}{chapter.5}%
+\contentsline {chapter}{Abbildungsverzeichnis}{46}{chapter*.9}%
+\contentsline {chapter}{Tabellenverzeichnis}{49}{chapter*.10}%
+\contentsline {chapter}{Symbolverzeichnis}{50}{chapter*.12}%
+\contentsline {chapter}{\numberline {A}Materialeigenschaften}{52}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Projektmanagement}{54}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Work Breakdown Structure}{54}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Zeitplan}{56}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Work Package Description}{58}{section.B.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
