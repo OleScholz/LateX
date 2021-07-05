@@ -3,9 +3,9 @@ Nachdem nun alle notwendigen Grundlagen erläutert wurden, wird in diesem Kapite
 \section{Systemanforderungen}
 Zunächst werden also die Anforderungen an das System definiert. Hierbei wird sich hauptsächlich auf eine in MatLab mit Simulink durchgeführte Simulation und Angaben von GAIA Aerospace bezogen.
 \subsection{Leistungsanforderungen}
-Das wichtigste ist natürlich, dass die Grid Fins ihre Funktion erfüllt, beim Wiedereintritt einen stabilen Flug zu gewährleisten. Simulationen haben ergeben, dass hierfür ein Beiwertanstieg von $C_{N\alpha} =0,048/^\circ=2,75/$rad und einer Fläche $A=0,144\mathrm{m}^2$. Die zu entwerfenden Finnen sollten also vergleichbare Normalkräfte produzieren können.
+Das wichtigste ist natürlich, dass die Grid Fins ihre Funktion erfüllt, beim Wiedereintritt einen stabilen Flug zu gewährleisten. Simulationen haben ergeben, dass hierfür ein Beiwertanstieg von $C_{N\alpha} =0,048/^\circ=2,75/$rad und einer Fläche $A=0,09\mathrm{m}^2$. Die zu entwerfenden Finnen sollten also vergleichbare Normalkräfte produzieren können.
 
-Auch wenn die Axialkraft zusätzlich zur Stabilität beiträgt, ist sie weniger wichtig und liegt in den bisherigen Simulationen bei $C_X=$ bei $\mathrm{Ma}_\infty=$ und $\alpha=0$. Generell ist sie jedoch positiv zu bewerten, da je größer der Aerodynamische Widerstand der Grid Fins ist, desto sicherer ist unversehrte der Flug und die Triebwerke, die den größten Anteil zur aerodynamischen Bremsung leisten, werden geschont. Dies sollt jedoch nicht auf Kosten der Lebensdauer der Grid Fins passieren, weil sonst der Aspekt der Wiederverwendbarkeit eingeschränkt wird.
+Auch wenn die Axialkraft zusätzlich zur Stabilität beiträgt, ist sie weniger wichtig und liegt in den bisherigen Simulationen bei $C_X=0,1$ bei $\mathrm{Ma}_\infty=$ und $\alpha=0$. Generell ist sie jedoch positiv zu bewerten, da je größer der Aerodynamische Widerstand der Grid Fins ist, desto sicherer ist unversehrte der Flug und die Triebwerke, die den größten Anteil zur aerodynamischen Bremsung leisten, werden geschont. Dies sollt jedoch nicht auf Kosten der Lebensdauer der Grid Fins passieren, weil sonst der Aspekt der Wiederverwendbarkeit eingeschränkt wird.
 \\~\\
 Die Aktuatoren müssen nun gewährleisten, dass die Grid Fins zu jedem Zeitpunkt unter gegebener Last die notwendige Position einnehmen können. Für den Klappwinkel sind die Anforderungen an den Motor und das zugehörige Getriebe also sehr gering. Die Bewegung passiert hier ohne angreifende Kräfte, sodass nur die eigene Trägheit und die Lagerreibung überwunden werden muss. Dabei ist auch keine hohe Drehrate erforderlich, da für dieses Manöver theoretisch der gesamte Zeitraum zwischen Separation und Wiedereintritt zur Verfügung steht. Die restliche Zeit muss nur dafür gesorgt werden, dass die Grid Fins diese Position halten. Der aerodynamische Widerstand wirkt hierbei sogar unterstützend mit, die aus den Trägheitskräften resultierenden Moment um dieses Gelenk müssen jedoch standgehalten werden.
 Der Klappwinkel muss also einmal von $\Lambda=90^\circ$ zu $\Lambda=0^\circ$ bewegbar sein und sich dort halten lassen
@@ -48,11 +48,11 @@ Zu dem maximalen Lastfall kommt es, wenn kein ReEntry-Burn stattfindet und alle 
 	=\left(\begin{array}{c}817\mathrm{N}\\-6530\mathrm{N}\\-6183\mathrm{N}\end{array}\right)
 \end{equation}
 zeigt. Zu erkennen ist, dass der Wiedereintritt hochfrequenten Schwingungen ausgesetzt die Amplituden von bis zu $\Delta F_z = 3194$N besitzen. Wird nun aber davon ausgegangen, dass eine funktionstüchtige Reglung existiert, so kann diese Schwingung ausgeglichen werden und es käme ein Kraftvektor mit den Mittelwerten zu Stande.
-\begin{equation}
+\begin{equation}\label{eq_Fmax}
 \vec{F}_\mathrm{geregelt}(t=440,7\mathrm{s})
 =\left(\begin{array}{c}572\mathrm{N}\\-6415\mathrm{N}\\-4995\mathrm{N}\end{array}\right)
 \end{equation}
-Der Moment, in dem eine Machzahl von $Ma_\infty = 2$ erreicht qird und der Ballonschirm deployed, ist zwar in diesem Fall deutlich erkennbar, da die Raketenstufe in diesem Moment plötzlich herumgerissen wird, kann jedoch im Vergliech zu den Kräften bei "Max Q"\ vernachlässigt werden.
+Der Moment, in dem eine Machzahl von $Ma_\infty = 2$ erreicht qird und der Ballonschirm deployed, ist zwar in diesem Fall deutlich erkennbar, da die Raketenstufe in diesem Moment plötzlich herumgerissen wird, kann jedoch im Vergleich zu den Kräften bei "Max Q"\ vernachlässigt werden.
 \begin{figure}[h] 
 	\centering
 	\includegraphics[width=0.9\textwidth]{F2Extreme4.png}
@@ -124,19 +124,19 @@ Aluminiumlegierungen zeigen bei der thermischen Belastbarkeit sehr große Schwä
 \subsection{Gitterdesign}
 Für den Design des Gitters wird eine Auswahl der einzelnen Komponenten aus dem morphologische Kasten in Abbildung \ref{abb_MorphKastGF} getroffen.
 \\~\\
-Als erster Punkt werden dort verschiedene Zellformen dargestellt. Wie im Grundlagenkapitel in Abschnitt \ref{sec_zellform} dargelegt, hat die Zellform so gut wie keinen Einfluss auf die Aerodynamik. Nur im Transschall erzeugt die Wabenstruktur weniger Normalkraft. Dies kann jedoch vernachlässigt werden, da nur Machzahlen $Ma_\infty >2$ relevant ist, weil unterhalb der Ballute auslöst und die Grid Fins nicht mehr relevant sind. Bei traditionellen Fertigungsverfahren ist es in den meisten Fällen einfacher und somit günstiger die Struktur aus geraden Elementen zu fertigen. Bei der additiven Herstellung ist dieser Aspekt jedoch irrelevant, sodass nur die strukturmechanischen Eigenschaften der Zellform relevant sind....
+Als erster Punkt werden dort verschiedene Zellformen dargestellt. Wie im Grundlagenkapitel in Abschnitt \ref{sec_zellform} dargelegt, hat die Zellform so gut wie keinen Einfluss auf die Aerodynamik. Nur im Transschall erzeugt die Wabenstruktur weniger Normalkraft. Dies kann jedoch vernachlässigt werden, da nur Machzahlen $Ma_\infty >2$ relevant ist, weil unterhalb der Ballute auslöst und die Grid Fins nicht mehr relevant sind. Bei traditionellen Fertigungsverfahren ist es in den meisten Fällen einfacher und somit günstiger die Struktur aus geraden Elementen zu fertigen. Bei der additiven Herstellung ist dieser Aspekt jedoch irrelevant, sodass nur die strukturmechanischen Eigenschaften der Zellform relevant sind. Da in den meisten Fällen \textbf{viereckige Zellen} mit maximal \textbf{dreieckigen Seitenelementen} benutzt wurden, wird auch diese praxiserprobte Variante gewählt. Zudem gibt es hierzu die meisten Daten, was die Wahrscheinlichkeit von unerwartetem Verhalten minimiert.
 \\~\\
 Auch für die Gitterform gibt es unterschiedliche Möglichkeiten. Da jedoch keine Studien über ihren Einfluss auf die erzeugbaren Kräfte existieren, muss auch hier in anderer Hinsicht argumentiert werden. Um den rechteckigen Baumraum eines 3D-Drucker ideal nutzen zu, bietet sich auch eine rechteckige Gitterform an. Dies ermöglicht eventuelle einen kleineren Drucker zu nutzen und somit Fertigungskosten einzusparen. Auch auf diese Form lässt sich die Zuspitzung des Grid Fins, wie sie bei den anderen beiden Varianten zu sehen ist anwenden, um einen besseren Kraftfluss zu ermöglichen. Zusätzlich lassen sich durch additive Fertigung die Außenkanten ohne großen Mehraufwand wie beim Insektenflügel abrunden, was die Struktur weiter entlasten sollte. Somit ist die Wahl auf ein \textbf{Rechteckgitter} mit \textbf{Zuspitzung zur Einspannung} hin und \textbf{abgerundeten Außenkanten }gefallen.
 \\~\\
-Die Wandquerschnittsform hat im Gegensatz zu den anderen beiden bisherigen Aspekten einen großen Einfluss auf die Aerodynamik oder genauer gesagt den Widerstand. Dieser Effekt wurde im Grundlagenkapitel in Abschnitt \ref{sec_wandquerschnitt} behandelt. Wie jedoch schon weiter oben erwähnt, ist Widerstand bei dieser Anwendung nicht unbedingt als etwas Schlechtes, noch etwas generell Gutes anzusehen. Zum einen werden die Treibwerke entlastet, zum anderen die Grid Fins stärker beansprucht....
+Die Wandquerschnittsform hat im Gegensatz zu den anderen beiden bisherigen Aspekten einen großen Einfluss auf die Aerodynamik oder genauer gesagt den Widerstand. Dieser Effekt wurde im Grundlagenkapitel in Abschnitt \ref{sec_wandquerschnitt} behandelt. Auch wenn Widerstand nicht zwangsläufig negativ zu bewerten ist, da die Rakete so beim Wiedereintritt stärker abgebremst wird, bedeutet mehr Widerstand auch mehr Belastung, also kürzere Lebensdauer beziehungsweise schwererer Grid Fin. Der Mehraufwand von komplexeren Querschnittsformen fällt durch die additive Fertigung auch weg. So wird für das \textbf{Gitter} eine \textbf{beidseitig spitze} Form gewählt, wegen des geringeren Widerstandes. Für den \textbf{Rahmen} wird die \textbf{Trapezform} verwendet, da die Außenkante flach sein kann. Es wurde sich gegen die Dreiecksform entschieden, obwohl die den geringsten Widerstand liefert, da weniger Material außen ist und somit schlechter Biegemomente um eine horizontale Achse aufgenommen werden können. Des Weiteren ist der Effekt auf die Normalkraft, wenn nur angeschrägte Flachen existieren unbekannt.
 \\~\\
-Auch die Krümmung hat wieder eine vernachlässigbar kleinen Einfluss auf die Aeodynamik von Grid Fins. Durch die additive Fertigung im 3D-Drucker ist auch kein wirklicher zusätzlicher Aufwand damit verbunden. Um beim Wiedereintritt den Grid Fin nicht gegen die Widerstandskraft halten zu müssen, soll er zum Triebwerk hin angelegt werden. Somit wird der Grid Fin mit einer zur Anströmung \textbf{konkaven Krümmung} modelliert.
+Auch die Krümmung hat wieder eine vernachlässigbar kleinen Einfluss auf die Aerodynamik von Grid Fins. Durch die additive Fertigung im 3D-Drucker ist auch kein wirklicher zusätzlicher Aufwand damit verbunden. Um beim Wiedereintritt den Grid Fin nicht gegen die Widerstandskraft halten zu müssen, soll er zum Triebwerk hin angelegt werden. Somit wird der Grid Fin mit einer zur Anströmung \textbf{konkaven Krümmung} modelliert.
 \\~\\
 Mit einer Pfeilung lässt sich nun wiederum die wirkenden Axialkräfte verändern. Mit der konfigurellen Pfeilung lassen sich diese Kräfte um bis zu das 4-fache erhöhe. Dies würde zu einer deutlich stärkeren Belastung führen, wodurch der Grid Fin stabiler und somit schwerer und unwirtschaftlicher wird. Sollte nun hingegen eine verstellbare konfigurelle Pfeilung implementiert werden, so steigen die Anforderungen an den Aktuator wieder deutlich an. Dies würde zu einer deutlichen Kostensteigerung führen ohne signifikante Vorteile, da der restliche Körper noch immer deutlich größere Anteile zum aerodynamischen Widerstand liefert. Somit wir eine Pfeilung der Konfiguration an dieser Stelle ausgeschlossen.
 
 Die Pfeilung des Gitters ist wiederum nicht mit der Krümmung verträglich. Das bessere Anlegen des Grid Fins an die Außenhülle der Rakete ist an dieser Stelle der Widerstandsreduzierung einer solchen Pfeilung vorzuziehen.
 
-Bleibt nun also nur noch die lokale Pfeilung, welche keinen Einfluss auf andere Designparameter hat...
+Bleibt nun also nur noch die lokale Pfeilung, welche keinen Einfluss auf andere Designparameter hat. Auf der Außenseite, beziehungsweise der Stromabwärtsseite, kommt sie jedoch auch nicht in Frage, da sie im eingeklappten Zustand beim Raketenstart in die Strömung ragt und somit zusätzlichen Widerstand verursachen würde. Auf der \textbf{luv-Seite} hingegen ist die \textbf{lokale Pfeilung} eine gute Möglichkeit der Widerstandsreduzierung und wird deswegen implementiert. Die wohl bekannteste Verwendung der lokalen Pfeilung befindet sich an den Grid Fins der Falcon 9, welche den Berg-Typus verwendet. Die Analysen von Guyot und Schülein \cite{PeakValley}, dass, auch wenn beide Varianten den gleichen Widerstandsvorteil habe, die Normalkraft, bei dem Tal-Typus jedoch höher ist. Da die Grid Fins von SpaceX aber auch keine spitze Vorderkante haben, würden bei ihnen eine lokale Pfeilung des Tal-Typus an den Schnittstellen nahezu zu einer Sackgasse für die Strömung kommen, was einen großen Widerstand bewirkt. Da bei diesem Grid Fin die Gitterwände eine doppel-spitzen Wandquerschnitt haben, wie es auch bei den Untersuchungen von Guyot und Schülein der Fall war, wird hier der \textbf{Tal-Typus} verwendet. Da das größte Bedenken hier die Stabilität der Zacken betrifft, die sich im Gegenteil zum Berg-Typus nicht gegenseitig stützen, kann es sein, dass nach der FEM-Anaylse der Typus noch gewechselt wird.
 \subsection{Peripherie und Aktuator}
 Für alle der drei Energiemedien ist sind schon Vertreter in der Rakete installiert, die unter Umständen genutzt werden könnten. Da sich die Grid Fin Aktuatorik im selben Abschnitt wie die Boardelektronik der ersten Stufe befindet, sind auch hier direkt die Batterien, mit denen Elektromotoren betrieben werden können. So wird mit ihnen zum Beispiel auch die elektrischen Treibstoffpumpen für die Triebwerke mit Strom versorgt. Somit liegt direkt auch schon ein Hochdruckfluid vor, welches als Druckmittel für die Hydraulik genutzt werden könnte. Da sich dieses jedoch am anderen Ende der Rakete befindet und dafür sowohl ein Eingriff in die komplexen Triebwerke, so wie eine Abhängigkeit von vorhandenem Treibstoff oder LOX zu Stande kommt, ist dies eine weniger plausible Möglichkeit. Sodass eine eigene elektrische Pumpe und Druckmittel eine realistischere Umsetzung für eine Hydraulik wären. Für eine Pneumatik könnte jedoch ein vorhandenes System genutzt werden. Der Heliumtank für den Druckausgleich in den Tanks liegt direkt unterhalb der Elektronik und es existieren sogar schon Leitungen, die das Gas in diesen Bereich der Rakete für das RCS transportieren.
 \\~\\
@@ -148,17 +148,66 @@ Da sowohl für den Klappwinkel, als auch den Steuerwinkel unterschiedliche Anfor
 \section{Festlegung des Modelldesigns}\label{sec:modelldesign}
 Nun da das Design feststeht, muss nur noch die Größe der einzelnen Parameter festgelegt werden. Die Größe der Querschnittsfläche $A$ ist abhängig von der Auftriebserzeugung, die gewährleistet werden soll. Aus der Simulation ist bekannt, dass ungefähr
 \begin{equation}
-	AC_{N\alpha}=  /^\circ
+	A \cdot C_{N\alpha}= 0,00432 \mathrm{m}^2/^\circ
 \end{equation}
-bei einer Machzahl von $Ma_\infty = 2.0$ und $\alpha = 0^\circ$ gelten soll. Aus Abbildung \ref{abb_bucket} ist ein Basiswert von $C_{N\alpha}=0,0208$ bekannt, von dem aus der Normalkraftsbeiwertanstieg des zu entwerfenden Grid Fins abgeschätzt wird.
+bei einer Machzahl von $Ma_\infty = 2.0$ und $\alpha = 0^\circ$ gelten soll. Da die einzelnen Modellierungsparameter hauptsächlich einen Einfluss auf den Widerstand haben und die Normalkraft, wir von einem ähnlichen Wert von $C_{N\alpha}$ ausgegangen, sodass auch eine Fläche von $A=0,9\mathrm{m}^2$ benötigt wird.
 
+Das Verhältnis von Zellgröße zur Sehnenlänge kann jedoch den Auftriebsbeiwert verändern. Da aber nur Studien zum niedrigen Unterschall, bei denen ein Maximum bei gleicher Länge dieser beiden Parameter erreicht wird, wird hier ein Blick auf die bisher verwendeten Grid Fins geworfen. Wie Abbildung \ref{abb_f9_GF} zu erkenn gibt verwendet SpaceX bei seiner Falcon 9 auch ein Verhältnis von ungefähr 1:1, während Chinas Chang'e eine etwas kleinere Zellgröße zu besitzen scheint (vgl. Abbildung \ref{abb_change}). Da jedoch die Grid Fins in den meisten Studien die gleiche Zellgröße wie Sehnenlänge haben, lässt dies vermuten, dass die auch im Überschall dadurch die höchsten Normalkraftwerte erzeugt werden. Also wird auch hier dieses Verhältnis verwendet und der Wert $C_{N\alpha}$ und somit auch die Fläche müssen nicht verändert werden. Nun wird aus gängigen Werten für die Sehen ein Wert für diese festgelegt, sodass die zwei Parameter mit $\mathbf{s=g=0,04m}$ festgelegt werden.
 
-Gesamtgröße
-gap-to-chord
-Pfeilungswinkel
-Kanäle
-Krümmungsradius
-Formabrundung
-Die additive Fertigung des Grid Fins ermöglicht neue Optionen, die für klassische Herstellungsverfahren nicht wirtschaftlich umsetzbar sind. So können zum Beispiel Kanäle in das Material integriert werden, welche genutzt werden können, um den Werkstoff zu kühlen oder gar das Air Flush System mit weiteren Drucksensoren ergänzen.
+Bei der Höhe $h$ und Breite $b$ können nun Werte gewählt werden, die ganzzahlig durch die Diagonale in der Zelle teilbar ist. Wird nun ein Seitenverhältnis von 5:6 gewählt, was zu einer Höhe von $\mathbf{h= }6\cdot g\sqrt{2}=\mathbf{339,4mm}$ und einer von $\mathbf{b= }5\cdot g\sqrt{2}=\mathbf{282,8mm}$ führt. Dies muss auch in den Bauraum eines Druckers passen. Dieser hat zwar nur eine Grundfläche von 300x300mm$^2$, aber da er 400mm hoch ist kann dich Diagonale von 500mm genutzt werden, indem in diese Eben auch die Höhe des Grid Fins gelegt wird. Die Fläche die durch die Höche und Breite des Grid Fins aufgespannt wird liegt mit $0,096\mathrm{m}^2$ noch etwas über der angestrebten Fläche. Jedoch muss diese noch um die vier halbe Zellen reduziert werden, da sich die Geometrie zur Einspannung hin schmälern soll. Übrig bleibt eine Fläche von $A=h\cdot b-2g^2=0,0928\mathrm{m}^2$.
 
+Da sich an der Wanddicke $d$ im Laufe der FEM-Simulationen vermutlich am meisten ändern wird, soll an dieser Stelle nur ein kurze Überschlagsrechnung gemacht werden. Angenommen wird, dass die Wandstärke nicht in der Gitterform über die Breite verteilt ist, sondern alle zusammen addiert einen Balken mit der Gesamtdicke $d_\mathrm{ges.}(x_h)$ bilden. $x_h$ ist hierbei eine Koordinate die sich über den Grid Fin in Höhenrichtung spannt mit $x \epsilon [0, h]$. Dieser wird nur durch die maximale Kraft in Sehnenrichtung gleichmäßig auf der gesamten Länge $h$ und Breite $d_\mathrm{ges}(x_h)$ belastet. Die Kraft in Sehnenrichtung $F_s$ wird aus dem maximalen Kraftvektor in Gleichung \ref{eq_Fmax} bestimmt. Dieser ist im körperfesten Koordinatensystem gegeben, sodass er bei einem Steuerwinkel von $\delta = 10^\circ$ und in x-Konfiguration $\lambda=45^\circ$ noch wie folgt umgerechnet werden muss.
+\begin{equation}
+	F_s = F_x\cos{\delta}+\sqrt{F_y^2+F_z^2}\sin{\delta}
+\end{equation}
+Es bildet sich ein Momentenverlauf 
+\begin{equation}
+	M(x_h) =\frac{F_{s}}{d_\mathrm{ges.}}\left(-\frac{1}{2}x_h^2+hx_h-\frac{1}{2}h^2\right)
+\end{equation}
+aus. Die größte Spannung herrscht in der äußersten Faser bei
+\begin{equation}
+	 \sigma(\pm \frac{s}{2}, x_h)=\frac{6M(x_h)}{s^2d_\mathrm{ges.}}.
+\end{equation}
+Wie dick nun für die jeweiligen x-Werte die Zellwände insgesamt sein müssen, hängt von der Festigkeit des Materials ab.
+\begin{equation}
+	R_{p, 0.2} \geq\sigma_\mathrm{max}
+\end{equation}
+Somit ergibt sich die Gesamtdicke zu
+\begin{equation}
+	d_\mathrm{ges}\geq \sqrt{\frac{6F_{s}\left(  -\frac{1}{2}x_h^2+hx_h-\frac{1}{2}h^2\right)}{R_{p, 0.2}s^2}}
+\end{equation}
+Wir nun noch ein Sicherheitsfaktor von 1,5 dazu multipliziert, da die Kraftanteile in Breiten- und Höhenrichtung nicht mit einbezogen wurden, erhält man den Verlauf der einzelnen Wandstärken $d(x_h)$, indem die Gesamtdicke gleichmäßig auf die zwei Rahmenwände und fünf Schnittstellen der Gitterwände verteilt wird.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.85\textwidth]{d_einzel.png}
+	\caption{Der Verlauf der Wanddicke $d$ in Abhängigkeit von $x_h$}
+	\label{abb_d_einzel}
+\end{figure}\\
+Da das Moment unter diesen einfachen Annahmen am Ende des Grid Fins auf null fällt, errechnet sich dort auch ein Wandstärke von null. Dies ist natürlich kein sinnvolles Ergebnis, sodass eine minimale Wanddicke von $d_\mathrm{min}=1,5$ mm definiert wird. Des Weiteren ist noch zu beachten, dass die Dicke in der Nähe der Einspannung noch höher als dargestellt ist, da dort weniger Wände liegen, auf die die Gesamtdicke verteilt wird.
+\\~\\
+Nun steht schon mal eine erste Geometrie des Grid Fins, jedoch benötigen auch die zusätzlichen Designelement, die aus dem morphologischen Kasten gewählt wurde Festlegung weitere Werte. Einer davon ist der Pfeilungswinkel $\Lambda_\mathrm{lokal}$. Je größer dieser ist, desto geringer ist die axiale Kraft, doch große Pfeilung schwächt gleichzeitig die Sehne in den Tälern. Also Kompromiss wird der Pfeilungswinkel variiert. An den \textbf{Spitzen} soll ein $\mathbf{\Lambda_\mathrm{lokal}=70^\circ}$ gelten in den Tälern jedoch nur $\Lambda_\mathrm{\textbf{lokal}}=20^\circ$. Der Berg soll $20$mm höher liegen als das Tal und verbunden werden sie über einen Tangentenbogen. Die Fläche dieser Pfeilung entspricht einem Rechteck gleicher Breite mit der Höhe $7$mm. Um also auf eine Sehnenlänge von $s=40$mm zu kommen, muss sich noch $33$mm restliche Wand unter der Pfeilung befinden.
+
+Der Wandquerschnitt spitzt sich auch zu und der zugehörige Winkel wurde für das Gitter auf $70^\circ$ gesetzt. Die Position in wieder so gewählt, dass die durchschnittliche Sehnenlänge sich immer auf dem Wert befindet, der durch die lokale Pfeilung herrschen sollte. Die Rahmenwände haben nur auf einer Seite eine schräge. Der Winkel wurde hier auf\ $54^\circ$ herab gesetzt, sodass Rahmen und Gitter bei gleicher Wandstärke und Sehnenlänge, die selbe maximale Höhe haben.
+\begin{figure}[h]
+	\begin{minipage}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=0.85\textwidth]{Pfeil_lok.png}
+		\caption{Die Geometrischer Zusammenhänge einer gepfeilten Zellwand}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Wandquerschnitt.png}
+		\caption{Zuspitzung der Wände im Querschnitt}
+	\end{minipage}
+\end{figure}\\
+Die Krümmung soll für die Vorderkante der nominellen Sehne ausgelegt werden, also für den Fall, dass keine Pfeilung oder Zuspitzung vorliegt (gepunktete Linie). Da an den Bergen der Pfeilung die Spitze $13$mm und mit der Zuspitzung bei eine Wandstärke von $4$mm einen weiteren Millimeter über der nominelle Sehne liegt, müssen noch mindestens $14$mm auf die $550$mm Raketenradius drauf addiert werden. Somit wird der Krümmungsradius auf $570$mm gesetzt.
+\\~\\
+Es sind noch weitere Optionen möglich, mit denen sich die Grid Fins modifizieren lassen würden. Diese werden hier jedoch zunächst nur kurz vorgestellt und erst nach den ersten Analysen beurteilt, ob sie eventuell doch noch implementiert werden sollen.
+
+Die additive Fertigung des Grid Fins ermöglicht neue Optionen, die für klassische Herstellungsverfahren nicht wirtschaftlich umsetzbar sind. So können zum Beispiel Kanäle in das Material integriert werden, welche genutzt werden können, um den Werkstoff zu kühlen oder gar das Air Flush System mit weiteren Drucksensoren ergänzen. Es wäre auch denkbar diese einfach nur zur weiteren Gewichtsreduzierung zu nutzen.
+
+Auch denkbar ist es die scharfen Kanten, die senkrecht zur Strömung liegen, abzurunden und so einen besseren Kraftfluss zu erlauben.
+\\~\\
+Zum Schluss muss an dieser Stelle noch angemerkt werden, dass 3D-Drucker natürlich nur eine begrenzte Auflösung haben. Je nach Hersteller kann somit die minimale Wandstärke $0,4-1,0$mm \cite{eos, preise} und die Schichtdicke $0,04-0,075$mm \cite{preise} betragen. Die Ausrichtung im Drucker hat also auch Einfluss auf den Detailgrad. Somit kann es sein, dass die spitzen Kanten und die Pfeilung in der Fertigung stumpfer werden, als sie ausgelegt wurden. Auch das Hinzufügen von Kanälen ist nur möglich, wenn die Wände dick genug sind.
 \section{Modellierung des Modells}

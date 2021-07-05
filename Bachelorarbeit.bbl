@@ -158,13 +158,6 @@ Manish Tripathi, Mahesh Sucheendran, and Ajay Misra.
 \newblock \url{https://www.kaysser.de/}.
 \newblock Zugriff: 20.06.2021.
 
-\bibitem{T1.3}
-{Stahlhandel Gröditz GmbH}.
-\newblock {Alloy 625 ESU | 2.4856 (NiCr22Mo9Nb) Material data sheet}.
-\newblock
-  \url{https://www.stahlportal.com/en/stock/alloy-625-esu-24856-forged/}.
-\newblock Zugriff: 20.06.2021.
-
 \bibitem{T1.4}
 {Gustoc Titanium GmbH}.
 \newblock {Der Werkstoff Titan: Verarbeitung}.
@@ -178,11 +171,11 @@ Manish Tripathi, Mahesh Sucheendran, and Ajay Misra.
   \url{https://d3d-am.de/wp-content/uploads/2019/05/AlSi10Mg-Datenblatt_12-2018.pdf}.
 \newblock Zugriff: 20.06.2021.
 
-\bibitem{T2.2}
-{ Amari Ireland Ltd}.
-\newblock {1.4404 (316L) Sheet and Plate (Quarto Plate and CPP)}.
+\bibitem{T2.4}
+{ZAPP AG}.
+\newblock {TiAl6V4 (Grade 5) DatenblattHigh Per for mance Alloys}.
 \newblock
-  \url{https://www.amari-ireland.com/datasheets/Stainless-Steel-14404-Sheet-and-Plate_346.ashx}.
+  \url{https://www.zapp.com/fileadmin/_documents/Downloads/materials/high_performance_alloys/de/TiAl6V4-Grade5-Datenblatt.pdf}.
 \newblock Zugriff: 20.06.2021.
 
 \bibitem{T2.3}
@@ -192,12 +185,12 @@ Manish Tripathi, Mahesh Sucheendran, and Ajay Misra.
   \url{https://kalpatarupiping.eu/inconel-products/inconel-625-buttweld-fittings-suppliers/}.
 \newblock Zugriff: 20.06.2021.
 
-\bibitem{T2.4}
-{ZAPP AG}.
-\newblock {TiAl6V4 (Grade 5) DatenblattHigh Per for mance Alloys}.
+\bibitem{T3.5}
+{CHINA SPECIAL STEEL LIMITED}.
+\newblock {Martensite stainless steel material No.1.4542}.
 \newblock
-  \url{https://www.zapp.com/fileadmin/_documents/Downloads/materials/high_performance_alloys/de/TiAl6V4-Grade5-Datenblatt.pdf}.
-\newblock Zugriff: 20.06.2021.
+  \url{http://www.hastelloy-c276.com/stainless-steel-heat-resistant-steel/Martensite-stainless-steel-14542.html}.
+\newblock Zugriff: 21.06.2021.
 
 \bibitem{T3.8}
 {VDM Metals International GmbH}.
@@ -205,6 +198,20 @@ Manish Tripathi, Mahesh Sucheendran, and Ajay Misra.
 \newblock
   \url{https://www.vdm-metals.com/fileadmin/user_upload/Downloads/Data_Sheets/Datenblatt_VDM_Alloy_718.pdf}.
 \newblock Zugriff: 21.06.2021.
+
+\bibitem{T1.3}
+{Stahlhandel Gröditz GmbH}.
+\newblock {Alloy 625 ESU | 2.4856 (NiCr22Mo9Nb) Material data sheet}.
+\newblock
+  \url{https://www.stahlportal.com/en/stock/alloy-625-esu-24856-forged/}.
+\newblock Zugriff: 20.06.2021.
+
+\bibitem{T2.2}
+{ Amari Ireland Ltd}.
+\newblock {1.4404 (316L) Sheet and Plate (Quarto Plate and CPP)}.
+\newblock
+  \url{https://www.amari-ireland.com/datasheets/Stainless-Steel-14404-Sheet-and-Plate_346.ashx}.
+\newblock Zugriff: 20.06.2021.
 
 \bibitem{T3.1}
 {3D Systems GmbH}.
@@ -232,13 +239,6 @@ Manish Tripathi, Mahesh Sucheendran, and Ajay Misra.
 \newblock {Hastelloy® X (Alloy X), UNS N06002}.
 \newblock
   \url{https://www.ulbrich.com/uploads/data-sheets/Hastelloy-X-Alloy-X-UNS-N06002.pdf}.
-\newblock Zugriff: 21.06.2021.
-
-\bibitem{T3.5}
-{CHINA SPECIAL STEEL LIMITED}.
-\newblock {Martensite stainless steel material No.1.4542}.
-\newblock
-  \url{http://www.hastelloy-c276.com/stainless-steel-heat-resistant-steel/Martensite-stainless-steel-14542.html}.
 \newblock Zugriff: 21.06.2021.
 
 \bibitem{T3.6}

@@ -10,17 +10,17 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Normalkraftsbeiwertgradient bei $\alpha = 0$ in Abh\IeC {\"a}ngigkeit von der Machzahl}}{11}{figure.2.5}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Axialkraft (hier CD) bei unterschiedlichen Anstellwinkeln in Abh\IeC {\"a}ngigkeit von der Machzahl}}{12}{figure.2.6}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Gelenkmomentenbeiwert bei unterschiedlichen Anstellwinkeln in Abh\IeC {\"a}ngigkeit von der Machzahl}}{12}{figure.2.7}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Widerstandsbeiwert in Abh\IeC {\"a}ngigkeit vom Anstellwinkel $\alpha $ bei $Ma=2.5$}}{13}{figure.2.8}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Gelenkmoment in Abh\IeC {\"a}ngigkeit vom Anstellwinkel $\alpha $ bei a) \ensuremath {Ma=0.5}, b) $Ma=2.5$}}{14}{figure.2.9}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Vielfache des Normalkraftanstiegs (links) und der Axialkraft (rechts) im Vergleich zum ungepfeilten Grid Fin in Abh\IeC {\"a}ngigkeit vom konfigurellen Pfeilungswinkel $\Lambda _{Konf}$ bei $Ma = 2.5$ und $\alpha = 0$}}{15}{figure.2.10}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Widerstandsbeiwert in Abh\IeC {\"a}ngigkeit vom Anstellwinkel $\alpha $ bei $Ma_\infty =2.5$}}{13}{figure.2.8}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Gelenkmoment in Abh\IeC {\"a}ngigkeit vom Anstellwinkel $\alpha $ bei a) \ensuremath {Ma_\infty =0.5}, b) $Ma_\infty =2.5$}}{14}{figure.2.9}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Vielfache des Normalkraftanstiegs (links) und der Axialkraft (rechts) im Vergleich zum ungepfeilten Grid Fin in Abh\IeC {\"a}ngigkeit vom konfigurellen Pfeilungswinkel $\Lambda _{Konf}$ bei $Ma_\infty = 2.5$ und $\alpha = 0$}}{15}{figure.2.10}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Ebener Grid Fin (links) und Grid Fin mit gepfeiltem Gitter (rechts)}}{16}{figure.2.11}%
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Axialkraftbeiwert (links) und Normalkraftsbeiwertanstieg (rechts) in Abh\IeC {\"a}ngigkeit von der Machzahl bei unterschiedlichen Pfeilungswinkeln $\Lambda _{G}$ und $\alpha = 0$}}{17}{figure.2.12}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Lokale Pfeilung der Zelle mit dem a) \grqq Berg\grqq -Typus und b) \grqq Tal\grqq -Typus}}{17}{figure.2.13}%
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Wellenwiderstandsbeiwert (links) und Auftrieb/Widerstand-Verh\IeC {\"a}ltnis (rechts) in Abh\IeC {\"a}ngigkeit von der Machzahl}}{18}{figure.2.14}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Gelenkmomentenbeiwert in Abh\IeC {\"a}ngigkeit vom Anstellwinkel f\IeC {\"u}r gekr\IeC {\"u}mmte Grid Fins bei Ma$_\infty =1,1$}}{19}{figure.2.15}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Gelenkmomentenbeiwert in Abh\IeC {\"a}ngigkeit vom Anstellwinkel f\IeC {\"u}r gekr\IeC {\"u}mmte Grid Fins bei Ma$_\infty =1.1$}}{19}{figure.2.15}%
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Widerstandsbeiwert f\IeC {\"u}r verschiedene Rahmenquerschnittsformen (F1-F4), einen dickeren Rahmen $d_R$ (F5) und ein d\IeC {\"u}nneres Gitter $d_G$ (F6) bei $\alpha = 0$ in Abh\IeC {\"a}ngigkeit von der Machzahl}}{20}{figure.2.16}%
 \contentsline {figure}{\numberline {2.17}{\ignorespaces Anstieg des Normalkraftkoeffizienten \IeC {\"u}ber den Anstellwinkel $\alpha $ in Abh\IeC {\"a}ngigkeit von der Machzahl f\IeC {\"u}r verschiedene Zellformen bei $\alpha = 0$}}{21}{figure.2.17}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Anstieg des Normalkraftkoeffizienten in Abh\IeC {\"a}ngigkeit des Verh\IeC {\"a}ltnis zwischen Zellgr\IeC {\"o}\IeC {\ss }e und Sehnenl\IeC {\"a}nge f\IeC {\"u}r Kaskaden Finnen bei $Ma_\infty = 0,1176$}}{22}{figure.2.18}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Anstieg des Normalkraftkoeffizienten in Abh\IeC {\"a}ngigkeit des Verh\IeC {\"a}ltnis zwischen Zellgr\IeC {\"o}\IeC {\ss }e und Sehnenl\IeC {\"a}nge f\IeC {\"u}r Kaskaden Finnen bei $Ma_\infty = 0.1176$}}{22}{figure.2.18}%
 \contentsline {figure}{\numberline {2.19}{\ignorespaces Grid Fins an der Falcon 9, Version Mod 3 links und Mod 4 rechts}}{24}{figure.2.19}%
 \contentsline {figure}{\numberline {2.20}{\ignorespaces SpaceX's Starship inklusive Super Heavy Booster}}{24}{figure.2.20}%
 \contentsline {figure}{\numberline {2.21}{\ignorespaces Das Sojus Notfall-Rettungssystem mit Grid Fins}}{25}{figure.2.21}%
@@ -33,9 +33,12 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Kr\IeC {\"a}fte am Grid Fin beim maximalen Lastfall}}{33}{figure.3.3}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Morphologischer Kasten f\IeC {\"u}r die Grid Fins}}{35}{figure.3.4}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Morphologischer Kasten f\IeC {\"u}r die Grid Fin Aktuatorik}}{36}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Der Verlauf der Wanddicke $d$ in Abh\IeC {\"a}ngigkeit von $x_h$}}{42}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Die Geometrischer Zusammenh\IeC {\"a}nge einer gepfeilten Zellwand}}{43}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Zuspitzung der W\IeC {\"a}nde im Querschnitt}}{43}{figure.3.8}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Modell zur Ermitllung der Materialkosten}}{52}{figure.A.1}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Modell zur Ermitllung der Materialkosten}}{55}{figure.A.1}%
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
