@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  5 JUL 2021 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  14 JUL 2021 13:45
 entering extended mode
 **./Bachelorarbeit.tex
 (Bachelorarbeit.tex
@@ -2310,10 +2310,10 @@ copy)>]
 File: ./graphics//Morphologischer Kasten GF V2.png Graphic file (type png)
 <use ./graphics//Morphologischer Kasten GF V2.png>
 Package pdftex.def Info: ./graphics//Morphologischer Kasten GF V2.png  used on 
-input line 77.
+input line 78.
 (pdftex.def)             Requested size: 417.39914pt x 338.35677pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--82
+Underfull \hbox (badness 10000) in paragraph at lines 74--83
 
  []
 
@@ -2321,18 +2321,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--82
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [34]
-<./graphics//Morphologischer Kasten Ak.png, id=600, 725.109pt x 291.489pt>
+<./graphics//Morphologischer Kasten Ak.png, id=600, 725.5908pt x 291.9708pt>
 File: ./graphics//Morphologischer Kasten Ak.png Graphic file (type png)
 <use ./graphics//Morphologischer Kasten Ak.png>
 Package pdftex.def Info: ./graphics//Morphologischer Kasten Ak.png  used on inp
-ut line 90.
-(pdftex.def)             Requested size: 463.77998pt x 186.43668pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[35 <./graphics//Morphologischer Kasten GF V2.png>] [36 <./graphics//Morphologi
-scher Kasten Ak.png>]
+ut line 91.
+(pdftex.def)             Requested size: 463.77998pt x 186.62454pt.
+ [35 <./graphics//Morphologischer Kasten GF V2.png>] [36 <./graphics//Morpholog
+ischer Kasten Ak.png>]
 (C:\Users\Neu1\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
@@ -2423,12 +2419,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--213
 
  []
 
-) [44]
+<./graphics//grundriss.jpg, id=694, 616.4631pt x 475.5366pt>
+File: ./graphics//grundriss.jpg Graphic file (type jpg)
+<use ./graphics//grundriss.jpg>
+Package pdftex.def Info: ./graphics//grundriss.jpg  used on input line 217.
+(pdftex.def)             Requested size: 394.2158pt x 304.10292pt.
+<./graphics//körper.jpg, id=695, 782.6841pt x 550.6974pt>
+File: ./graphics//körper.jpg Graphic file (type jpg)
+<use ./graphics//körper.jpg>
+Package pdftex.def Info: ./graphics//körper.jpg  used on input line 224.
+(pdftex.def)             Requested size: 394.2158pt x 277.37314pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[44] [45 <./graphics//grundriss.jpg> <./graphics//körper.jpg>]
 \openout2 = `simulation.aux'.
 
  (simulation.tex
 chapter 4.
-) [45
+) [46
 
 
 
@@ -2438,7 +2451,7 @@ chapter 4.
 
  (zusammenfassung.tex
 chapter 5.
-) [46
+) [47
 
 
 
@@ -2467,7 +2480,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--22
 age-[]recovery$[]\LY1/NexusProSerif/m/n/10.95 , 2019.  Zu-griff:
  []
 
-[47
+[48
 
 
 
@@ -2507,7 +2520,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--180
  _ performance _ alloys / de /
  []
 
-[48]
+[49]
 Underfull \hbox (badness 7486) in paragraph at lines 189--194
 []\LY1/NexusProSerif/m/n/10.95 CHINA SPE-CI-AL STEEL LI-MI-TED.  Mar-ten-si-te 
 stain-less steel ma-te-ri-al No.1.4542.
@@ -2573,7 +2586,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--257
 hing-[]you-[]need-[]to-[]know /
  []
 
-) [49] (Bachelorarbeit.lof
+) [50] (Bachelorarbeit.lof
 Overfull \hbox (3.52203pt too wide) in paragraph at lines 15--15
  \LY1/NexusProSerif/m/n/10.95 zum un-ge-pfeil-ten Grid Fin in Ab-h�n-gig-keit v
 om kon-fi-gu-rel-len Pfei-lungs-win-kel $\OT1/zplm/m/n/10.95 []$ 
@@ -2585,25 +2598,25 @@ Overfull \hbox (0.57591pt too wide) in paragraph at lines 19--19
 ieb/Widerstand-Verh�ltnis (rechts) in Ab- 
  []
 
-[50
+[51
 
 ])
 \tf@lof=\write11
 \openout11 = `Bachelorarbeit.lof'.
 
- [51] (Bachelorarbeit.lot)
+ [52] (Bachelorarbeit.lot)
 \tf@lot=\write12
 \openout12 = `Bachelorarbeit.lot'.
 
- [52
+ [53
 
 ]
 \openout2 = `symbole.aux'.
 
- (symbole.tex [53
+ (symbole.tex [54
 
 
-]) [54]
+]) [55]
 
 Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              You should note, that `\appendix' is a mostly globally
@@ -2622,24 +2635,24 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 
 (materialtabelle.tex
 chapter A.
-<./graphics//PreisModell.png, id=841, 638.98724pt x 390.258pt>
+<./graphics//PreisModell.png, id=852, 638.98724pt x 390.258pt>
 File: ./graphics//PreisModell.png Graphic file (type png)
 <use ./graphics//PreisModell.png>
 Package pdftex.def Info: ./graphics//PreisModell.png  used on input line 5.
 (pdftex.def)             Requested size: 231.88998pt x 141.62419pt.
-[55
+[56
 
 
 
 
- <./graphics//PreisModell.png>] [56
+ <./graphics//PreisModell.png>] [57
 
 ])
 \openout2 = `projekt.aux'.
 
  (projekt.tex
 chapter B.
-[57
+[58
 
 
 
@@ -2650,18 +2663,16 @@ Overfull \hbox (18.89066pt too wide) in paragraph at lines 67--68
 [][] 
  []
 
-[58
+[59
 
-] [59
+] [60
 
 ]
 Overfull \hbox (32.74577pt too wide) in paragraph at lines 74--124
 [] 
  []
 
-[60
-
-] [61
+[61
 
 ] [62
 
@@ -2673,14 +2684,14 @@ Overfull \hbox (32.74577pt too wide) in paragraph at lines 74--124
 
 ] [66
 
+] [67
+
 ]
 Underfull \hbox (badness 2005) in paragraph at lines 401--401
 []\LY1/NexusProSerif-lnum/b/n/10.95 Anforderungen an Struk-tur und Werk-
  []
 
-[67
-
-] [68
+[68
 
 ] [69
 
@@ -2700,7 +2711,9 @@ Underfull \hbox (badness 2005) in paragraph at lines 401--401
 
 ] [77
 
-]) [78
+] [78
+
+]) [79
 
 ]
 
@@ -2708,7 +2721,7 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[79
+[80
 
 
 ]
@@ -2739,10 +2752,10 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 48647 strings out of 479799
- 1155857 string characters out of 2870198
- 1777697 words of memory out of 3000000
- 64346 multiletter control sequences out of 15000+200000
+ 48664 strings out of 479799
+ 1156214 string characters out of 2870198
+ 1777953 words of memory out of 3000000
+ 64358 multiletter control sequences out of 15000+200000
  702083 words of font info for 166 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,23n,126p,10639b,1235s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2843,9 +2856,9 @@ type1/public/txfonts/t1xtt.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/palatino/uplb8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/palatino/uplr8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX
 /fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Bachelorarbeit.pdf (85 pages, 7067699 bytes).
+Output written on Bachelorarbeit.pdf (86 pages, 7383502 bytes).
 PDF statistics:
- 1249 PDF objects out of 1440 (max. 8388607)
- 258 named destinations out of 1000 (max. 500000)
- 755 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1260 PDF objects out of 1440 (max. 8388607)
+ 261 named destinations out of 1000 (max. 500000)
+ 765 words of extra memory for PDF output out of 10000 (max. 10000000)
 
