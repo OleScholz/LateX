@@ -1,10 +1,25 @@
 \chapter{Systemanalyse}\label{sec:simulation}
+Nachdem nun im vorherigen Kapitel ein erstes Modell mitsamt Aktuatorik entwurfen wurde, soll nun überprüft werden, ob dieses unter Last zum einen genügend Festigkeit besitzt und zum anderen, ob die Aktuatorik auch die entsprechenden Leistungen liefern kann. Auf Basis dieser Analysen werden anschließend Optimierungen der in Kapitel \ref{sec:modellentwurf} getroffenen Entscheidungen vorgenommen.
 
 
 \section{FEM-Analyse}
+Für eine effiziente FEM-Analyse werden die Modellvarianten zunächst vereinfacht, indem die Verrundungen und Anschrägungen der Wände entfernt werden. Auch die steile Spitze der Pfeilung wird abgerundet, da diese bei der Vernetzung nur zu Problemen führt und die Belastungen im Material so gut wie gar nicht verändert.
 
 \section{Betriebssimulation}
+Für Überprüfung der Aktuatorik wird eine Betriebssimulation in Simulink durchgeführt.
+Im Zentrum steht die Differenzialgleichung der Verdrehung des Grid Fins $\delta$, die abhängig vom Moment, dass der Motor liefert, ist. Dieses Moment lässt sich aus der Gleichung
+\begin{equation}
+	n =k_nU-\frac{\Delta n}{\Delta M}M_{Motor}
+\end{equation}
+berechnen. $n$ ist hierbei die Drehzahl des Motors, $U$ die Spannung, die am Motor angelegt wird, $\frac{\Delta n}{\Delta M}$ die Steigung der Motorkennlinie und schlussendlich $M_{Motor}$ als das vom Motor erzeugte Moment. Die Größen $k_n$ und $\frac{\Delta n}{\Delta M}$ sind konstante Kenngrößen des Motors und werden vom Herstellen angegeben. Die Drehzahl hingeben ergibt sich aus der Differenzialgleichung des Systems. Das Moment wird anschließend nur noch durchs Getriebe zum Antriebsmoment $M_{Antrieb}$ übersetzt und dann an die Differenzialgleichung übergeben.
+\\~\\
+Diese ergibt sich nun aus dem Momentengleichgewicht zu:
+\begin{equation}
+	I\ddot{\delta} = M_{Antrieb} - M_{m, \delta}\delta - M_{R, \dot{\delta}}\dot{\delta}
+\end{equation}
+Das Trägheitsmoment setzt sich aus dem des Motors, des Getriebes und des Grid Fins zusammen. Dabei muss das Trägheitsmoment des Motors noch mit der Übersetzung des Getriebes multipliziert werden, da dieser um dieser Faktor stärker beschleunigt. Das aerodynamische Moment wird als linear vom Steuerwinkel abhängig angenommen. Somit ergibt sich $M_{m, \delta} = M_{m, max}/\delta = 4,455Nm/^\circ$. Das Reibmoment setzt sich aus der Reibung des Motors, des Getriebes und der Lagerung zusammen.
 
+Während die Motorspannung $U$ als Eingangsgröße für das System geregelt wird, ergibt sich der Sollwert für den Steuerwinkel aus der Bedingung den auftretenden Schwingungen ausgleichen zu können. Da also eine solche komplette Schwingung innerhalb von $T = 0,73$s stattfinden soll, wird der Sollwert für den Steuerwinkel bis $t = 1/4T$ auf $\delta = 20^\circ$ gesetzt. Danach springt der Wert auf $\delta = -20^\circ$ und ab $t = 3/4T$ soll Steuerwinkel wieder auf $\delta = 0^\circ$ zurück gehen, wo er auch gestartet ist.
 \section{Systemoptimierung}
 
 \section{Systembewertung}
