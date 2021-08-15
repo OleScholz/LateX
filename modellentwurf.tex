@@ -42,28 +42,33 @@ Dies kommt dadurch zustande, dass die Dichte der Umgebungsluft zwar monoton stei
 \end{figure}\\~\\
 Dies war nun aber nur ein sehr simpler Missionsablauf, der den Grid Fins nicht viel abverlangt. Für die Auslegung müssen jedoch auch die Worst-Case-Szenarien berücksichtigt werden. Dazu zählt zum einem ein Ausschlag des Steuerwinkels, wodurch zum einem deutlich höhere Normalkräfte zu Stande kommen, aber auch die Axialkräfte deutlich ansteigen. Des Weiteren ist der Fall zu betrachten, dass der ReEntry-Burn ausfällt, beziehungsweise bewusst weggelassen wird, um die Wirtschaftlichkeit durch geringere Treibstoffmitnahme zu maximieren. In dem Fall würde die Raketenstufe mit deutlich höherer Geschwindigkeit in die Atmosphäre eintauchen, was zu enormen Belastungen führt.
 
-Zu dem maximalen Lastfall kommt es, wenn kein ReEntry-Burn stattfindet und alle Grid Fins um $\delta = \pm 10^\circ$ ausgeschlagen sind. Die Finnen befinden sich dabei in x-Formation und der Ausschlag ist so ausgerichtet, dass ein Moment erzeugt wird, das den Nickwinkel erhöht. Die Kräfte, die in diesem Fall von den Grid Fins ausgehalten werden müssen sind für alle betragsmäßig gleich und in Abbildung \ref{abb_FExtreme} dargestellt. Während die Axialkraft nur leicht ansteigt, nehmen die Normalkräfte sehr hohe Werte an, wie der Kraftvektor
+Zu dem maximalen Lastfall kommt es, wenn kein ReEntry-Burn stattfindet und alle Grid Fins um $\delta = \pm 10^\circ$ ausgeschlagen sind. Die Finnen befinden sich dabei in x-Formation und der Ausschlag ist so ausgerichtet, dass ein Moment erzeugt wird, das den Nickwinkel verringert. Die Kräfte, die in diesem Fall von den Grid Fins ausgehalten werden müssen sind für die gegenüberliegenden im körperfesten Koordinatensystem gleich. Abbildung \ref{abb_FExtreme} zeigt die Kräfte an einem der Grid Fins. Während die Axialkraft nur leicht ansteigt, nehmen die Normalkräfte sehr hohe Werte an, wie der Kraftvektor
 \begin{equation}
-	\vec{F}(t=440,7\mathrm{s})
+	\vec{F}_b(t=440,7\mathrm{s})
 	=\left(\begin{array}{c}817\mathrm{N}\\-6530\mathrm{N}\\-6183\mathrm{N}\end{array}\right)
 \end{equation}
-zeigt. Dargestellt sind in Abbildung \ref{abb_FExtreme} zwar nur die Kräfte an einem der vier Grid Fins, da sie jedoch in der x-Konfiguration angeordnet sind, unterscheiden sich die Normalkräfte nur am Vorzeichen. Zu erkennen ist, dass der Wiedereintritt hochfrequenten Schwingungen ausgesetzt die Amplituden von bis zu $\Delta F_z = 3194$N besitzen. Wird nun aber davon ausgegangen, dass eine funktionstüchtige Reglung existiert, so kann diese Schwingung ausgeglichen werden und es käme ein Kraftvektor mit den Mittelwerten zu Stande.
+zeigt. Um den nun wirklich am Grid Fin angreifenden Lastfall zu erhalten müssen diese Kräfte noch entsprechend transformiert werden. Zu erkennen ist, dass der Wiedereintritt hochfrequenten Schwingungen ausgesetzt die Amplituden von bis zu $\Delta F_z = 3194$N besitzen. Wird nun aber davon ausgegangen, dass eine funktionstüchtige Reglung existiert, so kann diese Schwingung ausgeglichen werden und es käme ein Kraftvektor mit den Mittelwerten zu Stande.
 \begin{equation}\label{eq_Fmax}
-\vec{F}_\mathrm{geregelt}(t=440,7\mathrm{s})
+\vec{F}_\mathrm{b, 1, geregelt}(t=440,7\mathrm{s})
 =\left(\begin{array}{c}572\mathrm{N}\\-6415\mathrm{N}\\-4995\mathrm{N}\end{array}\right)
 \end{equation}
-Der Moment, in dem eine Machzahl von $Ma_\infty = 2$ erreicht wird und der Ballonschirm deployed, ist zwar in diesem Fall deutlich erkennbar, da die Raketenstufe in zu diesem Zeitpunkt plötzlich herumgerissen wird, kann jedoch im Vergleich zu den Kräften bei "Max Q"\ vernachlässigt werden.
+\begin{equation}
+\vec{F}_\mathrm{b, 2, geregelt}(t=440,7\mathrm{s})
+=\left(\begin{array}{c}568\mathrm{N}\\6415\mathrm{N}\\-5030\mathrm{N}\end{array}\right)
+\end{equation}
+Die 1 steht dabei für die Kräfte an den Grid Fins D1 und R2 und die 2 für R1 und D2.
+Der Moment, in dem eine Machzahl von $Ma_\infty = 2$ erreicht wird und der Ballonschirm deployed, ist zwar auch in Abbildung \ref{abb_FExtreme} deutlich erkennbar, da die Raketenstufe in zu diesem Zeitpunkt plötzlich herumgerissen wird, kann jedoch im Vergleich zu den Kräften bei "Max Q"\ vernachlässigt werden.
 \begin{figure}[h] 
 	\centering
 	\includegraphics[width=0.9\textwidth]{F2Extreme4.png}
 	\caption{Kräfte am Grid Fin beim maximalen Lastfall}
 	\label{abb_FExtreme}
 \end{figure}\\
-Was nicht zu vernachlässigen ist, sind die Trägheitskräfte, die dabei entstehen. Die Grid Fins werden an ihrer Einspannung schlagartig, wenn auch nur kurzzeitig, belastet. Abbildung \ref{abb_n_x}, dass, auch wenn schon beim ReEntry-Burn und durch den aerodynamischen Widerstand hohe Lastenvielfache auftreten, die Beschleunigung von fast 12$g$ bei der Abbremsung durch den Ballonschirm der kritischste Moment ist in Hinblick auf das Lastenvielfache ist.
+Was nicht zu vernachlässigen ist, sind die Trägheitskräfte, die dabei entstehen. Die Grid Fins werden an ihrer Einspannung schlagartig, wenn auch nur kurzzeitig, belastet. Abbildung \ref{abb_n_x}, dass, auch wenn schon beim ReEntry-Burn und durch den aerodynamischen Widerstand hohe Lastenvielfache auftreten, die Beschleunigung von fast 20$g$ bei der Abbremsung durch den Ballonschirm der kritischste Moment ist in Hinblick auf das Lastenvielfache ist.
 \begin{figure}[h] 
 	\centering
 	\includegraphics[width=0.9\textwidth]{n_x.png}
-	\caption{Lastenvielfache der ersten Stufe in x-Richtung über gesamten Missionsverlauf \textbf{(Wird noch überarbeitet)}}
+	\caption{Lastenvielfache der ersten Stufe in x-Richtung über gesamten Missionsverlauf}
 	\label{abb_n_x}
 \end{figure}\\
 \subsection{Geometrische Anforderungen}
@@ -171,35 +176,13 @@ Das Verhältnis von Zellgröße zur Sehnenlänge kann jedoch den Auftriebsbeiwer
 
 Bei der Höhe $h$ und Breite $b$ können nun Werte gewählt werden, die ganzzahlig durch die Diagonale in der Zelle teilbar ist. Wird nun ein Seitenverhältnis von 5:6 gewählt, was zu einer Höhe von $\mathbf{h= }6\cdot g\sqrt{2}=\mathbf{339,4mm}$ und einer von $\mathbf{b= }5\cdot g\sqrt{2}=\mathbf{282,8mm}$ führt. Dies muss auch in den Bauraum eines Druckers passen. Dieser hat zwar nur eine Grundfläche von 300x300mm$^2$, aber da er 400mm hoch ist kann dich Diagonale von 500mm genutzt werden, indem in diese Eben auch die Höhe des Grid Fins gelegt wird. Die Fläche die durch die Höche und Breite des Grid Fins aufgespannt wird liegt mit $0,096\mathrm{m}^2$ noch etwas über der angestrebten Fläche. Jedoch muss diese noch um die vier halbe Zellen reduziert werden, da sich die Geometrie zur Einspannung hin schmälern soll. Übrig bleibt eine Fläche von $A=h\cdot b-2g^2=0,0928\mathrm{m}^2$.
 
-Da sich an der Wanddicke $d$ im Laufe der FEM-Simulationen vermutlich am meisten ändern wird, soll an dieser Stelle nur ein kurze Überschlagsrechnung gemacht werden. Angenommen wird, dass die Wandstärke nicht in der Gitterform über die Breite verteilt ist, sondern alle zusammen addiert einen Balken mit der Gesamtdicke $d_\mathrm{ges.}(x_h)$ bilden. $x_h$ ist hierbei eine Koordinate die sich über den Grid Fin in Höhenrichtung spannt mit $x \epsilon [0, h]$. Dieser wird nur durch die maximale Kraft in Sehnenrichtung gleichmäßig auf der gesamten Länge $h$ und Breite $d_\mathrm{ges}(x_h)$ belastet. Die Kraft in Sehnenrichtung $F_s$ wird aus dem maximalen Kraftvektor in Gleichung \ref{eq_Fmax} bestimmt. Dieser ist im körperfesten Koordinatensystem gegeben, sodass er bei einem Steuerwinkel von $\delta = 10^\circ$ und in x-Konfiguration $\lambda=45^\circ$ noch wie folgt umgerechnet werden muss.
-\begin{equation}
-	F_s = F_x\cos{\delta}+\sqrt{F_y^2+F_z^2}\sin{\delta}
-\end{equation}
-Es bildet sich ein Momentenverlauf 
-\begin{equation}
-	M(x_h) =\frac{F_{s}}{d_\mathrm{ges.}}\left(-\frac{1}{2}x_h^2+hx_h-\frac{1}{2}h^2\right)
-\end{equation}
-aus. Die größte Spannung herrscht in der äußersten Faser bei
-\begin{equation}
-	 \sigma(\pm \frac{s}{2}, x_h)=\frac{6M(x_h)}{s^2d_\mathrm{ges.}}.
-\end{equation}
-Wie dick nun für die jeweiligen x-Werte die Zellwände insgesamt sein müssen, hängt von der Festigkeit des Materials ab.
-\begin{equation}
-	R_{p, 0.2} \geq\sigma_\mathrm{max}
-\end{equation}
-Somit ergibt sich die Gesamtdicke zu
-\begin{equation}
-	d_\mathrm{ges}\geq \sqrt{\frac{6F_{s}\left(  -\frac{1}{2}x_h^2+hx_h-\frac{1}{2}h^2\right)}{R_{p, 0.2}s^2}}
-\end{equation}
-Wir nun noch ein Sicherheitsfaktor von 1,5 dazu multipliziert, da die Kraftanteile in Breiten- und Höhenrichtung nicht mit einbezogen wurden, erhält man den Verlauf der einzelnen Wandstärken $d(x_h)$, indem die Gesamtdicke gleichmäßig auf die zwei Rahmenwände und fünf Schnittstellen der Gitterwände verteilt wird.
+Da sich an der Wanddicke $d$ im Laufe der FEM-Simulationen vermutlich am meisten ändern wird, wird hier zunächst einfach ein grober Wert abgeschätzt in dem ein Blick auf andere Grid Fins geworfen wird. Gemeinsam haben sie eigentlich alle, dass das Gitter fast vollständig die gleich Dicke besitzt und nur zu Einspannung hin an Stärke zunimmt. An dieser Stelle wird für den für die Wanddicke des Rahmens als auch des Gitters ein linearer Verlauf gewählt, der mit $d=3$mm an der Einspannung anfängt und am anderen Ende den Wert $0$mm annehmen würde. Da dies jedoch keine realistische Geometrie ergeben würde, wird dich Dicke auf einen Mindestwert von $1,5$mm beschränkt.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.85\textwidth]{d_einzel.png}
-	\caption{Der Verlauf der Wanddicke $d$ in Abhängigkeit von $x_h$}
+	\caption{Der Verlauf der Wanddicke $d$ in Abhängigkeit vom Abstand zur Einspannung}
 	\label{abb_d_einzel}
 \end{figure}\\
-Da das Moment unter diesen einfachen Annahmen am Ende des Grid Fins auf null fällt, errechnet sich dort auch ein Wandstärke von null. Dies ist natürlich kein sinnvolles Ergebnis, sodass eine minimale Wanddicke von $d_\mathrm{min}=1,5$ mm definiert wird. Des Weiteren ist noch zu beachten, dass die Dicke in der Nähe der Einspannung noch höher als dargestellt ist, da dort weniger Wände liegen, auf die die Gesamtdicke verteilt wird.
-\\~\\
 Nun steht schon mal eine erste Geometrie des Grid Fins, jedoch benötigen auch die zusätzlichen Designelement, die aus dem morphologischen Kasten gewählt wurde Festlegung weitere Werte. Einer davon ist der Pfeilungswinkel $\Lambda_\mathrm{lokal}$. Je größer dieser ist, desto geringer ist die axiale Kraft, doch große Pfeilung schwächt gleichzeitig die Sehne in den Tälern. Also Kompromiss wird der Pfeilungswinkel variiert. An den \textbf{Spitzen} soll ein $\mathbf{\Lambda_\mathrm{lokal}=70^\circ}$ gelten in den Tälern jedoch nur $\Lambda_\mathrm{\textbf{lokal}}=20^\circ$. Der Berg soll $20$mm höher liegen als das Tal und verbunden werden sie über einen Tangentenbogen. Die Fläche dieser Pfeilung entspricht einem Rechteck gleicher Breite mit der Höhe $7$mm. Um also auf eine Sehnenlänge von $s=40$mm zu kommen, muss sich noch $33$mm restliche Wand unter der Pfeilung befinden.
 
 Der Wandquerschnitt spitzt sich auch zu und der zugehörige Winkel wurde für das Gitter auf $70^\circ$ gesetzt. Die Position in wieder so gewählt, dass die durchschnittliche Sehnenlänge sich immer auf dem Wert befindet, der durch die lokale Pfeilung herrschen sollte. Die Rahmenwände haben nur auf einer Seite eine schräge. Der Winkel wurde hier auf\ $54^\circ$ herab gesetzt, sodass Rahmen und Gitter bei gleicher Wandstärke und Sehnenlänge, die selbe maximale Höhe haben.
@@ -230,14 +213,20 @@ Nun wo das Design feststeht, soll es auch in einem CAD-Programm modelliert werde
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.85\textwidth]{grundriss.jpg}
-	\caption{Grundrissskizze des Grid Fins in Solid Edge}
+	\caption{Grundrissdes Grid Fins}
 	\label{abb_grundriss}
 \end{figure}\\
 Als nächstes wird die senkrecht zu der Ebene, in der der Grundriss liegt eine neue Skizze angefertigt. Diese zeigt den Durchmesser des Raktenkörpers so weit ausgedehnt, dass er dem Krümmungsradius von $570$mm entspricht. Ein zweiter Kreis mit dem selben Radius wird um $34$mm nähere an den Grid Fin gelegt. Nun wird anhand dieser Skizze der Grundriss ausgeschnitten, sodass nur noch der Teil zwischen den beiden Kreisen übrig bleibt. Das Ergebnis ist ein sowohl außen, als auch innen, gleichmäßig gekrümmter Grid Fin mit einer konstanten Sehnenlänge von zunächst $34$mm.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.85\textwidth]{koerper.jpg}
-	\caption{Krümmungsskizze des Grid Fins in Solid Edge}
+	\caption{Krümmungs des Grid Fins}
 	\label{abb_körper}
 \end{figure}\\
 Im nächsten Schritt wird die konvexe Seite des Grid Fins bearbeitet. Hier fehlt nur noch die Zuspitzung der Wandquerschnitte. Hierzu werden an den Kanten, beim Gitter beidseitig und am Rahmen nur innen, Fasen mit dem entsprechenden Winkel angebracht. Dadurch wird im Schnitt die Sehnenlänge auf $33$mm reduziert.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.85\textwidth]{Halterung.png}
+	\caption{Einspannung am Grid Fin}
+	\label{abb_halterung}
+\end{figure}\\
