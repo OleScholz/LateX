@@ -30,28 +30,29 @@
 \contentsline {subsection}{\numberline {3.1.3}Thermische und Mechanische Anforderungen}{30}{subsection.3.1.3}%
 \contentsline {subsection}{\numberline {3.1.4}Geometrische Anforderungen}{34}{subsection.3.1.4}%
 \contentsline {section}{\numberline {3.2}Morphologischer Kasten}{35}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Komponentenrecherche und -auswahl}{38}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Modellierung des Grid Fins}{38}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Materialwahl}{38}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Gitterdesign}{40}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Peripherie und Aktuator}{41}{subsection.3.3.3}%
-\contentsline {subsubsection}{\nonumberline Klappwinkel}{42}{subsubsection*.6}%
-\contentsline {subsubsection}{\nonumberline Steuerwinkel}{42}{subsubsection*.8}%
-\contentsline {section}{\numberline {3.4}Festlegung des Modelldesigns}{42}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Modellierung des Modells}{45}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Systemanalyse}{48}{chapter.4}%
-\contentsline {section}{\numberline {4.1}FEM-Analyse}{48}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Betriebssimulation}{48}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Systemoptimierung}{49}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Systembewertung}{49}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Fazit}{49}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{50}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{51}{chapter.5}%
-\contentsline {chapter}{Abbildungsverzeichnis}{53}{chapter*.9}%
-\contentsline {chapter}{Tabellenverzeichnis}{56}{chapter*.10}%
-\contentsline {chapter}{Symbolverzeichnis}{57}{chapter*.12}%
-\contentsline {chapter}{\numberline {A}Materialeigenschaften}{59}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Projektmanagement}{61}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Work Breakdown Structure}{61}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Zeitplan}{63}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Work Package Description}{65}{section.B.3}%
+\contentsline {subsection}{\numberline {3.3.3}Festlegung des Modelldesigns}{41}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Modellierung in CAD}{44}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Komponentenrecherche und -auswahl der Aktuatorik}{46}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Peripherie}{46}{subsection.3.4.1}%
+\contentsline {subsubsection}{\nonumberline Klappwinkel}{47}{subsubsection*.6}%
+\contentsline {subsubsection}{\nonumberline Steuerwinkel}{47}{subsubsection*.8}%
+\contentsline {chapter}{\numberline {4}Systemanalyse}{49}{chapter.4}%
+\contentsline {section}{\numberline {4.1}FEM-Analyse}{49}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Betriebssimulation}{49}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Systemoptimierung}{50}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Systembewertung}{50}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Fazit}{50}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{51}{chapter.5}%
+\contentsline {chapter}{Literaturverzeichnis}{52}{chapter.5}%
+\contentsline {chapter}{Abbildungsverzeichnis}{54}{chapter*.9}%
+\contentsline {chapter}{Tabellenverzeichnis}{57}{chapter*.10}%
+\contentsline {chapter}{Symbolverzeichnis}{58}{chapter*.12}%
+\contentsline {chapter}{\numberline {A}Materialeigenschaften}{60}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Projektmanagement}{62}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Work Breakdown Structure}{62}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Zeitplan}{64}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Work Package Description}{66}{section.B.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
