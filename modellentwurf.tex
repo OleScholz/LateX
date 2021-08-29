@@ -52,7 +52,7 @@ zeigt. Um den nun wirklich am Grid Fin angreifenden Lastfall zu erhalten müssen
 \vec{F}_\mathrm{b, 1, geregelt}(t=440,7\mathrm{s})
 =\left(\begin{array}{c}572\mathrm{N}\\-6415\mathrm{N}\\-4995\mathrm{N}\end{array}\right)
 \end{equation}
-\begin{equation}
+\begin{equation}\label{eq_Fmax2}
 \vec{F}_\mathrm{b, 2, geregelt}(t=440,7\mathrm{s})
 =\left(\begin{array}{c}568\mathrm{N}\\6415\mathrm{N}\\-5030\mathrm{N}\end{array}\right)
 \end{equation}
@@ -190,7 +190,7 @@ Auch der Wandquerschnitt soll sich zuspitzen und der zugehörige Winkel wird fü
 	\includegraphics[width=0.5\textwidth]{Wandquerschnitt.png}
 	\caption{Zuspitzung der Wände im Querschnitt}
 \end{figure}\\
-Die Krümmung soll für die Vorderkante der gemittelten Sehne ausgelegt werden, also für den Fall, dass keine Pfeilung oder Zuspitzung vorliegt (gepunktete Linie). Da an den Bergen der Pfeilung die Spitze $13$mm und mit der Zuspitzung bei eine Wandstärke von $4$mm einen weiteren Millimeter über der nominelle Sehne liegt, müssen noch mindestens $14$mm auf die $550$mm Raketenradius drauf addiert werden. Somit wird der Krümmungsradius auf $570$mm gesetzt, sodass im eingeklappten Zustand ein $6$mm breiter Spalt zwischen Rakete und Grid Fin bleibt.
+Die Krümmung soll für die Vorderkante der gemittelten Sehne ausgelegt werden, also für den Fall, dass keine Pfeilung oder Zuspitzung vorliegt (gepunktete Linie). Da an den Bergen der Pfeilung die Spitze $13$mm und mit der Zuspitzung bei eine Wandstärke von $4$mm einen weiteren Millimeter über der nominelle Sehne liegt, müssen noch mindestens $14$mm auf die $550$mm Raketenradius drauf addiert werden. Somit wird der \textbf{Krümmungsradius} auf $\mathbf{570}$\textbf{mm} gesetzt, sodass im eingeklappten Zustand ein $6$mm breiter Spalt zwischen Rakete und Grid Fin bleibt.
 \\~\\
 Es sind noch weitere Optionen möglich, mit denen sich die Grid Fins modifizieren lassen würden. Diese werden hier jedoch zunächst nur kurz vorgestellt und erst nach den ersten Analysen beurteilt, ob sie eventuell doch noch implementiert werden sollen.
 
@@ -232,13 +232,15 @@ Für alle der drei Energiemedien ist sind schon Vertreter in der Rakete installi
 \\~\\
 Da sowohl für den Klappwinkel, als auch den Steuerwinkel unterschiedliche Anforderungen existieren, die auch andere Lösungsmöglichkeiten zulassen, werden diese im Folgenden getrennt betrachtet.
 \subsubsection{Klappwinkel}
-Das Moment um den Klappwinkel wird in die Richtung $\Lambda < 90^\circ$ durch einen Anschlag gestützt, sodass nicht der Aktuator, sondern nur das Material an sich die Kräfte aufnehmen muss. In die andere Richtung jedoch muss das Moment anders aufgenommen werden. Eine Option wäre hier diesen Freiheitsgrad durch eine Schnappverbindung zu beschränken und somit den Grid Fin einrasten zu lassen. Alternativ ließe sich auch ein Getriebe wählen, dass die Bewegung hemmt, wie ein Schneckengetriebe, oder der Aktuator bringt direkt die nötige Kraft auf.
+Der Klappwinkel muss eine Drehung um $90^\circ$ durchführen. Dies soll durch die lineare Bewegung einer Hubstange realisiert werden. Damit im ausgeklappten Zustand ($\Lambda = 90^\circ$) die Kraft ideal durch die Stange geleitet werden kann, soll sich dann die Halterung B auf der gleichen Höhe wie die Bewegungsachse befinden. Damit aus der linearen Bewegung eine Drehung werden kann, muss die Hubstange über eine weitere Stange gelenkig mit der Halterung verbunden werden. Mit einer Länge der Verbindungsstange von $43$mm, können aus den Beziehungen, die in Abbildung \ref{abb_hub} zu sehen sind, der benötigte Hub ermittelt werden.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Hub.jpg}
 	\caption{Der Hub des Klappwinkels}
 	\label{abb_hub}
 \end{figure}\\
+Obwohl die wirkenden Kräfte und Momente relativ gering sind, kommt es während des Wiedereintritts und besonders beim auslösen des Ballonschirms zu sehr hohen Belastungen. Somit fällt die pneumatische Option weg, da diese nicht die entsprechende Haltekräfte aufbringen kann. Übrig bleiben dann nur noch eine hydraulische oder elektrische Lösung. Ein hydraulisches System bräuchte zwar auch einen Elektromotor, um die Pumpe zu betreibe, aber hätte den Vorteil, dass eine Pumpen-Motor-Kombination für alle vier Grid Fins gleichzeitig ausreichen würde. Ein hydraulisches System bringt jedoch auch einige Nachteile mit sich. Zum einen würde die Gefahr bestehen, dass bei einem Fehler alle Grid Fins unbrauchbar oder gar missionsgefährdend werden, im Gegensatz zu pro Grid Fin unabhängige Systeme. Zum anderen würde die Lösung voraussichtlich eine merklich höhere Masse wegen des Hydraulikfluids benötigt. Des Weiteren muss sich der Hubzylinder bei einer Veränderung des Steuerwinkels mitbewegen. Dies erhöht wiederum die Gagenforderungen an die Leitungen und sorgt für mehr Anfälligkeitspotential. Schlussendlich ist der entscheidendste Faktor die hohen Kosten eines solchen hydraulischen Systems. Auch wenn eine elektrische Lösung vier mal benötigt wird, sorgt die höhere benötigte die Leistung und die vielen teuren Bauteile dafür, dass sich die Hydraulik in diesem Anwendungsfall nicht rentiert. Bei den elektrischen Motoren gibt es nun auch wieder zwei Varianten, zwischen denen sich wählen lässt. Es kann entweder direkt ein Linearmotor verwendetet werden, der direkt den Hub ausführt, oder ein klassisch rotierender Motor, dessen Drehung über ein Spindelgetriebe in eine Linearbewegung umgewandelt wird. Ein Linearmotor wäre zwar die kostengünstigere Option, jedoch sind sie deutlich größer und somit auch schwerer, als die Alternative mit Spindelgetriebe. Die größeren Dimensionen des Linearantriebs würden auch ein größeres System für den Steuerwinkel bedeuten, was wiederum zu noch mehr Masse und eine höhere Leistunganforderung an den Steuerwinkelaktuator bewirkt.
+Somit wird für die Klappbewegung ein \textbf{rotierender Elektromotor} mit \textbf{Spindelgetriebe} verwendet. Als letztes gilt es noch die Frage der Lagerung zu klären.
 \subsubsection{Steuerwinkel}
 Ein entscheidendes Kriterium für die Wahl des Aktuators ist die Fähigkeit ein Moment aufzubringen um den maximalen Ausschlag beim "Max Q"\ zu halten. Natürlich muss das wirklich erreichte Moment etwas höher liegen, sodass dieser Ausschlag in endlicher Zeit erreicht wird.
 \begin{equation}
