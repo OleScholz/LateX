@@ -20,7 +20,7 @@ Grid Fins müssen nicht starr an einem Flugkörper, zum Beispiel der Rakete, bef
 	\label{abb_winkel}
 \end{figure}\\
 Um die Aerodynamik zu untersuchen reichen diese Winkel nicht aus, da die Anströmung nicht parallel zur Rakete liegen muss. Der Neigungswinkel des gesamten Moduls zur Anströmung $\gls{symb:sigma}$ setzt sich unter realen Bedingungen mit Vernachlässigung des Windes aus dem Schiebewinkel und dem Bahnneigungswinkel zusammen. Für die in dieser Arbeit durchgeführten Untersuchungen ist eine solche Aufteilung aber irrelevant. Damit jedoch keine Informationen und somit Genauigkeit verloren geht, wird stattdessen die Orientierung der Grid Fins auf dem Umfang betrachtet. Verwendet wird hier eine Anordnung von vier gleichmäßig verteilten Steuerelementen. Das Koordinatensystem ist so definiert, dass es seinen Ursprung genau in der Mitte dieser Konfiguration hat und die positive X$_b$-Achse zur Spitze des Flugkörpers, also bei einem Wiedereintritt mit den Triebwerken voraus der Anströmung entgegen, zeigt. In allen Betrachtungen dieser Arbeit wird nur dieses körperfeste Koordinatensystem mit dem Index $b$ benutzt. Bei $\sigma \neq 0$ ist auch die Y$_b$-Achse einem Anteil der Strömung entgegen gerichtet. Die Z$_b$-Achse ist folglich nach dem Rechtssystem orthogonal zu den anderen beiden ausgerichtet. Um nun die Orientierung der Grid Fins um die X$_b$-Achse herum beschreiben zu können wird der Rollwinkel $\gls{symb:lambda}$ eingeführt. Wenn eine '+'-Konfiguration vorliegt, befinden sich die einzelnen Finnen auf den Koordinatenachsen (X$_b$, Y$_b$) und der Rollwinkel ist gleich null. Im Gegensatz dazu sind sie bei der 'x'-Konfiguration um einen Winkel von $\lambda = 45^\circ$ verdreht. Der Anstellwinkel $\gls{symb:alpha}$, den ein einzelner Grid Fin erfährt, lässt sich aus dem Neigungswinkel des Körpers und, in Abhängigkeit vom Rollwinkel und welcher der Finnen betrachtet wird, aus dem Klapp- und Steuerwinkel bestimmen.
-\newpage
+
 
 \section{Strömung durch Grid Fins}\label{stroe}
 Um die Eigenschaften von Grid Fins analysieren zu können, ist es nötig die zugrunde liegenden strömungsmechanische Vorgänge zu verstehen. Dazu wird in diesem Abschnitt das Verhalten der Strömung im Unter-, Überschall und besonders auch im transsonischen Bereich mit Schwerpunkt auf die dort wirkenden Verdichtungsstöße besprochen.
@@ -40,7 +40,7 @@ Des Weiteren nähert sich der Verdichtungsstoß vor dem Grid Fin diesem mit grö
 Als ein besonderer Bereich ist noch die Region um den Montagepunkt zu betrachten, in dem der Grid Fin an der Rakete angebracht ist. Ein Problem ist, dass Schnittstellen von Wänden ein erhöhtes Potenzial für blockierte Strömung darstellen. Am Montagepunkt befinden sich nicht nur vielen von diesen, sondern auch die Wanddicke ist hier meistens am größten. Dies in Kombination mit einer schon durch die Grenzschichtwirkung des Körpers verzögerte Strömung, führt zu einer relativ großen Region verlangsamter Strömung oder gar Rückströmung, die mit der Machzahl an Größe gewinnt \cite{stroemung}. Bei einer Machzahl von ungefähr $Ma_\infty = 2.0$ erreicht sie jedoch ein Maximum, da die Strömung bei weiter steigenden Geschwindigkeiten von der umgebenden mitgerissen wird und jene Region somit wieder an Größe und Bedeutung verliert \cite{stroemung}.
 
 Es ist nun also hervorzuheben, dass Grid Fins weder im Unterschall noch im hohen Überschall übermäßig starke Störungen der Strömung bewirken. Im transsonischen Bereich jedoch kommt es zu massiven Verdichtungsstößen, die zu einer starken Drosselung des Fluids führen.
-\newpage
+
 
 \section{Aerodynamische Beiwerte und Vergleich zu planaren Finnen}
 Nachdem nun die zugrunde liegende Strömung verstanden ist und Größen zur Beschreibung von Grid Fins etabliert wurden, werden nun die aerodynamischen Kräfte beschrieben und dabei der Vergleich zu den konventionellen planaren Finnen gezogen.
@@ -120,7 +120,7 @@ In Bezug auf das Gelenkmoment $M_m$ zeigen Grid Fins wieder ein überlegendes Ve
 	\caption{Gelenkmoment in Abhängigkeit vom Anstellwinkel $\alpha$ bei a) \ensuremath{Ma_\infty=0.5}, b) $Ma_\infty=2.5$}
 	\label{abb_Mm-AoA}
 \end{figure}
-\newpage
+
 \section{Grid Fin Varianten}
 Bisher wurde nur eine sehr simple Version von Grid Fins betrachtet. Es gibt jedoch eine Vielzahl von Variationen, die genutzt werden können, um die aerodynamischen Eigenschaften für bestimmt Anwendungen zu optimieren. In diesem Abschnitt werden einige Möglichkeiten beschrieben, wie diese unkonventionellen Finnen angepasst werden können.
 \subsection{Pfeilung}
@@ -257,7 +257,7 @@ In Abbildung \ref{abb_Gap-Chord} ist der Anstieg des Normalkraftbeiwerts in Abh�
 Die Axialkraft hingegen nimmt mit einen Anstieg des Verhältnisses stetig zu \cite{ChordVar}, obwohl der Zellabstand konstant gehalten wird und nur die Sehnenlänge variiert. Da jedoch in den von Tripathi et al. durchgeführten Untersuchungen die Breite der planaren Ebenen an die Sehnenlänge gekoppelt ist, wird mit steigendem Zellabstand zu Sehnenlänge Verhältnis die durchströmte Querschittsfläche kleiner. Dies zeigt, dass dem zum Trotz eine kompaktere Struktur mehr Widerstand erzeugt \cite{ChordVar}. Der Anstieg des Widerstandes ist auch bei kleinen Verhältnissen größer als die Zunahme an Normalkraft für alle untersuchten Anstellwinkel, sodass das beste Auftrieb-zu-Widerstand-Verhältnis bei den niedrigsten Zellgröße zu Sehnenlänge Verhältnissen auftritt \cite{ChordVar}.
 
 Es gibt also einen Punkt für den Zellabstand, bei dem das Gitter den größten Normalkraftgradienten zeigt. Spielt bei der Auslegung die Axialkraft jedoch eine Rolle, kann es sein, dass von diesem Wert abgewichen werden muss.
-\newpage
+
 \section{Bisherige Implementierung}
 Es wird nun ein Blick auf bisherige Anwendungen von Grid Fins geworfen. Da sie jedoch bisher hauptsächlich für ballistische Raketen verwendet wurden und sich die Anforderungen im Vergleich zur Raumfahrt um einiges unterscheiden können, werden hier nur Beispiele des letzteren betrachtet.
 \subsection{SpaceX Falcon 9 und Starship}
@@ -309,7 +309,6 @@ Auch in Chinas Raumfahrtbrache habe Grid Fins ihren Einzug erfahren. Das Bild in
 	\caption{Die Grid Fins der chinesischen Chang'e}
 	\label{abb_change}
 \end{figure}\\
-\newpage
 \section{Das AirLaunch-System Valkyrie}
 Um die Anforderungen an eine Grid Fin Aktuatorik definieren zu können, ist eine vorherige Betrachtung der Mission von Nöten. Wie schon in der Einleitung erwähnt, handelt es sich bei der Valkyrie um ein wiederverwendbares, zweistufiges AirLaunch-System.  Relevant ist für diese Arbeit nur die Erste Stufe, an der die Grid Fins montiert sind. Abbildung \ref{abb_valkMission} zeigt die einzelnen Flugphasen der Rakete und wird im Folgenden beschrieben.
 

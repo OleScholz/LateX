@@ -25,10 +25,53 @@ Somit ergeben sich die Kräfte für die einzelnen Grid Fins zu:
 \end{table}
 \subsection{Optimierung der Halterung}
 Bei beiden Pfeilungstypen lässt sich für alle Lastfälle sofort erkennen, dass es zu massiven Lastspitzen an der Halterung kommt. Währenddessen bleiben die Werte im Gitter deutlich niedriger. Der Grund für die hohen Spannungen an der Einspannung ist die ungünstige Lage in der Mitte der Wände anstatt der Schnittstellen, Somit bilden sich vergleichsweise hohe Biegemomente in den Wänden aus. Dieser ungünstige Kraftfluss wird durch die scharfen Kanten weiter verschlimmert. Um nun diese Spannungsspitzen zu vermeiden, sollte, neben einer Abrundung der Kanten, die Position der Halterungen verändert werden.
-
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.9\textwidth]{D1 3.3b max 1.jpg}
+	\caption{Maximale Spannungen am Grid Fin D1}
+\end{figure}\\
 Da sich die Anbringung der Halterungen genau ein der Mitte Zelle befinden, auch wenn sie in diesem Fall halbiert sind, lassen sie sich entweder tangential oder normal zum Raketenkörper verschieben, um sie auf einen Schnittpunkt der Wände zu legen. Soll Halterung B nicht in zwei Teile aufgeteilt werden, so kommt nur eine Bewegung senkrecht zum Körper in Frage. Anstatt die Halterung nun in das Gitter hinein zu legen, was zu einer Verkleinerung der durschdtrömten Querschnittfläche führen würde und somit geringer Normalkräfte, werden zwei der Wände weiter fortgesetzt. Diese schneiden sich dann in der Mitte, wo die Halterung B platziert wird. Die Halterung wird jedoch nicht direkt an der Schnittstelle konstruiert, sondern noch ein bisschen weiter vom Gitter entfernt, sodass die Kraft gradliniger über die Beiden Hubstangen geleitet werden kann.
 
 Für die Halterungen A passiert das gleiche. Die nebenliegenden Gitterwänder werden bis zu ihrer Schnittstelle fortgesetzt. Im Gegensatz zur Halterung B befindet sich jedoch direkt hier die Bohrung, an der das Grid Fin montiert werden soll.
+\begin{figure}[h]
+	\begin{minipage}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=0.85\textwidth]{Skizze Halterung 2.0 1.jpg}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Skizze Halterung 2.0 2.jpg}
+	\end{minipage}
+	\caption{Verbesserte Version der Halterung (1)}
+\end{figure}\\
+Dies sorgt zwar schon für eine deutlichere Verbesserung, jedoch ist der Hebelarm trotz der Versetzung der Halterung B recht kurz. Dies sorgt dafür, dass dort direkt an der Bohrung noch immer Spannungsspitzen auftreten, die die Streckgrenze von $R_{p, 0.2} = 1262$MPa unterschreiten.
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.9\textwidth]{D2 3.4 b max.jpg}
+	\caption{Maximale Spannungen am Grid Fin D2 bei veränderter Halterung(1)}
+\end{figure}\\
+Um dem Hebelarm zu Verlängern wird nun die Halterung B auf die Höhe der konvexen Seite gebracht. Sie wird außerdem in einer geschwungen Form noch weiter nach vorne gelegt, damit die Verbindungslinie der beiden Halterungen im $45^\circ$ Winkel zur Gitterebene liegt. Dadurch ist die Klappbewegung möglichst gleichmäßig, was den Aktuator schont und gleichzeitig garantiert, dass der Verfahrweg minimal für den gegeben Hebelarm ist.
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.9\textwidth]{Skizze Halterung 3.5.jpg}
+	\caption{Verbesserte Version der Halterung (2)}
+\end{figure}\\
+Dies hat nun endlich den gewünschten Effekt, dass die Spannung im Material deutlich niedriger werden. Bei allen Grid Fins treten nur noch Spannungen auf die deutlich unter der Streckgrenze des Materials liegen und somit den Belastungen im Einsatz standhalten.
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.9\textwidth]{3.5 b Halterung max.jpg}
+	\caption{Maximale Spannungen am Grid Fin D2 bei veränderter Halterung (2)}
+\end{figure}\\
+Somit wäre die Auslegung der Halterung nach den aerodynamischen Kräften theoretisch abgeschlossen, jedoch muss hierbei auch noch auf die Aktuatorik und das maximale Lastenvielfache geachtet werden. Aktuell hat der Grid Fin eine Masse von $m = 3,5$kg und der Massenschwerpunkt liegt $185$mm von der Halterung A entfernt. Mit dem Lastenvielfachen von ca. 20 beim auslösen des Ballutes entsteht nun also ein Moment von ungefähr $M=127Nm$, welches von der Halterung B kompensiert werden muss. Die Halterung B ist an der Spindelstange montiert und leitet somit die Kraft an diese weiter. Der Hebelarm der Halterung B und die maximale ertragbare Axialkraft der Spindel müssen also aufeinander abgestimmt sein. Maxon Motoren stellt nur Spindeln mit Axiallasten von bis zu $2700$N her, welche folglich einen Hebelarm von $\frac{127Nm}{2700N}=47mm$ erfordert, was noch gerade so für den Grid Fin annehmbar ist. Der Wert liegt laut dieser Rechnung zwar minimal drüber jedoch wird das Lastenvielfache von 20 gar nicht wirklich erreicht, sodass die Rundung annehmbar ist. Da die Hubstange gelenkig mit dem Grid Fin verbunden ist, ist zu beachten, dass nur der Abstand der Haltungen in Sehnenlänge als effektiver Hebelarm wirkt. Somit muss die Halterung B nicht länger weiter vorne positioniert sein, was Material spart. Wird die Verbindungsstange zwischen Halterung und Hubstange auf die gleiche Länge wie der Hebelarm gesetzt, verlängert sich auch nicht der Hub und da die Hubstange nun weiter außerhalb der Rakete im eingeklappten Zustand befindet, braucht sie auch weniger Platz innerhalb der Rakete, wenn der Grid Fin ausklappt. Um auf den gewünschten Hebelarm zu kommen werden nun beide Halterungen noch ein wenig nach außen gelegt, sodass sich die endhültige Geometrie, wie sie in Abbildung \ref{abb_Halterung-fertig} zu sehen ist, ergibt.
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.9\textwidth]{Skizze Halterung 3.6.jpg}
+	\caption{Endgültige Geometrie der Halterung}
+	\label{abb_Halterung-fertig}
+\end{figure}\\
+Zur Bestätigung werden wieder FEM Analysen durchgeführt und diesmal werden ergänzend zu den aerodynamischen Kräften auch in einem separaten Lastfall die Beschleunigungskräfte untersucht. Bei den Lastvielfachen werden die anderen Kräfte ignoriert, da sie eher eine Stützwirkung habe und somit die Spannungen nur weiter senken würde. Beim Auftreten der Ruckartigen Abbremsung durch den Ballonschirm ist der Max Q sowieso schon überschritten uns somit die anderen Kräfte nur noch deutlich geringer. Wie Abbildungen QQQQQQQQQQQQQQ und AAAAAAAAA zeigen wird die Streckgrenze weiterhin nicht unterschritten. Somit gibt die Halterung als bestätigt.
+\subsection{Optimierung des Gitters}
 \section{Betriebssimulation}
 Für Überprüfung der Aktuatorik wird eine Betriebssimulation in Simulink durchgeführt.
 Im Zentrum steht die Differenzialgleichung der Verdrehung des Grid Fins $\delta$, die abhängig vom Moment, dass der Motor liefert, ist. Dieses Moment lässt sich aus der Gleichung
