@@ -23,6 +23,7 @@ Somit ergeben sich die Kräfte für die einzelnen Grid Fins zu:
 		$F_3/$N&$4934,0$&$6474,2$&$-6474,2$&$-4934,0$\\
 	\end{tabular}
 \end{table}
+Als Randbedingung werden die Innenflächen der Halterung zylindrisch festgelegt. Das heißt die dort liegenden Knoten können sich weder axial noch radial bewegen, jedoch um die Achse drehen.
 \subsection{Optimierung der Halterung}
 Bei beiden Pfeilungstypen lässt sich für alle Lastfälle sofort erkennen, dass es zu massiven Lastspitzen an der Halterung kommt. Währenddessen bleiben die Werte im Gitter deutlich niedriger. Der Grund für die hohen Spannungen an der Einspannung ist die ungünstige Lage in der Mitte der Wände anstatt der Schnittstellen, Somit bilden sich vergleichsweise hohe Biegemomente in den Wänden aus. Dieser ungünstige Kraftfluss wird durch die scharfen Kanten weiter verschlimmert. Um nun diese Spannungsspitzen zu vermeiden, sollte, neben einer Abrundung der Kanten, die Position der Halterungen verändert werden.
 \begin{figure}[h] 
@@ -72,6 +73,51 @@ Somit wäre die Auslegung der Halterung nach den aerodynamischen Kräften theore
 \end{figure}\\
 Zur Bestätigung werden wieder FEM Analysen durchgeführt und diesmal werden ergänzend zu den aerodynamischen Kräften auch in einem separaten Lastfall die Beschleunigungskräfte untersucht. Bei den Lastvielfachen werden die anderen Kräfte ignoriert, da sie eher eine Stützwirkung habe und somit die Spannungen nur weiter senken würde. Beim Auftreten der Ruckartigen Abbremsung durch den Ballonschirm ist der Max Q sowieso schon überschritten uns somit die anderen Kräfte nur noch deutlich geringer. Wie Abbildungen QQQQQQQQQQQQQQ und AAAAAAAAA zeigen wird die Streckgrenze weiterhin nicht unterschritten. Somit gibt die Halterung als bestätigt.
 \subsection{Optimierung des Gitters}
+Als nächstes wird das Gitter untersucht. Es ist sofort erkenntlich, dass die Belastungen überall relativ niedrig, deutlich unter der Streckgrenze, liegen. Egal ob beim Tal- oder Berg-Typus, die Spannungsspitzen, die auftreten, sind keines Wegs kritisch. Somit ist eine Aufdickung des Material nicht nötig, sondern es kann über eine Reduzierung der Wandstärke nachgedacht werden.
+
+Die Wanddicke ist jedoch nicht nur durch die mechanische Belastung, sondern auch die thermische, nach unten hin beschränkt. Diese ist jedoch ein sehr komplexes Phänomen, das von der Zusammensetzung der Atmosphäre, den zeitlich ändernden Strömungsbedingungen, die Postion des Verdichtungsstoßes und dem Aufbau des Grid Fins abhängen, sodass es nicht auch nur überschlägig in dieser Arbeit behandelt werden kann.
+\\~\\
+Der Grid Fin ist momentan am von der Rakete weg zeigenden Ende schon nur $1,5$mm dick, was für den Wiedereintritt schon ein relativ kleiner Wert sein könnte. Deswegen soll dieser zunächst nicht unterschritten werden.
+
+
+
+~\\~\\
+Der Vergleich von der Berg- und Tal-Konfiguration zeigt, 
+
+
+\section{Bestätigung der Akuatorik}
+Nun da die Geometrie des Grid Fins, insbesondere der Halterung fest steht, kann überprüft werden, ob diese der mechanischen Last stand hält. Hierfür werden die Kräfte, die an den einzelnen Halterungen wirken benötigt. Die detaillierte Rechnung befindet sich im Anhang \ref{sec_halterkraefte}. Wenn angenommen wird, dass die Halterung B, da sie deutlich weniger steif als die Halterungen A sind, nur Belastung in $\eta$-Richtung aufnehmen kann ergeben sich die Kräfte wie folgt. Links sind Kräfte am Grid Fin R1 dargestellt, was die höchste Belastung für das Lager A bedeutet, und rechts R2 mit der höchsten Belastung für Lager B.
+\begin{table}[h] 
+	\centering 
+	\begin{tabular}{c|c|c|cc||c|c|c|c} 
+		\textbf{R1}&$F_{\zeta}$[N]&$F_\eta$[N]&$F_\xi$[N]&&\textbf{R2}&$F_{\zeta}$[N]&$F_\eta$[N]&$F_\xi$[N]\\ 
+		\hline 
+		A1& 612,00&-5601,54&-531,55&&A1&599,90&5,16&-474,45\\
+		A2&-1001,31&-1624,49&-531,54&&A2&.1013,41&3554,87&-474,45\\
+		B&0&-886,81&0&&B&0&4366,53&0\\
+	\end{tabular}
+\end{table} \\
+Für die Lasten an den Lagern ist nur die Aufteilung in Radial- $F_r$ und Axialkraft $F_a$ von Bedeutung. Dabei sei noch zu bedenken, dass die Kraft in $\xi$-Richtung auf Grund des Aufbaus nur von einem der A Lager kompensiert werden kann. Auch wenn das für die vorherige Berechnung keine Rolle spielte, da die beiden Halterungen A auf einer Achse liegen, wird es im folgenden berücksichtigt.
+\begin{table}[h] 
+	\centering 
+	\begin{tabular}{c|c|cc||c|c|c} 
+		\textbf{R1}&$F_{r}$[N]&$F_a$[N]&&\textbf{R2}&$F_{a}$[N]&$F_r$[N]\\ 
+		\hline 
+		A1& 5634,87&-1063,10&&A1&599,92&948,90\\
+		A2&1908,29&0&&A2&3696,60&0\\
+		B&866,81&0&&B&4366,53&0\\
+	\end{tabular}
+\end{table} \\
+Aus diesen Werten lässt sich nun über die Flächenpressung und Abscherung den erforderlichen Durchmesser $D$ und die benötigte Auflagebreite $B$ der Hilfswelle bestimmen. Für die Abscherung git
+\begin{equation}
+	\tau_{\mathrm{zul.}}\leq\tau_\mathrm{scher}=\frac{F_r}{\pi D^2/4}.
+\end{equation}
+Mit $\tau_{\mathrm{zul.}}=R_{p, 0.2}\cdot 0,6$ \cite{metall} lässt sich der Mindestdurchmesser bestimmen.
+\begin{equation}
+	D \leq \sqrt{\frac{4F}{\pi 0,6 R_{p, 0.2}}}
+\end{equation}
+
+$\zeta$
 \section{Betriebssimulation}
 Für Überprüfung der Aktuatorik wird eine Betriebssimulation in Simulink durchgeführt.
 Im Zentrum steht die Differenzialgleichung der Verdrehung des Grid Fins $\delta$, die abhängig vom Moment, dass der Motor liefert, ist. Dieses Moment lässt sich aus der Gleichung
@@ -82,9 +128,9 @@ berechnen. $n$ ist hierbei die Drehzahl des Motors, $U$ die Spannung, die am Mot
 \\~\\
 Diese ergibt sich nun aus dem Momentengleichgewicht zu:
 \begin{equation}
-	I\ddot{\delta} = M_{Antrieb} - M_{m, \delta}\delta - M_{R, \dot{\delta}}\dot{\delta}
+	I\ddot{\delta} = M_{Antrieb} - M_{m, \delta}\delta - M_{R}(\dot{\delta})
 \end{equation}
-Das Trägheitsmoment setzt sich aus dem des Motors, des Getriebes und des Grid Fins zusammen. Dabei muss das Trägheitsmoment des Motors noch mit der Übersetzung des Getriebes multipliziert werden, da dieser um jenen Faktor stärker beschleunigt. Das aerodynamische Moment wird als linear vom Steuerwinkel abhängig angenommen. Somit ergibt sich $M_{m, \delta} = M_{m, max}/\delta = 4,455Nm/^\circ$. Das Reibmoment setzt sich aus der Reibung des Motors, des Getriebes und der Lagerung zusammen.
+Das Trägheitsmoment setzt sich aus dem des Motors, des Getriebes und des Grid Fins zusammen. Dabei muss das Trägheitsmoment des Motors noch mit der Übersetzung des Getriebes multipliziert werden, da dieser um jenen Faktor stärker beschleunigt. Das aerodynamische Moment wird als linear vom Steuerwinkel abhängig angenommen, was sich bei den Analysen von Miller und Washington \cite{synopsis} (vgl. Abbildung \ref{abb_krumm}) erkennen lässt. Somit ergibt sich $M_{m, \delta} = M_{m, max}/\delta = 4,455Nm/^\circ$. Das Reibmoment setzt sich aus der Reibung des Motors, des Getriebes und der Lagerung zusammen.
 
 Während die Motorspannung $U$ als Eingangsgröße für das System geregelt wird, ergibt sich der Sollwert für den Steuerwinkel aus der Bedingung den auftretenden Schwingungen ausgleichen zu können. Da also eine solche komplette Schwingung innerhalb von $T = 0,73$s stattfinden soll, wird der Sollwert für den Steuerwinkel bis $t = 1/4T$ auf $\delta = 20^\circ$ gesetzt. Danach springt der Wert auf $\delta = -20^\circ$ und ab $t = 3/4T$ soll Steuerwinkel wieder auf $\delta = 0^\circ$ zurück gehen, wo er auch gestartet ist.
 \section{Systemoptimierung}

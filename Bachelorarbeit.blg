@@ -48,45 +48,45 @@ Warning--empty publisher in Shape
 Warning--empty year in Shape
 Warning--empty booktitle in Pattern
 Warning--empty publisher in ChordVar
-You've used 41 entries,
+You've used 42 entries,
             1791 wiz_defined-function locations,
-            663 strings with 9995 characters,
-and the built_in function-call counts, 6623 in all, are:
-= -- 527
-> -- 248
+            668 strings with 10049 characters,
+and the built_in function-call counts, 6738 in all, are:
+= -- 534
+> -- 252
 < -- 2
-+ -- 105
-- -- 64
-* -- 208
-:= -- 1011
-add.period$ -- 139
-call.type$ -- 41
++ -- 107
+- -- 65
+* -- 209
+:= -- 1027
+add.period$ -- 141
+call.type$ -- 42
 change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 62
-duplicate$ -- 316
-empty$ -- 835
-format.name$ -- 64
-if$ -- 1552
+cite$ -- 63
+duplicate$ -- 321
+empty$ -- 853
+format.name$ -- 65
+if$ -- 1579
 int.to.chr$ -- 0
-int.to.str$ -- 41
+int.to.str$ -- 42
 missing$ -- 24
-newline$ -- 224
-num.names$ -- 40
-pop$ -- 289
+newline$ -- 228
+num.names$ -- 41
+pop$ -- 296
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 122
+skip$ -- 127
 stack$ -- 0
 substring$ -- 88
-swap$ -- 54
+swap$ -- 55
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 21
-while$ -- 46
-width$ -- 43
-write$ -- 420
+while$ -- 47
+width$ -- 44
+write$ -- 428
 (There were 21 warnings)
