@@ -110,14 +110,21 @@ Für die Lasten an den Lagern ist nur die Aufteilung in Radial- $F_r$ und Axialk
 \end{table} \\
 Aus diesen Werten lässt sich nun über die Flächenpressung und Abscherung den erforderlichen Durchmesser $D$ und die benötigte Auflagebreite $B$ der Hilfswelle bestimmen. Für die Abscherung git
 \begin{equation}
-	\tau_{\mathrm{zul.}}\leq\tau_\mathrm{scher}=\frac{F_r}{\pi D^2/4}.
+	\tau_{\mathrm{zul.}}\leq\tau_\mathrm{scher}=\frac{F_r}{m\pi D^2/4}.
 \end{equation}
-Mit $\tau_{\mathrm{zul.}}=R_{p, 0.2}\cdot 0,6$ \cite{metall} lässt sich der Mindestdurchmesser bestimmen.
+Mit $\tau_{\mathrm{zul.}}=R_{p, 0.2}\cdot 0,6$ \cite{metall} und $m$ als die Anzahl der Schnittflächen lässt sich der Mindestdurchmesser bestimmen.
 \begin{equation}
-	D \leq \sqrt{\frac{4F}{\pi 0,6 R_{p, 0.2}}}
+	D \leq \sqrt{\frac{4F}{m\pi 0,6 R_{p, 0.2}}}= 5,5\mathrm{mm}
 \end{equation}
+Für die Halterung A ist $m=1$, sodass eine Mindestdicke von $D=5,5$mm benötigt wird. Aus der sich eine Auflagebreite von $B = 3,1$mm ergibt. Da sich der Aufbau des Grid Fins seit dem ersten Modell verändert hat, kann auch die Anbringung an der Welle, welche in Abbildung \ref{abb_Welle} zu sehen war, angepasst werden. Durch wie Verlegung der Halterung A rückt der Grid Fin näher an den Raketenkörper ran. Statt nun Greifarme aus der Welle raus ragen zu lassen, wir diese nur ein wenig verlängert, sodass die Verbindungslinie durch die beiden Halterungen A die Welle durchstößt. Auf diese Verbindungslinie wird eine Stange gelegt, auf der der Grid Fin montiert wird. Diese Variante der Halterung hat zum einen den Vorteil, dass keine komplizierte Greiferstruktur gefertigt werden muss, und zum anderen steht nun ein Großteil der planaren Wand im eingeklappten Zustand nicht mehr direkt in der Strömung, sondern im Windschatten der Welle. Dadurch wird ungewollter Widerstand und Belastung der Grid Fins verhindert. Um den Grid Fin reibungsarm zu sicher, muss er sowohl axial als auch radial mit Wälzlagern gelagert werden. Zylinderrollenlager, wie sie auch bei der Welle verwendet werden, sind hier jedoch eine ungünstige Wahl, da sie recht großen Bauraum benötigen. Stattdessen wird die Halterung A auf beiden Seiten mit einem schmalen Nadellager radial und mit einem Kugellager axial mit der Welle verbunden. Diese Kombinationslager werden von außen mit Nutmuttern, die auf die Verbindungsstange aufgeschraubt und durch Sicherungsbleche gesichert werden, an den Grid Fin gedrückt. Um ein Verrutschen der Verbindungsstange in der Welle zu verhindern, muss diese noch durch eine Passschraube fixiert werden. Für diese Passschraube werden wieder aus der Flächenpresssung und der Abscherung die Mindestmaße des Durchmessers und der Breite bestimmt. Mit eim Durchmesser von $D = \mathrm{mm}\gg 1,2$mm und einer Kontaktbreite von $B = \mathrm{mm}\gg 1,3$mm ist sie für diese Anwendung ausreichend.
 
-$\zeta$
+SKIZZEEEEEEEEEEEEEEEEEEEEE mit Maßen
+
+Die Halterung B wird von beiden Seiten gestützt, sodass mit $m = 2$ ein Mindestdurchmesser von $D = 3,4$mm errechnet wird. Die zugehörige Breite beläuft sich somit auf $B = 3,8$mm. Wie schon angemerkt treten hier kaum Axialkräfte auf, sodass ein Rillenkugellager ausreicht, um diese aufzunehmen. Es wird auf der einen Seite gegen eine Schulter in der Halterung B des Grid Fins gedrückt und auf der anderen Seite durch ein Sicherungsring fixiert. Zwei Stifte werden von beiden Seiten gegen die innere Kante des Lagers gedrückt und miteinander schraubt. Diese Stifte können anschließend von außen mit Muttern an die Verbindungsstange für den Hub fixiert werden. Somit ist auch die Halterung B Axial und Radial bestimmt, kann sich aber noch immer reibungsarm um ihre Achse drehen. Das Kugellager hat zwar nur eine Breite von 3mm, was unter dem Wert liegt, der sich aus der Flächenpressung ergeben hat. Jedoch wurde dort mit dem Mindestdurchmesser gerechnet, sodass, wenn mit dem Innendurchmesser des Kugellagers von $D = 5$mm die Rechnung wiederholt wird, nur noch ein WBreite von $B =2,6$ benötigt wird. Diese Lagerung wird genau so auch ein zweites Mal auf der anderen Seite der Verbindungsstange verwendet.
+
+
+
+
 \section{Betriebssimulation}
 Für Überprüfung der Aktuatorik wird eine Betriebssimulation in Simulink durchgeführt.
 Im Zentrum steht die Differenzialgleichung der Verdrehung des Grid Fins $\delta$, die abhängig vom Moment, dass der Motor liefert, ist. Dieses Moment lässt sich aus der Gleichung

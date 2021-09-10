@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {2.4.5}Zellgr\IeC {\"o}\IeC {\ss }e}{20}{subsection.2.4.5}%
 \contentsline {section}{\numberline {2.5}Bisherige Implementierung}{21}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}SpaceX Falcon 9 und Starship}{21}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Sovietische Sojus und N-1}{23}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.2}Sowjetische Sojus und N-1}{23}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}Chinas Chang'e}{24}{subsection.2.5.3}%
 \contentsline {section}{\numberline {2.6}Das AirLaunch-System Valkyrie}{24}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Modellentwurf}{27}{chapter.3}%
@@ -28,7 +28,7 @@
 \contentsline {subsection}{\numberline {3.1.1}Anforderungen an die Aerodynamik}{27}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Leistungsanforderungen}{27}{subsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.1.3}Anforderungen an die Kosten}{28}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Thermische und Mechanische Anforderungen}{28}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.4}Thermische und mechanische Anforderungen}{28}{subsection.3.1.4}%
 \contentsline {subsection}{\numberline {3.1.5}Geometrische Anforderungen}{31}{subsection.3.1.5}%
 \contentsline {section}{\numberline {3.2}Morphologische K\IeC {\"a}sten}{32}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Modellierung des Grid Fins}{34}{section.3.3}%
