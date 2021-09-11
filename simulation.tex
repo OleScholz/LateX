@@ -86,7 +86,7 @@ Der Vergleich von der Berg- und Tal-Konfiguration zeigt,
 
 
 \section{Bestätigung der Akuatorik}
-Nun da die Geometrie des Grid Fins, insbesondere der Halterung fest steht, kann überprüft werden, ob diese der mechanischen Last stand hält. Hierfür werden die Kräfte, die an den einzelnen Halterungen wirken benötigt. Die detaillierte Rechnung befindet sich im Anhang \ref{sec_halterkraefte}. Wenn angenommen wird, dass die Halterung B, da sie deutlich weniger steif als die Halterungen A sind, nur Belastung in $\eta$-Richtung aufnehmen kann ergeben sich die Kräfte wie folgt. Links sind Kräfte am Grid Fin R1 dargestellt, was die höchste Belastung für das Lager A bedeutet, und rechts R2 mit der höchsten Belastung für Lager B.
+Nun da die Geometrie des Grid Fins, insbesondere der Halterung fest steht, kann überprüft werden, ob auch alles auf der wellenseitig den mechanischen Lasten stand hält. Hierfür werden die Kräfte, die an den einzelnen Halterungen wirken benötigt. Die detaillierte Rechnung befindet sich im Anhang \ref{sec_halterkraefte}. Wenn angenommen wird, dass die Halterung B, da sie deutlich weniger steif als die Halterungen A sind, nur Belastung in $\eta$-Richtung aufnehmen kann ergeben sich die Kräfte wie folgt. Links sind Kräfte am Grid Fin R1 dargestellt, was die höchste Belastung für das Lager A bedeutet, und rechts R2 mit der höchsten Belastung für Lager B.
 \begin{table}[h] 
 	\centering 
 	\begin{tabular}{c|c|c|cc||c|c|c|c} 
@@ -97,6 +97,8 @@ Nun da die Geometrie des Grid Fins, insbesondere der Halterung fest steht, kann 
 		B&0&-886,81&0&&B&0&4366,53&0\\
 	\end{tabular}
 \end{table} \\
+Für die Bauteile, die nicht so hohen Lasten wie der Grid Fin ausgesetzt sind, wird im folgenden nicht mit den Werkstoffwerten des teuren Edelstahls 1.4542 gerechnet. Für die Teile, die nicht mit der Strömung in Kontakt kommen, wird eine Aluminiumlegierung mit $R_{p,0.2} = $MPa verwendet, und für die anderen Bauteile, wie weiterhin auch hohen thermischen Lasten ausgesetzt sind, wird ein Edelstahl mit einer Streckgrenze von $R_{p,0.2} = 400$MPa angenommen.
+\subsection{Lager der Halterung}
 Für die Lasten an den Lagern ist nur die Aufteilung in Radial- $F_r$ und Axialkraft $F_a$ von Bedeutung. Dabei sei noch zu bedenken, dass die Kraft in $\xi$-Richtung auf Grund des Aufbaus nur von einem der A Lager kompensiert werden kann. Auch wenn das für die vorherige Berechnung keine Rolle spielte, da die beiden Halterungen A auf einer Achse liegen, wird es im folgenden berücksichtigt.
 \begin{table}[h] 
 	\centering 
@@ -116,17 +118,98 @@ Mit $\tau_{\mathrm{zul.}}=R_{p, 0.2}\cdot 0,6$ \cite{metall} und $m$ als die Anz
 \begin{equation}
 	D \leq \sqrt{\frac{4F}{m\pi 0,6 R_{p, 0.2}}}= 5,5\mathrm{mm}
 \end{equation}
-Für die Halterung A ist $m=1$, sodass eine Mindestdicke von $D=5,5$mm benötigt wird. Aus der sich eine Auflagebreite von $B = 3,1$mm ergibt. Da sich der Aufbau des Grid Fins seit dem ersten Modell verändert hat, kann auch die Anbringung an der Welle, welche in Abbildung \ref{abb_Welle} zu sehen war, angepasst werden. Durch wie Verlegung der Halterung A rückt der Grid Fin näher an den Raketenkörper ran. Statt nun Greifarme aus der Welle raus ragen zu lassen, wir diese nur ein wenig verlängert, sodass die Verbindungslinie durch die beiden Halterungen A die Welle durchstößt. Auf diese Verbindungslinie wird eine Stange gelegt, auf der der Grid Fin montiert wird. Diese Variante der Halterung hat zum einen den Vorteil, dass keine komplizierte Greiferstruktur gefertigt werden muss, und zum anderen steht nun ein Großteil der planaren Wand im eingeklappten Zustand nicht mehr direkt in der Strömung, sondern im Windschatten der Welle. Dadurch wird ungewollter Widerstand und Belastung der Grid Fins verhindert. Um den Grid Fin reibungsarm zu sicher, muss er sowohl axial als auch radial mit Wälzlagern gelagert werden. Zylinderrollenlager, wie sie auch bei der Welle verwendet werden, sind hier jedoch eine ungünstige Wahl, da sie recht großen Bauraum benötigen. Stattdessen wird die Halterung A auf beiden Seiten mit einem schmalen Nadellager radial und mit einem Kugellager axial mit der Welle verbunden. Diese Kombinationslager werden von außen mit Nutmuttern, die auf die Verbindungsstange aufgeschraubt und durch Sicherungsbleche gesichert werden, an den Grid Fin gedrückt. Um ein Verrutschen der Verbindungsstange in der Welle zu verhindern, muss diese noch durch eine Passschraube fixiert werden. Für diese Passschraube werden wieder aus der Flächenpresssung und der Abscherung die Mindestmaße des Durchmessers und der Breite bestimmt. Mit eim Durchmesser von $D = \mathrm{mm}\gg 1,2$mm und einer Kontaktbreite von $B = \mathrm{mm}\gg 1,3$mm ist sie für diese Anwendung ausreichend.
+Für die Halterung A ist $m=1$, sodass eine Mindestdicke von $D=5,5$mm benötigt wird. Aus der sich eine Auflagebreite von $B = 3,1$mm ergibt. Da sich der Aufbau des Grid Fins seit dem ersten Modell verändert hat, kann auch die Anbringung an der Welle, welche in Abbildung \ref{abb_Welle} zu sehen war, angepasst werden. Durch wie Verlegung der Halterung A rückt der Grid Fin näher an den Raketenkörper ran. Statt nun Greifarme aus der Welle raus ragen zu lassen, wir diese nur ein wenig verlängert, sodass die Verbindungslinie durch die beiden Halterungen A die Welle durchstößt. Auf diese Verbindungslinie wird eine Stange, im weiteren Verbindungswelle genannt, gelegt, auf der der Grid Fin montiert wird. Diese Variante der Halterung hat zum einen den Vorteil, dass keine komplizierte Greiferstruktur gefertigt werden muss, und zum anderen steht nun ein Großteil der planaren Wand im eingeklappten Zustand nicht mehr direkt in der Strömung, sondern im Windschatten der Welle. Dadurch wird ungewollter Widerstand und Belastung der Grid Fins verhindert. Um den Grid Fin reibungsarm zu sicher, muss er sowohl axial als auch radial mit Wälzlagern gelagert werden. Zylinderrollenlager, wie sie auch bei der Welle verwendet werden, sind hier jedoch eine ungünstige Wahl, da sie recht großen Bauraum benötigen. Stattdessen wird die Halterung A auf beiden Seiten mit einem schmalen Nadellager radial und mit einem Kugellager axial mit der Welle verbunden. Diese Kombinationslager werden von außen mit Nutmuttern, die auf die Verbindungswelle aufgeschraubt und durch Sicherungsbleche gesichert werden, an den Grid Fin gedrückt. Um ein Verrutschen der Verbindungswelle in der Welle zu verhindern, muss diese noch durch eine Passschraube fixiert werden. Für diese Passschraube werden wieder aus der Flächenpresssung und der Abscherung die Mindestmaße des Durchmessers und der Breite bestimmt. Mit eim Durchmesser von $D = 10\mathrm{mm}> 1,2$mm und einer Kontaktbreite von $B = 8\mathrm{mm}> 1,3$mm ist sie für diese Anwendung ausreichend.
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.75\textwidth]{Skizze Halterung A.png}
+	\caption{Lagerung der Halterung A}
+\end{figure}\\
+Die Halterung B wird von beiden Seiten gestützt, sodass mit $m = 2$ ein Mindestdurchmesser von $D = 3,4$mm errechnet wird. Die zugehörige Breite beläuft sich somit auf $B = 3,8$mm. Wie schon angemerkt treten hier kaum Axialkräfte auf, sodass ein Rillenkugellager ausreicht, um diese aufzunehmen. Es wird auf der einen Seite gegen eine Schulter in der Halterung B des Grid Fins gedrückt und auf der anderen Seite durch ein Sicherungsring fixiert. Zwei Stifte werden von beiden Seiten gegen die innere Kante des Lagers gedrückt und miteinander schraubt. Diese Stifte können anschließend von außen mit Muttern an die Verbindungsstange für den Hub fixiert werden. Somit ist auch die Halterung B Axial und Radial bestimmt, kann sich aber noch immer reibungsarm um ihre Achse drehen. Das Kugellager hat zwar nur eine Breite von 3mm, was unter dem Wert liegt, der sich aus der Flächenpressung ergeben hat. Jedoch wurde dort mit dem Mindestdurchmesser gerechnet, sodass, wenn mit dem Innendurchmesser des Kugellagers von $D = 5$mm die Rechnung wiederholt wird, nur noch eine Breite von $B =2,6$ benötigt wird. Diese Lagerung wird genau so auch ein zweites Mal auf der anderen Seite der Verbindungsstange verwendet.
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.75\textwidth]{Skizze Halterung B.png}
+	\caption{Lagerung in der Halterung B}
+\end{figure}
+\subsection{Lagerung der Welle}
+Als nächstes wird die Lagerung der Welle überprüft, da diese sich auch unter Last bewegen müssen. Hierzu werden zunächst über das Kräftegleichgewicht die Lasten in den beiden Kegelrollenlagern bestimmt.
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.9\textwidth]{Skizze Lager.png}
+	\caption{Lagerkräfte an den Kegelrollenlagern}
+\end{figure}\\
+Für den Fall, dass die am Grid Fin angreifende Axialkraft in positive $\eta$-Richtung zeig, ist die Axialkraft am vorderen Kegellager $F_{a, \mathrm{K1}} = 0$ und am hinteren $F_{a, \mathrm{K2}} = F_\eta$. Da es für den anderen Fall genau umgekehrt ist, wird bei der Untersuchung der maximalen Belastung für beide Lager angenommen, dass sie die Axiallast aufnehmen. Die Radialkräfte ergibt sich aus der Kraft in $\zeta$- und $\xi$-Richtung und lässt sich mit dem Kräfte- und Momentengleichgewicht bestimmen.
+\begin{equation}
+	F_{r, \mathrm{K1}} = F_r\cdot\frac{208\mathrm{mm}}{265\mathrm{mm}}=6359,5\mathrm{N}
+\end{equation}
+\begin{equation}
+	F_{r, \mathrm{K2}} = F_r-F_{r, \mathrm{K1}}=1742,7\mathrm{N}
+\end{equation}
+Aus den Lasten in den Lagern und den in den Herstellerangaben genannten statischen Tragzahlen lässt sich die äqivaltene Belastung berechnen. Mittels der ebenfalls vom Hersteller gegebenen dynamische Tragzahl ergibt sich für beide Lager eine Lebensdauer vom mehreren tausend Stunden \cite{metall}. Es wurde dabei mit der maximal auftretenden Drehzahl, die sich aus der in Kapitel \ref{sec:betriebssim} beschriebenen Betriebssimulation ergibt, gerechnet. Trotzdem liegt der Wert noch immer deutlich über der benötigten Lebensdauer. Dies liegt jedoch daran, dass die große der Lager sich aus der Geometrie der Welle und des Grid Fins ergeben hat, wodurch kein kleines Modell in Frage kommt und bei den gewählten Exemplaren wurde schon versucht die preislich günstigste Option zu wählen.
+\subsection{Belastung der Welle}
+Die Welle selbst hat zum einen den groben Verlauf, wie er in Abbildung \ref{abb_Welle} zu sehen war, zum anderen weicht sie an einigen Stellen von dieser rotationssymmetrischen Geometrie ab. Ein Aspekt ist die schon im Abschnitt zu der Halterung angesprochenen Verbindungswelle, die die Welle durchstößt. Auf der gleich Höhe, aber auf der Stirnseite befindet sich Mittig eine Bohrung und Senkung für die Passfeder. Für die Hubstange befindet sich des Weiteren ein großer Ausschnitt durch den größten Durchmesser der Welle. Damit im eingeklappten Zustand die Berge des Grid Fins nicht gegen die Welle stoßen, ist die untere Vorderkante ausgehöhlt. Das Linearlager der Hubstange muss von unten festgeschraubt werden, sodass zunächst ein flacher Ausschnitt in die Welle eingebracht wird, auf der eine Platte festgeschraubt werden kann. Diese Platte wird anschließend von unten mit dem Lager verschraubt. Um ein montieren der Schrauben zu ermöglichen werden jedoch noch Einbuchtungen an der Welle benötigt. Von den sechs Bohrungen auf der Welle für die Platte sind die hinteren zwei größer Dimensioniert, da dort noch ein weiteres Bauteil montiert werden soll, an dem anschließend die das Spindelgetriebe festschraubt wird.
+Für das Spindelgetriebe mit dem integrierten Motor sind auch noch kleine Einbuchtungen in der Welle nötig. Am hinteren Ende befindet sich dann noch das Gewinde für die Nutmutter und die Nut für das Sicherungsblech. Schlussendlich befindet sich an der hinteren Stirnseite der Welle eine Bohrung mit Passfedernut, mit die Welle des Getriebes montiert wird.
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.9\textwidth]{Skizze Welle ausbruch.jpg}
+	\caption{Aufbau der Welle}
+\end{figure}\\
+Für die Analyse der Welle wurden wieder FEM-Berechnungen durchgeführt. Auf den Flächen, wo die Lager aufliegen, wird wie schon beim Grid Fin zylindrische Bedingungen festgelegt, wobei die axiale Beschränkung nur bei jeweils einem der beiden Lager angewandt wird. Zusätzlich wird ein Drehung der Welle um ihre Achse durch ein festhalten in tangentiale Richtung der Passfedernut am hinteren Ende verhindert.
+Die Kräfte der Halterung A werden an den Stellen eingeleitet, wo die Verbindungswelle in die Welle führt, mit Ausnahme der $xi$-Kraft, die durch die Passschraube übertragen wird. 
+Die Kraft der Halterung B hingegen wird erst über das Spindelgetriebe auf die Welle übertragen. Somit greift die resultierende Kraft in der Simulation in den Bohrlöcher an, an denen die Spindel befestigt ist.
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.9\textwidth]{FEM Welle.jpg}
+	\caption{FEM-Ergebnisse der Welle \textbf{UPDATENNNN!!!}}
+	\label{abb_Well_FEM}
+\end{figure}\\
+Wie auch bei den Lagern, ist die Dimensionierung der Welle nicht durch die mechanischen Lasten sondern geometrischen Randbedingungen bestimmt.
 
-SKIZZEEEEEEEEEEEEEEEEEEEEE mit Maßen
+\subsection{Belastung des Gehäuse}
+Schlussendlich wird noch das Gehäuse betrachtet. Es hat nicht nur die Aufgabe den Rest der Rakete von den beweglichen Teilen zu trennen, um zum Beispiel ein verfangen von Kabeln zu verhindern, sondern auch die Funktion die Lager und den Motor mit Getriebe in Postion zu halten. Somit überträgt das Gehäuse auch die Kräfte und Momente die in dem System wirken auf den Raketenkörper. Für eine einfache Montage und Fertigung besteht das Gehäuse aus eine Unter- und Oberseite, die mit Schrauben aneinander und an der Außenhülle befestigt werden. Im vorderen Bereich benötigt die Oberseite der Welle auf Grund der Klappaktuatorik deutlich mehr Platz als auf der Unterseite. Deshalb bildet die Oberseite des Gehäuse einen Halbkreis, während die Unterseite eine Halbe Ellipse darstellt, deren große Halbachse dem Radius der Oberseite entspricht, um bündig mit ihr abzuschließen. Hinter dem Kegelrollenlager sind beide Seiten symmetrisch aufbaut mit Ausnahme der Wände, an denen das Getriebe und der Motor montiert werden. Somit muss bei der Montage als letzter Schritt nur noch die Gehäuseoberseite auf die Unterseite platziert und dann befestigt werden.
+Diese Befestigung findet mit der Raketenhülle mit sechs gleichmäßig über einen Flansch verteilte Schrauben statt. Auch miteinander werden die beiden Hälften zunächst über sechs Schrauben, die gleichmäßig verteilt platziert und mit Mutter befestigt werden.
+\\~\\
+Auch hier wird wieder eine FEM-Anaylse benutzt, um die Spannungen im Material zu bestimmen. Hierbei werden die Lagerkräfte auf die Flächen aufgebracht, auf denen die Lager aufliegen und gegen drücken. Das Moment um die Wellenachse wird über das Getriebe und den Motor auf das Gehäuse übertragen. Da das Getriebe eine Übersetzung von 200:1 besitzt und der Motor nur sehr kleine Momente liefert, wird vereinfacht angenommen, dass das gesamte Moment an Löchern für die Schraube des Gewindes angreift.
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.9\textwidth]{FEM Gehäuse.jpg}
+	\caption{Ergebnisse der FEM-Berechnung der Gehäusebaugruppe}
+\end{figure}\\
+Die FEM-Anaylse zeigt, dass die Beanspruchungen im Material überall recht gering sind. Nur die Schrauben und Mutter werden stark mit Spannungen von bis zu $900$MPa belastet.
+\section{Betriebssimulation}\label{sec:betriebssim}
+Da nun bewiesen wurde, dass die Konstruktion den mechanischen Lasten des Betriebs stand hält, soll an dieser Stelle überprüft werden, ob die Antriebe über genug Leistung verfügen die gewünschten Manöver durchzuführen. Deswegen wird zur Überprüfung der Aktuatorik Betriebssimulationen in Simulink durchgeführt.
+\subsection{Klappwinkel}
+Zuerst wird der Prozess des Ausklappens simuliert. Dieses System besteht aus drei Teilen. Das erste Subsystem stellt der Motor dar, dessen Kennlinie sich mit Gleichung \ref{eq_kennlinie} beschreiben lässt.
+\begin{equation}\label{eq_kennlinie}
+	n =k_nU-\frac{\Delta n}{\Delta M}M_{Motor}
+\end{equation}
+$k_n$ ist dabei die Drehzahlkonstante des Motors und ist zusammen mit der Kennliniensteigung $\frac{\Delta n}{\Delta M}$ als konstante Kenngröße dem Datenblatt zu entnehmen. Die Spannung $U$ wird von außen angelegt und die Drehzahl $n$ ergibt sich aus der Lösung des Systems, sodass die Gleichung nach dem Motormoment umgestellt werden kann. Dieses Moment wird dann jedoch noch vom Getriebe verstärkt, sodass sich das Antriebsmoment ergibt. Dieses Getriebe besteht zwar sowohl aus der Spindelstange, die die Rotions- in eine Linearbewegung umwandelt, und einem vorgeschalteten Planetengetriebe, jedoch wird im ersten Subsystem nur das Planetengetriebe berücksichtig, während die Spindelstange vorerst ignoriert wird. Das Antriebsmoment wird dann an das zweite Subsystem weiter gegeben, in dem die Differenzialgleichung
+\begin{equation}
+	I\ddot{\varphi} = M_{Antrieb} - M_{R}(\dot{\varphi})
+\end{equation}
+gelöst wird. Die Beschleunigung des Trägheitsmoments $I$ um den Verdrehwinkel $\varphi$ hängt also von der Differenz des Antrieb- und Reibmoments ab. Letzteres ergibt sich aus dem Hebelarm $r$ und der Reibkraft, die wiederum vom Reibungsbeiwert $\mu$ und der Normalkraft $F_N$ abhängig ist, des jeweiligen Kontaktpunktes ab und ist immer der Bewegung entgegen gerichtet. Für das Getriebe ist zwar kein Reibungsbeiwert bekannt, aber eine Nenneffizienz $\eta$, sodass das Reibmoment als ein nur vom Antriebsmoment abhängiger Wert angenommen wird.
+\begin{equation}\label{eq_reibmoment}
+	M_R = M_{Antrieb}\cdot(1-\eta)+\frac{\dot{\varphi}}{|\dot{\varphi}|}\sum F_N \mu r
+\end{equation}
+Aus dem Ergebnis dieser Differenzialgleichung, die Drehbeschleunigung $\varphi$, lässt sich dann zum einen die Drehgeschwindigkeit $\dot{\varphi}$ mittels einfacher und den Verdrehwinkel $\varphi$ mit zweifacher Integration bestimmen. Die Drehgeschwindigkeit wird zum einen für die Richtung des Reibmoments, wie es in Gleichung \ref{eq_reibmoment} zu sehen ist, benötigt und zum anderen für die Umrechnung zur Drehzahl an den Motor zurück gegeben. Der Verdrehwinkel wird jedoch an das dritte und letzte Subsystem, welches sich mit der Geometrie der Kinematik beschäftigt, weiter geleitet.
 
-Die Halterung B wird von beiden Seiten gestützt, sodass mit $m = 2$ ein Mindestdurchmesser von $D = 3,4$mm errechnet wird. Die zugehörige Breite beläuft sich somit auf $B = 3,8$mm. Wie schon angemerkt treten hier kaum Axialkräfte auf, sodass ein Rillenkugellager ausreicht, um diese aufzunehmen. Es wird auf der einen Seite gegen eine Schulter in der Halterung B des Grid Fins gedrückt und auf der anderen Seite durch ein Sicherungsring fixiert. Zwei Stifte werden von beiden Seiten gegen die innere Kante des Lagers gedrückt und miteinander schraubt. Diese Stifte können anschließend von außen mit Muttern an die Verbindungsstange für den Hub fixiert werden. Somit ist auch die Halterung B Axial und Radial bestimmt, kann sich aber noch immer reibungsarm um ihre Achse drehen. Das Kugellager hat zwar nur eine Breite von 3mm, was unter dem Wert liegt, der sich aus der Flächenpressung ergeben hat. Jedoch wurde dort mit dem Mindestdurchmesser gerechnet, sodass, wenn mit dem Innendurchmesser des Kugellagers von $D = 5$mm die Rechnung wiederholt wird, nur noch ein WBreite von $B =2,6$ benötigt wird. Diese Lagerung wird genau so auch ein zweites Mal auf der anderen Seite der Verbindungsstange verwendet.
+Hier wird die Verdrehung über die Steigung der Spindelstange erst in eine Linearbewegung der Hubstange und dann wieder in die Rotation des Grid Fins um den Klappwinkel $\Lambda$ umgewandelt. Abbildung \ref{abb_kinklapp} zeigt, wie aus den geometrischen Zusammenhängen sich zuerst der Winkel $\alpha$ aus dem Hubweg $x$ ergibt, der dann genutzt werden kann, um den $\Lambda$ zu bestimmen.
+%\begin{figure}[h] 
+%	\centering
+%	\includegraphics[width=0.9\textwidth]{KinKlapp.jpg}
+%	\caption{Kinematischer Zusammenhang von Hubweg und Klappwinkel}
+%	\label{abb_kinklapp}
+%\end{figure}
+\begin{figure}[h] 
+\centering
+\includegraphics[width=0.9\textwidth]{KinKlappGraph.jpg}
+\caption{Klappwinkel in Abhängigkeit vom normalisierten Hubweg}
+\end{figure}\\	
+Sobald der Klappwinkel von $\Lambda = 90^\circ$ erreicht wird, beziehungsweise wenn die Hubstange sich um eine Länge von $x = 2a = 94$mm bewegt hat, stößt sie gegen die Welle und kann sich nicht weiter in diese Richtung bewegen. Sobald dieser Fall eintritt wird die Spannung am Motor
 
 
 
 
-\section{Betriebssimulation}
-Für Überprüfung der Aktuatorik wird eine Betriebssimulation in Simulink durchgeführt.
+\subsection{Steurwinkel}
 Im Zentrum steht die Differenzialgleichung der Verdrehung des Grid Fins $\delta$, die abhängig vom Moment, dass der Motor liefert, ist. Dieses Moment lässt sich aus der Gleichung
 \begin{equation}
 	n =k_nU-\frac{\Delta n}{\Delta M}M_{Motor}
@@ -140,8 +223,6 @@ Diese ergibt sich nun aus dem Momentengleichgewicht zu:
 Das Trägheitsmoment setzt sich aus dem des Motors, des Getriebes und des Grid Fins zusammen. Dabei muss das Trägheitsmoment des Motors noch mit der Übersetzung des Getriebes multipliziert werden, da dieser um jenen Faktor stärker beschleunigt. Das aerodynamische Moment wird als linear vom Steuerwinkel abhängig angenommen, was sich bei den Analysen von Miller und Washington \cite{synopsis} (vgl. Abbildung \ref{abb_krumm}) erkennen lässt. Somit ergibt sich $M_{m, \delta} = M_{m, max}/\delta = 4,455Nm/^\circ$. Das Reibmoment setzt sich aus der Reibung des Motors, des Getriebes und der Lagerung zusammen.
 
 Während die Motorspannung $U$ als Eingangsgröße für das System geregelt wird, ergibt sich der Sollwert für den Steuerwinkel aus der Bedingung den auftretenden Schwingungen ausgleichen zu können. Da also eine solche komplette Schwingung innerhalb von $T = 0,73$s stattfinden soll, wird der Sollwert für den Steuerwinkel bis $t = 1/4T$ auf $\delta = 20^\circ$ gesetzt. Danach springt der Wert auf $\delta = -20^\circ$ und ab $t = 3/4T$ soll Steuerwinkel wieder auf $\delta = 0^\circ$ zurück gehen, wo er auch gestartet ist.
-\section{Systemoptimierung}
-
 \section{Systembewertung}
 
 \section{Fazit}

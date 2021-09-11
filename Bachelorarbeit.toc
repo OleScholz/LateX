@@ -45,18 +45,23 @@
 \contentsline {subsection}{\numberline {4.1.1}Optimierung der Halterung}{48}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Optimierung des Gitters}{51}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}Best\IeC {\"a}tigung der Akuatorik}{52}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Betriebssimulation}{52}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Systemoptimierung}{53}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Systembewertung}{53}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Fazit}{53}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{54}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{55}{chapter.5}%
-\contentsline {chapter}{Abbildungsverzeichnis}{57}{chapter*.9}%
-\contentsline {chapter}{Tabellenverzeichnis}{60}{chapter*.10}%
-\contentsline {chapter}{Symbolverzeichnis}{61}{chapter*.12}%
-\contentsline {chapter}{\numberline {A}Materialeigenschaften}{63}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Projektmanagement}{65}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Work Breakdown Structure}{65}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Zeitplan}{67}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Work Package Description}{69}{section.B.3}%
+\contentsline {subsection}{\numberline {4.2.1}Lager der Halterung}{52}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Lagerung der Welle}{54}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Belastung der Welle}{55}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Belastung des Geh\IeC {\"a}use}{56}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Betriebssimulation}{57}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Klappwinkel}{58}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Steurwinkel}{59}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Systembewertung}{60}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Fazit}{60}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{61}{chapter.5}%
+\contentsline {chapter}{Literaturverzeichnis}{62}{chapter.5}%
+\contentsline {chapter}{Abbildungsverzeichnis}{64}{chapter*.9}%
+\contentsline {chapter}{Tabellenverzeichnis}{67}{chapter*.10}%
+\contentsline {chapter}{Symbolverzeichnis}{68}{chapter*.12}%
+\contentsline {chapter}{\numberline {A}Materialeigenschaften}{70}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Projektmanagement}{72}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Work Breakdown Structure}{72}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Zeitplan}{74}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Work Package Description}{76}{section.B.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
