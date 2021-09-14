@@ -40,28 +40,29 @@
 \contentsline {subsection}{\numberline {3.4.1}Peripherie}{43}{subsection.3.4.1}%
 \contentsline {subsubsection}{\nonumberline Klappwinkel}{44}{subsubsection*.6}%
 \contentsline {subsubsection}{\nonumberline Steuerwinkel}{45}{subsubsection*.8}%
-\contentsline {chapter}{\numberline {4}Systemanalyse}{47}{chapter.4}%
-\contentsline {section}{\numberline {4.1}FEM-Analyse}{47}{section.4.1}%
+\contentsline {chapter}{\numberline {4}Systemanalyse und -optimierung}{47}{chapter.4}%
+\contentsline {section}{\numberline {4.1}FEM-Analysen des Grid Fins}{47}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Optimierung der Halterung}{48}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Optimierung des Gitters}{51}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Best\IeC {\"a}tigung der Akuatorik}{52}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Lager der Halterung}{52}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Lagerung der Welle}{54}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Belastung der Welle}{55}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Belastung des Geh\IeC {\"a}use}{56}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Betriebssimulation}{57}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Klappwinkel}{58}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Steurwinkel}{59}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Systembewertung}{60}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Fazit}{60}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{61}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{62}{chapter.5}%
-\contentsline {chapter}{Abbildungsverzeichnis}{64}{chapter*.9}%
-\contentsline {chapter}{Tabellenverzeichnis}{67}{chapter*.10}%
-\contentsline {chapter}{Symbolverzeichnis}{68}{chapter*.12}%
-\contentsline {chapter}{\numberline {A}Materialeigenschaften}{70}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Projektmanagement}{72}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Work Breakdown Structure}{72}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Zeitplan}{74}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Work Package Description}{76}{section.B.3}%
+\contentsline {section}{\numberline {4.2}Best\IeC {\"a}tigung mechanischen Belastbarkeit der Aktuatorik}{53}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Lager der Halterung}{54}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Lagerung der Welle}{55}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Belastung der Welle}{57}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Belastung des Geh\IeC {\"a}use}{58}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Betriebssimulation}{60}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Klappwinkel}{60}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Steuerwinkel}{62}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Systembewertung und Fazit}{64}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{66}{chapter.5}%
+\contentsline {chapter}{Literaturverzeichnis}{67}{chapter.5}%
+\contentsline {chapter}{Abbildungsverzeichnis}{69}{chapter*.9}%
+\contentsline {chapter}{Tabellenverzeichnis}{73}{chapter*.10}%
+\contentsline {chapter}{Symbolverzeichnis}{74}{chapter*.12}%
+\contentsline {chapter}{\numberline {A}Materialeigenschaften}{76}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Weitere FEM-Ergebnisse}{78}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Berechnug zu Kr\IeC {\"a}ften der Halterung}{80}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Projektmanagement}{81}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Work Breakdown Structure}{81}{section.D.1}%
+\contentsline {section}{\numberline {D.2}Zeitplan}{83}{section.D.2}%
+\contentsline {section}{\numberline {D.3}Work Package Description}{85}{section.D.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

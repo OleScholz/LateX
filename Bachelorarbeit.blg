@@ -27,6 +27,11 @@ A level-1 auxiliary file: materialtabelle.aux
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 A level-1 auxiliary file: projekt.aux
 Database file #1: literatur.bib
+I was expecting a `,' or a `}'---line 361 of file literatur.bib
+ : 
+ : title = "Die Wälzlagerpraxis - Handbuch für die Berechnung und Gestaltung von Lagerungen",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty booktitle in sb-sharp
 Warning--empty title in synopsis
 Warning--empty chapter and pages in synopsis
@@ -48,36 +53,40 @@ Warning--empty publisher in Shape
 Warning--empty year in Shape
 Warning--empty booktitle in Pattern
 Warning--empty publisher in ChordVar
-You've used 42 entries,
+Warning--empty author and editor in lagerreibung
+Warning--empty title in lagerreibung
+Warning--empty publisher in lagerreibung
+Warning--empty year in lagerreibung
+You've used 43 entries,
             1791 wiz_defined-function locations,
-            668 strings with 10049 characters,
-and the built_in function-call counts, 6738 in all, are:
-= -- 534
-> -- 252
+            669 strings with 10061 characters,
+and the built_in function-call counts, 6857 in all, are:
+= -- 539
+> -- 253
 < -- 2
-+ -- 107
++ -- 108
 - -- 65
-* -- 209
-:= -- 1027
-add.period$ -- 141
-call.type$ -- 42
+* -- 221
+:= -- 1034
+add.period$ -- 142
+call.type$ -- 43
 change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 63
-duplicate$ -- 321
-empty$ -- 853
+cite$ -- 68
+duplicate$ -- 332
+empty$ -- 872
 format.name$ -- 65
-if$ -- 1579
+if$ -- 1605
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 24
-newline$ -- 228
+int.to.str$ -- 43
+missing$ -- 25
+newline$ -- 231
 num.names$ -- 41
-pop$ -- 296
+pop$ -- 307
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 127
+skip$ -- 132
 stack$ -- 0
 substring$ -- 88
 swap$ -- 55
@@ -85,8 +94,8 @@ text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 21
+warning$ -- 25
 while$ -- 47
-width$ -- 44
-write$ -- 428
-(There were 21 warnings)
+width$ -- 45
+write$ -- 432
+(There was 1 error message)
