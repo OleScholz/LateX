@@ -54,36 +54,37 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Maximale Belastungen an der entg\IeC {\"u}ltigen Geometrie der Halterung}}{52}{figure.4.8}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Belastungen an der entg\IeC {\"u}ltigen Geometrie der Halterung beim Lastenvielfachen}}{52}{figure.4.9}%
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Maximale Spannungen f\IeC {\"u}r konstante Wanddicke von $1,5$mm}}{53}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Kr\IeC {\"a}fte an den Halterungen}}{54}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Lagerung der Halterung A}}{56}{figure.4.12}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Lagerung in der Halterung B}}{57}{figure.4.13}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Lagerkr\IeC {\"a}fte an den Kegelrollenlagern}}{57}{figure.4.14}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Aufbau der Welle}}{58}{figure.4.15}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces FEM-Ergebnisse der Welle}}{59}{figure.4.16}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Ergebnisse der FEM-Berechnung der Geh\IeC {\"a}usebaugruppe mit 6 Schrauben}}{60}{figure.4.17}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Ergebnisse der FEM-Berechnung der Geh\IeC {\"a}usebaugruppe mit 10 Schrauben}}{60}{figure.4.18}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Kinematischer Zusammenhang von Hubweg und Klappwinkel}}{62}{figure.4.19}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Klappwinkel $\Lambda $ in Abh\IeC {\"a}ngigkeit vom normalisierten Hubweg $x/a$}}{62}{figure.4.20}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Schaubild der Strecke der Klappaktuatorik}}{63}{figure.4.21}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Klappbewegung unter Normalbedingungen}}{64}{figure.4.22}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Klappbewegung unter erschwerten Bedingungen}}{64}{figure.4.23}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Schaubild der Regelstrecke der Steueraktuatorik}}{65}{figure.4.24}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Steuerwinkel in Abh\IeC {\"a}ngigkeit von der Zeit bei Nennspannung}}{65}{figure.4.25}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Steuerwinkel in Abh\IeC {\"a}ngigkeit von der Zeit bei 1,5-facher Nennspannung}}{66}{figure.4.26}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Finaler Grid Fin aus Edelstahl (falsches Modell, muss noch ge\IeC {\"a}ndert werden)}}{54}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Kr\IeC {\"a}fte an den Halterungen}}{56}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Lagerung der Halterung A}}{57}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Lagerung in der Halterung B}}{58}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Lagerkr\IeC {\"a}fte an den Kegelrollenlagern}}{58}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Aufbau der Welle}}{59}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces FEM-Ergebnisse der Welle}}{60}{figure.4.17}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Ergebnisse der FEM-Berechnung der Geh\IeC {\"a}usebaugruppe mit 6 Schrauben}}{61}{figure.4.18}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Schnitt durchs Gesamtsystem}}{62}{figure.4.19}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Kinematischer Zusammenhang von Hubweg und Klappwinkel}}{64}{figure.4.20}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Klappwinkel $\Lambda $ in Abh\IeC {\"a}ngigkeit vom normalisierten Hubweg $x/a$}}{64}{figure.4.21}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Schaubild der Strecke der Klappaktuatorik}}{65}{figure.4.22}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Klappbewegung unter Normalbedingungen}}{65}{figure.4.23}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Klappbewegung unter erschwerten Bedingungen}}{65}{figure.4.24}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Schaubild der Regelstrecke der Steueraktuatorik}}{66}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Steuerwinkel in Abh\IeC {\"a}ngigkeit von der Zeit bei Nennspannung}}{67}{figure.4.26}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Steuerwinkel in Abh\IeC {\"a}ngigkeit von der Zeit bei 1,5-facher Nennspannung}}{67}{figure.4.27}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Modell zur Ermitllung der Materialkosten}}{77}{figure.A.1}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Modell zur Ermitllung der Materialkosten}}{81}{figure.A.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Tal-Typus D1}}{79}{figure.B.1}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Berg-Typus D1}}{79}{figure.B.2}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Tal-Typus D2}}{79}{figure.B.3}%
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Berg-Typus D2}}{79}{figure.B.4}%
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Tal-Typus R1}}{79}{figure.B.5}%
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Berg-Typus R1}}{79}{figure.B.6}%
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Tal-Typus R2}}{80}{figure.B.7}%
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Berg-Typus R2}}{80}{figure.B.8}%
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Tal-Typus beim maximalen Lastenvielfachen}}{80}{figure.B.9}%
-\contentsline {figure}{\numberline {B.10}{\ignorespaces Berg-Typus beim maximalen Lastenvielfachen}}{80}{figure.B.10}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Tal-Typus D1}}{83}{figure.B.1}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Berg-Typus D1}}{83}{figure.B.2}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Tal-Typus D2}}{83}{figure.B.3}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Berg-Typus D2}}{83}{figure.B.4}%
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Tal-Typus R1}}{83}{figure.B.5}%
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Berg-Typus R1}}{83}{figure.B.6}%
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Tal-Typus R2}}{84}{figure.B.7}%
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Berg-Typus R2}}{84}{figure.B.8}%
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Tal-Typus beim maximalen Lastenvielfachen}}{84}{figure.B.9}%
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Berg-Typus beim maximalen Lastenvielfachen}}{84}{figure.B.10}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
