@@ -1,8 +1,6 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Bachelorarbeit.aux
-Reallocating 'name_of_file' (item size: 1) to 21 items.
-A level-1 auxiliary file: aufgabenstellung.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: eid.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
@@ -24,78 +22,64 @@ Reallocating 'name_of_file' (item size: 1) to 12 items.
 A level-1 auxiliary file: symbole.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 A level-1 auxiliary file: materialtabelle.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: FEM-Anhang.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: Halterung-Anhang.aux
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 A level-1 auxiliary file: projekt.aux
 Database file #1: literatur.bib
-I was expecting a `,' or a `}'---line 361 of file literatur.bib
- : 
- : title = "Die Wälzlagerpraxis - Handbuch für die Berechnung und Gestaltung von Lagerungen",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--empty booktitle in sb-sharp
 Warning--empty title in synopsis
-Warning--empty chapter and pages in synopsis
 Warning--empty title in machgrenzen
-Warning--empty chapter and pages in machgrenzen
 Warning--empty booktitle in stroemung
 Warning--empty title in vergleichPlanarNATO
-Warning--empty chapter and pages in vergleichPlanarNATO
-Warning--empty chapter and pages in solver
-Warning--empty publisher in solver
 Warning--empty year in solver
-Warning--empty chapter and pages in LambdaKonf
-Warning--empty publisher in LambdaKonf
+Warning--empty journal in LambdaKonf
 Warning--empty year in LambdaKonf
 Warning--empty booktitle in PfeilG3
-Warning--empty booktitle in PeakValley
-Warning--empty chapter and pages in Shape
-Warning--empty publisher in Shape
 Warning--empty year in Shape
 Warning--empty booktitle in Pattern
 Warning--empty publisher in ChordVar
-Warning--empty author and editor in lagerreibung
-Warning--empty title in lagerreibung
-Warning--empty publisher in lagerreibung
-Warning--empty year in lagerreibung
 You've used 43 entries,
             1791 wiz_defined-function locations,
-            669 strings with 10061 characters,
-and the built_in function-call counts, 6857 in all, are:
-= -- 539
-> -- 253
-< -- 2
-+ -- 108
-- -- 65
-* -- 221
-:= -- 1034
-add.period$ -- 142
+            678 strings with 10733 characters,
+and the built_in function-call counts, 6915 in all, are:
+= -- 568
+> -- 263
+< -- 1
++ -- 111
+- -- 68
+* -- 204
+:= -- 1076
+add.period$ -- 152
 call.type$ -- 43
-change.case$ -- 34
+change.case$ -- 37
 chr.to.int$ -- 0
-cite$ -- 68
-duplicate$ -- 332
+cite$ -- 55
+duplicate$ -- 334
 empty$ -- 872
-format.name$ -- 65
-if$ -- 1605
+format.name$ -- 68
+if$ -- 1628
 int.to.chr$ -- 0
 int.to.str$ -- 43
-missing$ -- 25
-newline$ -- 231
-num.names$ -- 41
-pop$ -- 307
+missing$ -- 22
+newline$ -- 237
+num.names$ -- 42
+pop$ -- 281
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 132
+skip$ -- 120
 stack$ -- 0
-substring$ -- 88
-swap$ -- 55
-text.length$ -- 2
+substring$ -- 73
+swap$ -- 58
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 25
-while$ -- 47
+warning$ -- 12
+while$ -- 46
 width$ -- 45
-write$ -- 432
-(There was 1 error message)
+write$ -- 454
+(There were 12 warnings)

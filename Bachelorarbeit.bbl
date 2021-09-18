@@ -53,16 +53,18 @@ Fumiya Hiroshima and Kaoru Tatsumi.
 \bibitem{sb-sharp}
 Marco Debiasi, Zeng Yan, and Tat Chng.
 \newblock Swept-back grid fins for transonic drag reduction.
-\newblock 06 2010.
+\newblock 28th AIAA Applied Aerodynamics Conference, 06 2010.
 
 \bibitem{synopsis}
 Mark~S. Miller and Wm.~David Washington.
-\newblock North Atlantic Treaty Organization, Research and Technology
-  Organisation, 1998.
+\newblock In {\em Missle Aerodynamics}. Experimental Investigation of Grid Fin
+  Aerodynamics: A Synopsis of nine wind tunnel and three flight tests. North
+  Atlantic Treaty Organization, Research and Technology Organisation, 1998.
 
 \bibitem{machgrenzen}
 Mark~S. Miller and Wm.~David Washington.
-\newblock North Atlantic Treaty Organization, Research and Technology
+\newblock In {\em Missle Aerodynamics}. Aerodynamic Prediction Methodology for
+  Grid Fins. North Atlantic Treaty Organization, Research and Technology
   Organisation, 1998.
 
 \bibitem{stroemung}
@@ -72,26 +74,28 @@ Montgomery Hughson, Eric Blades, Edward Luke, and Gregg Abate.
 
 \bibitem{vergleichPlanarNATO}
 G.~M. Simpson.
-\newblock North Atlantic Treaty Organization, Research and Technology
-  Organisation, 1998.
+\newblock In {\em Missle Aerodynamics}. Lattice Controls: A Comparison with
+  conventional, planar Fins. North Atlantic Treaty Organization, Research and
+  Technology Organisation, 1998.
 
 \bibitem{solver}
 James Kless and Michael Aftosmis.
-\newblock {\em Analysis of Grid Fins for Launch Abort Vehicle Using a Cartesian
-  Euler Solver}.
+\newblock Analysis of grid fins for launch abort vehicle using a cartesian
+  euler solver.
+\newblock In {\em 29th AIAA Applied Aerodynamics Conference}.
 
 \bibitem{LambdaKonf}
-WM. WASHINGTON, PAMELA BOOTH, and MARK MILLER.
-\newblock {\em Curvature and leading edge sweep back effects on grid fin
-  aerodynamic characteristics}.
+WM. Washington, Pamela Booth, and Mark Miller.
+\newblock Curvature and leading edge sweep back effects on grid fin aerodynamic
+  characteristics.
 
 \bibitem{PfeilG3}
 Marco Debiasi, Zeng Yan, and Tat Chng.
 \newblock Swept-back grid fins for transonic drag reduction.
-\newblock 06 2010.
+\newblock 28th AIAA Applied Aerodynamics Conference, 06 2010.
 
 \bibitem{PfeilG1}
-Parisa dehghani and Miralam Mahdi.
+Parisa Dehghani and Miralam Mahdi.
 \newblock Numerical analysis of the effect of sweep-back angle on the stability
   derivatives of the grid fin.
 \newblock {\em Journal of the Brazilian Society of Mechanical Sciences and
@@ -103,19 +107,21 @@ G~Faza, H~Fadillah, Faber Silitonga, and Mochammad Moelyadi.
 \newblock {\em Journal of Physics: Conference Series}, 1005:012013, 04 2018.
 
 \bibitem{PeakValley}
-Daniel Guyot and Erich Schülein.
-\newblock Novel locally swept lattice wings for missile control at high speeds.
-\newblock pages 1--15, 01 2007.
+Daniel Guyot and Erich Sch{\"u}lein.
+\newblock {Novel Locally Swept Lattice Wings for Missile Control at High
+  Speeds}.
+\newblock In {\em {45th AIAA Aerospace Sciences Meeting and Exhibit}}, Reston,
+  Virigina, 2007. {American Institute of Aeronautics and Astronautics}.
 
 \bibitem{Shape}
 Mark Miller and Wm. Washington.
-\newblock {\em An experimental investigation of grid fin drag reduction
-  techniques}.
+\newblock An experimental investigation of grid fin drag reduction techniques.
+\newblock In {\em 12th Applied Aerodynamics Conference}.
 
 \bibitem{Pattern}
 Fumiya Hiroshima and Kaoru Tatsumi.
 \newblock Grid pattern effects on aerodynamic characteristics of grid fins.
-\newblock 2004.
+\newblock 24th International Congress of the Aeronautical Sciences, 2004.
 
 \bibitem{ChordVar}
 Manish Tripathi, Mahesh Sucheendran, and Ajay Misra.
@@ -200,11 +206,16 @@ Manish Tripathi, Mahesh Sucheendran, and Ajay Misra.
 \newblock Zugriff: 21.06.2021.
 
 \bibitem{metall}
-Gomeringer et~al., 2017.
+Gomeringer et~al.
+\newblock {\em Tabellebuch Metall}.
+\newblock Europa Lehrmittel, 2012.
 \newblock Auflage 17.
 
 \bibitem{lagerreibung}
-
+P.~Eschmann, L.~Hasbargen, and K.~Weigand.
+\newblock {\em Die W{\"a}lzlagerpraxis: Handbuch f{\"u}r die Berechnung und
+  Gestaltung von Lagerungen}.
+\newblock Vereinigte Fachverlage, 1998.
 
 \bibitem{T1.3}
 {Stahlhandel Gröditz GmbH}.

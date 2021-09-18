@@ -12,7 +12,7 @@
   %marginleft, <marginright>
   ]{tubsreprt}
   
-  
+
 \usepackage[utf8x]{inputenc}
 \usepackage{longtable}
 %\usepackage{hyphsubst}
@@ -27,6 +27,8 @@
 \usepackage{pgfplots} 			% Plots mit TikZ
 \usetikzlibrary{shapes,backgrounds, arrows, positioning, trees, shadows}	% Bibliotheken für Tikz
 \usepackage{pgfgantt}			% Zum Erstellen eines Gantt-Charts
+
+\usepackage{pdfpages}
 
 \graphicspath{{./graphics/}}
 
@@ -120,7 +122,10 @@
 
   \maketitle[image] %[<plain/image/imagetext>,<logo=left/right>]
 
-  \include{aufgabenstellung}
+  %\include{aufgabenstellung}
+  \includepdf[pages = 1] {aufgabenstellung}
+  \includepdf[pages = 2] {aufgabenstellung}
+  
   \include{eid}
   \include{abstract}
   \pagestyle{empty}

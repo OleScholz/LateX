@@ -40,8 +40,8 @@
 \contentsline {subsection}{\numberline {3.3.4}Modellierung in CAD}{41}{subsection.3.3.4}%
 \contentsline {section}{\numberline {3.4}Komponentenrecherche und -auswahl der Aktuatorik}{43}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Peripherie}{43}{subsection.3.4.1}%
-\contentsline {subsubsection}{\nonumberline Klappwinkel}{44}{subsubsection*.6}%
-\contentsline {subsubsection}{\nonumberline Steuerwinkel}{46}{subsubsection*.8}%
+\contentsline {subsection}{\numberline {3.4.2}Klappwinkel}{44}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Steuerwinkel}{46}{subsection.3.4.3}%
 \contentsline {chapter}{\numberline {4}Systemanalyse und -optimierung}{48}{chapter.4}%
 \contentsline {section}{\numberline {4.1}FEM-Analysen des Grid Fins}{48}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Optimierung der Halterung}{49}{subsection.4.1.1}%
@@ -57,14 +57,14 @@
 \contentsline {section}{\numberline {4.4}Systembewertung und Fazit}{67}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{69}{chapter.5}%
 \contentsline {chapter}{Literaturverzeichnis}{72}{chapter.5}%
-\contentsline {chapter}{Abbildungsverzeichnis}{74}{chapter*.9}%
-\contentsline {chapter}{Tabellenverzeichnis}{78}{chapter*.10}%
-\contentsline {chapter}{Symbolverzeichnis}{79}{chapter*.12}%
-\contentsline {chapter}{\numberline {A}Materialeigenschaften}{81}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Weitere FEM-Ergebnisse}{83}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Berechnug zu Kr\IeC {\"a}ften der Halterung}{85}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Projektmanagement}{86}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Work Breakdown Structure}{86}{section.D.1}%
-\contentsline {section}{\numberline {D.2}Zeitplan}{88}{section.D.2}%
-\contentsline {section}{\numberline {D.3}Work Package Description}{90}{section.D.3}%
+\contentsline {chapter}{Abbildungsverzeichnis}{75}{chapter*.4}%
+\contentsline {chapter}{Tabellenverzeichnis}{79}{chapter*.5}%
+\contentsline {chapter}{Symbolverzeichnis}{80}{chapter*.7}%
+\contentsline {chapter}{\numberline {A}Materialeigenschaften}{82}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Weitere FEM-Ergebnisse}{84}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Berechnug zu den Kr\IeC {\"a}ften der Halterung}{87}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Projektmanagement}{89}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Work Breakdown Structure}{89}{section.D.1}%
+\contentsline {section}{\numberline {D.2}Zeitplan}{91}{section.D.2}%
+\contentsline {section}{\numberline {D.3}Work Package Description}{93}{section.D.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
