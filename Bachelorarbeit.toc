@@ -10,19 +10,19 @@
 \contentsline {subsection}{\numberline {2.3.1}Normalkraft}{9}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Axialkraft}{9}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Gelenkmoment}{10}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Stabilit\IeC {\"a}t}{11}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.4}Stabilit\IeC {\"a}t}{10}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}Anstellwinkelcharakteristik}{11}{subsection.2.3.5}%
-\contentsline {section}{\numberline {2.4}Grid Fin Varianten}{12}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Grid Fin Varianten}{13}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Pfeilung}{13}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Kr\IeC {\"u}mmung}{17}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Kr\IeC {\"u}mmung}{16}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Wandquerschnitt}{17}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Zellform}{19}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Zellgr\IeC {\"o}\IeC {\ss }e}{20}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.4}Zellform}{18}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Zellgr\IeC {\"o}\IeC {\ss }e}{19}{subsection.2.4.5}%
 \contentsline {section}{\numberline {2.5}Bisherige Implementierung}{21}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}SpaceX Falcon 9 und Starship}{21}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Sowjetische Sojus und N-1}{23}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Chinas Chang'e}{24}{subsection.2.5.3}%
-\contentsline {section}{\numberline {2.6}Das AirLaunch-System Valkyrie}{25}{section.2.6}%
+\contentsline {subsection}{\numberline {2.5.3}Chinas Chang'e}{23}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Das AirLaunch-System Valkyrie}{24}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Modellentwurf}{27}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Systemanforderungen}{27}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Anforderungen an die Aerodynamik}{27}{subsection.3.1.1}%
@@ -42,29 +42,29 @@
 \contentsline {subsection}{\numberline {3.4.1}Peripherie}{43}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Klappwinkel}{44}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Steuerwinkel}{46}{subsection.3.4.3}%
-\contentsline {chapter}{\numberline {4}Systemanalyse und -optimierung}{48}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Systemanalyse und Optimierung}{48}{chapter.4}%
 \contentsline {section}{\numberline {4.1}FEM-Analysen des Grid Fins}{48}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Optimierung der Halterung}{49}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Optimierung des Gitters}{52}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Best\IeC {\"a}tigung mechanischen Belastbarkeit der Aktuatorik}{55}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Lager der Halterung}{56}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Lagerung der Welle}{58}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Belastung der Welle}{59}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Belastung des Geh\IeC {\"a}use}{61}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Betriebssimulation}{62}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Klappwinkel}{62}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Steuerwinkel}{66}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Systembewertung und Fazit}{67}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{69}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{72}{chapter.5}%
-\contentsline {chapter}{Abbildungsverzeichnis}{75}{chapter*.4}%
-\contentsline {chapter}{Tabellenverzeichnis}{79}{chapter*.5}%
-\contentsline {chapter}{Symbolverzeichnis}{80}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Materialeigenschaften}{82}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Weitere FEM-Ergebnisse}{84}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Berechnug zu den Kr\IeC {\"a}ften der Halterung}{87}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Projektmanagement}{89}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Work Breakdown Structure}{89}{section.D.1}%
-\contentsline {section}{\numberline {D.2}Zeitplan}{91}{section.D.2}%
-\contentsline {section}{\numberline {D.3}Work Package Description}{93}{section.D.3}%
+\contentsline {subsection}{\numberline {4.1.2}Optimierung des Gitters}{53}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Best\IeC {\"a}tigung der mechanischen Belastbarkeit der Aktuatorik}{56}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Lager der Halterung}{57}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Lagerung der Welle}{59}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Belastung der Welle}{60}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Belastung des Geh\IeC {\"a}uses}{62}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Betriebssimulation}{64}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Klappwinkel}{64}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Steuerwinkel}{67}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Systembewertung und Fazit}{69}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{71}{chapter.5}%
+\contentsline {chapter}{Literaturverzeichnis}{74}{chapter.5}%
+\contentsline {chapter}{Abbildungsverzeichnis}{77}{chapter*.4}%
+\contentsline {chapter}{Tabellenverzeichnis}{81}{chapter*.5}%
+\contentsline {chapter}{Symbolverzeichnis}{82}{chapter*.7}%
+\contentsline {chapter}{\numberline {A}Materialeigenschaften}{84}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Weitere FEM-Ergebnisse}{86}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Berechnug zu den Kr\IeC {\"a}ften der Halterung}{89}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Projektmanagement}{91}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Work Breakdown Structure}{91}{section.D.1}%
+\contentsline {section}{\numberline {D.2}Zeitplan}{93}{section.D.2}%
+\contentsline {section}{\numberline {D.3}Work Package Description}{95}{section.D.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
