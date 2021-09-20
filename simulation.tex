@@ -5,14 +5,28 @@ Nachdem nun im vorherigen Kapitel ein erstes Modell mitsamt Aktuatorik entworfen
 \section{FEM-Analysen des Grid Fins}
 Solid Edge bietet direkt das integrierte FEM-Programm \grqq NX Nastran\grqq \ an, dass einen schnellen Designzyklus von Berechnen und Bearbeiten des Modells ermöglicht. Für eine effiziente FEM-Analyse werden die Modellvarianten zunächst vereinfacht, indem die Verrundungen und Abschrägungen der Wände entfernt werden. Auch einige der steilen Spitzen der Pfeilung werden abgerundet, da diese bei der Vernetzung nur zu Problemen führen und die Belastungen im Material so gut wie gar nicht verändern.
 
-Für die Berechnungen werden die Lasten verwendet, die sich aus der im vorherigen Kapitel beschrieben Simulation mit Worst-Case-Bedingungen, im Folgenden auch maximaler Lastfall genannt, ergeben haben. Das heißt es wird davon ausgegangen, dass der Wiedereintritt ohne ReEntry-Burn und mit durchgehend um $\delta = \pm 10^\circ$ ausgeschlagenen Grid Fins erfolgt. Diese Kräfte den Vektoren aus den Gleichungen \ref{eq_Fmax} und \ref{eq_Fmax2} entnommen werde, jedoch sind sie im körperfesten Koordinatensystem angegeben, zu dem jeder Grid Fin anders steht. Deshalb werden die Kräfte zunächst um den Rollwinkel $\lambda$, der der jeweiligen Position des Grid Fin am Umfang der Rakete entspricht, um die $x_b$-Achse gedreht. Die gedrehte $z_b$-Achse zeigt nun direkt auf den Mittelpunkt des Grid Fins, sodass sich der Vektor um diese mit dem Steuerwinkel $\delta$ drehen lässt. Zuletzt werden die Werte noch $45^\circ$ die neue x-Achse gedreht. Somit setzt sich der Lastenvektor nun aus den Kräften $F_1$, die parallel zur Sehne und entgegen der Richtung der Pfeilungsspitzen liegt, $F_2$, die senkrecht zu der einen Hälfte der Zellwänden ausgerichtet ist, und $F_3$, die senkrecht zu der anderen Hälfte liegt.
-\begin{figure}[h] 
-	\centering
-	\includegraphics[width=0.6\textwidth]{Gitter.jpg}
-	\caption{Kraftrichtungen für die FEM-Berechnungen am Grid Fin}
-	\label{abb_gitter}
+Für die Berechnungen werden die Lasten verwendet, die sich aus der im vorherigen Kapitel beschrieben Simulation mit Worst-Case-Bedingungen, im Folgenden auch maximaler Lastfall genannt, ergeben haben. Das heißt es wird davon ausgegangen, dass der Wiedereintritt ohne ReEntry-Burn und mit durchgehend um $\delta = \pm 10^\circ$ ausgeschlagenen Grid Fins erfolgt. Da die Kräfte im körperfesten Koordinatensystem gegeben sind, müssen sie für jeden Grid Fin individuell in die in Abbildung \ref{abb_Fs} zu sehen Kraftrichtungen aufgeteilt werden.
+\begin{figure}[h]
+	\begin{minipage}[t]{0.3\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{F1.jpg}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.3\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{F2.jpg}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.3\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{F3.jpg}
+	\end{minipage}
+	\caption{Aufteilung der Kräfte in die verschiedenen Richtungen}
+	\label{abb_Fs}
 \end{figure}\\
-Somit ergeben sich die Kräfte für die einzelnen Grid Fins zu:
+Der erste Anteil der Kraft ($F_1$) zeigt in Richtung der Sehne und wird auf alle Flächen der konkaven Seite gleichmäßig verteilt. Die Kräfte $F_2$ und $F_3$ liegen in der Ebene des Grid Fins, wenn die Krümmung vernachlässigt wird, und werden jeweils ebenso gleichmäßig auf die Zellwände aufgebracht, die zum Teil oder ganz senkrecht zu ihnen liegen.
+
+Somit ergeben sich die Kräfte für die einzelnen Grid Fins wie sie in Tabelle \ref{tab_Fs} zu sehen sind
 \begin{table}[ht]
 	\centering
 	\begin{tabular}{c||c|c|c|c}
@@ -23,6 +37,7 @@ Somit ergeben sich die Kräfte für die einzelnen Grid Fins zu:
 		$F_3/$N&$4.934,0$&$6.474,2$&$-6.474,2$&$-4.934,0$\\
 	\end{tabular}
 	\caption{Am Grid Fin angreifende transformierte Kräfte}
+	\label{tab_Fs}
 \end{table}\\~\\
 Als Randbedingung werden die Innenflächen der Halterung zylindrisch festgelegt. Das heißt, dass die dort liegenden Knoten sich weder axial noch radial bewegen jedoch um die Achse drehen können.
 \subsection{Optimierung der Halterung}
@@ -256,7 +271,14 @@ Das erste Subsystem stellt der Motor dar, dessen Kennlinie sich mit Gleichung \r
 \begin{equation}\label{eq_kennlinie}
 	M_{Motor} = (k_nU-n)\bigg(\frac{\Delta n}{\Delta M}\bigg)^{-1}
 \end{equation}
-$k_n$ ist dabei die Drehzahlkonstante des Motors und ist zusammen mit der Kennliniensteigung $\frac{\Delta n}{\Delta M}$ als konstante Kenngröße dem Datenblatt zu entnehmen. Die Spannung $U$ wird von außen angelegt und die Drehzahl $n$ ergibt sich aus der Lösung des Systems, sodass sich mit der Gleichung das Motormoment bestimmen lässt. Dieses Moment wird dann jedoch noch vom Getriebe auf Kosten der Drehzahl verstärkt, sodass sich das Antriebsmoment ergibt, indem wohl das Motormoment nach als auch die Drehzahl vor der Gleichung \ref{eq_kennlinie} mit der Übersetzung multipliziert werden. Dieses Getriebe besteht zwar sowohl aus der Spindelstange, die die Rotations- in eine Linearbewegung umwandelt, als auch einem vorgeschalteten Planetengetriebe, jedoch wird im ersten Subsystem nur das Planetengetriebe berücksichtigt, während die Spindelstange vorerst vernachlässigt wird. Das Antriebsmoment wird dann an das zweite Subsystem weitergegeben, in dem die Differenzialgleichung
+$k_n$ ist dabei die Drehzahlkonstante des Motors und ist zusammen mit der Kennliniensteigung $\frac{\Delta n}{\Delta M}$ als konstante Kenngröße dem Datenblatt zu entnehmen. Die Spannung $U$ wird von außen angelegt und die Drehzahl $n$ ergibt sich aus der Lösung des Systems, sodass sich mit der Gleichung das Motormoment bestimmen lässt. Dieses Moment wird dann jedoch noch vom Getriebe auf Kosten der Drehzahl mit der Übersetzung $i$ verstärkt, sodass sich das Antriebsmoment und umgekehrt die Motordrehzahl ergibt.
+\begin{equation}
+	M_\mathrm{Antrieb} = i \cdot M_\mathrm{Motor}
+\end{equation}
+\begin{equation}
+	n_\mathrm{Motor} = i \cdot n_\mathrm{Antrieb}
+\end{equation}
+ Dieses Getriebe besteht zwar sowohl aus der Spindelstange, die die Rotations- in eine Linearbewegung umwandelt, als auch einem vorgeschalteten Planetengetriebe, jedoch wird im ersten Subsystem nur das Planetengetriebe berücksichtigt, während die Spindelstange vorerst vernachlässigt wird. Das Antriebsmoment wird dann an das zweite Subsystem weitergegeben, in dem die Differenzialgleichung
 \begin{equation}
 	\ddot{\varphi} = \frac{M_{Antrieb} - M_{R}}{I}
 \end{equation}
@@ -302,7 +324,15 @@ Dies zeigt, dass nicht wie bisher eine Spindelstange mit einem reibungsarmen Kug
 	\includegraphics[width=0.8\textwidth]{Klapp3 mixed.png}
 	\caption{Klappbewegung des Kugelumlaufgewinde und Trapenzgewinde bei 4 V im Vergleich}
 	\label{abb_klappKG}
+\end{figure}\\
+Der in Abbildung \ref{abb_klappKG} dargestellt Verlauf des Klappwinkels zeigt einen Knick bei $Lambda = 90^\circ$. Dies kommt dadurch zustande, dass der Motor konstant mit der gleichen Spannung betrieben wird, bis die Hubstange ungebremst gegen das Spindelgetriebe stößt.
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.8\textwidth]{klapp_geregelt.png}
+	\caption{Klappbewegung mit Trapezgewinde und PI-Regler}
+	\label{abb_klappPI}
 \end{figure}
+Dies lässt sich verhindern, indem, wie es beim Steuerwinkel gemacht werden soll (vgl. Abbildung \ref{abb_steuerStrecke}, ein PI-Regler zusätzlich eingebaut wird. Abbildung \ref{abb_klappPI} zeigt, dass sich mit Regelung die Kurve abrundet. Die für das Manöver benötigte Zeit steigt dadurch um ungefähr eine Sekunde auf $8,1$ s. 
 \subsection{Steuerwinkel}
 \begin{figure}[h] 
 	\centering

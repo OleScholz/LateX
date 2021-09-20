@@ -45,26 +45,26 @@
 \contentsline {chapter}{\numberline {4}Systemanalyse und Optimierung}{48}{chapter.4}%
 \contentsline {section}{\numberline {4.1}FEM-Analysen des Grid Fins}{48}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Optimierung der Halterung}{49}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Optimierung des Gitters}{53}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Optimierung des Gitters}{52}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}Best\IeC {\"a}tigung der mechanischen Belastbarkeit der Aktuatorik}{56}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Lager der Halterung}{57}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Lagerung der Welle}{59}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Belastung der Welle}{60}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Belastung des Geh\IeC {\"a}uses}{62}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Betriebssimulation}{64}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Betriebssimulation}{63}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Klappwinkel}{64}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Steuerwinkel}{67}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Systembewertung und Fazit}{69}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{71}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{74}{chapter.5}%
-\contentsline {chapter}{Abbildungsverzeichnis}{77}{chapter*.4}%
-\contentsline {chapter}{Tabellenverzeichnis}{81}{chapter*.5}%
-\contentsline {chapter}{Symbolverzeichnis}{82}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Materialeigenschaften}{84}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Weitere FEM-Ergebnisse}{86}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Berechnug zu den Kr\IeC {\"a}ften der Halterung}{89}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Projektmanagement}{91}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Work Breakdown Structure}{91}{section.D.1}%
-\contentsline {section}{\numberline {D.2}Zeitplan}{93}{section.D.2}%
-\contentsline {section}{\numberline {D.3}Work Package Description}{95}{section.D.3}%
+\contentsline {chapter}{Literaturverzeichnis}{73}{chapter.5}%
+\contentsline {chapter}{Abbildungsverzeichnis}{76}{chapter*.4}%
+\contentsline {chapter}{Tabellenverzeichnis}{80}{chapter*.5}%
+\contentsline {chapter}{Symbolverzeichnis}{81}{chapter*.7}%
+\contentsline {chapter}{\numberline {A}Materialeigenschaften}{83}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Weitere FEM-Ergebnisse}{85}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Berechnug zu den Kr\IeC {\"a}ften der Halterung}{88}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Projektmanagement}{90}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Work Breakdown Structure}{90}{section.D.1}%
+\contentsline {section}{\numberline {D.2}Zeitplan}{92}{section.D.2}%
+\contentsline {section}{\numberline {D.3}Work Package Description}{94}{section.D.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

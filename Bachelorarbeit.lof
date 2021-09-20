@@ -44,8 +44,8 @@
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Der Hub des Klappwinkels}}{44}{figure.3.14}%
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Aufbau der Aktuatorik}}{47}{figure.3.15}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Kraftrichtungen f\IeC {\"u}r die FEM-Berechnungen am Grid Fin}}{49}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Maximale Spannungen am Grid Fin D1}}{50}{figure.4.2}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Aufteilung der Kr\IeC {\"a}fte in die verschiedenen Richtungen}}{48}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Maximale Spannungen am Grid Fin D1}}{49}{figure.4.2}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Abr\IeC {\"u}cken der Halterung vom Rahmen}}{50}{figure.4.3}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Maximale Spannungen am Grid Fin D2 bei abger\IeC {\"u}ckter Halterung}}{51}{figure.4.4}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Halterung mit verl\IeC {\"a}ngertem Hebelarm}}{51}{figure.4.5}%
@@ -59,7 +59,7 @@
 \contentsline {figure}{\numberline {4.13}{\ignorespaces Lagerung der Halterung A}}{58}{figure.4.13}%
 \contentsline {figure}{\numberline {4.14}{\ignorespaces Lagerung in der Halterung B}}{59}{figure.4.14}%
 \contentsline {figure}{\numberline {4.15}{\ignorespaces Lagerkr\IeC {\"a}fte an den Kegelrollenlagern}}{59}{figure.4.15}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Aufbau der Welle}}{61}{figure.4.16}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Aufbau der Welle}}{60}{figure.4.16}%
 \contentsline {figure}{\numberline {4.17}{\ignorespaces FEM-Ergebnisse der Welle}}{61}{figure.4.17}%
 \contentsline {figure}{\numberline {4.18}{\ignorespaces Schnittanschicht der massenreduzierten Welle}}{62}{figure.4.18}%
 \contentsline {figure}{\numberline {4.19}{\ignorespaces Ergebnisse der FEM-Berechnung der Geh\IeC {\"a}usebaugruppe mit 6 Schrauben}}{63}{figure.4.19}%
@@ -68,29 +68,30 @@
 \contentsline {figure}{\numberline {4.22}{\ignorespaces Kinematischer Zusammenhang von Hubweg und Klappwinkel}}{65}{figure.4.22}%
 \contentsline {figure}{\numberline {4.23}{\ignorespaces Klappwinkel $\Lambda $ in Abh\IeC {\"a}ngigkeit vom normalisierten Hubweg $x/a$}}{66}{figure.4.23}%
 \contentsline {figure}{\numberline {4.24}{\ignorespaces Klappbewegung des Kugelumlaufgewinde und Trapenzgewinde bei 4 V im Vergleich}}{67}{figure.4.24}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Schaubild der Regelstrecke der Steueraktuatorik}}{67}{figure.4.25}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Steuerwinkel in Abh\IeC {\"a}ngigkeit von der Zeit bei Nennspannung}}{68}{figure.4.26}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Steuerwinkel in Abh\IeC {\"a}ngigkeit von der Zeit bei 1,5-facher Nennspannung}}{69}{figure.4.27}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Klappbewegung mit Trapezgewinde und PI-Regler}}{67}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Schaubild der Regelstrecke der Steueraktuatorik}}{68}{figure.4.26}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Steuerwinkel in Abh\IeC {\"a}ngigkeit von der Zeit bei Nennspannung}}{69}{figure.4.27}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Steuerwinkel in Abh\IeC {\"a}ngigkeit von der Zeit bei 1,5-facher Nennspannung}}{69}{figure.4.28}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Modell zur Ermitllung der Materialkosten}}{84}{figure.A.1}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Modell zur Ermitllung der Materialkosten}}{83}{figure.A.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Tal-Typus D1 (max: 719 MPa)}}{86}{figure.B.1}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Berg-Typus D1 (max: 692 MPa)}}{86}{figure.B.2}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Tal-Typus D2 (max: 796 MPa)}}{86}{figure.B.3}%
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Berg-Typus D2 (max: 765 MPa)}}{86}{figure.B.4}%
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Tal-Typus R1 (max: 760 MPa)}}{86}{figure.B.5}%
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Berg-Typus R1 (max: 732 MPa)}}{86}{figure.B.6}%
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Tal-Typus R2 (max: 770 MPa)}}{87}{figure.B.7}%
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Berg-Typus R2 (max: 727 MPa)}}{87}{figure.B.8}%
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Tal-Typus beim maximalen Lastvielfachen (max: 770 MPa)}}{87}{figure.B.9}%
-\contentsline {figure}{\numberline {B.10}{\ignorespaces Berg-Typus beim maximalen Lastvielfachen (max: 409 MPa)}}{87}{figure.B.10}%
-\contentsline {figure}{\numberline {B.11}{\ignorespaces Ergebnisse der FEM Berechnung der Hub-Baugruppe beim maximalen Lastvielfachen (max: 343 MPa)}}{87}{figure.B.11}%
-\contentsline {figure}{\numberline {B.12}{\ignorespaces Ergebnisse der FEM Berechnung massenreduzierten Welle (max: 153 MPa)}}{88}{figure.B.12}%
-\contentsline {figure}{\numberline {B.13}{\ignorespaces Ergebnisse der FEM Berechnung des Geh\IeC {\"a}use mit reduzierter Wandst\IeC {\"a}rke (max: 311 MPa)}}{88}{figure.B.13}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Tal-Typus D1 (max: 719 MPa)}}{85}{figure.B.1}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Berg-Typus D1 (max: 692 MPa)}}{85}{figure.B.2}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Tal-Typus D2 (max: 796 MPa)}}{85}{figure.B.3}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Berg-Typus D2 (max: 765 MPa)}}{85}{figure.B.4}%
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Tal-Typus R1 (max: 760 MPa)}}{85}{figure.B.5}%
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Berg-Typus R1 (max: 732 MPa)}}{85}{figure.B.6}%
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Tal-Typus R2 (max: 770 MPa)}}{86}{figure.B.7}%
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Berg-Typus R2 (max: 727 MPa)}}{86}{figure.B.8}%
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Tal-Typus beim maximalen Lastvielfachen (max: 770 MPa)}}{86}{figure.B.9}%
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Berg-Typus beim maximalen Lastvielfachen (max: 409 MPa)}}{86}{figure.B.10}%
+\contentsline {figure}{\numberline {B.11}{\ignorespaces Ergebnisse der FEM Berechnung der Hub-Baugruppe beim maximalen Lastvielfachen (max: 343 MPa)}}{86}{figure.B.11}%
+\contentsline {figure}{\numberline {B.12}{\ignorespaces Ergebnisse der FEM Berechnung massenreduzierten Welle (max: 153 MPa)}}{87}{figure.B.12}%
+\contentsline {figure}{\numberline {B.13}{\ignorespaces Ergebnisse der FEM Berechnung des Geh\IeC {\"a}use mit reduzierter Wandst\IeC {\"a}rke (max: 311 MPa)}}{87}{figure.B.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Halterungskr\IeC {\"a}fte (Seitenansicht)}}{89}{figure.C.1}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Halterungskr\IeC {\"a}fte (vom Raketenrumpf aus)}}{89}{figure.C.2}%
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Halterungskr\IeC {\"a}fte (Vorderansicht)}}{90}{figure.C.3}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Halterungskr\IeC {\"a}fte (Seitenansicht)}}{88}{figure.C.1}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Halterungskr\IeC {\"a}fte (vom Raketenrumpf aus)}}{88}{figure.C.2}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Halterungskr\IeC {\"a}fte (Vorderansicht)}}{89}{figure.C.3}%
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
