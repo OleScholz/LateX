@@ -29,6 +29,8 @@ Der erste Anteil der Kraft ($F_1$) zeigt in Richtung der Sehne und wird auf alle
 Somit ergeben sich die Kräfte für die einzelnen Grid Fins wie sie in Tabelle \ref{tab_Fs} zu sehen sind
 \begin{table}[ht]
 	\centering
+	\caption{Am Grid Fin angreifende transformierte Kräfte}
+	\label{tab_Fs}
 	\begin{tabular}{c||c|c|c|c}
 		&D1&R1&D2&R2\\
 		\hline
@@ -36,8 +38,6 @@ Somit ergeben sich die Kräfte für die einzelnen Grid Fins wie sie in Tabelle \
 		$F_2/$N&$6.276,0$&$4.970,8$&$-4.970,8$&$-6.276,0$\\
 		$F_3/$N&$4.934,0$&$6.474,2$&$-6.474,2$&$-4.934,0$\\
 	\end{tabular}
-	\caption{Am Grid Fin angreifende transformierte Kräfte}
-	\label{tab_Fs}
 \end{table}\\~\\
 Als Randbedingung werden die Innenflächen der Halterung zylindrisch festgelegt. Das heißt, dass die dort liegenden Knoten sich weder axial noch radial bewegen jedoch um die Achse drehen können.
 \subsection{Optimierung der Halterung}
@@ -64,27 +64,11 @@ Für die Halterungen A passiert das gleiche. Die nebenliegenden Gitterwände wer
 	\caption{Abrücken der Halterung vom Rahmen}
 	\label{abb_V2-Halterung}
 \end{figure}\\
-Dies führt zwar schon für eine deutlichere Verbesserung, jedoch ist der Hebelarm trotz der Versetzung der Halterung B recht kurz. Abbildung \ref{abb_V2-D2} zeigt, dass dies dafür sorgt, dass direkt an der Bohrung noch immer Spannungsspitzen auftreten, die die Streckgrenze von $R_{p, 0.2} = 1.262$ MPa unterschreiten.
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{D2 3.4 b max.jpg}
-	\caption{Maximale Spannungen am Grid Fin D2 bei abgerückter Halterung}
-	 \label{abb_V2-D2}
-\end{figure}\\
-Um dem Hebelarm zu verlängern, wird nun die Halterung B gemäß Abbildung \ref{abb_V3-Halterung} auf die Höhe der konvexen Seite verlagert. Sie wird außerdem in einer geschwungenen Form noch weiter nach vorne gelegt, damit die Verbindungslinie der beiden Halterungen im $45^\circ$ Winkel zur Gitterebene liegt. Dadurch ist die Klappbewegung möglichst gleichmäßig, was den Aktuator schont und gleichzeitig garantiert, dass der Verfahrweg minimal für den gegebenen Hebelarm ist.
-\begin{figure}[h] 
-	\centering
-	\includegraphics[width=0.9\textwidth]{Skizze Halterung 3.5.jpg}
-	\caption{Halterung mit verlängertem Hebelarm}
-	\label{abb_V3-Halterung}
-\end{figure}\\
-Dies erzielt nun den gewünschten Effekt, dass die Spannung im Material deutlich niedriger wird. Bei allen Grid Fins treten nur noch Spannungen auf, die deutlich unter der Streckgrenze des Materials liegen und somit den Belastungen im Einsatz standhalten.
-\begin{figure}[h] 
-	\centering
-	\includegraphics[width=0.9\textwidth]{3.5 b Halterung max.jpg}
-	\caption{Maximale Spannungen am Grid Fin D2 bei der Halterung mit verlängertem Hebelarm}
-\end{figure}\\
-Somit wäre die Auslegung der Halterung nach den aerodynamischen Kräften theoretisch abgeschlossen. Jedoch muss hierbei auch noch auf die Aktuatorik und das maximale Lastvielfache geachtet werden. In der gezeigten Konfiguration hat der Grid Fin eine Masse von $m = 3,5$ kg und der Massenschwerpunkt liegt $185$ mm von der Halterung A entfernt. Mit dem Lastvielfachen von ca. 20 beim Auslösen des Ballutes entsteht nun also ein Moment von ungefähr $M=127$ Nm, welches von der Halterung B kompensiert werden muss. Die Halterung B ist an der Spindelstange montiert und leitet somit die Kraft an diese weiter. Der Hebelarm der Halterung B und die maximal ertragbare Axialkraft der Spindel müssen also aufeinander abgestimmt sein. Maxon Motoren stellt nur Spindeln mit Axiallasten von bis zu $2.700$ N her, welche folglich einen Hebelarm von $\frac{127Nm}{2700N}=47$ mm erfordert. Dies ist für den Grid Fin noch technisch machbar, weshalb ein Exemplar von diesem Anbieter gewählt wird. Der Wert liegt laut dieser Rechnung zwar minimal darüber, jedoch wird das Lastvielfache von 20 gar nicht wirklich erreicht, sodass die Rundung annehmbar ist. Da die Hubstange gelenkig mit dem Grid Fin verbunden ist, ist zu beachten, dass nur der Abstand der Halterungen in Sehnenlänge als effektiver Hebelarm wirkt. Somit muss die Halterung B nicht länger weiter vorne positioniert sein, da für den Grid Fin so weniger Material und Bauraum benötigt wird. Wird die Verbindungsstange zwischen Halterung und Hubstange auf die gleiche Länge wie der Hebelarm gesetzt, verlängert sich auch nicht der Hub. Da die Hubstange sich nun im eingeklappten Zustand weiter außerhalb der Rakete befindet, braucht sie auch weniger Platz innerhalb, wenn der Grid Fin ausklappt. Um auf den gewünschten Hebelarm zu kommen, werden beide Halterungen noch ein wenig nach außen gelegt, sodass sich die endgültige Geometrie, wie sie in Abbildung \ref{abb_Halterung-fertig} zu sehen ist, ergibt. Zusätzlich befinden sich noch Kanten und Nuten in den Bohrungen zur Befestigung der Lagerung, auf welche im weitern Verlauf dieser Arbeit in Detail eingegangen wird.
+Dies führt zwar schon für eine deutlichere Verbesserung, jedoch ist der Hebelarm trotz der Versetzung der Halterung B recht kurz. Dies sorgt dafür, dass direkt an der Bohrung noch immer Spannungsspitzen auftreten, die die Streckgrenze von $R_{p, 0.2} = 1.262$ MPa unterschreiten.
+
+Um dem Hebelarm zu verlängern, wird die Halterung B auf die Höhe der konvexen Seite verlagert. Dies erzielt nun den gewünschten Effekt, dass die Spannung im Material deutlich niedriger wird. Bei allen Grid Fins treten nur noch Spannungen auf, die deutlich unter der Streckgrenze des Materials liegen und somit den Belastungen im Einsatz standhalten.
+\\~\\
+Somit wäre die Auslegung der Halterung nach den aerodynamischen Kräften theoretisch abgeschlossen. Jedoch muss hierbei auch noch auf die Aktuatorik und das maximale Lastvielfache geachtet werden. In der gezeigten Konfiguration hat der Grid Fin eine Masse von $m = 3,5$ kg und der Massenschwerpunkt liegt $185$ mm von der Halterung A entfernt. Mit dem Lastvielfachen von ca. 20 beim Auslösen des Ballutes entsteht nun also ein Moment von ungefähr $M=127$ Nm, welches von der Halterung B kompensiert werden muss. Die Halterung B ist an der Spindelstange montiert und leitet somit die Kraft an diese weiter. Der Hebelarm der Halterung B und die maximal ertragbare Axialkraft der Spindel müssen also aufeinander abgestimmt sein. Maxon Motoren stellt nur Spindeln mit Axiallasten von bis zu $2.700$ N her, welche folglich einen Hebelarm von $\frac{127Nm}{2700N}=47$ mm erfordert. Dies ist für den Grid Fin noch technisch machbar, weshalb ein Exemplar von diesem Anbieter gewählt wird. Der Wert liegt laut dieser Rechnung zwar minimal darüber, jedoch wird das Lastvielfache von 20 gar nicht wirklich erreicht, sodass die Rundung annehmbar ist. Da die Hubstange gelenkig mit dem Grid Fin verbunden ist, ist zu beachten, dass nur der Abstand der Halterungen in Sehnenlänge als effektiver Hebelarm wirkt. Somit werden sie im Gegensatz zum Aufbau aus Abbildung \ref{abb_V2-Halterung} gleich weit vom Rahmen entfernt platziert. Wird die Verbindungsstange zwischen Halterung und Hubstange auf die gleiche Länge wie der Hebelarm gesetzt, ist der Hub für den gegeben Abstand der Halterungen minimal. Um auf den gewünschten Hebelarm zu kommen, werden beide Halterungen noch ein wenig an die Hinter- und Vorderkante des Grid Fins gelegt, sodass sich die endgültige Geometrie, wie sie in Abbildung \ref{abb_Halterung-fertig} zu sehen ist, ergibt. Zusätzlich befinden sich noch Kanten und Nuten in den Bohrungen zur Befestigung der Lagerung, auf welche im weiteren Verlauf dieser Arbeit in Detail eingegangen wird.
 \begin{figure}[h] 
 	\centering
 	\includegraphics[width=0.9\textwidth]{Skizze Halterung 3.6.jpg}
@@ -126,15 +110,15 @@ An dieser Stelle sei noch zusätzlich zu erwähnen, dass folglich auch die Ideen
 Eine ergänzende vollständige Sammlung der Ergebnisse der FEM-Analysen aller Belastungszustände am Grid Fin befindet sich im Anhang \ref{sec:mehrFEM}.
 \begin{figure}[h] 
 	\centering
-	\includegraphics[width=0.8\textwidth]{Grid Fin Render.1.jpg}
-	\caption{Finaler Grid Fin aus Edelstahl (falsches Modell, muss noch geändert werden)}
+	\includegraphics[width=0.8\textwidth]{Grid_Fin_Render.3.jpg}
+	\caption{Finaler Grid Fin aus Edelstahl}
 	\label{abb_rendering1}
 \end{figure}\\
 Da eine Gewichtsreduzierung der Grid Fins weitreichende Folgen für die Gesamtmasse des Systems hat, kann noch mal über die Werkstoffwahl nachgedacht werden. Titan wurde trotz seiner deutlich geringeren Dichte als Edelstahl ausgeschlossen, weil er signifikant teurer ist. Sollte sich jedoch herausstellen, dass die Einsparungen der Masse die Kosten überwiegen, sollte diese Entscheidung überdacht werden.
 
 Ein Titan Grid Fin besäße nur eine Masse von $m=1,6$ kg, wodurch sich sein Hebelarm auf $21,5$ mm verkürzen lässt. Die restliche Geometrie des Grid Fins bleibt unverändert und die FEM-Berechnungen ergeben, dass maximale Spannungen von $889$ MPa beim Grid Fin D2 auftreten, also leicht über den Belastungen des Edelstahl Grid Fins, aber nicht bedeutend.
 
-Durch ein Verkürzen des Hebelarms kann nicht nur die Spindelstange kürzer werden, sondern auch ihre Achse muss nach unten gelegt werden. Dies führt jedoch zu Komplikationen, da nun das Linearlager in der Achse der Welle liegt. Dadurch kommt es zu einer sehr ungünstigen Wellenform, die nur einen schlechten Kraftfluss erlaubt und zu hohen Biegemomenten führt. Des Weiteren muss dadurch das Gehäuse größer dimensioniert werden. Somit geht wiederum mehr Bauraum innerhalb der Rakete verloren. Ein weiteres Problem stellt die Vorderseite der Welle dar. Theoretisch erlaubt die niedrigere Hubstange ein kleineres Kegellager zu verwenden, jedoch rückt durch den kürzeren Hub das Linearlager nach vorne, was den Bauraum blockiert. Ein kleineres Lager würde nicht mal die Masse der Welle reduzieren, da die Außenschicht nur nach innen auf die Position des Hohlraums rückt. Selbst der Effekt des geringeren Umfangs wird dadurch negiert, dass der Bereich hinter der Auflagefläche des Lagers nicht mehr gut erreichbar ist und sich deswegen dort weniger aushöhlen lässt. Wegen der Biegespannung in der Verbindungswelle kann die Breite im vordersten Teil der Welle auch nicht reduziert werden. Ein Abtragen des Materials auf der Oberseite führt hingegen zu einer flacheren Fläche, die beim Start in die Strömung zeigt und somit unnötig viel Widerstand verursacht. Wegen all dieser Gründe würde sich eine weitere Reduzierung des Helbelarms von Halterung B nicht rentieren. Sollte jedoch ein Titan Grid Fin mit der gleichen Halterungsgeometrie verwendet werden, ergäbe sich noch immer der Vorteil der um ca. 1,2 kg verringerten Masse. Dies wiegt jedoch nicht die hohen Kosten des Materials auf, weswegen weiterhin Edelstahl als Werkstoff verwendet wird. Der Grid Fin aus Stahl würde im 3D-Druck ungefähr 13.000€ Kosten, während der Preis bei Titan im Bereich von mehren 10.000€ liegt und somit ungefähr das dreifache kostet.
+Durch ein Verkürzen des Hebelarms kann nicht nur die Spindelstange kürzer werden, sondern auch ihre Achse muss nach unten gelegt werden. Dies führt jedoch zu Komplikationen, da nun das Linearlager in der Achse der Welle liegt. Dadurch kommt es zu einer sehr ungünstigen Wellenform, die nur einen schlechten Kraftfluss erlaubt und zu hohen Biegemomenten führt. Des Weiteren muss dadurch das Gehäuse größer dimensioniert werden. Somit geht wiederum mehr Bauraum innerhalb der Rakete verloren. Ein weiteres Problem stellt die Vorderseite der Welle dar. Theoretisch erlaubt die niedrigere Hubstange ein kleineres Kegellager zu verwenden, jedoch rückt durch den kürzeren Hub das Linearlager nach vorne, was den Bauraum blockiert. Ein kleineres Lager würde nicht mal die Masse der Welle reduzieren, da die Außenschicht nur nach innen auf die Position des Hohlraums rückt. Selbst der Effekt des geringeren Umfangs wird dadurch negiert, dass der Bereich hinter der Auflagefläche des Lagers nicht mehr gut erreichbar ist und sich deswegen dort weniger aushöhlen lässt. Wegen der Biegespannung in der Verbindungswelle kann die Breite im vordersten Teil der Welle auch nicht reduziert werden. Ein Abtragen des Materials auf der Oberseite führt hingegen zu einer flacheren Fläche, die beim Start in die Strömung zeigt und somit unnötig viel Widerstand verursacht. Wegen all dieser Gründe würde sich eine weitere Reduzierung des Helbelarms von Halterung B nicht rentieren. Sollte jedoch ein Titan Grid Fin mit der gleichen Halterungsgeometrie verwendet werden, ergäbe sich noch immer der Vorteil der um ca. 1,2 kg verringerten Masse. Dies wiegt jedoch nicht die hohen Kosten des Materials auf, weswegen weiterhin Edelstahl als Werkstoff verwendet wird. Der Grid Fin aus Stahl würde im 3D-Druck knapp 13.000€ Kosten, während der Preis bei Titan im Bereich von mehren 10.000€ liegt und somit ungefähr das dreifache kostet.
 \section{Bestätigung der mechanischen Belastbarkeit der Aktuatorik}
 Mit der Festlegung des Grid Fin Aufbaus, insbesondere der Halterung, kann überprüft werden, ob auch alles auf der Wellenseite den mechanischen Lasten standhält. Hierfür werden die Kräfte, die an den einzelnen Halterungen wirken, benötigt.
 \begin{figure}[h] 
@@ -148,30 +132,30 @@ Wie in Abbildung \ref{abb_richtungen_Halterungskräfte} zeigt werden für die Kr
  Wenn angenommen wird, dass die Halterung B, da sie deutlich weniger steif als die Halterungen A ist, nur Belastung in $\eta$-Richtung aufnehmen kann, ergeben sich die Kräfte wie in Tabelle \ref{tab_Haltekräfte} dargestellt. Links sind Kräfte am Grid Fin R1 dargestellt, was die höchste Belastung für das Lager A bedeutet, und rechts R2 mit der höchsten Belastung für Lager B. Die detaillierte Rechnung befindet sich im Anhang \ref{sec:halterkraefte}. 
 \begin{table}[h] 
 	\centering 
+	\caption{Kräfte an den Halterungen der Grid Fins}
+	\label{tab_Haltekräfte}
 	\begin{tabular}{c|r|r|rc||c|r|r|r} 
-		\textbf{R1}&$F_{\zeta}$[N]&$F_\eta$[N]&$F_\xi$[N]&&\textbf{R2}&$F_{\zeta}$[N]&$F_\eta$[N]&$F_\xi$[N]\\ 
+		\textbf{R1}&$F_{\zeta}$/N&$F_\eta$/N&$F_\xi$/N&&\textbf{R2}&$F_{\zeta}$/N&$F_\eta$/N&$F_\xi$/N\\ 
 		\hline 
 		A1& 612,00&-6.319,94&-531,55&&A1&599,90&233,47&-474,45\\
 		A2&-1.001,31&-2.342,88&-531,54&&A2&-1.013,41&3.783,28&-474,45\\
 		B&0&-401,16&0&&B&0&3.783,28&0\\
 	\end{tabular}
-\caption{Kräfte an den Halterungen der Grid Fins}
-\label{tab_Haltekräfte}
 \end{table} \\
 Für die Bauteile, die nicht so hohen Lasten wie der Grid Fin ausgesetzt sind, wird im Folgenden nicht mit den Werkstoffwerten des teuren Edelstahls 1.4542 gerechnet. Für die Teile, die nicht mit der Strömung in Kontakt kommen, wird stattdessen die Aluminiumlegierung 3.3321 mit $R_{p,0.2} = 280$ MPa verwendet, und für die anderen Bauteile, wie weiterhin auch hohen thermischen Lasten ausgesetzt sind, wird der Edelstahl 1.4401 mit einer Streckgrenze von $R_{p,0.2} = 400$ MPa angenommen. Dies ist ein Kompromiss aus Festigkeit und Materialkosten. Noch günstigere Werkstoffe hätte eine geringere Festigkeit, weswegen wieder mehr Material benötigt werden würde. Dadurch steigt die Masse und als weitere Folge auch der Preis.
 \subsection{Lager der Halterung}
 Für die Lasten an den Lagern ist nur die Aufteilung in Radial- $F_r$ und Axialkraft $F_a$, wie sie in Tabelle \ref{tab_lagerkraefte} zu sehen ist, von Bedeutung. Dabei sei noch zu bedenken, dass die Kraft in $\xi$-Richtung auf Grund des Aufbaus nur von einem der A Lager kompensiert werden kann. Auch wenn dieser Umstand für die vorherige Berechnung keine Rolle spielte, da die beiden Halterungen A auf einer Achse liegen, wird es im Folgenden berücksichtigt.
 \begin{table}[h] 
 	\centering 
+	\caption{Lagerkräfte in den Halterungen}
+	\label{tab_lagerkraefte}
 	\begin{tabular}{c|r|rc||c|r|r} 
-		\textbf{R1}&$F_{r}$[N]&$F_a$[N]&&\textbf{R2}&$F_{a}$[N]&$F_r$[N]\\ 
+		\textbf{R1}&$F_{r}$/N&$F_a$/N&&\textbf{R2}&$F_{a}$/N&$F_r$/N\\ 
 		\hline 
 		A1& 6.349,50&-1.063,10&&A1&643,73&-948,90\\
 		A2&2.547,89&0&&A2&3.916,65&0\\
 		B&401,16&0&&B&4.861,12&0\\
 	\end{tabular}
-	\caption{Lagerkräfte in den Halterungen}
-	\label{tab_lagerkraefte}
 \end{table} \\
 Aus diesen Werten lässt sich nun über die Flächenpressung und Abscherung der erforderliche Durchmesser $D$ und die benötigte Auflagebreite $B$ der Hilfswelle bestimmen. Für die Abscherung gilt
 \begin{equation}
@@ -211,14 +195,15 @@ Für den Fall, dass die am Grid Fin angreifende Axialkraft in positive $\eta$-Ri
 \end{equation}
 Aus den Lasten in den Lagern und den in den Herstellerangaben genannten statischen Tragzahlen lässt sich die äquivalente Belastung berechnen. Mittels der ebenfalls vom Hersteller gegebenen dynamische Tragzahl ergibt sich dann für das vordere Kegellager eine Lebensdauer von über 1.000 Stunden und für das hinter sogar das Fünffache \cite{metall}. Es wurde dabei mit der maximal auftretenden Drehzahl, die sich aus der in Kapitel \ref{sec:betriebssim} beschriebenen Betriebssimulation ergibt, gerechnet. Trotzdem liegt der Wert noch immer deutlich über der benötigten Lebensdauer. Dies liegt jedoch daran, dass die Größe der Lager sich aus der Geometrie der Welle und des Grid Fins anstatt aus den Belastungen ergeben hat, wodurch kein kleines Modell in Frage kommt. Bei den gewählten Exemplaren wurde schon versucht die preislich günstigste Option zu wählen, sodass ihre Größe nicht zu sehr zum Nachteil wird.
 \subsection{Belastung der Welle}
-Die Welle selbst hat zum einen den groben Aufbau, wie er in Abbildung \ref{abb_Welle} zu sehen war, zum anderen zeigt Abbildung \ref{abb_aufbau_Welle} wie sie an einigen Stellen von dieser rotationssymmetrischen Geometrie abweicht. Ein Aspekt ist die schon im Abschnitt zu der Halterung angesprochenen Verbindungswelle, die die Welle durchstößt. Auf der gleichen Höhe, aber auf der Stirnseite befindet sich mittig eine Bohrung und Senkung für die Passfeder. Für die Hubstange existiert des Weiteren ein großer Ausschnitt durch den größten Durchmesser der Welle. Damit im eingeklappten Zustand die Berge des Grid Fins nicht gegen die Welle stoßen, ist die untere Vorderkante ausgehöhlt. Das Linearlager der Hubstange muss von unten festgeschraubt werden, sodass zunächst ein flacher Ausschnitt in die Welle eingebracht worden ist, auf der eine Platte festgeschraubt werden kann. Diese Platte wird anschließend von unten mit dem Lager verschraubt. Um ein Montieren der Schrauben zu ermöglichen, werden jedoch noch Einbuchtungen an der Welle benötigt. Am hinteren Ende der Platte befindet sich ein angewinkelter Teil, an dem das Spindelgetriebe festschraubt wird.
-Für das Spindelgetriebe mit dem integrierten Motor sind auch noch Einbuchtungen in der Welle nötig. Am hinteren Ende befindet sich dann schließlich das Gewinde für die Nutmutter und die Nut für das Sicherungsblech. Schlussendlich ist an der hinteren Stirnseite der Welle eine Bohrung mit Passfedernut angebracht, in der die Welle des Getriebes montiert wird.
+Die Welle selbst hat zum einen den groben Aufbau, wie er in Abbildung \ref{abb_Welle} zu sehen war, zum anderen zeigt Abbildung \ref{abb_aufbau_Welle} wie sie an einigen Stellen von dieser rotationssymmetrischen Geometrie abweicht.
 \begin{figure}[h] 
 	\centering
 	\includegraphics[width=0.9\textwidth]{Skizze Welle ausbruch.jpg}
 	\caption{Aufbau der Welle}
 	\label{abb_aufbau_Welle}
 \end{figure}\\
+ Ein Aspekt ist die schon im Abschnitt zu der Halterung angesprochenen Verbindungswelle, die die Welle durchstößt. Auf der gleichen Höhe, aber auf der Stirnseite befindet sich mittig eine Bohrung und Senkung für die Passfeder. Für die Hubstange existiert des Weiteren ein großer Ausschnitt durch den größten Durchmesser der Welle. Damit im eingeklappten Zustand die Berge des Grid Fins nicht gegen die Welle stoßen, ist die untere Vorderkante ausgehöhlt. Das Linearlager der Hubstange muss von unten festgeschraubt werden, sodass zunächst ein flacher Ausschnitt in die Welle eingebracht worden ist, auf der eine Platte festgeschraubt werden kann. Diese Platte wird anschließend von unten mit dem Lager verschraubt. Um ein Montieren der Schrauben zu ermöglichen, werden jedoch noch Einbuchtungen an der Welle benötigt. Am hinteren Ende der Platte befindet sich ein angewinkelter Teil, an dem das Spindelgetriebe festschraubt wird.
+Für dieses und sein integrierten Motor sind auch noch Einbuchtungen in der Welle nötig. Am hinteren Ende befindet sich dann schließlich das Gewinde für die Nutmutter und die Nut für das Sicherungsblech. Schlussendlich ist an der hinteren Stirnseite der Welle eine Bohrung mit Passfedernut angebracht, in der die Welle des Getriebes montiert wird.
 Für die Analyse der Welle wurden wieder FEM-Berechnungen durchgeführt. Auf den Flächen, auf denen die Lager aufliegen, werden wie schon beim Grid Fin zylindrische Bedingungen festgelegt, wobei die axiale Beschränkung nur bei jeweils einem der beiden Lager angewandt wird. Zusätzlich wird eine Drehung der Welle um ihre Achse durch ein Festhalten in tangentialer Richtung der Passfedernut am hinteren Ende verhindert.
 Für die FEM-Berechnung, deren Ergebnis in \ref{abb_Well_FEM} dargestellt ist, werden die Kräfte der Halterung A an den Stellen eingeleitet, an denen die Verbindungswelle in die Welle führt, mit Ausnahme der $\xi$-Kraft, die durch die Passschraube übertragen wird. 
 Die Kraft der Halterung B hingegen wird erst über das Spindelgetriebe auf die Welle übertragen. Somit greift die resultierende Kraft in der Simulation in den Bohrlöchern an, an denen die Spindel befestigt ist.
@@ -230,14 +215,19 @@ Die Kraft der Halterung B hingegen wird erst über das Spindelgetriebe auf die W
 \end{figure}\\
 Wie auch bei den Lagern ist die Dimensionierung der Welle nicht durch die mechanischen Lasten sondern geometrischen Randbedingungen bestimmt, sodass nirgends auch nur ansatzweise kritische Belastungen auftreten.
 \\~\\
-Mit einer Masse von $m=6,2$kg ist sie jedoch viel zu schwer. Wie in Abbildung \ref{abb_Well_FEM} klar zu sehen ist, besitzt sie jedoch viel Volumen, welches nicht benötigt wird und somit nur unnötigen Ballast darstellt. Besonders der vordere Teil mit dem großen Durchmesser trägt maßgeblich zur Masse bei. Diese Maße sind zwar nötig, um den Durchgang der Hubstange zu erlauben, aber der Innenraum kann ausgehöhlt werden. Auch der Einschnitt auf der Unterseite, der ein Anstoßen der Pfeilungsspitzen verhindert, kann ausgeweitet werden und ist nur durch die Durchgangsbohrung für die Verbindungswelle und der Notwendigkeit einer Wellenschulter für das Lager beschränkt. Auch auf der Oberseite des vorderen Wellenendes ist die Wellenschulter als Mindestradius notwendig. Zu den Bohrungslöchern für die Verbindungswelle muss die Oberfläche weiterhin nach außen laufen, um zum einen die Strömung nach außen abzuleiten und ein Auftreffen auf die planare Grid Fin Fläche zu verhindern und zum anderen die Verbindungswelle nicht über ihre Belastungsgrenze auf Biegung zu beanspruchen. Ergänzend kann auch noch in dem Abschnitt der Welle, in dem sich die Klappaktuatorik befindet, von der Unterseite Material angetragen werden. Am hinteren Ende beschränkt die Aufnahme für die Getriebewelle den Radius, aber die dafür vorgesehene Bohrung kann noch etwas verlängert werden, sodass der hintere Teil zur Hohlwelle wird. Somit hat sich die Masse der Welle drastisch auf einen Wert von nur noch $m= 2,2$ kg verringert. Auch mit diesen Veränderungen hält die Welle noch immer den Belastungen stand. Die FEM-Berechnung ergibt, dass noch immer nur maximal eine Spannung von $153$ MPa auftritt, und ihr Ergebnis ist im Anhang \ref{sec:mehrFEM} zu sehen, während Abbildung \ref{abb_abgespeckt} den beschriebenen Aufbau in einer Schnittdarstellung des 3D-Modells zeigt.
+Mit einer Masse von $m=6,2$kg ist sie jedoch viel zu schwer. Wie in Abbildung \ref{abb_Well_FEM} klar zu sehen ist, besitzt sie jedoch viel Volumen, welches nicht benötigt wird und somit nur unnötigen Ballast darstellt. Somit zeigt Abbildung \ref{abb_abgespeckt}, wie eine massenreduzierte Version der Welle aussieht.
 \begin{figure}[h] 
 	\centering
 	\includegraphics[width=0.75\textwidth]{Welle_abgespeckt_3D.jpg}
 	\caption{Schnittanschicht der massenreduzierten Welle}
 	\label{abb_abgespeckt}
-\end{figure}\\
-
+\end{figure}\\ Besonders der vordere Teil mit dem großen Durchmesser trägt maßgeblich zur Masse bei. Diese Maße sind zwar nötig, um den Durchgang der Hubstange zu erlauben, aber der Innenraum kann ausgehöhlt werden. Auch der Einschnitt auf der Unterseite, der ein Anstoßen der Pfeilungsspitzen verhindert, kann ausgeweitet werden und ist nur durch die Durchgangsbohrung für die Verbindungswelle und der Notwendigkeit einer Wellenschulter für das Lager beschränkt. Auch auf der Oberseite des vorderen Wellenendes ist die Wellenschulter als Mindestradius notwendig. Zu den Bohrungslöchern für die Verbindungswelle muss die Oberfläche weiterhin nach außen laufen, um zum einen die Strömung nach außen abzuleiten und ein Auftreffen auf die planare Grid Fin Fläche zu verhindern und zum anderen die Verbindungswelle nicht über ihre Belastungsgrenze auf Biegung zu beanspruchen. Ergänzend kann auch noch in dem Abschnitt der Welle, in dem sich die Klappaktuatorik befindet, von der Unterseite Material angetragen werden. Am hinteren Ende beschränkt die Aufnahme für die Getriebewelle den Radius, aber die dafür vorgesehene Bohrung kann noch etwas verlängert werden, sodass der hintere Teil zur Hohlwelle wird. Somit hat sich die Masse der Welle drastisch auf einen Wert von nur noch $m= 2,2$ kg verringert. Auch mit diesen Veränderungen hält die Welle noch immer den Belastungen stand. Die FEM-Berechnung ergibt, dass noch immer nur maximal eine Spannung von $153$ MPa auftritt, und ihr Ergebnis ist in Abbildung \ref{abb_abgespecktFEM} zu erkennen.
+\begin{figure}[h] 
+\centering
+\includegraphics[width=0.75\textwidth]{FEM Welle verstümmelt.jpg}
+\caption{Schnittanschicht der massenreduzierten Welle}
+\label{abb_abgespecktFEM}
+\end{figure}
 \subsection{Belastung des Gehäuses}
 Abschließend wird noch das Aluminiumgehäuse betrachtet. Es hat nicht nur die Aufgabe, den Rest der Rakete von den beweglichen Teilen zu trennen, um zum Beispiel ein Verfangen von Kabeln zu verhindern, sondern auch die Funktion, die Lager und den Motor mit Getriebe in Position zu halten. Somit überträgt das Gehäuse auch die Kräfte und Momente, die in dem System wirken, auf den Raketenkörper. Für eine einfache Montage und Fertigung besteht das Gehäuse aus einer Unter- und Oberseite, die mit Schrauben aneinander und an der Außenhülle befestigt werden. Im vorderen Bereich benötigt die Oberseite der Welle auf Grund der Klappaktuatorik deutlich mehr Platz als auf der Unterseite. Deshalb bildet die Oberseite des Gehäuses einen Halbkreis, während die Unterseite eine halbe Ellipse darstellt, deren große Halbachse dem Radius der Oberseite entspricht, um bündig mit ihr abzuschließen. Hinter dem Kegelrollenlager sind beide Seiten symmetrisch aufbaut mit Ausnahme der Trennwände, die zur Unterseite gehören und an denen das Getriebe und der Motor montiert werden. Somit muss bei der Montage als letzter Schritt nur noch die Gehäuseoberseite auf die Unterseite platziert und dann befestigt werden.
 Diese Befestigung findet mit der Raketenhülle mit sechs gleichmäßig über einen Flansch verteilte Schrauben statt. Mit zunächst sechs Schrauben, die über die gesamte Kontaktfläche verteilt sind, werden die beiden Gehäusehälften mittels Muttern miteinander verbunden.
@@ -250,7 +240,13 @@ Erneut wird hier eine FEM-Analyse benutzt, deren Ergebnis in Abbildung \ref{abb_
 	\label{abb_FEM_Gehäuse1}
 \end{figure}\\
 Die Abbildung \ref{abb_FEM_Gehäuse1} zeigt, dass die Beanspruchungen im Material überall recht gering sind. Nur zwischen den Schrauben und Muttern kommt es zu hohen Belastungen mit Spannungen von bis zu $900$ MPa. Dies können Schrauben der Festigkeitsklasse 9.8 beziehungsweise 10.9 mit ihrer Zugfestigkeit bzw. Streckgrenze zwar erreichen, aber da sie als Normbauteile kostentechnisch kaum eine Rolle spielen, wird hier auf etwas mehr Sicherheit geachtet und die Anzahl der Schrauben von sechs auf zehn erhöht. Dies senkt die Spannung in den Schrauben deutlich ab, sodass ihre Belastung nicht mehr kritisch ist.\\
-Da die Spannungen im Gehäuse fast nicht existent sind, kann die Wandstärke noch deutlich reduziert werden. Zuvor lag sie überall bei 4mm und wird nun auf 1mm reduziert. Nur der Flansch, an denen die beiden Gehäusehälften zusammengeschraubt werden, bleiben unverändert. Da die Kanten, an denen das Lager sitzt, sehr scharf sind, kommt es dort nun zu Spannungsspitzen, die über der Streckgrenze liegen. Deswegen werden die Auflagefläche des Kegellagers und die beiden angrenzenden Wände wieder auf eine Wandstärke von 4mm angehoben. Nun kommt es nur noch zu Spannungen von ca. 400MPa. Dies ist noch immer über der Streckgrenze von gängigen Aluminiumlegierungen, sodass versucht wird diese weiter zu senken. Also wird die Geometrie des vordersten Flansch direkt am Flansch für die Montage am Raketenkörper angepasst und Verrundungen an den kritischen Kanten hinzugefügt. Dadurch wird nun endgültig ein angemessenes Gehäuse erreicht.
+Da die Spannungen im Gehäuse fast nicht existent sind, kann die Wandstärke noch deutlich reduziert werden. Zuvor lag sie überall bei 4mm und wird nun auf 1mm reduziert. Nur der Flansch, an denen die beiden Gehäusehälften zusammengeschraubt werden, bleiben unverändert. Da die Kanten, an denen das Lager sitzt, sehr scharf sind, kommt es dort nun zu Spannungsspitzen, die über der Streckgrenze liegen. Deswegen werden die Auflagefläche des Kegellagers und die beiden angrenzenden Wände wieder auf eine Wandstärke von 4mm angehoben. Nun kommt es nur noch zu Spannungen von ca. 400MPa. Dies ist noch immer über der Streckgrenze von gängigen Aluminiumlegierungen, sodass versucht wird diese weiter zu senken. Also wird die Geometrie des vordersten Flansch direkt am Flansch für die Montage am Raketenkörper angepasst und Verrundungen an den kritischen Kanten hinzugefügt. Dadurch wird nun endgültig das angemessenes Gehäuse aus Abbildung \ref{abb_FEM_Gehäuse2} erreicht.
+\begin{figure}[h] 
+	\centering
+	\includegraphics[width=0.75\textwidth]{Gehäuse 1mm 5 rundungen.jpg}
+	\caption{Ergebnisse der FEM-Berechnung der endgültigen Gehäusegeometrie}
+	\label{abb_FEM_Gehäuse2}
+\end{figure}\\
 \section{Betriebssimulation}\label{sec:betriebssim}
 Da nun bewiesen wurde, dass die gesamte Konstruktion, die in Abbildung \ref{abb_gesamt_sys} gezeigt wird, den mechanischen Lasten des Betriebs stand hält, soll an dieser Stelle überprüft werden, ob die Antriebe über genug Leistung verfügen die gewünschten Manöver durchzuführen. Deswegen werden zur Überprüfung der Aktuatorik Betriebssimulationen in der Matlab-Anwendung Simulink durchgeführt.
 \begin{figure}[h] 
@@ -271,7 +267,7 @@ Das erste Subsystem stellt der Motor dar, dessen Kennlinie sich mit Gleichung \r
 \begin{equation}\label{eq_kennlinie}
 	M_{Motor} = (k_nU-n)\bigg(\frac{\Delta n}{\Delta M}\bigg)^{-1}
 \end{equation}
-$k_n$ ist dabei die Drehzahlkonstante des Motors und ist zusammen mit der Kennliniensteigung $\frac{\Delta n}{\Delta M}$ als konstante Kenngröße dem Datenblatt zu entnehmen. Die Spannung $U$ wird von außen angelegt und die Drehzahl $n$ ergibt sich aus der Lösung des Systems, sodass sich mit der Gleichung das Motormoment bestimmen lässt. Dieses Moment wird dann jedoch noch vom Getriebe auf Kosten der Drehzahl mit der Übersetzung $i$ verstärkt, sodass sich das Antriebsmoment und umgekehrt die Motordrehzahl ergibt.
+$k_n$ ist dabei die Drehzahlkonstante des Motors und ist zusammen mit der Kennliniensteigung $\frac{\Delta n}{\Delta M}$ als konstante Kenngröße dem Datenblatt zu entnehmen. Die Spannung $U$ wird von außen angelegt und die Drehzahl $n$ ergibt sich aus der Lösung des Systems, sodass sich mit der Gleichung das Motormoment bestimmen lässt. Dieses Moment wird dann jedoch noch vom Getriebe auf Kosten der Drehzahl mit der Übersetzung $i = 200$ verstärkt, sodass sich das Antriebsmoment und umgekehrt die Motordrehzahl ergibt.
 \begin{equation}
 	M_\mathrm{Antrieb} = i \cdot M_\mathrm{Motor}
 \end{equation}
@@ -334,13 +330,14 @@ Der in Abbildung \ref{abb_klappKG} dargestellt Verlauf des Klappwinkels zeigt ei
 \end{figure}
 Dies lässt sich verhindern, indem, wie es beim Steuerwinkel gemacht werden soll (vgl. Abbildung \ref{abb_steuerStrecke}, ein PI-Regler zusätzlich eingebaut wird. Abbildung \ref{abb_klappPI} zeigt, dass sich mit Regelung die Kurve abrundet. Die für das Manöver benötigte Zeit steigt dadurch um ungefähr eine Sekunde auf $8,1$ s. 
 \subsection{Steuerwinkel}
+Das Schaubild in Abbildung \ref{abb_steuerStrecke} zeigt den Aufbau der Betriebssimulation für den Steuerwinkel.
 \begin{figure}[h] 
 	\centering
 	\includegraphics[width=\textwidth]{Schaubild Steuer.png}
 	\caption{Schaubild der Regelstrecke der Steueraktuatorik}
 	\label{abb_steuerStrecke}
-\end{figure}
-Das Schaubild in Abbildung \ref{abb_steuerStrecke} zeigt den Aufbau der Betriebssimulation für den Steuerwinkel. Das Subsystem des Motors bleibt vom Aufbau her unverändert und kann ohne Weiteres von der Klappwinkelsimulation übernommen werden. Auch die Differenzialgleichung hat grob die gleiche Struktur.
+\end{figure} 
+Das Subsystem des Motors bleibt vom Aufbau her unverändert und kann ohne Weiteres von der Klappwinkelsimulation übernommen werden. Auch die Differenzialgleichung hat grob die gleiche Struktur.
 \begin{equation}
 	I\ddot{\delta} = M_{Antrieb} - M_{R} - M_{m}
 \end{equation}

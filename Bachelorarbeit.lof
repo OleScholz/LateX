@@ -11,7 +11,7 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Axialkraft (hier CD) bei unterschiedlichen Anstellwinkeln in Abh\IeC {\"a}ngigkeit von der Machzahl}}{11}{figure.2.6}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Gelenkmomentenbeiwert bei unterschiedlichen Anstellwinkeln in Abh\IeC {\"a}ngigkeit von der Machzahl}}{11}{figure.2.7}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Widerstandsbeiwert in Abh\IeC {\"a}ngigkeit vom Anstellwinkel $\alpha $ bei $Ma_\infty =2.5$}}{12}{figure.2.8}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Gelenkmoment in Abh\IeC {\"a}ngigkeit vom Anstellwinkel $\alpha $ bei a) \ensuremath {Ma_\infty =0.5}, b) $Ma_\infty =2.5$}}{12}{figure.2.9}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Gelenkmoment in Abh\IeC {\"a}ngigkeit vom Anstellwinkel $\alpha $ bei a) \ensuremath {Ma_\infty =0.5}, b) $Ma_\infty =2.5$}}{13}{figure.2.9}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Vielfache des Normalkraftanstiegs (links) und der Axialkraft (rechts) im Vergleich zum ungepfeilten Grid Fin in Abh\IeC {\"a}ngigkeit vom konfigurellen Pfeilungswinkel $\Lambda _{Konf}$ bei $Ma_\infty = 2.5$ und $\alpha = 0$}}{14}{figure.2.10}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Ebener Grid Fin (links) und Grid Fin mit gepfeiltem Gitter (rechts)}}{15}{figure.2.11}%
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Axialkraftbeiwert (links) und Normalkraftsbeiwertanstieg (rechts) in Abh\IeC {\"a}ngigkeit von der Machzahl bei unterschiedlichen Pfeilungswinkeln $\Lambda _{G}$ und $\alpha = 0$}}{16}{figure.2.12}%
@@ -24,7 +24,7 @@
 \contentsline {figure}{\numberline {2.19}{\ignorespaces Grid Fins an der Falcon 9, Version Mod 3 links und Mod 4 rechts}}{22}{figure.2.19}%
 \contentsline {figure}{\numberline {2.20}{\ignorespaces SpaceX's Starship inklusive Super Heavy Booster}}{23}{figure.2.20}%
 \contentsline {figure}{\numberline {2.21}{\ignorespaces Das Sojus Notfall-Rettungssystem mit Grid Fins}}{24}{figure.2.21}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Die Grid Fins der chinesischen Chang'e}}{25}{figure.2.22}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Die Grid Fins der chinesischen Chang'e}}{24}{figure.2.22}%
 \contentsline {figure}{\numberline {2.23}{\ignorespaces Der Ablauf einer Valkyrie Mission}}{26}{figure.2.23}%
 \contentsline {figure}{\numberline {2.24}{\ignorespaces Aufbau der Valkyrie}}{26}{figure.2.24}%
 \addvspace {10\p@ }
@@ -47,31 +47,30 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Aufteilung der Kr\IeC {\"a}fte in die verschiedenen Richtungen}}{48}{figure.4.1}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Maximale Spannungen am Grid Fin D1}}{49}{figure.4.2}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Abr\IeC {\"u}cken der Halterung vom Rahmen}}{50}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Maximale Spannungen am Grid Fin D2 bei abger\IeC {\"u}ckter Halterung}}{51}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Halterung mit verl\IeC {\"a}ngertem Hebelarm}}{51}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Maximale Spannungen am Grid Fin D2 bei der Halterung mit verl\IeC {\"a}ngertem Hebelarm}}{52}{figure.4.6}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Endg\IeC {\"u}ltige Geometrie der Halterung}}{52}{figure.4.7}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Maximale Belastungen an der endg\IeC {\"u}ltigen Geometrie der Halterung}}{53}{figure.4.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Belastungen an der endg\IeC {\"u}ltigen Geometrie der Halterung beim maximalen Lastvielfachen}}{53}{figure.4.9}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Spannungen am Grid Fin D2 mit konstante Wanddicke von $1,5$ mm beim maximalen Lastfall}}{54}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Finaler Grid Fin aus Edelstahl (falsches Modell, muss noch ge\IeC {\"a}ndert werden)}}{55}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Kr\IeC {\"a}fte an den Halterungen}}{56}{figure.4.12}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Lagerung der Halterung A}}{58}{figure.4.13}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Lagerung in der Halterung B}}{59}{figure.4.14}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Lagerkr\IeC {\"a}fte an den Kegelrollenlagern}}{59}{figure.4.15}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Aufbau der Welle}}{60}{figure.4.16}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces FEM-Ergebnisse der Welle}}{61}{figure.4.17}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Schnittanschicht der massenreduzierten Welle}}{62}{figure.4.18}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Ergebnisse der FEM-Berechnung der Geh\IeC {\"a}usebaugruppe mit 6 Schrauben}}{63}{figure.4.19}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Schnittansicht des Gesamtsystems}}{64}{figure.4.20}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Schaubild der Strecke der Klappaktuatorik}}{64}{figure.4.21}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Kinematischer Zusammenhang von Hubweg und Klappwinkel}}{65}{figure.4.22}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Klappwinkel $\Lambda $ in Abh\IeC {\"a}ngigkeit vom normalisierten Hubweg $x/a$}}{66}{figure.4.23}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Klappbewegung des Kugelumlaufgewinde und Trapenzgewinde bei 4 V im Vergleich}}{67}{figure.4.24}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Klappbewegung mit Trapezgewinde und PI-Regler}}{67}{figure.4.25}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Schaubild der Regelstrecke der Steueraktuatorik}}{68}{figure.4.26}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Steuerwinkel in Abh\IeC {\"a}ngigkeit von der Zeit bei Nennspannung}}{69}{figure.4.27}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Steuerwinkel in Abh\IeC {\"a}ngigkeit von der Zeit bei 1,5-facher Nennspannung}}{69}{figure.4.28}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Endg\IeC {\"u}ltige Geometrie der Halterung}}{51}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Maximale Belastungen an der endg\IeC {\"u}ltigen Geometrie der Halterung}}{51}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Belastungen an der endg\IeC {\"u}ltigen Geometrie der Halterung beim maximalen Lastvielfachen}}{51}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Spannungen am Grid Fin D2 mit konstante Wanddicke von $1,5$ mm beim maximalen Lastfall}}{52}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Finaler Grid Fin aus Edelstahl}}{54}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Kr\IeC {\"a}fte an den Halterungen}}{55}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Lagerung der Halterung A}}{57}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Lagerung in der Halterung B}}{58}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Lagerkr\IeC {\"a}fte an den Kegelrollenlagern}}{58}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Aufbau der Welle}}{59}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces FEM-Ergebnisse der Welle}}{60}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Schnittanschicht der massenreduzierten Welle}}{60}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Schnittanschicht der massenreduzierten Welle}}{61}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Ergebnisse der FEM-Berechnung der Geh\IeC {\"a}usebaugruppe mit 6 Schrauben}}{62}{figure.4.17}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Ergebnisse der FEM-Berechnung der endg\IeC {\"u}ltigen Geh\IeC {\"a}usegeometrie}}{63}{figure.4.18}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Schnittansicht des Gesamtsystems}}{63}{figure.4.19}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Schaubild der Strecke der Klappaktuatorik}}{64}{figure.4.20}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Kinematischer Zusammenhang von Hubweg und Klappwinkel}}{65}{figure.4.21}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Klappwinkel $\Lambda $ in Abh\IeC {\"a}ngigkeit vom normalisierten Hubweg $x/a$}}{66}{figure.4.22}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Klappbewegung des Kugelumlaufgewinde und Trapenzgewinde bei 4 V im Vergleich}}{67}{figure.4.23}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Klappbewegung mit Trapezgewinde und PI-Regler}}{67}{figure.4.24}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Schaubild der Regelstrecke der Steueraktuatorik}}{67}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Steuerwinkel in Abh\IeC {\"a}ngigkeit von der Zeit bei Nennspannung}}{68}{figure.4.26}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Steuerwinkel in Abh\IeC {\"a}ngigkeit von der Zeit bei 1,5-facher Nennspannung}}{69}{figure.4.27}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {A.1}{\ignorespaces Modell zur Ermitllung der Materialkosten}}{83}{figure.A.1}%
