@@ -1,5 +1,5 @@
 \chapter{Materialeigenschaften}
-
+Abbildung \ref{abb_100mmModel} zeigt das simple Modell, dass zum Vergleich der Materialkosten genutzt wurde. Es wurde mit einem Volumen von ungefähr $100$ mm$^3$ entworfen, was ein überschlägiges Umrechnen in andere Volumina ermöglicht. Die Gitterstruktur und die Krümmung wurden ebenfalls implementiert, um die wesentlichen Charakteristika eines Grid Fins, die große Auswirkungen auf den Preis haben könnten und mit wenig Aufwand einzubringen sind, zu berücksichtigen.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\textwidth]{PreisModell.png}
@@ -9,15 +9,18 @@
 \begin{itemize}
 		\item $V = 99,70\mathrm{mm}^3$
 		\item Benötigter Bauraum: 187,8 x 132,3 x 44,2 mm$^3$
-		\item $b = h = 132,3$mm
-		\item $s = 14,2$mm
-		\item $d_R = 3,8$mm
-		\item $d_G = 1,9$mm
+		\item Höhe und Breite des Gitters $b = h = 132,3$mm
+		\item Sehnenlänge $s = 14,2$mm
+		\item Wanddicke am Rahmen $d_R = 3,8$mm
+		\item Wanddicke im Gitter $d_G = 1,9$mm
 		\item Krümmungsradius $=200$mm
 \end{itemize}
+Tabelle \ref{tab_Werkstoffe} zeigt einen Vergleich der für den 3D-Druck gängigen Werkstoffe, die auch für die Raumfahrt in Frage kommen.
 \begin{landscape}
 \begin{table}[h]
 	\centering
+	\caption{Vergleichsdaten der unterschiedlichen Werkstoffe}
+	\label{tab_Werkstoffe} 
 	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 		\hline
 		Werkstoff&Bezeichnung&$\rho$/$\frac{\mathrm{g}}{\mathrm{cm}^3}$&$R_{p,0.2}$/MPa&$R_{p,0.2}$/MPa&$R_\mathrm{spez.}$/$\frac{\mathrm{Nm}}{\mathrm{g}}$&Preis/€&$T_\mathrm{E, max}$/$^\circ$C&$T_\mathrm{Schmelz}$/$^\circ$C\\
@@ -44,8 +47,6 @@
 	\begin{flushright}
 		\flushbottom{Quellen: \cite{eos, preise, T1.1, T1.3, T1.4, T2.1, T2.2, T2.3, T2.4, T3.1, T3.2, T3.3, T3.4, T3.5, T3.6, T3.7, T3.8}}
 	\end{flushright}
-	\caption{Vergleichsdaten der unterschiedlichen Werkstoffe}
-	\label{tab_Werkstoffe} 
 \end{table}
 (w) = Temperatur für Warmumformung
 \end{landscape}

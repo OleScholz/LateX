@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  21 SEP 2021 19:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  21 SEP 2021 22:59
 entering extended mode
 **./Bachelorarbeit.tex
 (Bachelorarbeit.tex
@@ -2088,11 +2088,11 @@ File: ./graphics//Parameter.png Graphic file (type png)
 <use ./graphics//Parameter.png>
 Package pdftex.def Info: ./graphics//Parameter.png  used on input line 11.
 (pdftex.def)             Requested size: 278.27081pt x 205.3719pt.
-<./graphics//Winkel.png, id=286, 468.5505pt x 373.6359pt>
+<./graphics//Winkel.png, id=286, 597.432pt x 421.0932pt>
 File: ./graphics//Winkel.png Graphic file (type png)
 <use ./graphics//Winkel.png>
 Package pdftex.def Info: ./graphics//Winkel.png  used on input line 18.
-(pdftex.def)             Requested size: 371.02539pt x 295.87607pt.
+(pdftex.def)             Requested size: 371.02539pt x 261.51843pt.
 Class scrreprt Info: Workaround for not recommended usage of \\ or
 (scrreprt)           \newlinein caption text  on input line 19.
 
@@ -2112,7 +2112,7 @@ l.23 \section
 
 
 ]
-<./graphics//swallow.png, id=321, 650.43pt x 443.256pt>
+<./graphics//swallow.png, id=320, 650.43pt x 443.256pt>
 File: ./graphics//swallow.png Graphic file (type png)
 <use ./graphics//swallow.png>
 Package pdftex.def Info: ./graphics//swallow.png  used on input line 31.
@@ -2133,7 +2133,7 @@ e same identifier (name{page.7}) has been already used, duplicate ignored
                    \relax 
 l.39 
       [7 <./graphics//Winkel.png>]
-<./graphics//kraefte.png, id=347, 704.6325pt x 393.26926pt>
+<./graphics//kraefte.png, id=345, 704.6325pt x 393.26926pt>
 File: ./graphics//kraefte.png Graphic file (type png)
 <use ./graphics//kraefte.png>
 Package pdftex.def Info: ./graphics//kraefte.png  used on input line 49.
@@ -2153,8 +2153,7 @@ Package pdftex.def Info: ./graphics//bucket.png  used on input line 57.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9 <./graphics//kraefte.png>]
-<./graphics//Cd-Ma.png, id=381, 346.29375pt x 292.09125pt>
+<./graphics//Cd-Ma.png, id=370, 346.29375pt x 292.09125pt>
 File: ./graphics//Cd-Ma.png Graphic file (type png)
 <use ./graphics//Cd-Ma.png>
 Package pdftex.def Info: ./graphics//Cd-Ma.png  used on input line 72.
@@ -2169,7 +2168,7 @@ Underfull \hbox (badness 2600) in paragraph at lines 76--76
 \LY1/NexusProSerif/m/n/10 schied-li-chen An-stell-win-keln in
  []
 
-<./graphics//gelenkmomentMa.png, id=383, 362.5545pt x 290.88675pt>
+<./graphics//gelenkmomentMa.png, id=372, 362.5545pt x 290.88675pt>
 File: ./graphics//gelenkmomentMa.png Graphic file (type png)
 <use ./graphics//gelenkmomentMa.png>
 Package pdftex.def Info: ./graphics//gelenkmomentMa.png  used on input line 82.
@@ -2190,11 +2189,12 @@ Underfull \hbox (badness 3989) in paragraph at lines 86--86
 \LY1/NexusProSerif/m/n/10 keln in Ab-h�n-gig-keit von der
  []
 
+[9 <./graphics//kraefte.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [10 <./graphics//bucket.png>]
-<./graphics//Cd-AoA.png, id=397, 641.9985pt x 476.982pt>
+<./graphics//Cd-AoA.png, id=396, 641.9985pt x 476.982pt>
 File: ./graphics//Cd-AoA.png Graphic file (type png)
 <use ./graphics//Cd-AoA.png>
 Package pdftex.def Info: ./graphics//Cd-AoA.png  used on input line 103.
@@ -2209,42 +2209,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--110
 
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [11 <./graphics//Cd-Ma.png> <./graphics//gelenkmomentMa.png>]
-<./graphics//gelenkmoment.png, id=405, 946.13475pt x 389.65575pt>
+<./graphics//gelenkmoment.png, id=404, 946.13475pt x 389.65575pt>
 File: ./graphics//gelenkmoment.png Graphic file (type png)
 <use ./graphics//gelenkmoment.png>
 Package pdftex.def Info: ./graphics//gelenkmoment.png  used on input line 114.
 (pdftex.def)             Requested size: 371.02539pt x 152.80345pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
+ [12 <./graphics//Cd-AoA.png> <./graphics//gelenkmoment.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 125--129
 
  []
 
-[12 <./graphics//Cd-AoA.png>] [13 <./graphics//gelenkmoment.png>]
-<./graphics//PfeilKonf.png, id=427, 1024.42725pt x 350.5095pt>
+<./graphics//PfeilKonf.png, id=417, 1024.42725pt x 350.5095pt>
 File: ./graphics//PfeilKonf.png Graphic file (type png)
 <use ./graphics//PfeilKonf.png>
 Package pdftex.def Info: ./graphics//PfeilKonf.png  used on input line 135.
 (pdftex.def)             Requested size: 440.58955pt x 150.74823pt.
-<./graphics//PfeilGBild.png, id=430, 445.06274pt x 327.02174pt>
+<./graphics//PfeilGBild.png, id=420, 445.06274pt x 327.02174pt>
 File: ./graphics//PfeilGBild.png Graphic file (type png)
 <use ./graphics//PfeilGBild.png>
 Package pdftex.def Info: ./graphics//PfeilGBild.png  used on input line 145.
 (pdftex.def)             Requested size: 278.27081pt x 204.47789pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./graphics//PfeilG_Ma.png, id=436, 1125.60526pt x 431.211pt>
+<./graphics//PfeilG_Ma.png, id=434, 1125.60526pt x 431.211pt>
 File: ./graphics//PfeilG_Ma.png Graphic file (type png)
 <use ./graphics//PfeilG_Ma.png>
 Package pdftex.def Info: ./graphics//PfeilG_Ma.png  used on input line 157.
 (pdftex.def)             Requested size: 440.58955pt x 168.78352pt.
-<./graphics//PeakValley.png, id=440, 317.38576pt x 142.131pt>
+<./graphics//PeakValley.png, id=438, 317.38576pt x 142.131pt>
 File: ./graphics//PeakValley.png Graphic file (type png)
 <use ./graphics//PeakValley.png>
 Package pdftex.def Info: ./graphics//PeakValley.png  used on input line 167.
@@ -2256,27 +2257,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./graphics//PeakValley_Cd-Ma.png, id=458, 1009.371pt x 422.7795pt>
+<./graphics//PeakValley_Cd-Ma.png, id=457, 1009.371pt x 422.7795pt>
 File: ./graphics//PeakValley_Cd-Ma.png Graphic file (type png)
 <use ./graphics//PeakValley_Cd-Ma.png>
 Package pdftex.def Info: ./graphics//PeakValley_Cd-Ma.png  used on input line 1
 83.
 (pdftex.def)             Requested size: 417.39914pt x 174.8309pt.
-[15 <./graphics//PfeilGBild.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16 <./graphics//PfeilG_Ma.png> <./graphics//PeakValley.png>]
-<./graphics//Mm-AoA.png, id=478, 330.033pt x 213.79875pt>
+[15 <./graphics//PfeilGBild.png>]
+<./graphics//Mm-AoA.png, id=471, 330.033pt x 213.79875pt>
 File: ./graphics//Mm-AoA.png Graphic file (type png)
 <use ./graphics//Mm-AoA.png>
 Package pdftex.def Info: ./graphics//Mm-AoA.png  used on input line 197.
 (pdftex.def)             Requested size: 417.39914pt x 270.39589pt.
-
+ [16 <./graphics//PfeilG_Ma.png> <./graphics//PeakValley.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./graphics//Shape_Cd-Ma.png, id=481, 362.5545pt x 481.8pt>
+<./graphics//Shape_Cd-Ma.png, id=479, 362.5545pt x 481.8pt>
 File: ./graphics//Shape_Cd-Ma.png Graphic file (type png)
 <use ./graphics//Shape_Cd-Ma.png>
 Package pdftex.def Info: ./graphics//Shape_Cd-Ma.png  used on input line 209.
@@ -2284,14 +2284,18 @@ Package pdftex.def Info: ./graphics//Shape_Cd-Ma.png  used on input line 209.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17 <./graphics//PeakValley_Cd-Ma.png>] [18 <./graphics//Mm-AoA.png>]
-<./graphics//Pattern_CNa.png, id=509, 475.17525pt x 380.622pt>
+[17 <./graphics//PeakValley_Cd-Ma.png>]
+<./graphics//Pattern_CNa.png, id=501, 475.17525pt x 380.622pt>
 File: ./graphics//Pattern_CNa.png Graphic file (type png)
 <use ./graphics//Pattern_CNa.png>
 Package pdftex.def Info: ./graphics//Pattern_CNa.png  used on input line 231.
 (pdftex.def)             Requested size: 231.88998pt x 185.74557pt.
- [19 <./graphics//Shape_Cd-Ma.png>]
-<./graphics//Gap-to-Chord.png, id=518, 605.26125pt x 471.56175pt>
+ [18 <./graphics//Mm-AoA.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19 <./graphics//Shape_Cd-Ma.png>]
+<./graphics//Gap-to-Chord.png, id=516, 605.26125pt x 471.56175pt>
 File: ./graphics//Gap-to-Chord.png Graphic file (type png)
 <use ./graphics//Gap-to-Chord.png>
 Package pdftex.def Info: ./graphics//Gap-to-Chord.png  used on input line 246.
@@ -2301,13 +2305,13 @@ Package pdftex.def Info: ./graphics//Gap-to-Chord.png  used on input line 246.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [20 <./graphics//Pattern_CNa.png>]
-<./graphics//fins-F9.png, id=533, 519.1395pt x 323.40825pt>
+<./graphics//fins-F9.png, id=531, 519.1395pt x 323.40825pt>
 File: ./graphics//fins-F9.png Graphic file (type png)
 <use ./graphics//fins-F9.png>
 Package pdftex.def Info: ./graphics//fins-F9.png  used on input line 265.
 (pdftex.def)             Requested size: 347.83498pt x 216.69226pt.
- [21 <./graphics//Gap-to-Chord.png>] [22 <./graphics//fins-F9.png>]
-<./graphics//starship.png, id=549, 697.4055pt x 144.54pt>
+ [21 <./graphics//Gap-to-Chord.png>]
+<./graphics//starship.png, id=541, 697.4055pt x 144.54pt>
 File: ./graphics//starship.png Graphic file (type png)
 <use ./graphics//starship.png>
 Package pdftex.def Info: ./graphics//starship.png  used on input line 277.
@@ -2317,22 +2321,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--284
 
  []
 
-<./graphics//sojus.png, id=552, 126.4725pt x 211.992pt>
+[22 <./graphics//fins-F9.png>]
+<./graphics//sojus.png, id=551, 126.4725pt x 211.992pt>
 File: ./graphics//sojus.png Graphic file (type png)
 <use ./graphics//sojus.png>
 Package pdftex.def Info: ./graphics//sojus.png  used on input line 288.
 (pdftex.def)             Requested size: 139.1354pt x 233.22102pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./graphics//chang'e.png, id=554, 492.03825pt x 211.992pt>
+<./graphics//chang'e.png, id=553, 492.03825pt x 211.992pt>
 File: ./graphics//chang'e.png Graphic file (type png)
 <use ./graphics//chang'e.png>
 Package pdftex.def Info: ./graphics//chang'e.png  used on input line 301.
 (pdftex.def)             Requested size: 231.88998pt x 99.90796pt.
-[23 <./graphics//starship.png>] [24 <./graphics//sojus.png> <./graphics//chang'
-e.png>]
-<./graphics//ablauf_valkyrie_zeitlos.png, id=572, 634.7715pt x 440.847pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23 <./graphics//starship.png>]
+<./graphics//ablauf_valkyrie_zeitlos.png, id=565, 634.7715pt x 440.847pt>
 File: ./graphics//ablauf_valkyrie_zeitlos.png Graphic file (type png)
 <use ./graphics//ablauf_valkyrie_zeitlos.png>
 Package pdftex.def Info: ./graphics//ablauf_valkyrie_zeitlos.png  used on input
@@ -2342,7 +2350,8 @@ Package pdftex.def Info: ./graphics//ablauf_valkyrie_zeitlos.png  used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./graphics//stage1aufbau.png, id=576, 739.563pt x 493.24275pt>
+[24 <./graphics//sojus.png>]
+<./graphics//stage1aufbau.png, id=575, 739.563pt x 493.24275pt>
 File: ./graphics//stage1aufbau.png Graphic file (type png)
 <use ./graphics//stage1aufbau.png>
 Package pdftex.def Info: ./graphics//stage1aufbau.png  used on input line 327.
@@ -2351,8 +2360,8 @@ Package pdftex.def Info: ./graphics//stage1aufbau.png  used on input line 327.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25] [26 <./graphics//ablauf_valkyrie_zeitlos.png> <./graphics//stage1aufbau.pn
-g>]
+[25 <./graphics//chang'e.png>] [26 <./graphics//ablauf_valkyrie_zeitlos.png> <.
+/graphics//stage1aufbau.png>]
 \openout2 = `modellentwurf.aux'.
 
  (modellentwurf.tex
@@ -2373,12 +2382,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
  []
 
 [28]
-<./graphics//FNormal.png, id=597, 867.24pt x 398.99063pt>
+<./graphics//FNormal.png, id=595, 867.24pt x 398.99063pt>
 File: ./graphics//FNormal.png Graphic file (type png)
 <use ./graphics//FNormal.png>
 Package pdftex.def Info: ./graphics//FNormal.png  used on input line 32.
 (pdftex.def)             Requested size: 417.39914pt x 192.0308pt.
-<./graphics//vNormal.png, id=600, 862.72313pt x 395.97937pt>
+<./graphics//vNormal.png, id=598, 862.72313pt x 395.97937pt>
 File: ./graphics//vNormal.png Graphic file (type png)
 <use ./graphics//vNormal.png>
 Package pdftex.def Info: ./graphics//vNormal.png  used on input line 39.
@@ -2389,18 +2398,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--44
  []
 
 [29 <./graphics//FNormal.png>] [30 <./graphics//vNormal.png>]
-<./graphics//F2Extreme4.png, id=618, 930.47626pt x 444.15938pt>
+<./graphics//F2Extreme4.png, id=616, 930.47626pt x 444.15938pt>
 File: ./graphics//F2Extreme4.png Graphic file (type png)
 <use ./graphics//F2Extreme4.png>
 Package pdftex.def Info: ./graphics//F2Extreme4.png  used on input line 63.
 (pdftex.def)             Requested size: 371.02539pt x 177.10486pt.
-<./graphics//n_x.png, id=619, 864.98157pt x 398.23781pt>
+<./graphics//n_x.png, id=617, 864.98157pt x 398.23781pt>
 File: ./graphics//n_x.png Graphic file (type png)
 <use ./graphics//n_x.png>
 Package pdftex.def Info: ./graphics//n_x.png  used on input line 69.
 (pdftex.def)             Requested size: 371.02539pt x 170.81963pt.
  [31 <./graphics//F2Extreme4.png> <./graphics//n_x.png>]
-<./graphics//Morphologischer Kasten GF V2.png, id=628, 725.109pt x 587.796pt>
+<./graphics//Morphologischer Kasten GF V2.png, id=626, 725.109pt x 587.796pt>
 File: ./graphics//Morphologischer Kasten GF V2.png Graphic file (type png)
 <use ./graphics//Morphologischer Kasten GF V2.png>
 Package pdftex.def Info: ./graphics//Morphologischer Kasten GF V2.png  used on 
@@ -2411,7 +2420,7 @@ input line 81.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [32]
-<./graphics//Morphologischer Kasten Ak.png, id=634, 725.5908pt x 291.9708pt>
+<./graphics//Morphologischer Kasten Ak.png, id=632, 725.5908pt x 291.9708pt>
 File: ./graphics//Morphologischer Kasten Ak.png Graphic file (type png)
 <use ./graphics//Morphologischer Kasten Ak.png>
 Package pdftex.def Info: ./graphics//Morphologischer Kasten Ak.png  used on inp
@@ -2470,12 +2479,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--149
  []
 
 [37] [38]
-<./graphics//d_einzel.png, id=700, 722.09775pt x 295.70474pt>
+<./graphics//d_einzel.png, id=698, 722.09775pt x 295.70474pt>
 File: ./graphics//d_einzel.png Graphic file (type png)
 <use ./graphics//d_einzel.png>
 Package pdftex.def Info: ./graphics//d_einzel.png  used on input line 176.
 (pdftex.def)             Requested size: 394.2158pt x 161.43338pt.
-<./graphics//Pfeil_lok.png, id=701, 371.4678pt x 438.6789pt>
+<./graphics//Pfeil_lok.png, id=699, 371.4678pt x 438.6789pt>
 File: ./graphics//Pfeil_lok.png Graphic file (type png)
 <use ./graphics//Pfeil_lok.png>
 Package pdftex.def Info: ./graphics//Pfeil_lok.png  used on input line 184.
@@ -2490,12 +2499,12 @@ Underfull \hbox (badness 7888) in paragraph at lines 185--185
 \LY1/NexusProSerif/m/n/10 h�n-gen ei-ner ge-pfeil-ten Zell-
  []
 
-<./graphics//Pfeil_lok2.png, id=702, 383.031pt x 459.6372pt>
+<./graphics//Pfeil_lok2.png, id=700, 383.031pt x 459.6372pt>
 File: ./graphics//Pfeil_lok2.png Graphic file (type png)
 <use ./graphics//Pfeil_lok2.png>
 Package pdftex.def Info: ./graphics//Pfeil_lok2.png  used on input line 191.
 (pdftex.def)             Requested size: 208.69957pt x 250.4447pt.
-<./graphics//Wandquerschnitt.png, id=703, 603.4545pt x 405.4347pt>
+<./graphics//Wandquerschnitt.png, id=701, 603.4545pt x 405.4347pt>
 File: ./graphics//Wandquerschnitt.png Graphic file (type png)
 <use ./graphics//Wandquerschnitt.png>
 Package pdftex.def Info: ./graphics//Wandquerschnitt.png  used on input line 19
@@ -2518,17 +2527,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--211
 
  []
 
-<./graphics//grundriss.jpg, id=722, 673.5564pt x 519.6213pt>
+<./graphics//grundriss.jpg, id=720, 673.5564pt x 519.6213pt>
 File: ./graphics//grundriss.jpg Graphic file (type jpg)
 <use ./graphics//grundriss.jpg>
 Package pdftex.def Info: ./graphics//grundriss.jpg  used on input line 215.
 (pdftex.def)             Requested size: 278.27081pt x 214.67943pt.
-<./graphics//koerper.jpg, id=723, 967.6953pt x 352.6776pt>
+<./graphics//koerper.jpg, id=721, 967.6953pt x 352.6776pt>
 File: ./graphics//koerper.jpg Graphic file (type jpg)
 <use ./graphics//koerper.jpg>
 Package pdftex.def Info: ./graphics//koerper.jpg  used on input line 221.
 (pdftex.def)             Requested size: 231.88998pt x 84.50981pt.
-<./graphics//Halterung.png, id=726, 531.1845pt x 516.7305pt>
+<./graphics//Halterung.png, id=724, 531.1845pt x 516.7305pt>
 File: ./graphics//Halterung.png Graphic file (type png)
 <use ./graphics//Halterung.png>
 Package pdftex.def Info: ./graphics//Halterung.png  used on input line 228.
@@ -2554,7 +2563,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--243
  []
 
 [43 <./graphics//koerper.jpg> <./graphics//Halterung.png>]
-<./graphics//Hub.jpg, id=749, 824.6007pt x 450.9648pt>
+<./graphics//Hub.jpg, id=747, 824.6007pt x 450.9648pt>
 File: ./graphics//Hub.jpg Graphic file (type jpg)
 <use ./graphics//Hub.jpg>
 Package pdftex.def Info: ./graphics//Hub.jpg  used on input line 247.
@@ -2565,7 +2574,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--255
  []
 
 [44 <./graphics//Hub.jpg>] [45]
-<./graphics//Skizze Welle.png, id=760, 1221.363pt x 519.6213pt>
+<./graphics//Skizze Welle.png, id=758, 1221.363pt x 519.6213pt>
 File: ./graphics//Skizze Welle.png Graphic file (type png)
 <use ./graphics//Skizze Welle.png>
 Package pdftex.def Info: ./graphics//Skizze Welle.png  used on input line 266.
@@ -2583,17 +2592,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (simulation.tex
 chapter 4.
-<./graphics//F1.jpg, id=773, 420.6114pt x 469.0323pt>
+<./graphics//F1.jpg, id=771, 420.6114pt x 469.0323pt>
 File: ./graphics//F1.jpg Graphic file (type jpg)
 <use ./graphics//F1.jpg>
 Package pdftex.def Info: ./graphics//F1.jpg  used on input line 12.
 (pdftex.def)             Requested size: 139.1354pt x 155.14613pt.
-<./graphics//F2.jpg, id=774, 495.7722pt x 482.0409pt>
+<./graphics//F2.jpg, id=772, 495.7722pt x 482.0409pt>
 File: ./graphics//F2.jpg Graphic file (type jpg)
 <use ./graphics//F2.jpg>
 Package pdftex.def Info: ./graphics//F2.jpg  used on input line 17.
 (pdftex.def)             Requested size: 139.1354pt x 135.27945pt.
-<./graphics//F3.jpg, id=775, 504.4446pt x 487.0998pt>
+<./graphics//F3.jpg, id=773, 504.4446pt x 487.0998pt>
 File: ./graphics//F3.jpg Graphic file (type jpg)
 <use ./graphics//F3.jpg>
 Package pdftex.def Info: ./graphics//F3.jpg  used on input line 22.
@@ -2608,37 +2617,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--43
 
  []
 
-<./graphics//D1 3.3b max 1.jpg, id=784, 831.8277pt x 474.8139pt>
+<./graphics//D1 3.3b max 1.jpg, id=782, 831.8277pt x 474.8139pt>
 File: ./graphics//D1 3.3b max 1.jpg Graphic file (type jpg)
 <use ./graphics//D1 3.3b max 1.jpg>
 Package pdftex.def Info: ./graphics//D1 3.3b max 1.jpg  used on input line 47.
 (pdftex.def)             Requested size: 417.39914pt x 238.25404pt.
 [49 <./graphics//D1 3.3b max 1.jpg>]
-<./graphics//Skizze Halterung 2.0 1.jpg, id=792, 547.8066pt x 387.3672pt>
+<./graphics//Skizze Halterung 2.0 1.jpg, id=790, 547.8066pt x 387.3672pt>
 File: ./graphics//Skizze Halterung 2.0 1.jpg Graphic file (type jpg)
 <use ./graphics//Skizze Halterung 2.0 1.jpg>
 Package pdftex.def Info: ./graphics//Skizze Halterung 2.0 1.jpg  used on input 
 line 57.
 (pdftex.def)             Requested size: 177.3959pt x 125.43771pt.
-<./graphics//Skizze Halterung 2.0 2.jpg, id=793, 810.1467pt x 339.669pt>
+<./graphics//Skizze Halterung 2.0 2.jpg, id=791, 810.1467pt x 339.669pt>
 File: ./graphics//Skizze Halterung 2.0 2.jpg Graphic file (type jpg)
 <use ./graphics//Skizze Halterung 2.0 2.jpg>
 Package pdftex.def Info: ./graphics//Skizze Halterung 2.0 2.jpg  used on input 
 line 62.
 (pdftex.def)             Requested size: 208.69957pt x 87.49812pt.
-<./graphics//Skizze Halterung 3.6.jpg, id=796, 1112.958pt x 293.4162pt>
+<./graphics//Skizze Halterung 3.6.jpg, id=794, 1112.958pt x 293.4162pt>
 File: ./graphics//Skizze Halterung 3.6.jpg Graphic file (type jpg)
 <use ./graphics//Skizze Halterung 3.6.jpg>
 Package pdftex.def Info: ./graphics//Skizze Halterung 3.6.jpg  used on input li
 ne 74.
 (pdftex.def)             Requested size: 417.39914pt x 110.03975pt.
-<./graphics//D2 3.6.2 b Halterung.jpg, id=799, 924.3333pt x 372.1905pt>
+<./graphics//D2 3.6.2 b Halterung.jpg, id=797, 924.3333pt x 372.1905pt>
 File: ./graphics//D2 3.6.2 b Halterung.jpg Graphic file (type jpg)
 <use ./graphics//D2 3.6.2 b Halterung.jpg>
 Package pdftex.def Info: ./graphics//D2 3.6.2 b Halterung.jpg  used on input li
 ne 82.
 (pdftex.def)             Requested size: 220.29477pt x 88.70284pt.
-<./graphics//20g 3.6.2 b.jpg, id=800, 753.0534pt x 357.7365pt>
+<./graphics//20g 3.6.2 b.jpg, id=798, 753.0534pt x 357.7365pt>
 File: ./graphics//20g 3.6.2 b.jpg Graphic file (type jpg)
 <use ./graphics//20g 3.6.2 b.jpg>
 Package pdftex.def Info: ./graphics//20g 3.6.2 b.jpg  used on input line 89.
@@ -2651,12 +2660,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--94
 [50 <./graphics//Skizze Halterung 2.0 1.jpg> <./graphics//Skizze Halterung 2.0 
 2.jpg>] [51 <./graphics//Skizze Halterung 3.6.jpg> <./graphics//D2 3.6.2 b Halt
 erung.jpg> <./graphics//20g 3.6.2 b.jpg>]
-<./graphics//D2 3.9 t.jpg, id=814, 817.3737pt x 453.8556pt>
+<./graphics//D2 3.9 t.jpg, id=812, 817.3737pt x 453.8556pt>
 File: ./graphics//D2 3.9 t.jpg Graphic file (type jpg)
 <use ./graphics//D2 3.9 t.jpg>
 Package pdftex.def Info: ./graphics//D2 3.9 t.jpg  used on input line 102.
 (pdftex.def)             Requested size: 371.02539pt x 206.01985pt.
-<./graphics//Grid_Fin_Render.3.jpg, id=817, 1927.2pt x 1084.05pt>
+<./graphics//Grid_Fin_Render.3.jpg, id=815, 1927.2pt x 1084.05pt>
 File: ./graphics//Grid_Fin_Render.3.jpg Graphic file (type jpg)
 <use ./graphics//Grid_Fin_Render.3.jpg>
 Package pdftex.def Info: ./graphics//Grid_Fin_Render.3.jpg  used on input line 
@@ -2677,7 +2686,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--118
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [53]
-<./graphics//Halterungkräfte1.png, id=828, 588.2778pt x 416.2752pt>
+<./graphics//Halterungkräfte1.png, id=826, 588.2778pt x 416.2752pt>
 File: ./graphics//Halterungkräfte1.png Graphic file (type png)
 <use ./graphics//Halterungkräfte1.png>
 Package pdftex.def Info: ./graphics//Halterungkräfte1.png  used on input line 
@@ -2692,13 +2701,13 @@ hnung de-fi-nier-ten Kraftrich-
 
 [54 <./graphics//Grid_Fin_Render.3.jpg>] [55 <./graphics//Halterungkräfte1.png
 >]
-<./graphics//Skizze Halterung A.png, id=848, 860.7357pt x 518.8986pt>
+<./graphics//Skizze Halterung A.png, id=846, 860.7357pt x 518.8986pt>
 File: ./graphics//Skizze Halterung A.png Graphic file (type png)
 <use ./graphics//Skizze Halterung A.png>
 Package pdftex.def Info: ./graphics//Skizze Halterung A.png  used on input line
  171.
 (pdftex.def)             Requested size: 347.83498pt x 209.69354pt.
-<./graphics//Skizze Halterung B.png, id=850, 734.2632pt x 457.4691pt>
+<./graphics//Skizze Halterung B.png, id=848, 734.2632pt x 457.4691pt>
 File: ./graphics//Skizze Halterung B.png Graphic file (type png)
 <use ./graphics//Skizze Halterung B.png>
 Package pdftex.def Info: ./graphics//Skizze Halterung B.png  used on input line
@@ -2708,31 +2717,31 @@ Package pdftex.def Info: ./graphics//Skizze Halterung B.png  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./graphics//Skizze Lager.png, id=860, 1027.6794pt x 299.1978pt>
+<./graphics//Skizze Lager.png, id=858, 1027.6794pt x 299.1978pt>
 File: ./graphics//Skizze Lager.png Graphic file (type png)
 <use ./graphics//Skizze Lager.png>
 Package pdftex.def Info: ./graphics//Skizze Lager.png  used on input line 186.
 (pdftex.def)             Requested size: 417.39914pt x 121.52141pt.
 [57 <./graphics//Skizze Halterung A.png>] [58 <./graphics//Skizze Halterung B.p
 ng> <./graphics//Skizze Lager.png>]
-<./graphics//Skizze Welle ausbruch.jpg, id=877, 976.3677pt x 328.1058pt>
+<./graphics//Skizze Welle ausbruch.jpg, id=875, 976.3677pt x 328.1058pt>
 File: ./graphics//Skizze Welle ausbruch.jpg Graphic file (type jpg)
 <use ./graphics//Skizze Welle ausbruch.jpg>
 Package pdftex.def Info: ./graphics//Skizze Welle ausbruch.jpg  used on input l
 ine 201.
 (pdftex.def)             Requested size: 417.39914pt x 140.26668pt.
-<./graphics//FEM Welle.jpg, id=879, 882.4167pt x 373.6359pt>
+<./graphics//FEM Welle.jpg, id=877, 882.4167pt x 373.6359pt>
 File: ./graphics//FEM Welle.jpg Graphic file (type jpg)
 <use ./graphics//FEM Welle.jpg>
 Package pdftex.def Info: ./graphics//FEM Welle.jpg  used on input line 212.
 (pdftex.def)             Requested size: 417.39914pt x 176.73773pt.
-<./graphics//Welle_abgespeckt_3D.jpg, id=882, 1387.584pt x 531.9072pt>
+<./graphics//Welle_abgespeckt_3D.jpg, id=880, 1387.584pt x 531.9072pt>
 File: ./graphics//Welle_abgespeckt_3D.jpg Graphic file (type jpg)
 <use ./graphics//Welle_abgespeckt_3D.jpg>
 Package pdftex.def Info: ./graphics//Welle_abgespeckt_3D.jpg  used on input lin
 e 221.
 (pdftex.def)             Requested size: 347.83498pt x 133.33357pt.
-<./graphics//FEM Welle verstümmelt.jpg, id=884, 714.7503pt x 352.6776pt>
+<./graphics//FEM Welle verstümmelt.jpg, id=882, 714.7503pt x 352.6776pt>
 File: ./graphics//FEM Welle verstümmelt.jpg Graphic file (type jpg)
 <use ./graphics//FEM Welle verstümmelt.jpg>
 Package pdftex.def Info: ./graphics//FEM Welle verstümmelt.jpg  used on input 
@@ -2745,12 +2754,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--231
 
 [59 <./graphics//Skizze Welle ausbruch.jpg>] [60 <./graphics//FEM Welle.jpg> <.
 /graphics//Welle_abgespeckt_3D.jpg>]
-<./graphics//Gehäuse.jpg, id=898, 580.3281pt x 330.9966pt>
+<./graphics//Gehäuse.jpg, id=896, 580.3281pt x 330.9966pt>
 File: ./graphics//Gehäuse.jpg Graphic file (type jpg)
 <use ./graphics//Gehäuse.jpg>
 Package pdftex.def Info: ./graphics//Gehäuse.jpg  used on input line 238.
 (pdftex.def)             Requested size: 347.83498pt x 198.3924pt.
-<./graphics//Gehäuse 1mm 5 rundungen.jpg, id=901, 632.3625pt x 335.3328pt>
+<./graphics//Gehäuse 1mm 5 rundungen.jpg, id=899, 632.3625pt x 335.3328pt>
 File: ./graphics//Gehäuse 1mm 5 rundungen.jpg Graphic file (type jpg)
 <use ./graphics//Gehäuse 1mm 5 rundungen.jpg>
 Package pdftex.def Info: ./graphics//Gehäuse 1mm 5 rundungen.jpg  used on inpu
@@ -2767,13 +2776,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--250
  []
 
 [61 <./graphics//FEM Welle verstümmelt.jpg>] [62 <./graphics//Gehäuse.jpg>]
-<./graphics//System Render.jpg, id=913, 1285.80376pt x 383.18156pt>
+<./graphics//System Render.jpg, id=911, 1285.80376pt x 383.18156pt>
 File: ./graphics//System Render.jpg Graphic file (type jpg)
 <use ./graphics//System Render.jpg>
 Package pdftex.def Info: ./graphics//System Render.jpg  used on input line 254.
 
 (pdftex.def)             Requested size: 371.02539pt x 110.57019pt.
-<./graphics//Schaubild Klapp.png, id=915, 983.5947pt x 133.6995pt>
+<./graphics//Schaubild Klapp.png, id=913, 983.5947pt x 133.6995pt>
 File: ./graphics//Schaubild Klapp.png Graphic file (type png)
 <use ./graphics//Schaubild Klapp.png>
 Package pdftex.def Info: ./graphics//Schaubild Klapp.png  used on input line 26
@@ -2781,7 +2790,7 @@ Package pdftex.def Info: ./graphics//Schaubild Klapp.png  used on input line 26
 (pdftex.def)             Requested size: 463.77998pt x 63.04277pt.
 
 [63 <./graphics//Gehäuse 1mm 5 rundungen.jpg> <./graphics//System Render.jpg>]
-<./graphics//KinKlapp.jpg, id=924, 474.8139pt x 359.9046pt>
+<./graphics//KinKlapp.jpg, id=922, 474.8139pt x 359.9046pt>
 File: ./graphics//KinKlapp.jpg Graphic file (type jpg)
 <use ./graphics//KinKlapp.jpg>
 Package pdftex.def Info: ./graphics//KinKlapp.jpg  used on input line 290.
@@ -2792,7 +2801,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--294
  []
 
 [64 <./graphics//Schaubild Klapp.png>]
-<./graphics//KinKlappGraph.jpg, id=936, 851.18pt x 341.275pt>
+<./graphics//KinKlappGraph.jpg, id=934, 851.18pt x 341.275pt>
 File: ./graphics//KinKlappGraph.jpg Graphic file (type jpg)
 <use ./graphics//KinKlappGraph.jpg>
 Package pdftex.def Info: ./graphics//KinKlappGraph.jpg  used on input line 306.
@@ -2803,12 +2812,12 @@ Package pdftex.def Info: ./graphics//KinKlappGraph.jpg  used on input line 306.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [65 <./graphics//KinKlapp.jpg>]
-<./graphics//Klapp3 mixed.png, id=949, 884.55469pt x 310.15875pt>
+<./graphics//Klapp3 mixed.png, id=947, 884.55469pt x 310.15875pt>
 File: ./graphics//Klapp3 mixed.png Graphic file (type png)
 <use ./graphics//Klapp3 mixed.png>
 Package pdftex.def Info: ./graphics//Klapp3 mixed.png  used on input line 320.
 (pdftex.def)             Requested size: 371.02539pt x 130.0954pt.
-<./graphics//klapp_geregelt.png, id=951, 884.55469pt x 310.15875pt>
+<./graphics//klapp_geregelt.png, id=949, 884.55469pt x 310.15875pt>
 File: ./graphics//klapp_geregelt.png Graphic file (type png)
 <use ./graphics//klapp_geregelt.png>
 Package pdftex.def Info: ./graphics//klapp_geregelt.png  used on input line 327
@@ -2822,7 +2831,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [66 <./graphics//KinKlappGraph.jpg>]
-<./graphics//Schaubild Steuer.png, id=964, 1035.6291pt x 175.6161pt>
+<./graphics//Schaubild Steuer.png, id=962, 1035.6291pt x 175.6161pt>
 File: ./graphics//Schaubild Steuer.png Graphic file (type png)
 <use ./graphics//Schaubild Steuer.png>
 Package pdftex.def Info: ./graphics//Schaubild Steuer.png  used on input line 3
@@ -2830,12 +2839,12 @@ Package pdftex.def Info: ./graphics//Schaubild Steuer.png  used on input line 3
 (pdftex.def)             Requested size: 463.77998pt x 78.64331pt.
  [67 <./graphics//Klapp3 mixed.png> <./graphics//klapp_geregelt.png> <./graphic
 s//Schaubild Steuer.png>]
-<./graphics//Steuer12V.png, id=978, 829.59938pt x 210.7875pt>
+<./graphics//Steuer12V.png, id=976, 829.59938pt x 210.7875pt>
 File: ./graphics//Steuer12V.png Graphic file (type png)
 <use ./graphics//Steuer12V.png>
 Package pdftex.def Info: ./graphics//Steuer12V.png  used on input line 357.
 (pdftex.def)             Requested size: 463.77998pt x 117.83755pt.
-<./graphics//Steuer18V.png, id=980, 829.59938pt x 210.7875pt>
+<./graphics//Steuer18V.png, id=978, 829.59938pt x 210.7875pt>
 File: ./graphics//Steuer18V.png Graphic file (type png)
 <use ./graphics//Steuer18V.png>
 Package pdftex.def Info: ./graphics//Steuer18V.png  used on input line 364.
@@ -3066,7 +3075,7 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 
 (materialtabelle.tex
 chapter A.
-<./graphics//PreisModell.png, id=1219, 638.98724pt x 390.258pt>
+<./graphics//PreisModell.png, id=1214, 638.98724pt x 390.258pt>
 File: ./graphics//PreisModell.png Graphic file (type png)
 <use ./graphics//PreisModell.png>
 Package pdftex.def Info: ./graphics//PreisModell.png  used on input line 5.
@@ -3083,116 +3092,101 @@ Package pdftex.def Info: ./graphics//PreisModell.png  used on input line 5.
 
  (FEM-Anhang.tex
 chapter B.
-<./graphics//D1 3.9 t.jpg, id=1247, 806.5332pt x 445.9059pt>
+<./graphics//D1 3.9 t.jpg, id=1246, 806.5332pt x 445.9059pt>
 File: ./graphics//D1 3.9 t.jpg Graphic file (type jpg)
 <use ./graphics//D1 3.9 t.jpg>
-Package pdftex.def Info: ./graphics//D1 3.9 t.jpg  used on input line 5.
+Package pdftex.def Info: ./graphics//D1 3.9 t.jpg  used on input line 7.
 (pdftex.def)             Requested size: 220.29477pt x 121.79102pt.
-<./graphics//D1 3.9 b.jpg, id=1248, 757.3896pt x 435.0654pt>
+<./graphics//D1 3.9 b.jpg, id=1247, 757.3896pt x 435.0654pt>
 File: ./graphics//D1 3.9 b.jpg Graphic file (type jpg)
 <use ./graphics//D1 3.9 b.jpg>
-Package pdftex.def Info: ./graphics//D1 3.9 b.jpg  used on input line 11.
+Package pdftex.def Info: ./graphics//D1 3.9 b.jpg  used on input line 14.
 (pdftex.def)             Requested size: 220.29477pt x 126.54411pt.
 
-Overfull \hbox (1.81769pt too wide) in paragraph at lines 3--14
+Overfull \hbox (1.81769pt too wide) in paragraph at lines 5--17
 [][]  [] 
  []
 
 File: ./graphics//D2 3.9 t.jpg Graphic file (type jpg)
 <use ./graphics//D2 3.9 t.jpg>
-Package pdftex.def Info: ./graphics//D2 3.9 t.jpg  used on input line 18.
+Package pdftex.def Info: ./graphics//D2 3.9 t.jpg  used on input line 21.
 (pdftex.def)             Requested size: 220.29477pt x 122.32103pt.
-<./graphics//D2 3.9 b.jpg, id=1249, 762.4485pt x 437.2335pt>
+<./graphics//D2 3.9 b.jpg, id=1248, 762.4485pt x 437.2335pt>
 File: ./graphics//D2 3.9 b.jpg Graphic file (type jpg)
 <use ./graphics//D2 3.9 b.jpg>
-Package pdftex.def Info: ./graphics//D2 3.9 b.jpg  used on input line 24.
+Package pdftex.def Info: ./graphics//D2 3.9 b.jpg  used on input line 27.
 (pdftex.def)             Requested size: 220.29477pt x 126.32744pt.
 
-Overfull \hbox (1.81769pt too wide) in paragraph at lines 16--27
+Overfull \hbox (1.81769pt too wide) in paragraph at lines 19--30
 [][]  [] 
  []
 
-<./graphics//R1 3.9 t.jpg, id=1250, 802.9197pt x 448.074pt>
+<./graphics//R1 3.9 t.jpg, id=1249, 802.9197pt x 448.074pt>
 File: ./graphics//R1 3.9 t.jpg Graphic file (type jpg)
 <use ./graphics//R1 3.9 t.jpg>
-Package pdftex.def Info: ./graphics//R1 3.9 t.jpg  used on input line 31.
+Package pdftex.def Info: ./graphics//R1 3.9 t.jpg  used on input line 34.
 (pdftex.def)             Requested size: 220.29477pt x 122.93698pt.
-<./graphics//R1 3.9 b.jpg, id=1251, 760.2804pt x 443.0151pt>
+<./graphics//R1 3.9 b.jpg, id=1250, 760.2804pt x 443.0151pt>
 File: ./graphics//R1 3.9 b.jpg Graphic file (type jpg)
 <use ./graphics//R1 3.9 b.jpg>
-Package pdftex.def Info: ./graphics//R1 3.9 b.jpg  used on input line 37.
+Package pdftex.def Info: ./graphics//R1 3.9 b.jpg  used on input line 40.
 (pdftex.def)             Requested size: 220.29477pt x 128.36293pt.
 
-Overfull \hbox (1.81769pt too wide) in paragraph at lines 29--40
+Overfull \hbox (1.81769pt too wide) in paragraph at lines 32--43
 [][]  [] 
  []
 
-<./graphics//R2 3.9 t.jpg, id=1252, 800.7516pt x 448.074pt>
+<./graphics//R2 3.9 t.jpg, id=1251, 800.7516pt x 448.074pt>
 File: ./graphics//R2 3.9 t.jpg Graphic file (type jpg)
 <use ./graphics//R2 3.9 t.jpg>
-Package pdftex.def Info: ./graphics//R2 3.9 t.jpg  used on input line 46.
+Package pdftex.def Info: ./graphics//R2 3.9 t.jpg  used on input line 49.
 (pdftex.def)             Requested size: 220.29477pt x 123.26517pt.
-<./graphics//R2 3.9 b.jpg, id=1253, 757.3896pt x 439.4016pt>
+<./graphics//R2 3.9 b.jpg, id=1252, 757.3896pt x 439.4016pt>
 File: ./graphics//R2 3.9 b.jpg Graphic file (type jpg)
 <use ./graphics//R2 3.9 b.jpg>
-Package pdftex.def Info: ./graphics//R2 3.9 b.jpg  used on input line 52.
+Package pdftex.def Info: ./graphics//R2 3.9 b.jpg  used on input line 55.
 (pdftex.def)             Requested size: 220.29477pt x 127.80536pt.
 
-Overfull \hbox (1.81769pt too wide) in paragraph at lines 44--55
+Overfull \hbox (1.81769pt too wide) in paragraph at lines 47--58
 [][]  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./graphics//20g 3.9 t.jpg, id=1254, 770.3982pt x 484.209pt>
+<./graphics//20g 3.9 t.jpg, id=1253, 770.3982pt x 484.209pt>
 File: ./graphics//20g 3.9 t.jpg Graphic file (type jpg)
 <use ./graphics//20g 3.9 t.jpg>
-Package pdftex.def Info: ./graphics//20g 3.9 t.jpg  used on input line 59.
+Package pdftex.def Info: ./graphics//20g 3.9 t.jpg  used on input line 62.
 (pdftex.def)             Requested size: 220.29477pt x 138.45908pt.
-<./graphics//20g 3.9 b.jpg, id=1255, 810.1467pt x 490.7133pt>
+<./graphics//20g 3.9 b.jpg, id=1254, 810.1467pt x 490.7133pt>
 File: ./graphics//20g 3.9 b.jpg Graphic file (type jpg)
 <use ./graphics//20g 3.9 b.jpg>
-Package pdftex.def Info: ./graphics//20g 3.9 b.jpg  used on input line 65.
+Package pdftex.def Info: ./graphics//20g 3.9 b.jpg  used on input line 68.
 (pdftex.def)             Requested size: 220.29477pt x 133.43031pt.
 
-Underfull \hbox (badness 1810) in paragraph at lines 66--66
+Underfull \hbox (badness 1810) in paragraph at lines 69--69
 [][]\LY1/NexusProSerif/m/n/10 Berg-Typus beim ma-xi-ma-len Last-
  []
 
 
-Overfull \hbox (1.81769pt too wide) in paragraph at lines 57--68
+Overfull \hbox (1.81769pt too wide) in paragraph at lines 60--72
 [][]  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./graphics//FEM Hub.jpg, id=1256, 904.8204pt x 317.2653pt>
+<./graphics//FEM Hub.jpg, id=1255, 904.8204pt x 317.2653pt>
 File: ./graphics//FEM Hub.jpg Graphic file (type jpg)
 <use ./graphics//FEM Hub.jpg>
-Package pdftex.def Info: ./graphics//FEM Hub.jpg  used on input line 71.
+Package pdftex.def Info: ./graphics//FEM Hub.jpg  used on input line 75.
 (pdftex.def)             Requested size: 371.02539pt x 130.09413pt.
+)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: ./graphics//FEM Welle verstümmelt.jpg Graphic file (type jpg)
-<use ./graphics//FEM Welle verstümmelt.jpg>
-Package pdftex.def Info: ./graphics//FEM Welle verstümmelt.jpg  used on input 
-line 76.
-(pdftex.def)             Requested size: 371.02539pt x 183.08127pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: ./graphics//Gehäuse 1mm 5 rundungen.jpg Graphic file (type jpg)
-<use ./graphics//Gehäuse 1mm 5 rundungen.jpg>
-Package pdftex.def Info: ./graphics//Gehäuse 1mm 5 rundungen.jpg  used on inpu
-t line 81.
-(pdftex.def)             Requested size: 371.02539pt x 196.75476pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [85
+[85
 
 
 
@@ -3201,33 +3195,39 @@ LaTeX Warning: `h' float specifier changed to `ht'.
  <./graphics//D1 3.9 t.jpg> <./graphics//D1 3.9 b.jpg> <./graphics//D2 3.9 b.jp
 g> <./graphics//R1 3.9 t.jpg> <./graphics//R1 3.9 b.jpg>] [86 <./graphics//R2 3
 .9 t.jpg> <./graphics//R2 3.9 b.jpg> <./graphics//20g 3.9 t.jpg> <./graphics//2
-0g 3.9 b.jpg> <./graphics//FEM Hub.jpg>] [87]
+0g 3.9 b.jpg> <./graphics//FEM Hub.jpg>]
 \openout2 = `Halterung-Anhang.aux'.
 
  (Halterung-Anhang.tex
 chapter C.
-<./graphics//HaltKraft1.jpg, id=1269, 1091.9997pt x 323.7696pt>
+<./graphics//HaltKraft1.jpg, id=1267, 1091.9997pt x 323.7696pt>
 File: ./graphics//HaltKraft1.jpg Graphic file (type jpg)
 <use ./graphics//HaltKraft1.jpg>
-Package pdftex.def Info: ./graphics//HaltKraft1.jpg  used on input line 4.
+Package pdftex.def Info: ./graphics//HaltKraft1.jpg  used on input line 5.
 (pdftex.def)             Requested size: 278.27081pt x 82.50334pt.
-<./graphics//HaltKraft2.jpg, id=1270, 841.2228pt x 282.5757pt>
+<./graphics//HaltKraft2.jpg, id=1268, 841.2228pt x 282.5757pt>
 File: ./graphics//HaltKraft2.jpg Graphic file (type jpg)
 <use ./graphics//HaltKraft2.jpg>
-Package pdftex.def Info: ./graphics//HaltKraft2.jpg  used on input line 29.
+Package pdftex.def Info: ./graphics//HaltKraft2.jpg  used on input line 34.
 (pdftex.def)             Requested size: 278.27081pt x 93.47015pt.
-<./graphics//HaltKraft3.jpg, id=1271, 724.1454pt x 458.9145pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./graphics//HaltKraft3.jpg, id=1269, 724.1454pt x 458.9145pt>
 File: ./graphics//HaltKraft3.jpg Graphic file (type jpg)
 <use ./graphics//HaltKraft3.jpg>
-Package pdftex.def Info: ./graphics//HaltKraft3.jpg  used on input line 40.
+Package pdftex.def Info: ./graphics//HaltKraft3.jpg  used on input line 47.
 (pdftex.def)             Requested size: 278.27081pt x 176.35pt.
-[88
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[87
 
 
 
 
- <./graphics//HaltKraft1.jpg> <./graphics//HaltKraft2.jpg>]) [89 <./graphics//H
-altKraft3.jpg>]
+ <./graphics//HaltKraft1.jpg>] [88 <./graphics//HaltKraft2.jpg> <./graphics//Ha
+ltKraft3.jpg>]) [89]
 \openout2 = `projekt.aux'.
 
  (projekt.tex
@@ -3330,13 +3330,13 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 49696 strings out of 479799
- 1175954 string characters out of 2870198
- 1797693 words of memory out of 3000000
- 65199 multiletter control sequences out of 15000+200000
+ 49699 strings out of 479799
+ 1176008 string characters out of 2870198
+ 1798163 words of memory out of 3000000
+ 65205 multiletter control sequences out of 15000+200000
  683402 words of font info for 161 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,23n,126p,10639b,1243s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 94i,23n,126p,10639b,1247s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:Index:Z} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -3369,9 +3369,6 @@ st, replaced by a fixed one
 
 pdfTeX warning (dest): name{glo:symb:alpha} has been referenced but does not ex
 ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:symb:lambda} has been referenced but does not e
-xist, replaced by a fixed one
 
 pdfTeX warning (dest): name{glo:symb:sigma} has been referenced but does not ex
 ist, replaced by a fixed one
@@ -3434,9 +3431,9 @@ type1/public/txfonts/t1xtt.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/palatino/uplb8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/palatino/uplr8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX
 /fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Bachelorarbeit.pdf (118 pages, 31628494 bytes).
+Output written on Bachelorarbeit.pdf (118 pages, 31642477 bytes).
 PDF statistics:
- 1754 PDF objects out of 2073 (max. 8388607)
- 385 named destinations out of 1000 (max. 500000)
+ 1755 PDF objects out of 2073 (max. 8388607)
+ 382 named destinations out of 1000 (max. 500000)
  1152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
