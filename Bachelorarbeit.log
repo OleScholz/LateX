@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  21 SEP 2021 22:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.3)  22 SEP 2021 22:08
 entering extended mode
 **./Bachelorarbeit.tex
 (Bachelorarbeit.tex
@@ -2267,7 +2267,7 @@ Package pdftex.def Info: ./graphics//PeakValley_Cd-Ma.png  used on input line 1
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15 <./graphics//PfeilGBild.png>]
-<./graphics//Mm-AoA.png, id=471, 330.033pt x 213.79875pt>
+<./graphics//Mm-AoA.png, id=470, 330.033pt x 213.79875pt>
 File: ./graphics//Mm-AoA.png Graphic file (type png)
 <use ./graphics//Mm-AoA.png>
 Package pdftex.def Info: ./graphics//Mm-AoA.png  used on input line 197.
@@ -2276,7 +2276,7 @@ Package pdftex.def Info: ./graphics//Mm-AoA.png  used on input line 197.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./graphics//Shape_Cd-Ma.png, id=479, 362.5545pt x 481.8pt>
+<./graphics//Shape_Cd-Ma.png, id=478, 362.5545pt x 481.8pt>
 File: ./graphics//Shape_Cd-Ma.png Graphic file (type png)
 <use ./graphics//Shape_Cd-Ma.png>
 Package pdftex.def Info: ./graphics//Shape_Cd-Ma.png  used on input line 209.
@@ -2285,7 +2285,7 @@ Package pdftex.def Info: ./graphics//Shape_Cd-Ma.png  used on input line 209.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17 <./graphics//PeakValley_Cd-Ma.png>]
-<./graphics//Pattern_CNa.png, id=501, 475.17525pt x 380.622pt>
+<./graphics//Pattern_CNa.png, id=499, 475.17525pt x 380.622pt>
 File: ./graphics//Pattern_CNa.png Graphic file (type png)
 <use ./graphics//Pattern_CNa.png>
 Package pdftex.def Info: ./graphics//Pattern_CNa.png  used on input line 231.
@@ -2295,7 +2295,7 @@ Package pdftex.def Info: ./graphics//Pattern_CNa.png  used on input line 231.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [19 <./graphics//Shape_Cd-Ma.png>]
-<./graphics//Gap-to-Chord.png, id=516, 605.26125pt x 471.56175pt>
+<./graphics//Gap-to-Chord.png, id=514, 605.26125pt x 471.56175pt>
 File: ./graphics//Gap-to-Chord.png Graphic file (type png)
 <use ./graphics//Gap-to-Chord.png>
 Package pdftex.def Info: ./graphics//Gap-to-Chord.png  used on input line 246.
@@ -2305,7 +2305,7 @@ Package pdftex.def Info: ./graphics//Gap-to-Chord.png  used on input line 246.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [20 <./graphics//Pattern_CNa.png>]
-<./graphics//fins-F9.png, id=531, 519.1395pt x 323.40825pt>
+<./graphics//fins-F9.png, id=530, 519.1395pt x 323.40825pt>
 File: ./graphics//fins-F9.png Graphic file (type png)
 <use ./graphics//fins-F9.png>
 Package pdftex.def Info: ./graphics//fins-F9.png  used on input line 265.
@@ -2479,12 +2479,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--149
  []
 
 [37] [38]
-<./graphics//d_einzel.png, id=698, 722.09775pt x 295.70474pt>
+<./graphics//d_einzel.png, id=699, 722.09775pt x 295.70474pt>
 File: ./graphics//d_einzel.png Graphic file (type png)
 <use ./graphics//d_einzel.png>
 Package pdftex.def Info: ./graphics//d_einzel.png  used on input line 176.
 (pdftex.def)             Requested size: 394.2158pt x 161.43338pt.
-<./graphics//Pfeil_lok.png, id=699, 371.4678pt x 438.6789pt>
+<./graphics//Pfeil_lok.png, id=700, 371.4678pt x 438.6789pt>
 File: ./graphics//Pfeil_lok.png Graphic file (type png)
 <use ./graphics//Pfeil_lok.png>
 Package pdftex.def Info: ./graphics//Pfeil_lok.png  used on input line 184.
@@ -2499,12 +2499,12 @@ Underfull \hbox (badness 7888) in paragraph at lines 185--185
 \LY1/NexusProSerif/m/n/10 hän-gen ei-ner ge-pfeil-ten Zell-
  []
 
-<./graphics//Pfeil_lok2.png, id=700, 383.031pt x 459.6372pt>
+<./graphics//Pfeil_lok2.png, id=701, 383.031pt x 459.6372pt>
 File: ./graphics//Pfeil_lok2.png Graphic file (type png)
 <use ./graphics//Pfeil_lok2.png>
 Package pdftex.def Info: ./graphics//Pfeil_lok2.png  used on input line 191.
 (pdftex.def)             Requested size: 208.69957pt x 250.4447pt.
-<./graphics//Wandquerschnitt.png, id=701, 603.4545pt x 405.4347pt>
+<./graphics//Wandquerschnitt.png, id=702, 603.4545pt x 405.4347pt>
 File: ./graphics//Wandquerschnitt.png Graphic file (type png)
 <use ./graphics//Wandquerschnitt.png>
 Package pdftex.def Info: ./graphics//Wandquerschnitt.png  used on input line 19
@@ -2552,12 +2552,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[42 <./graphics//Wandquerschnitt.png> <./graphics//grundriss.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 234--237
 
  []
 
-
+[42 <./graphics//Wandquerschnitt.png> <./graphics//grundriss.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 240--243
 
  []
@@ -2665,10 +2665,10 @@ File: ./graphics//D2 3.9 t.jpg Graphic file (type jpg)
 <use ./graphics//D2 3.9 t.jpg>
 Package pdftex.def Info: ./graphics//D2 3.9 t.jpg  used on input line 102.
 (pdftex.def)             Requested size: 371.02539pt x 206.01985pt.
-<./graphics//Grid_Fin_Render.3.jpg, id=815, 1927.2pt x 1084.05pt>
-File: ./graphics//Grid_Fin_Render.3.jpg Graphic file (type jpg)
-<use ./graphics//Grid_Fin_Render.3.jpg>
-Package pdftex.def Info: ./graphics//Grid_Fin_Render.3.jpg  used on input line 
+<./graphics//Grid_Fin_Render.6.jpg, id=815, 1927.2pt x 1084.05pt>
+File: ./graphics//Grid_Fin_Render.6.jpg Graphic file (type jpg)
+<use ./graphics//Grid_Fin_Render.6.jpg>
+Package pdftex.def Info: ./graphics//Grid_Fin_Render.6.jpg  used on input line 
 113.
 (pdftex.def)             Requested size: 371.02539pt x 208.70094pt.
 
@@ -2699,7 +2699,7 @@ LY1/NexusProSerif/m/n/10.95 -Richtung, die iden-tisch mit der für die FEM-Berec
 hnung de-fi-nier-ten Kraftrich-
  []
 
-[54 <./graphics//Grid_Fin_Render.3.jpg>] [55 <./graphics//HalterungkrÃ¤fte1.png
+[54 <./graphics//Grid_Fin_Render.6.jpg>] [55 <./graphics//HalterungkrÃ¤fte1.png
 >]
 <./graphics//Skizze Halterung A.png, id=846, 860.7357pt x 518.8986pt>
 File: ./graphics//Skizze Halterung A.png Graphic file (type png)
@@ -2776,12 +2776,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--250
  []
 
 [61 <./graphics//FEM Welle verstÃ¼mmelt.jpg>] [62 <./graphics//GehÃ¤use.jpg>]
-<./graphics//System Render.jpg, id=911, 1285.80376pt x 383.18156pt>
-File: ./graphics//System Render.jpg Graphic file (type jpg)
-<use ./graphics//System Render.jpg>
-Package pdftex.def Info: ./graphics//System Render.jpg  used on input line 254.
-
-(pdftex.def)             Requested size: 371.02539pt x 110.57019pt.
+<./graphics//gesamtschnitt_beschriftet.png, id=911, 1221.363pt x 519.6213pt>
+File: ./graphics//gesamtschnitt_beschriftet.png Graphic file (type png)
+<use ./graphics//gesamtschnitt_beschriftet.png>
+Package pdftex.def Info: ./graphics//gesamtschnitt_beschriftet.png  used on inp
+ut line 254.
+(pdftex.def)             Requested size: 371.02539pt x 157.846pt.
 <./graphics//Schaubild Klapp.png, id=913, 983.5947pt x 133.6995pt>
 File: ./graphics//Schaubild Klapp.png Graphic file (type png)
 <use ./graphics//Schaubild Klapp.png>
@@ -2789,7 +2789,8 @@ Package pdftex.def Info: ./graphics//Schaubild Klapp.png  used on input line 26
 2.
 (pdftex.def)             Requested size: 463.77998pt x 63.04277pt.
 
-[63 <./graphics//GehÃ¤use 1mm 5 rundungen.jpg> <./graphics//System Render.jpg>]
+[63 <./graphics//GehÃ¤use 1mm 5 rundungen.jpg> <./graphics//gesamtschnitt_besch
+riftet.png>]
 <./graphics//KinKlapp.jpg, id=922, 474.8139pt x 359.9046pt>
 File: ./graphics//KinKlapp.jpg Graphic file (type jpg)
 <use ./graphics//KinKlapp.jpg>
@@ -2919,108 +2920,102 @@ age-[]recovery$[]\LY1/NexusProSerif/m/n/10.95 , 2019.  Zu-griff:
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 133--139
-[]\LY1/NexusProSerif/m/n/10.95 Eric Ralph.  SpaceX to re-place Fal-con 9's ti-t
-a-ni-um grid fins with
+Underfull \hbox (badness 10000) in paragraph at lines 123--128
+[]\LY1/NexusProSerif/m/n/10.95 Eric Ralph.  Missi-le Grid Fins.  []$\LY1/txtt/m
+/n/10.95 https : / / www . teslarati . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--139
-\LY1/NexusProSerif/m/n/10.95 steel on Star-ship's Su-per Hea-vy boos-ter.  []$\
-LY1/txtt/m/n/10.95 https : / / www . teslarati . com /
- []
-
-
-Underfull \hbox (badness 4805) in paragraph at lines 148--153
+Underfull \hbox (badness 4805) in paragraph at lines 137--142
 []\LY1/NexusProSerif/m/n/10.95 Electro Op-ti-cal Sys-tems GmbH.  DMLS-Werkstoff
 e für die ad-di-ti-ve Ver-ti-gung von
  []
 
 
-Underfull \hbox (badness 7256) in paragraph at lines 148--153
+Underfull \hbox (badness 7256) in paragraph at lines 137--142
 \LY1/NexusProSerif/m/n/10.95 Me-tall-bau-tei-len.  []$\LY1/txtt/m/n/10.95 https
  : / / www . eos . info / de / additive-[]fertigung / 3d-[]druck-[]metall /
  []
 
 
-Underfull \hbox (badness 5064) in paragraph at lines 155--160
+Underfull \hbox (badness 5161) in paragraph at lines 144--149
 []\LY1/NexusProSerif/m/n/10.95 Rapidobject GmbH.  Preis-bei-spie-le für 3D Druc
 k Bau-tei-le – Me-tal-le.  []$\LY1/txtt/m/n/10.95 https : / /
  []
 
-[74]
-Underfull \hbox (badness 10000) in paragraph at lines 181--186
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--175
 \LY1/txtt/m/n/10.95 com / fileadmin / _documents / Downloads / materials / high
  _ performance _ alloys / de /
  []
 
-
-Underfull \hbox (badness 7486) in paragraph at lines 195--200
+[74]
+Underfull \hbox (badness 7415) in paragraph at lines 184--189
 []\LY1/NexusProSerif/m/n/10.95 CHINA SPE-CI-AL STEEL LI-MI-TED.  Mar-ten-si-te 
 stain-less steel ma-te-ri-al No.1.4542.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--200
+Underfull \hbox (badness 10000) in paragraph at lines 184--189
 []$\LY1/txtt/m/n/10.95 http : / / www . hastelloy-[]c276 . com / stainless-[]st
 eel-[]heat-[]resistant-[]steel /
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 202--207
+Underfull \hbox (badness 1565) in paragraph at lines 191--196
 []\LY1/NexusProSerif/m/n/10.95 VDM Me-tals In-ter-na-tio-nal GmbH.  VD-M®Al-loy
  718.  []$\LY1/txtt/m/n/10.95 https : / / www . vdm-[]metals . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--233
+Underfull \hbox (badness 10000) in paragraph at lines 217--222
 \LY1/txtt/m/n/10.95 amari-[]ireland . com / datasheets / Stainless-[]Steel-[]14
 404-[]Sheet-[]and-[]Plate _ 346 . ashx$[]\LY1/NexusProSerif/m/n/10.95 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--240
+Underfull \hbox (badness 10000) in paragraph at lines 224--229
 \LY1/txtt/m/n/10.95 default / files / 2018-[]11 / 3D-[]Systems _ Laserform _ Al
 Si7Mg0 . 6 % 28A % 29 _ DATASHEET _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--254
+Underfull \hbox (badness 10000) in paragraph at lines 238--243
 \LY1/txtt/m/n/10.95 com / fileadmin / Content / Powder / MDS / MDS _ Ni-[]Alloy
  _ IN939 _ 0219 _ EN . pdf$[]\LY1/NexusProSerif/m/n/10.95 .  Zu-griff:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--268
+Underfull \hbox (badness 10000) in paragraph at lines 252--257
 []\LY1/NexusProSerif/m/n/10.95 KYOCERA SGS Pre-ci-si-on Tools Eu-ro-pe Ltd.  Ti
  6Al 4V (Gra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--268
+Underfull \hbox (badness 10000) in paragraph at lines 252--257
 \LY1/NexusProSerif/m/n/10.95 de 5) Ti-ta-ni-um Al-loy Da-ta Sheet.  []$\LY1/txt
 t/m/n/10.95 https : / / kyocera-[]sgstool . co . uk /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--268
+Underfull \hbox (badness 10000) in paragraph at lines 252--257
 \LY1/txtt/m/n/10.95 titanium-[]resources / titanium-[]information-[]everything-
 []you-[]need-[]to-[]know /
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 270--275
+Underfull \hbox (badness 2809) in paragraph at lines 259--264
 []\LY1/NexusProSerif/m/n/10.95 xotmetals.  Ti6Al4V ELI Ti-ta-ni-um Al-loy Gra-d
 e 23.  []$\LY1/txtt/m/n/10.95 https : / / kyocera-[]sgstool . co .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--275
+Underfull \hbox (badness 10000) in paragraph at lines 259--264
 \LY1/txtt/m/n/10.95 uk / titanium-[]resources / titanium-[]information-[]everyt
 hing-[]you-[]need-[]to-[]know /
  []
 
-[75]) [76] (Bachelorarbeit.lof
+) [75] (Bachelorarbeit.lof
 Overfull \hbox (3.52203pt too wide) in paragraph at lines 15--15
  \LY1/NexusProSerif/m/n/10.95 zum un-ge-pfeil-ten Grid Fin in Ab-hän-gig-keit v
 om kon-fi-gu-rel-len Pfei-lungs-win-kel $\OT1/zplm/m/n/10.95 []$ 
@@ -3038,25 +3033,25 @@ Overfull \hbox (0.80591pt too wide) in paragraph at lines 20--20
  An-stell-win-kel für ge-krümm-te Grid Fins 
  []
 
-[77
+[76
 
-] [78])
+] [77])
 \tf@lof=\write11
 \openout11 = `Bachelorarbeit.lof'.
 
- [79] (Bachelorarbeit.lot)
+ [78] (Bachelorarbeit.lot)
 \tf@lot=\write12
 \openout12 = `Bachelorarbeit.lot'.
 
- [80
+ [79
 
 ]
 \openout2 = `symbole.aux'.
 
- (symbole.tex [81
+ (symbole.tex [80
 
 
-]) [82]
+]) [81]
 
 Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              You should note, that `\appendix' is a mostly globally
@@ -3075,29 +3070,29 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 
 (materialtabelle.tex
 chapter A.
-<./graphics//PreisModell.png, id=1214, 638.98724pt x 390.258pt>
+<./graphics//PreisModell.png, id=1210, 638.98724pt x 390.258pt>
 File: ./graphics//PreisModell.png Graphic file (type png)
 <use ./graphics//PreisModell.png>
 Package pdftex.def Info: ./graphics//PreisModell.png  used on input line 5.
 (pdftex.def)             Requested size: 231.88998pt x 141.62419pt.
-[83
+[82
 
 
 
 
- <./graphics//PreisModell.png>] [84
+ <./graphics//PreisModell.png>] [83
 
 ])
 \openout2 = `FEM-Anhang.aux'.
 
  (FEM-Anhang.tex
 chapter B.
-<./graphics//D1 3.9 t.jpg, id=1246, 806.5332pt x 445.9059pt>
+<./graphics//D1 3.9 t.jpg, id=1241, 806.5332pt x 445.9059pt>
 File: ./graphics//D1 3.9 t.jpg Graphic file (type jpg)
 <use ./graphics//D1 3.9 t.jpg>
 Package pdftex.def Info: ./graphics//D1 3.9 t.jpg  used on input line 7.
 (pdftex.def)             Requested size: 220.29477pt x 121.79102pt.
-<./graphics//D1 3.9 b.jpg, id=1247, 757.3896pt x 435.0654pt>
+<./graphics//D1 3.9 b.jpg, id=1242, 757.3896pt x 435.0654pt>
 File: ./graphics//D1 3.9 b.jpg Graphic file (type jpg)
 <use ./graphics//D1 3.9 b.jpg>
 Package pdftex.def Info: ./graphics//D1 3.9 b.jpg  used on input line 14.
@@ -3111,7 +3106,7 @@ File: ./graphics//D2 3.9 t.jpg Graphic file (type jpg)
 <use ./graphics//D2 3.9 t.jpg>
 Package pdftex.def Info: ./graphics//D2 3.9 t.jpg  used on input line 21.
 (pdftex.def)             Requested size: 220.29477pt x 122.32103pt.
-<./graphics//D2 3.9 b.jpg, id=1248, 762.4485pt x 437.2335pt>
+<./graphics//D2 3.9 b.jpg, id=1243, 762.4485pt x 437.2335pt>
 File: ./graphics//D2 3.9 b.jpg Graphic file (type jpg)
 <use ./graphics//D2 3.9 b.jpg>
 Package pdftex.def Info: ./graphics//D2 3.9 b.jpg  used on input line 27.
@@ -3121,12 +3116,12 @@ Overfull \hbox (1.81769pt too wide) in paragraph at lines 19--30
 [][]  [] 
  []
 
-<./graphics//R1 3.9 t.jpg, id=1249, 802.9197pt x 448.074pt>
+<./graphics//R1 3.9 t.jpg, id=1244, 802.9197pt x 448.074pt>
 File: ./graphics//R1 3.9 t.jpg Graphic file (type jpg)
 <use ./graphics//R1 3.9 t.jpg>
 Package pdftex.def Info: ./graphics//R1 3.9 t.jpg  used on input line 34.
 (pdftex.def)             Requested size: 220.29477pt x 122.93698pt.
-<./graphics//R1 3.9 b.jpg, id=1250, 760.2804pt x 443.0151pt>
+<./graphics//R1 3.9 b.jpg, id=1245, 760.2804pt x 443.0151pt>
 File: ./graphics//R1 3.9 b.jpg Graphic file (type jpg)
 <use ./graphics//R1 3.9 b.jpg>
 Package pdftex.def Info: ./graphics//R1 3.9 b.jpg  used on input line 40.
@@ -3136,12 +3131,12 @@ Overfull \hbox (1.81769pt too wide) in paragraph at lines 32--43
 [][]  [] 
  []
 
-<./graphics//R2 3.9 t.jpg, id=1251, 800.7516pt x 448.074pt>
+<./graphics//R2 3.9 t.jpg, id=1246, 800.7516pt x 448.074pt>
 File: ./graphics//R2 3.9 t.jpg Graphic file (type jpg)
 <use ./graphics//R2 3.9 t.jpg>
 Package pdftex.def Info: ./graphics//R2 3.9 t.jpg  used on input line 49.
 (pdftex.def)             Requested size: 220.29477pt x 123.26517pt.
-<./graphics//R2 3.9 b.jpg, id=1252, 757.3896pt x 439.4016pt>
+<./graphics//R2 3.9 b.jpg, id=1247, 757.3896pt x 439.4016pt>
 File: ./graphics//R2 3.9 b.jpg Graphic file (type jpg)
 <use ./graphics//R2 3.9 b.jpg>
 Package pdftex.def Info: ./graphics//R2 3.9 b.jpg  used on input line 55.
@@ -3151,12 +3146,12 @@ Overfull \hbox (1.81769pt too wide) in paragraph at lines 47--58
 [][]  [] 
  []
 
-<./graphics//20g 3.9 t.jpg, id=1253, 770.3982pt x 484.209pt>
+<./graphics//20g 3.9 t.jpg, id=1248, 770.3982pt x 484.209pt>
 File: ./graphics//20g 3.9 t.jpg Graphic file (type jpg)
 <use ./graphics//20g 3.9 t.jpg>
 Package pdftex.def Info: ./graphics//20g 3.9 t.jpg  used on input line 62.
 (pdftex.def)             Requested size: 220.29477pt x 138.45908pt.
-<./graphics//20g 3.9 b.jpg, id=1254, 810.1467pt x 490.7133pt>
+<./graphics//20g 3.9 b.jpg, id=1249, 810.1467pt x 490.7133pt>
 File: ./graphics//20g 3.9 b.jpg Graphic file (type jpg)
 <use ./graphics//20g 3.9 b.jpg>
 Package pdftex.def Info: ./graphics//20g 3.9 b.jpg  used on input line 68.
@@ -3171,7 +3166,7 @@ Overfull \hbox (1.81769pt too wide) in paragraph at lines 60--72
 [][]  [] 
  []
 
-<./graphics//FEM Hub.jpg, id=1255, 904.8204pt x 317.2653pt>
+<./graphics//FEM Hub.jpg, id=1250, 904.8204pt x 317.2653pt>
 File: ./graphics//FEM Hub.jpg Graphic file (type jpg)
 <use ./graphics//FEM Hub.jpg>
 Package pdftex.def Info: ./graphics//FEM Hub.jpg  used on input line 75.
@@ -3186,26 +3181,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[85
+[84
 
 
 
 
 
  <./graphics//D1 3.9 t.jpg> <./graphics//D1 3.9 b.jpg> <./graphics//D2 3.9 b.jp
-g> <./graphics//R1 3.9 t.jpg> <./graphics//R1 3.9 b.jpg>] [86 <./graphics//R2 3
+g> <./graphics//R1 3.9 t.jpg> <./graphics//R1 3.9 b.jpg>] [85 <./graphics//R2 3
 .9 t.jpg> <./graphics//R2 3.9 b.jpg> <./graphics//20g 3.9 t.jpg> <./graphics//2
 0g 3.9 b.jpg> <./graphics//FEM Hub.jpg>]
 \openout2 = `Halterung-Anhang.aux'.
 
  (Halterung-Anhang.tex
 chapter C.
-<./graphics//HaltKraft1.jpg, id=1267, 1091.9997pt x 323.7696pt>
+<./graphics//HaltKraft1.jpg, id=1263, 1091.9997pt x 323.7696pt>
 File: ./graphics//HaltKraft1.jpg Graphic file (type jpg)
 <use ./graphics//HaltKraft1.jpg>
 Package pdftex.def Info: ./graphics//HaltKraft1.jpg  used on input line 5.
 (pdftex.def)             Requested size: 278.27081pt x 82.50334pt.
-<./graphics//HaltKraft2.jpg, id=1268, 841.2228pt x 282.5757pt>
+<./graphics//HaltKraft2.jpg, id=1264, 841.2228pt x 282.5757pt>
 File: ./graphics//HaltKraft2.jpg Graphic file (type jpg)
 <use ./graphics//HaltKraft2.jpg>
 Package pdftex.def Info: ./graphics//HaltKraft2.jpg  used on input line 34.
@@ -3213,7 +3208,7 @@ Package pdftex.def Info: ./graphics//HaltKraft2.jpg  used on input line 34.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./graphics//HaltKraft3.jpg, id=1269, 724.1454pt x 458.9145pt>
+<./graphics//HaltKraft3.jpg, id=1265, 724.1454pt x 458.9145pt>
 File: ./graphics//HaltKraft3.jpg Graphic file (type jpg)
 <use ./graphics//HaltKraft3.jpg>
 Package pdftex.def Info: ./graphics//HaltKraft3.jpg  used on input line 47.
@@ -3221,18 +3216,18 @@ Package pdftex.def Info: ./graphics//HaltKraft3.jpg  used on input line 47.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[87
+[86
 
 
 
 
- <./graphics//HaltKraft1.jpg>] [88 <./graphics//HaltKraft2.jpg> <./graphics//Ha
-ltKraft3.jpg>]) [89]
+ <./graphics//HaltKraft1.jpg>] [87 <./graphics//HaltKraft2.jpg> <./graphics//Ha
+ltKraft3.jpg>]) [88]
 \openout2 = `projekt.aux'.
 
  (projekt.tex
 chapter D.
-[90
+[89
 
 
 
@@ -3242,16 +3237,18 @@ Overfull \hbox (18.89066pt too wide) in paragraph at lines 67--68
 [][] 
  []
 
-[91
+[90
 
-] [92
+] [91
 
 ]
 Overfull \hbox (32.72235pt too wide) in paragraph at lines 74--124
 [] 
  []
 
-[93
+[92
+
+] [93
 
 ] [94
 
@@ -3263,14 +3260,14 @@ Overfull \hbox (32.72235pt too wide) in paragraph at lines 74--124
 
 ] [98
 
-] [99
-
 ]
 Underfull \hbox (badness 2005) in paragraph at lines 401--401
 []\LY1/NexusProSerif-lnum/b/n/10.95 Anforderungen an Struk-tur und Werk-
  []
 
-[100
+[99
+
+] [100
 
 ] [101
 
@@ -3288,9 +3285,7 @@ Underfull \hbox (badness 2005) in paragraph at lines 401--401
 
 ] [108
 
-] [109
-
-]) [110
+]) [109
 
 ]
 
@@ -3298,7 +3293,7 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[111
+[110
 
 
 ]
@@ -3330,10 +3325,10 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 49699 strings out of 479799
- 1176008 string characters out of 2870198
- 1798163 words of memory out of 3000000
- 65205 multiletter control sequences out of 15000+200000
+ 49690 strings out of 479799
+ 1175956 string characters out of 2870198
+ 1798126 words of memory out of 3000000
+ 65199 multiletter control sequences out of 15000+200000
  683402 words of font info for 161 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,23n,126p,10639b,1247s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3431,9 +3426,9 @@ type1/public/txfonts/t1xtt.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/palatino/uplb8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX/f
 onts/type1/urw/palatino/uplr8a.pfb><C:/Users/Neu1/AppData/Local/Programs/MiKTeX
 /fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Bachelorarbeit.pdf (118 pages, 31642477 bytes).
+Output written on Bachelorarbeit.pdf (117 pages, 31659878 bytes).
 PDF statistics:
- 1755 PDF objects out of 2073 (max. 8388607)
- 382 named destinations out of 1000 (max. 500000)
+ 1751 PDF objects out of 2073 (max. 8388607)
+ 379 named destinations out of 1000 (max. 500000)
  1152 words of extra memory for PDF output out of 10000 (max. 10000000)
 

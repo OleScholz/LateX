@@ -72,7 +72,7 @@ Somit wäre die Auslegung der Halterung nach den aerodynamischen Kräften theore
 \begin{figure}[h] 
 	\centering
 	\includegraphics[width=0.9\textwidth]{Skizze Halterung 3.6.jpg}
-	\caption{Endgültige Geometrie der Halterung}
+	\caption{Endgültiges Design der Halterung}
 	\label{abb_Halterung-fertig}
 \end{figure}\\
 Zur Bestätigung werden wieder FEM-Analysen durchgeführt und diesmal werden ergänzend zu den aerodynamischen Kräften auch in einem separaten Lastfall die Beschleunigungskräfte untersucht, die auf dem gesamten Volumen in Richtung der Pfeilungsspitzen wirkt. Bei den Lastvielfachen werden die anderen Kräfte vernachlässigt, da sie auf Grund ihrer Wirkung in Gegenrichtung eine Stützwirkung haben und somit die Spannungen nur weiter senken würden. Beim Auftreten der ruckartigen Abbremsung durch den Ballonschirm ist der Max Q bereits überschritten und somit sind die anderen Kräfte nur noch deutlich geringer. Wie Abbildungen \ref{abb_Halterung_max} und \ref{abb_Halterung_20g} zeigen, wird die Streckgrenze weiterhin nicht überschritten. Somit gilt die Halterung als bestätigt.
@@ -110,7 +110,7 @@ An dieser Stelle sei noch zusätzlich zu erwähnen, dass folglich auch die Ideen
 Eine ergänzende vollständige Sammlung der Ergebnisse der FEM-Analysen aller Belastungszustände am Grid Fin befindet sich im Anhang \ref{sec:mehrFEM}.
 \begin{figure}[h] 
 	\centering
-	\includegraphics[width=0.8\textwidth]{Grid_Fin_Render.3.jpg}
+	\includegraphics[width=0.8\textwidth]{Grid_Fin_Render.6.jpg}
 	\caption{Finaler Grid Fin aus Edelstahl}
 	\label{abb_rendering1}
 \end{figure}\\
@@ -221,7 +221,7 @@ Mit einer Masse von $m=6,2$ kg ist sie jedoch viel zu schwer. Wie in Abbildung \
 	\includegraphics[width=0.75\textwidth]{Welle_abgespeckt_3D.jpg}
 	\caption{Schnittanschicht der massenreduzierten Welle}
 	\label{abb_abgespeckt}
-\end{figure}\\ Besonders der vordere Teil mit dem großen Durchmesser trägt maßgeblich zur Masse bei. Diese Maße sind zwar nötig, um den Durchgang der Hubstange zu erlauben, aber der Innenraum kann ausgehöhlt werden. Auch der Einschnitt auf der Unterseite, der ein Anstoßen der Pfeilungsspitzen verhindert, kann ausgeweitet werden und ist nur durch die Durchgangsbohrung für die Verbindungswelle und der Notwendigkeit einer Wellenschulter für das Lager beschränkt. Auch auf der Oberseite des vorderen Wellenendes ist die Wellenschulter als Mindestradius notwendig. Zu den Bohrungslöchern für die Verbindungswelle muss die Oberfläche weiterhin nach außen laufen, um zum einen die Strömung nach außen abzuleiten und ein Auftreffen auf die planare Grid Fin Fläche zu verhindern und zum anderen die Verbindungswelle nicht über ihre Belastungsgrenze auf Biegung zu beanspruchen. Ergänzend kann auch noch in dem Abschnitt der Welle, in dem sich die Klappaktuatorik befindet, von der Unterseite Material angetragen werden. Am hinteren Ende beschränkt die Aufnahme für die Getriebewelle den Radius, aber die dafür vorgesehene Bohrung kann noch etwas verlängert werden, sodass der hintere Teil zur Hohlwelle wird. Somit hat sich die Masse der Welle drastisch auf einen Wert von nur noch $m= 2,2$ kg verringert. Auch mit diesen Veränderungen hält die Welle noch immer den Belastungen stand. Die FEM-Berechnung ergibt, dass noch immer nur maximal eine Spannung von $153$ MPa auftritt, und ihr Ergebnis ist in Abbildung \ref{abb_abgespecktFEM} zu erkennen.
+\end{figure}\\ Besonders der vordere Teil mit dem großen Durchmesser trägt maßgeblich zur Masse bei. Diese Maße sind zwar nötig, um den Durchgang der Hubstange zu erlauben, aber der Innenraum kann ausgehöhlt werden. Auch der Einschnitt auf der Unterseite, der ein Anstoßen der Pfeilungsspitzen verhindert, kann ausgeweitet werden und ist nur durch die Durchgangsbohrung für die Verbindungswelle und der Notwendigkeit einer Wellenschulter für das Lager beschränkt. Auch auf der Oberseite des vorderen Wellenendes ist die Wellenschulter als Mindestradius notwendig. Zu den Bohrungslöchern für die Verbindungswelle muss die Oberfläche weiterhin nach außen laufen, um zum einen die Strömung nach außen abzuleiten und ein Auftreffen auf die planare Grid Fin Fläche zu verhindern und zum anderen die Verbindungswelle nicht über ihre Belastungsgrenze auf Biegung zu beanspruchen. Ergänzend kann auch noch in dem Abschnitt der Welle, in dem sich die Klappaktuatorik befindet, von der Unterseite Material angetragen werden. Am hinteren Ende beschränkt die Aufnahme für die Getriebewelle den Radius, aber die dafür vorgesehene Bohrung kann noch etwas verlängert werden, sodass der hintere Teil zur Hohlwelle wird. Somit hat sich die Masse der Welle drastisch auf einen Wert von nur noch $m= 2,2$ kg verringert. Auch mit diesen Veränderungen hält die Welle noch immer den Belastungen stand. Die FEM-Berechnung ergibt, dass noch immer nur maximal eine Spannung von $153$ MPa auftritt, und ihr Ergebnis ist in Abbildung \ref{abb_abgespecktFEM} zu erkennen. Somit kann für die Welle auch keine hohe Streckgrenze von Nöten, sodass ein günstigerer Werkstoff wie Edelstahl 1.4301 mit $R_{p, 0.2} = 200$ MPa verwendet werden kann.
 \begin{figure}[h] 
 \centering
 \includegraphics[width=0.75\textwidth]{FEM Welle verstümmelt.jpg}
@@ -251,7 +251,7 @@ Da die Spannungen im Gehäuse fast nicht existent sind, kann die Wandstärke noc
 Da nun bewiesen wurde, dass die gesamte Konstruktion, die in Abbildung \ref{abb_gesamt_sys} gezeigt wird, den mechanischen Lasten des Betriebs stand hält, soll an dieser Stelle überprüft werden, ob die Antriebe über genug Leistung verfügen die gewünschten Manöver durchzuführen. Deswegen werden zur Überprüfung der Aktuatorik Betriebssimulationen in der Matlab-Anwendung Simulink durchgeführt.
 \begin{figure}[h] 
 	\centering
-	\includegraphics[width=0.8\textwidth]{System Render.jpg}
+	\includegraphics[width=0.8\textwidth]{gesamtschnitt_beschriftet.png}
 	\caption{Schnittansicht des Gesamtsystems}
 	\label{abb_gesamt_sys}
 \end{figure}

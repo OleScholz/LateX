@@ -89,11 +89,6 @@ WM. Washington, Pamela Booth, and Mark Miller.
 \newblock Curvature and leading edge sweep back effects on grid fin aerodynamic
   characteristics.
 
-\bibitem{PfeilG3}
-Marco Debiasi, Zeng Yan, and Tat Chng.
-\newblock Swept-back grid fins for transonic drag reduction.
-\newblock 28th AIAA Applied Aerodynamics Conference, 06 2010.
-
 \bibitem{PfeilG1}
 Parisa Dehghani and Miralam Mahdi.
 \newblock Numerical analysis of the effect of sweep-back angle on the stability
@@ -118,11 +113,6 @@ Mark Miller and Wm. Washington.
 \newblock An experimental investigation of grid fin drag reduction techniques.
 \newblock In {\em 12th Applied Aerodynamics Conference}.
 
-\bibitem{Pattern}
-Fumiya Hiroshima and Kaoru Tatsumi.
-\newblock Grid pattern effects on aerodynamic characteristics of grid fins.
-\newblock 24th International Congress of the Aeronautical Sciences, 2004.
-
 \bibitem{ChordVar}
 Manish Tripathi, Mahesh Sucheendran, and Ajay Misra.
 \newblock {\em Effect of Chord Variation on Subsonic Aerodynamics of Grid
@@ -131,8 +121,7 @@ Manish Tripathi, Mahesh Sucheendran, and Ajay Misra.
 
 \bibitem{titanium}
 {Eric Ralph}.
-\newblock {SpaceX to replace Falcon 9’s titanium grid fins with steel on
-  Starship’s Super Heavy booster}.
+\newblock {Missile Grid Fins}.
 \newblock
   \url{https://www.teslarati.com/spacex-starship-super-heavy-grid-fins-titanium-to-steel/}.
 \newblock Zugriff: 21.05.2021.

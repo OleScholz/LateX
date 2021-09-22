@@ -37,49 +37,47 @@ Warning--empty title in vergleichPlanarNATO
 Warning--empty year in solver
 Warning--empty journal in LambdaKonf
 Warning--empty year in LambdaKonf
-Warning--empty booktitle in PfeilG3
 Warning--empty year in Shape
-Warning--empty booktitle in Pattern
 Warning--empty publisher in ChordVar
-You've used 43 entries,
+You've used 41 entries,
             1791 wiz_defined-function locations,
-            678 strings with 10733 characters,
-and the built_in function-call counts, 6915 in all, are:
-= -- 568
-> -- 263
+            673 strings with 10604 characters,
+and the built_in function-call counts, 6546 in all, are:
+= -- 542
+> -- 244
 < -- 1
-+ -- 111
-- -- 68
-* -- 204
-:= -- 1076
-add.period$ -- 152
-call.type$ -- 43
-change.case$ -- 37
++ -- 104
+- -- 63
+* -- 187
+:= -- 1019
+add.period$ -- 146
+call.type$ -- 41
+change.case$ -- 35
 chr.to.int$ -- 0
-cite$ -- 55
-duplicate$ -- 334
-empty$ -- 872
-format.name$ -- 68
-if$ -- 1628
+cite$ -- 51
+duplicate$ -- 312
+empty$ -- 826
+format.name$ -- 63
+if$ -- 1542
 int.to.chr$ -- 0
-int.to.str$ -- 43
-missing$ -- 22
-newline$ -- 237
-num.names$ -- 42
-pop$ -- 281
+int.to.str$ -- 41
+missing$ -- 20
+newline$ -- 227
+num.names$ -- 40
+pop$ -- 267
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 120
+skip$ -- 113
 stack$ -- 0
 substring$ -- 73
-swap$ -- 58
+swap$ -- 56
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 12
-while$ -- 46
-width$ -- 45
-write$ -- 454
-(There were 12 warnings)
+warning$ -- 10
+while$ -- 44
+width$ -- 43
+write$ -- 434
+(There were 10 warnings)
