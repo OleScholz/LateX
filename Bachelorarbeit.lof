@@ -23,9 +23,9 @@
 \contentsline {figure}{\numberline {2.18}{\ignorespaces Anstieg des Normalkraftkoeffizienten in Abh\IeC {\"a}ngigkeit des Verh\IeC {\"a}ltnis zwischen Zellgr\IeC {\"o}\IeC {\ss }e und Sehnenl\IeC {\"a}nge f\IeC {\"u}r Kaskaden Finnen bei $Ma_\infty = 0.1176$}}{21}{figure.2.18}%
 \contentsline {figure}{\numberline {2.19}{\ignorespaces Grid Fins an der Falcon 9, Version Mod 3 links und Mod 4 rechts}}{22}{figure.2.19}%
 \contentsline {figure}{\numberline {2.20}{\ignorespaces SpaceX's Starship inklusive Super Heavy Booster}}{23}{figure.2.20}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Das Sojus Notfall-Rettungssystem mit Grid Fins}}{24}{figure.2.21}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Die Grid Fins der chinesischen Chang'e}}{25}{figure.2.22}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Der Ablauf einer Valkyrie Mission}}{26}{figure.2.23}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Die Grid Fins der chinesischen Chang'e}}{23}{figure.2.21}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Das Sojus Notfall-Rettungssystem mit Grid Fins}}{24}{figure.2.22}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Der Ablauf einer Valkyrie Mission}}{25}{figure.2.23}%
 \contentsline {figure}{\numberline {2.24}{\ignorespaces Aufbau der Valkyrie}}{26}{figure.2.24}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Kr\IeC {\"a}fte an den Grid Fins bei konstant gehaltener Neutralstellung}}{29}{figure.3.1}%
@@ -37,9 +37,9 @@
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Der Verlauf der Wanddicke $d$ in Abh\IeC {\"a}ngigkeit vom Abstand zur Einspannung}}{40}{figure.3.7}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Die geometrischer Zusammenh\IeC {\"a}ngen einer gepfeilten Zellwand im Tal-Typus}}{41}{figure.3.8}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Die geometrischen Zusammenh\IeC {\"a}nge einer gepfeilten Zellwand im Berg-Typus}}{41}{figure.3.9}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Zuspitzung der W\IeC {\"a}nde im Querschnitt}}{42}{figure.3.10}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Zuspitzung der W\IeC {\"a}nde im Querschnitt}}{41}{figure.3.10}%
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Grundriss des Grid Fins}}{42}{figure.3.11}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Kr\IeC {\"u}mmung des Grid Fins}}{43}{figure.3.12}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Kr\IeC {\"u}mmung des Grid Fins}}{42}{figure.3.12}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Einspannung am Grid Fin}}{43}{figure.3.13}%
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Der Hub des Klappwinkels}}{44}{figure.3.14}%
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Aufbau der Aktuatorik}}{47}{figure.3.15}%
@@ -75,20 +75,19 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {A.1}{\ignorespaces Modell zur Ermitllung der Materialkosten}}{82}{figure.A.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Tal-Typus D1 (max: 719 MPa)}}{84}{figure.B.1}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Berg-Typus D1 (max: 692 MPa)}}{84}{figure.B.2}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Tal-Typus D2 (max: 796 MPa)}}{84}{figure.B.3}%
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Berg-Typus D2 (max: 765 MPa)}}{84}{figure.B.4}%
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Tal-Typus R1 (max: 760 MPa)}}{84}{figure.B.5}%
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Berg-Typus R1 (max: 732 MPa)}}{84}{figure.B.6}%
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Tal-Typus R2 (max: 770 MPa)}}{85}{figure.B.7}%
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Berg-Typus R2 (max: 727 MPa)}}{85}{figure.B.8}%
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Tal-Typus beim maximalen Lastvielfachen (max: 770 MPa)}}{85}{figure.B.9}%
-\contentsline {figure}{\numberline {B.10}{\ignorespaces Berg-Typus beim maximalen Lastvielfachen (max: 409 MPa)}}{85}{figure.B.10}%
-\contentsline {figure}{\numberline {B.11}{\ignorespaces Ergebnisse der FEM Berechnung der Hub-Baugruppe beim maximalen Lastvielfachen (max: 343 MPa)}}{85}{figure.B.11}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Halterungskr\IeC {\"a}fte (Seitenansicht)}}{84}{figure.B.1}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Halterungskr\IeC {\"a}fte (vom Raketenrumpf aus)}}{85}{figure.B.2}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Halterungskr\IeC {\"a}fte (Vorderansicht)}}{85}{figure.B.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Halterungskr\IeC {\"a}fte (Seitenansicht)}}{86}{figure.C.1}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Halterungskr\IeC {\"a}fte (vom Raketenrumpf aus)}}{87}{figure.C.2}%
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Halterungskr\IeC {\"a}fte (Vorderansicht)}}{87}{figure.C.3}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Tal-Typus D1 (max: 719 MPa)}}{87}{figure.C.1}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Berg-Typus D1 (max: 692 MPa)}}{87}{figure.C.2}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Tal-Typus D2 (max: 796 MPa)}}{87}{figure.C.3}%
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Berg-Typus D2 (max: 765 MPa)}}{87}{figure.C.4}%
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Tal-Typus R1 (max: 760 MPa)}}{87}{figure.C.5}%
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Berg-Typus R1 (max: 732 MPa)}}{87}{figure.C.6}%
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Tal-Typus R2 (max: 770 MPa)}}{88}{figure.C.7}%
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Berg-Typus R2 (max: 727 MPa)}}{88}{figure.C.8}%
+\contentsline {figure}{\numberline {C.9}{\ignorespaces Tal-Typus beim maximalen Lastvielfachen (max: 770 MPa)}}{88}{figure.C.9}%
+\contentsline {figure}{\numberline {C.10}{\ignorespaces Berg-Typus beim maximalen Lastvielfachen (max: 409 MPa)}}{88}{figure.C.10}%
+\contentsline {figure}{\numberline {C.11}{\ignorespaces Ergebnisse der FEM Berechnung der Hub-Baugruppe beim maximalen Lastvielfachen (max: 343 MPa)}}{88}{figure.C.11}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

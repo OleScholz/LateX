@@ -228,7 +228,7 @@ Weder im Unter- noch im Überschall zeigen die unterschiedlichen Zellformen bei 
 Die Zellform hat folglich nur einen geringen Einfluss auf die aerodynamischen Eigenschaften eines Grid Fins.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\textwidth]{Pattern_CNa.png}
+	\includegraphics[width=0.6\textwidth]{Pattern_CNa.png}
 	\begin{flushright}
 			\flushbottom{Quelle: \cite{zellform}}
 	\end{flushright}
@@ -281,6 +281,17 @@ Die größte Änderung ist wohl die Materialwahl. Hierbei ist die Entscheidung w
 	\caption{SpaceX's Starship inklusive Super Heavy Booster}
 	\label{abb_starship}
 \end{figure}\\
+\subsection{Chinas Chang'e}
+Auch in Chinas Raumfahrtbranche habe Grid Fins ihren Einzug erfahren. Das Bild in Abbildung \ref{abb_change} von 2019 zeigt, dass hier die Steuerflächen denen der Falcon 9 wieder deutlich ähnlicher sehen. Neben den offensichtlichen Gemeinsamkeiten sind jedoch die komplexeren Strukturen weggelassen worden. So gibt es zum Beispiel weder Krümmung noch Pfeilung. Des Weiteren scheint die Sehne nahezu doppelt so lang wie die Zellgröße zu sein, im Gegensatz zur Falcon 9 mit einem Verhältnis von circa $1:1$.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{chang'e.png}
+\begin{flushright}
+	\flushbottom{Quelle: China Aerospace Science and Technology Corporation}
+\end{flushright}
+\caption{Die Grid Fins der chinesischen Chang'e}
+\label{abb_change}
+\end{figure}
 \subsection{Sowjetische Sojus und N-1}
 Da Grid Fins in der Sowjetunion erstmals entwickelt wurden, ist es kein Wunder, dass sie auch hier Anwendung in der Raumfahrt gefunden haben. So zeigt zum Beispiel Abbildung \ref{abb_sojus} das Notfall-Rettungssystem, mit dem sich die Astronauten an Bord bei Komplikationen von der Sojus Rakete trennen können. Diese Grid Fins beschränken sich hier hauptsächlich auf eine Funktion als Drag Brakes \cite{soyuz}. Ihre Rahmen haben eine quadratische Form, wie auch die Zellen. Analog zu den Grid Fins der Falcon 9 befinden sich außen dreieckige Zellen und es existiert ein Mechanismus, der die Finnen im eingeklappten Zustand hält. Diese befindet sich jedoch hier oberhalb der Anbringung, da bei der sowjetischen Variante die Grid Fins nach oben geklappt sind.
 \begin{figure}[h]
@@ -294,17 +305,6 @@ Da Grid Fins in der Sowjetunion erstmals entwickelt wurden, ist es kein Wunder, 
 \end{figure}\\
 Auch die sovjetische Mondrakete Nositel 1 war mit vier Grid Fins ausgestattet, die sich denen der Sojus sehr ähneln, sodass auf sie hier nicht weiter eingegangen wird.
 
-\subsection{Chinas Chang'e}
-Auch in Chinas Raumfahrtbranche habe Grid Fins ihren Einzug erfahren. Das Bild in Abbildung \ref{abb_change} von 2019 zeigt, dass hier die Steuerflächen denen der Falcon 9 wieder deutlich ähnlicher sehen. Neben den offensichtlichen Gemeinsamkeiten sind jedoch die komplexeren Strukturen weggelassen worden. So gibt es zum Beispiel weder Krümmung noch Pfeilung. Des Weiteren scheint die Sehne nahezu doppelt so lang wie die Zellgröße zu sein, im Gegensatz zur Falcon 9 mit einem Verhältnis von circa $1:1$.
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.5\textwidth]{chang'e.png}
-	\begin{flushright}
-		\flushbottom{Quelle: China Aerospace Science and Technology Corporation}
-	\end{flushright}
-	\caption{Die Grid Fins der chinesischen Chang'e}
-	\label{abb_change}
-\end{figure}
 \section{Das AirLaunch-System Valkyrie}
 Um die Anforderungen an eine Grid Fin Aktuatorik definieren zu können, ist eine vorherige Betrachtung der Mission von Nöten. Wie schon in der Einleitung erwähnt, handelt es sich bei der Valkyrie um ein wiederverwendbares, zweistufiges AirLaunch-System.  Relevant ist für diese Arbeit nur die erste Stufe, an der die Grid Fins montiert sind. Abbildung \ref{abb_valkMission} zeigt die einzelnen Flugphasen der Rakete und wird im Folgenden beschrieben.
 
@@ -321,7 +321,7 @@ Die Rakete wird, an einem Flugzeug des Typs Airbus A320 befestigt, auf eine typi
 Abbildung \ref{abb_1stage} zeigt die erste Stufe mit $9$ ringförmig angeordneten Triebwerken, die aus den darüber befindlichen RP-1- (Rocket Propellant 1) und LOX- (Liquid Oxygen) Tanks gespeist werden. Über diesen Tanks befindet sich ein weiterer Helium-Tank. Dieser sorgt für den Druckausgleich, wenn Treibstoff und Oxidator durch elektrische Pumpen zu den Triebwerken befördert werden, und wird auch für das RCS verwendet. Oberhalb davon befinden sich die Elektronik der ersten Stufe und die beiden Schirme zur Abbremsung beim Wiedereintritt. Es folgt die Interstage und zweite Stufe.
 In der Nähe der Triebwerke sind vier Finards aus Edelstahl gleichmäßig um den Radius der Rakete verteilt angebracht. Am anderen Ende der ersten Stufe oberhalb der Elektronik befindet sich das RCS mit seinen vier Pyramidenstümpfen \cite{flugbahnBarz}, die durch kurze Gasimpulse ein Moment erzeugen, um die Lage der Rakete zu ändern. Auf der gleichen Höhe sollen auch die vier Grid Fins montiert werden.
 
-Die erste Stufe besitzt eine Länge von 7,37m und einen Durchmesser von 1,1m. Die Außenhülle soll aus Edelstahl gefertigt werden, somit hätte diese Stufe voll betankt beim Start eine Masse von 5511kg. Zu Beginn des Wiedereintritts hat sie dann nur noch ein Masse von 995kg, die sich durch den ReEntry-Burn auf die Trockenmasse von 727kg verringert.
+Die erste Stufe besitzt eine Länge von $7,37$ m und einen Durchmesser von $1,1$ m. Die Außenhülle soll aus Edelstahl gefertigt werden, somit hätte diese Stufe voll betankt beim Start eine Masse von 5511kg. Zu Beginn des Wiedereintritts hat sie dann nur noch ein Masse von $995$ kg, die sich durch den ReEntry-Burn auf die Trockenmasse von $727$ kg verringert.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{stage1aufbau.png}

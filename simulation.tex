@@ -31,7 +31,7 @@ Somit ergeben sich die Kräfte für die einzelnen Grid Fins wie sie in Tabelle \
 	\centering
 	\caption{Am Grid Fin angreifende transformierte Kräfte}
 	\label{tab_Fs}
-	\begin{tabular}{c||c|c|c|c}
+	\begin{tabular}{c||r|r|r|r}
 		&D1&R1&D2&R2\\
 		\hline
 		$F_1/$N&$413,5$&$389,3$&$389,3$&$413,5$\\
@@ -205,7 +205,7 @@ Die Welle selbst hat zum einen den groben Aufbau, wie er in Abbildung \ref{abb_W
  Ein Aspekt ist die schon im Abschnitt zu der Halterung angesprochenen Verbindungswelle, die die Welle durchstößt. Auf der gleichen Höhe, aber auf der Stirnseite befindet sich mittig eine Bohrung und Senkung für die Passfeder. Für die Hubstange existiert des Weiteren ein großer Ausschnitt durch den größten Durchmesser der Welle. Damit im eingeklappten Zustand die Berge des Grid Fins nicht gegen die Welle stoßen, ist die untere Vorderkante ausgehöhlt. Das Linearlager der Hubstange muss von unten festgeschraubt werden, sodass zunächst ein flacher Ausschnitt in die Welle eingebracht worden ist, auf der eine Platte festgeschraubt werden kann. Diese Platte wird anschließend von unten mit dem Lager verschraubt. Um ein Montieren der Schrauben zu ermöglichen, werden jedoch noch Einbuchtungen an der Welle benötigt. Am hinteren Ende der Platte befindet sich ein angewinkelter Teil, an dem das Spindelgetriebe festschraubt wird.
 Für dieses und sein integrierten Motor sind auch noch Einbuchtungen in der Welle nötig. Am hinteren Ende befindet sich dann schließlich das Gewinde für die Nutmutter und die Nut für das Sicherungsblech. Schlussendlich ist an der hinteren Stirnseite der Welle eine Bohrung mit Passfedernut angebracht, in der die Welle des Getriebes montiert wird.
 Für die Analyse der Welle wurden wieder FEM-Berechnungen durchgeführt. Auf den Flächen, auf denen die Lager aufliegen, werden wie schon beim Grid Fin zylindrische Bedingungen festgelegt, wobei die axiale Beschränkung nur bei jeweils einem der beiden Lager angewandt wird. Zusätzlich wird eine Drehung der Welle um ihre Achse durch ein Festhalten in tangentialer Richtung der Passfedernut am hinteren Ende verhindert.
-Für die FEM-Berechnung, deren Ergebnis in \ref{abb_Well_FEM} dargestellt ist, werden die Kräfte der Halterung A an den Stellen eingeleitet, an denen die Verbindungswelle in die Welle führt, mit Ausnahme der $\xi$-Kraft, die durch die Passschraube übertragen wird. 
+Für die FEM-Berechnung, deren Ergebnis in Abbildung \ref{abb_Well_FEM} dargestellt ist, werden die Kräfte der Halterung A an den Stellen eingeleitet, an denen die Verbindungswelle in die Welle führt, mit Ausnahme der $\xi$-Kraft, die durch die Passschraube übertragen wird. 
 Die Kraft der Halterung B hingegen wird erst über das Spindelgetriebe auf die Welle übertragen. Somit greift die resultierende Kraft in der Simulation in den Bohrlöchern an, an denen die Spindel befestigt ist.
 \begin{figure}[h] 
 	\centering
@@ -347,7 +347,8 @@ Zu den Momenten, die auch schon beim Klappwinkel vorkamen, kommt nun auch das ae
 \end{equation}
 Der Anteil des Reibungsmoments aus der Lagerreibung lässt sich für den Steuerwinkel auch einfacher ermitteln, da sie sich aus den am Grid Fin angreifenden Kräften bestimmen lassen. Hierfür können die in Abschnitt \ref{sec:lagerWelle} zur Lagerung der Welle verwendeten Formeln \ref{eq_lagerWelle1} und \ref{eq_lagerWelle1} verwendet werden. Auch wenn der Reibungsbeiwert von Kegelrollenlagern leicht höher ist als der von Rillenkugellagern \cite{lagerreibung}, ist die Bedeutung der Lagerreibung gegenüber den Verlusten im Getriebe noch immer vernachlässigbar gering.
 
-Da die Variable der Differenzialgleichung schon der gewünschte Steuerwinkel $\delta$ ist, ist kein drittes Subsystem für eine Transformation der Kinematik nötig. Die Bewegung, die durchgeführt werden soll, ist jedoch komplexer als beim Klappwinkel, sodass die anliegende Spannung nicht konstant gehalten werden kann. Deswegen wird ein PI-Regler eingebaut, der in Abhängigkeit vom Steuerwinkel die Spannung regelt.
+Da die Variable der Differenzialgleichung schon der gewünschte Steuerwinkel $\delta$ ist, ist kein drittes Subsystem für eine Transformation der Kinematik nötig. Die Bewegung, die durchgeführt werden soll, ist jedoch komplexer als beim Klappwinkel, sodass die anliegende Spannung nicht konstant gehalten werden kann. Deswegen wird von Anfang an ein PI-Regler eingebaut, der in Abhängigkeit vom Steuerwinkel die Spannung regelt.
+
 Weil eine komplette Schwingung innerhalb von $T = 0,73$s stattfinden soll, wird der Sollwert für den Steuerwinkel bis $t = 1/4T$ auf $\delta = 20^\circ$ gesetzt. Danach springt der Wert auf $\delta = -20^\circ$. Ab $t = 3/4T$ soll Steuerwinkel wieder auf $\delta = 0^\circ$ zurückgehen. Von dort war er auch mit einer Drehrate von $\dot{\delta} = 0$ rad/s gestartet.
 Der Regeler ist jedoch keineswegs für die Anwendung optimiert und dient nur der Demonstration der Fähigkeit des Motors genug Leistung aufzubringen, um dieses Manöver durchzuführen.
 

@@ -1,7 +1,7 @@
 %\RequirePackage[ngerman=ngerman-x-20080601]{hyphsubst}
 \documentclass[%
   a4paper,%
-  oneside,
+  %oneside,
   11pt,% <10pt, 9pt>
   %style=screen,
   %sender=bottom,
@@ -43,6 +43,15 @@
   hidelinks,%
   linktocpage, breaklinks
 ]{hyperref}				% Package für Lesezeichen und Verlinkungen
+
+
+%manuelle Silbentrennung
+\hyphenation{Dreh-rate}
+\hyphenation{sta-tisch}
+\hyphenation{da-r\"u-ber}
+\hyphenation{Kraft-rich-tung}
+\hyphenation{Air-Launch}
+
 
 %===============================================================
 %
@@ -189,9 +198,9 @@
   %---------------------------------
   \begin{appendix}
   	\include{materialtabelle}
-  	\include{FEM-Anhang}
   	\include{Halterung-Anhang}
-    \include{projekt}
+  	\include{FEM-Anhang}
+    %\include{projekt}
     %\include{WEITERER ANHANG}
   \end{appendix}
 
